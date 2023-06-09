@@ -1,5 +1,15 @@
-Minetest
-========
+Three Cubes Minetest
+=====
+
+This library is a fork of the open-source voxel game engine [Minetest](https://minetest.net).
+
+Forked from the [master branch](https://github.com/minetest/minetest) on 2023-06-09 (development build of version 5.8.0 [commit](https://github.com/minetest/minetest/commit/553dc02deb8c16795874469d14643f89e1cba559)) with intent on use/modification/redistribution.
+
+In complience with LGPL2.1 requirements this repository is provided for the purpose of source code accessibility.
+
+Three Cubes does not claim authorship of the original source code, only the modified code.
+
+# Minetest
 
 ![Build Status](https://github.com/minetest/minetest/workflows/build/badge.svg)
 [![Translation status](https://hosted.weblate.org/widgets/minetest/-/svg-badge.svg)](https://hosted.weblate.org/engage/minetest/?utm_source=widget)
