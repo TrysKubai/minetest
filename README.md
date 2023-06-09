@@ -11,7 +11,7 @@ Three Cubes does not claim authorship of the original source code, only the modi
 
 # Minetest
 
-![Build Status](https://github.com/minetest/minetest/workflows/build/badge.svg)
+<!-- ![Build Status](https://github.com/minetest/minetest/workflows/build/badge.svg) -->
 [![Translation status](https://hosted.weblate.org/widgets/minetest/-/svg-badge.svg)](https://hosted.weblate.org/engage/minetest/?utm_source=widget)
 [![License](https://img.shields.io/badge/license-LGPLv2.1%2B-blue.svg)](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html)
 
@@ -138,44 +138,3 @@ Compiling
 - [Compiling on GNU/Linux](doc/compiling/linux.md)
 - [Compiling on Windows](doc/compiling/windows.md)
 - [Compiling on MacOS](doc/compiling/macos.md)
-
-Docker
-------
-We provide Minetest server Docker images using the GitLab mirror registry.
-
-Images are built on each commit and available using the following tag scheme:
-
-* `registry.gitlab.com/minetest/minetest/server:latest` (latest build)
-* `registry.gitlab.com/minetest/minetest/server:<branch/tag>` (current branch or current tag)
-* `registry.gitlab.com/minetest/minetest/server:<commit-id>` (current commit id)
-
-If you want to test it on a Docker server you can easily run:
-
-	sudo docker run registry.gitlab.com/minetest/minetest/server:<docker tag>
-
-If you want to use it in a production environment you should use volumes bound to the Docker host
-to persist data and modify the configuration:
-
-	sudo docker create -v /home/minetest/data/:/var/lib/minetest/ -v /home/minetest/conf/:/etc/minetest/ registry.gitlab.com/minetest/minetest/server:master
-
-Data will be written to `/home/minetest/data` on the host, and configuration will be read from `/home/minetest/conf/minetest.conf`.
-
-**Note:** If you don't understand the previous commands please read the official Docker documentation before use.
-
-You can also host your Minetest server inside a Kubernetes cluster. See our example implementation in [`misc/kubernetes.yml`](misc/kubernetes.yml).
-
-
-Version scheme
---------------
-We use `major.minor.patch` since 5.0.0-dev. Prior to that we used `0.major.minor`.
-
-- Major is incremented when the release contains breaking changes, all other
-numbers are set to 0.
-- Minor is incremented when the release contains new non-breaking features,
-patch is set to 0.
-- Patch is incremented when the release only contains bugfixes and very
-minor/trivial features considered necessary.
-
-Since 5.0.0-dev and 0.4.17-dev, the dev notation refers to the next release,
-i.e.: 5.0.0-dev is the development version leading to 5.0.0.
-Prior to that we used `previous_version-dev`.
