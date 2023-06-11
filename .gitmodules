@@ -1,0 +1,3 @@
+[submodule "irrlichtmt"]
+	path = lib/irrlichtmt
+	url = git@github.com:TrysKubai/irrlicht.git
