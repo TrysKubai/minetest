@@ -122,7 +122,7 @@ compile_commands.json
 .vs/
 
 # Optional user provided library folder
-lib/irrlichtmt
+#lib/irrlichtmt
 
 # Generated mod storage database
 client/mod_storage.sqlite
