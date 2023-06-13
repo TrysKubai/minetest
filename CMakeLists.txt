@@ -69,7 +69,7 @@ endif()
 set(ENABLE_UPDATE_CHECKER (NOT ${DEVELOPMENT_BUILD}) CACHE BOOL
 	"Whether to enable update checks by default")
 
-set(LOCAL_BUILD_DIR "${CMAKE_SOURCE_DIR}/build" CACHE STRING "Build dir to copy local filest to")
+set(LOCAL_BUILD_DIR "${CMAKE_SOURCE_DIR}/out" CACHE STRING "Build dir to copy local filest to")
 
 # Copy non-compiled resource dirs into build path
 

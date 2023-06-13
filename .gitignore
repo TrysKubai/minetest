@@ -85,6 +85,7 @@ doc/mkdocs/docs/*.md
 doc/mkdocs/mkdocs.yml
 
 ## Build files
+out/
 build/
 CMakeFiles
 Makefile
