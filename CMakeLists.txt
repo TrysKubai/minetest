@@ -8,8 +8,8 @@ else()
 endif()
 
 # This can be read from ${PROJECT_NAME} after project() is called
-project(minetest)
-set(PROJECT_NAME_CAPITALIZED "Minetest")
+project(t3c_game_runtime)
+set(PROJECT_NAME_CAPITALIZED "Three Cubes Game")
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
@@ -17,8 +17,8 @@ set(GCC_MINIMUM_VERSION "7.5")
 set(CLANG_MINIMUM_VERSION "7.0.1")
 
 # You should not need to edit these manually, use util/bump_version.sh
-set(VERSION_MAJOR 5)
-set(VERSION_MINOR 8)
+set(VERSION_MAJOR 1)
+set(VERSION_MINOR 0)
 set(VERSION_PATCH 0)
 set(VERSION_EXTRA "" CACHE STRING "Stuff to append to version string")
 
@@ -68,6 +68,23 @@ endif()
 
 set(ENABLE_UPDATE_CHECKER (NOT ${DEVELOPMENT_BUILD}) CACHE BOOL
 	"Whether to enable update checks by default")
+
+set(LOCAL_BUILD_DIR "${CMAKE_SOURCE_DIR}/build" CACHE STRING "Build dir to copy local filest to")
+
+# Copy non-compiled resource dirs into build path
+
+file(COPY "${CMAKE_SOURCE_DIR}/resources/builtin" DESTINATION "${LOCAL_BUILD_DIR}")
+file(COPY "${CMAKE_SOURCE_DIR}/resources/client" DESTINATION "${LOCAL_BUILD_DIR}")
+file(COPY "${CMAKE_SOURCE_DIR}/resources/clientmods" DESTINATION "${LOCAL_BUILD_DIR}")
+file(COPY "${CMAKE_SOURCE_DIR}/resources/fonts" DESTINATION "${LOCAL_BUILD_DIR}")
+file(COPY "${CMAKE_SOURCE_DIR}/resources/games" DESTINATION "${LOCAL_BUILD_DIR}")
+file(COPY "${CMAKE_SOURCE_DIR}/resources/mods" DESTINATION "${LOCAL_BUILD_DIR}")
+file(COPY "${CMAKE_SOURCE_DIR}/resources/misc" DESTINATION "${LOCAL_BUILD_DIR}")
+file(COPY "${CMAKE_SOURCE_DIR}/resources/po/" DESTINATION "${LOCAL_BUILD_DIR}/locale/"
+	FILES_MATCHING PATTERN "*/")
+file(COPY "${CMAKE_SOURCE_DIR}/resources/textures" DESTINATION "${LOCAL_BUILD_DIR}")
+file(COPY "${CMAKE_SOURCE_DIR}/resources/worlds" DESTINATION "${LOCAL_BUILD_DIR}")
+
 
 # Included stuff
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/Modules/")

@@ -525,7 +525,7 @@ endif()
 # When cross-compiling assume the user doesn't want to run the executable anyway,
 # otherwise place it in <source dir>/bin/ since Minetest can only run from there.
 if(NOT CMAKE_CROSSCOMPILING)
-	set(EXECUTABLE_OUTPUT_PATH "${CMAKE_SOURCE_DIR}/bin")
+	set(EXECUTABLE_OUTPUT_PATH "${LOCAL_BUILD_DIR}/bin")
 endif()
 
 if(BUILD_CLIENT)
