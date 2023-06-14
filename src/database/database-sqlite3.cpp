@@ -18,12 +18,22 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 */
 
 /*
-SQLite format specification:
-	blocks:
-		(PK) INT id
-		BLOB data
+This file has been modified by Three Cubes
+###################
+	Changelog
+###################
+2023-06-14:	Changed map data saving format from old composite number to use seperate X,Y,Z coordinate values
 */
 
+
+/*
+SQLite format specification:
+	blocks:
+		(PK) INT x
+		(PK) INT y
+		(PK) INT z
+		BLOB data
+*/
 
 #include "database-sqlite3.h"
 
@@ -218,8 +228,11 @@ void MapDatabaseSQLite3::createDatabase()
 
 	SQLOK(sqlite3_exec(m_database,
 		"CREATE TABLE IF NOT EXISTS `blocks` (\n"
-			"	`pos` INT PRIMARY KEY,\n"
-			"	`data` BLOB\n"
+			"	`x` INT,\n"
+			"	`y` INT,\n"
+			"	`z` INT,\n"
+			"	`data` BLOB,\n"
+			"	PRIMARY KEY (x, y, z)\n"
 			");\n",
 		NULL, NULL, NULL),
 		"Failed to create database table");
@@ -227,17 +240,21 @@ void MapDatabaseSQLite3::createDatabase()
 
 void MapDatabaseSQLite3::initStatements()
 {
-	PREPARE_STATEMENT(read, "SELECT `data` FROM `blocks` WHERE `pos` = ? LIMIT 1");
-	PREPARE_STATEMENT(write, "REPLACE INTO `blocks` (`pos`, `data`) VALUES (?, ?)");
-	PREPARE_STATEMENT(delete, "DELETE FROM `blocks` WHERE `pos` = ?");
-	PREPARE_STATEMENT(list, "SELECT `pos` FROM `blocks`");
+	PREPARE_STATEMENT(read, "SELECT `data` FROM `blocks` WHERE `x` = ? AND `y` = ? AND `z` = ? LIMIT 1");
+	PREPARE_STATEMENT(write, "REPLACE INTO `blocks` (`x`, `y`, `z`, `data`) VALUES (?, ?, ?, ?)");
+	PREPARE_STATEMENT(delete, "DELETE FROM `blocks` WHERE `x` = ? AND `y` = ? AND `z` = ?");
+	PREPARE_STATEMENT(list, "SELECT `x`, `y`, `z` FROM `blocks`");
 
 	verbosestream << "ServerMap: SQLite3 database opened." << std::endl;
 }
 
-inline void MapDatabaseSQLite3::bindPos(sqlite3_stmt *stmt, const v3s16 &pos, int index)
+inline void MapDatabaseSQLite3::bindPos(sqlite3_stmt *stmt, const v3s16 &pos, int startIndex)
 {
-	SQLOK(sqlite3_bind_int64(stmt, index, getBlockAsInteger(pos)),
+	SQLOK(sqlite3_bind_int(stmt, startIndex, pos.X),
+		"Internal error: failed to bind query at " __FILE__ ":" TOSTRING(__LINE__));
+	SQLOK(sqlite3_bind_int(stmt, startIndex+1, pos.Y),
+		"Internal error: failed to bind query at " __FILE__ ":" TOSTRING(__LINE__));
+	SQLOK(sqlite3_bind_int(stmt, startIndex+2, pos.Z),
 		"Internal error: failed to bind query at " __FILE__ ":" TOSTRING(__LINE__));
 }
 
@@ -262,7 +279,8 @@ bool MapDatabaseSQLite3::saveBlock(const v3s16 &pos, const std::string &data)
 	verifyDatabase();
 
 	bindPos(m_stmt_write, pos);
-	SQLOK(sqlite3_bind_blob(m_stmt_write, 2, data.data(), data.size(), NULL),
+	//TODO Check whether index position should actually be a 3
+	SQLOK(sqlite3_bind_blob(m_stmt_write, 4, data.data(), data.size(), NULL),
 		"Internal error: failed to bind query at " __FILE__ ":" TOSTRING(__LINE__));
 
 	SQLRES(sqlite3_step(m_stmt_write), SQLITE_DONE, "Failed to save block")
@@ -300,7 +318,13 @@ void MapDatabaseSQLite3::listAllLoadableBlocks(std::vector<v3s16> &dst)
 	verifyDatabase();
 
 	while (sqlite3_step(m_stmt_list) == SQLITE_ROW)
-		dst.push_back(getIntegerAsBlock(sqlite3_column_int64(m_stmt_list, 0)));
+	{
+		v3s16 pos;
+		pos.X = sqlite3_column_int(m_stmt_list, 0);
+		pos.Y = sqlite3_column_int(m_stmt_list, 1);
+		pos.Z = sqlite3_column_int(m_stmt_list, 2);
+		dst.push_back(pos);
+	}
 
 	sqlite3_reset(m_stmt_list);
 }
@@ -762,6 +786,10 @@ void AuthDatabaseSQLite3::writePrivileges(const AuthEntry &authEntry)
 		sqlite3_reset(m_stmt_write_privs);
 	}
 }
+
+/*
+ * ModStorage database
+ */
 
 ModStorageDatabaseSQLite3::ModStorageDatabaseSQLite3(const std::string &savedir):
 	Database_SQLite3(savedir, "mod_storage"), ModStorageDatabase()
