@@ -17,6 +17,16 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
 
+/*
+This file has been modified by Three Cubes
+###################
+	Changelog
+###################
+
+2023-06-14(@Shumeras):	Removed migrateModStorage() call on connecting to server
+
+*/
+
 #include "game.h"
 
 #include <iomanip>
@@ -1594,7 +1604,6 @@ bool Game::connectToServer(const GameStartData &start_data,
 				itemdef_manager, nodedef_manager, sound_manager.get(), eventmgr,
 				m_rendering_engine, connect_address.isIPv6(), m_game_ui.get(),
 				start_data.allow_login_or_register);
-		client->migrateModStorage();
 	} catch (const BaseException &e) {
 		*error_message = fmtgettext("Error creating client: %s", e.what());
 		errorstream << *error_message << std::endl;

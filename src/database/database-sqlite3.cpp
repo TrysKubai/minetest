@@ -22,9 +22,10 @@ This file has been modified by Three Cubes
 ###################
 	Changelog
 ###################
-2023-06-14:	Changed map data saving format from old composite number to use seperate X,Y,Z coordinate values
-*/
 
+2023-06-14(@Shumeras):	Changed map data saving format from old composite number to use seperate X,Y,Z coordinate values
+
+*/
 
 /*
 SQLite format specification:

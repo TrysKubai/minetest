@@ -17,6 +17,16 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
 
+/*
+This file has been modified by Three Cubes
+###################
+	Changelog
+###################
+
+2023-06-14(@Shumeras):	Removed migrateModStorage() definition
+
+*/
+
 #pragma once
 
 #include "clientenvironment.h"
@@ -386,9 +396,6 @@ public:
 	virtual scene::IAnimatedMesh* getMesh(const std::string &filename, bool cache = false);
 	const std::string* getModFile(std::string filename);
 	ModStorageDatabase *getModStorageDatabase() override { return m_mod_storage_database; }
-
-	// Migrates away old files-based mod storage if necessary
-	void migrateModStorage();
 
 	// The following set of functions is used by ClientMediaDownloader
 	// Insert a media file appropriately into the appropriate manager

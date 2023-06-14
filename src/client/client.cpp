@@ -17,6 +17,16 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
 
+/*
+This file has been modified by Three Cubes
+###################
+	Changelog
+###################
+
+2023-06-14(@Shumeras):	Removed migrateModStorage() implementation
+
+*/
+
 #include <iostream>
 #include <algorithm>
 #include <sstream>
@@ -55,7 +65,6 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include "clientmap.h"
 #include "clientmedia.h"
 #include "version.h"
-#include "database/database-files.h"
 #include "database/database-sqlite3.h"
 #include "serialization.h"
 #include "guiscalingfilter.h"
@@ -151,32 +160,6 @@ Client::Client(
 	m_mesh_grid = { g_settings->getU16("client_mesh_chunk") };
 }
 
-void Client::migrateModStorage()
-{
-	std::string mod_storage_dir = porting::path_user + DIR_DELIM + "client";
-	std::string old_mod_storage = mod_storage_dir + DIR_DELIM + "mod_storage";
-	if (fs::IsDir(old_mod_storage)) {
-		infostream << "Migrating client mod storage to SQLite3 database" << std::endl;
-		{
-			ModStorageDatabaseFiles files_db(mod_storage_dir);
-			std::vector<std::string> mod_list;
-			files_db.listMods(&mod_list);
-			for (const std::string &modname : mod_list) {
-				infostream << "Migrating client mod storage for mod " << modname << std::endl;
-				StringMap meta;
-				files_db.getModEntries(modname, &meta);
-				for (const auto &pair : meta) {
-					m_mod_storage_database->setModEntry(modname, pair.first, pair.second);
-				}
-			}
-		}
-		if (!fs::Rename(old_mod_storage, old_mod_storage + ".bak")) {
-			// Execution cannot move forward if the migration does not complete.
-			throw BaseException("Could not finish migrating client mod storage");
-		}
-		infostream << "Finished migration of client mod storage" << std::endl;
-	}
-}
 
 void Client::loadMods()
 {

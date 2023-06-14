@@ -125,7 +125,6 @@ src/craftdef.h
 src/database/database.cpp
 src/database/database-dummy.cpp
 src/database/database-files.cpp
-src/database/database-leveldb.cpp
 src/database/database-postgresql.cpp
 src/database/database-postgresql.h
 src/database/database-redis.cpp

@@ -17,6 +17,16 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
 
+/*
+This file has been modified by Three Cubes
+###################
+	Changelog
+###################
+
+2023-06-14(@Shumeras):	Removed migration from files database
+
+*/
+
 #include "server.h"
 #include <iostream>
 #include <queue>
@@ -70,7 +80,6 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #if USE_POSTGRESQL
 #include "database/database-postgresql.h"
 #endif
-#include "database/database-files.h"
 #include "database/database-dummy.h"
 #include "gameparams.h"
 #include "particles.h"
@@ -4104,8 +4113,6 @@ ModStorageDatabase *Server::openModStorageDatabase(const std::string &backend,
 	}
 #endif // USE_POSTGRESQL
 
-	if (backend == "files")
-		return new ModStorageDatabaseFiles(world_path);
 
 	if (backend == "dummy")
 		return new Database_Dummy();
@@ -4123,8 +4130,14 @@ bool Server::migrateModStorageDatabase(const GameParams &game_params, const Sett
 		return false;
 	}
 
-	std::string backend = world_mt.exists("mod_storage_backend") ?
-		world_mt.get("mod_storage_backend") : "files";
+	if(!world_mt.exists("mod_storage_backend"))
+	{
+		errorstream << "mod_storage_backend undefined in world.mt" << std::endl;
+		return false;
+	}
+
+	std::string backend = world_mt.get("mod_storage_backend");
+
 	if (backend == migrate_to) {
 		errorstream << "Cannot migrate: new backend is same"
 			<< " as the old one" << std::endl;
@@ -4170,15 +4183,6 @@ bool Server::migrateModStorageDatabase(const GameParams &game_params, const Sett
 
 	delete srcdb;
 	delete dstdb;
-
-	if (succeeded && backend == "files") {
-		// Back up files
-		const std::string storage_path = game_params.world_path + DIR_DELIM + "mod_storage";
-		const std::string backup_path = game_params.world_path + DIR_DELIM + "mod_storage.bak";
-		if (!fs::Rename(storage_path, backup_path))
-			warningstream << "After migration, " << storage_path
-				<< " could not be renamed to " << backup_path << std::endl;
-	}
 
 	return succeeded;
 }
