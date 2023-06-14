@@ -47,9 +47,6 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include "script/scripting_server.h"
 #include <deque>
 #include <queue>
-#if USE_LEVELDB
-#include "database/database-leveldb.h"
-#endif
 #if USE_REDIS
 #include "database/database-redis.h"
 #endif
@@ -1726,10 +1723,6 @@ MapDatabase *ServerMap::createDatabase(
 		return new MapDatabaseSQLite3(savedir);
 	if (name == "dummy")
 		return new Database_Dummy();
-	#if USE_LEVELDB
-	if (name == "leveldb")
-		return new Database_LevelDB(savedir);
-	#endif
 	#if USE_REDIS
 	if (name == "redis")
 		return new Database_Redis(conf);

@@ -6,7 +6,7 @@ install_linux_deps() {
 		cmake gettext postgresql
 		libpng-dev libjpeg-dev libxi-dev libgl1-mesa-dev
 		libsqlite3-dev libhiredis-dev libogg-dev libgmp-dev libvorbis-dev
-		libopenal-dev libpq-dev libleveldb-dev libcurl4-openssl-dev libzstd-dev
+		libopenal-dev libpq-dev libcurl4-openssl-dev libzstd-dev
 	)
 
 	if [[ "$1" == "--no-irr" ]]; then
@@ -30,7 +30,7 @@ install_linux_deps() {
 # macOS build only
 install_macos_deps() {
 	local pkgs=(
-		cmake gettext freetype gmp jpeg-turbo jsoncpp leveldb
+		cmake gettext freetype gmp jpeg-turbo jsoncpp
 		libogg libpng libvorbis luajit zstd
 	)
 	brew update

@@ -33,7 +33,6 @@ AppDir:
       - libgl1
       - libjpeg-turbo8
       - libjsoncpp1
-      - libleveldb1d
       - libluajit-5.1-2
       - libopenal1
       - libpng16-16

@@ -44,7 +44,6 @@ download "http://minetest.kitsunemimi.pw/gettext-$gettext_version-win64.zip"
 download "http://minetest.kitsunemimi.pw/freetype-$freetype_version-win64.zip"
 download "http://minetest.kitsunemimi.pw/sqlite3-$sqlite3_version-win64.zip"
 download "http://minetest.kitsunemimi.pw/luajit-$luajit_version-win64.zip"
-download "http://minetest.kitsunemimi.pw/libleveldb-$leveldb_version-win64.zip" leveldb-$leveldb_version.zip
 download "http://minetest.kitsunemimi.pw/openal-soft-$openal_version-win64.zip"
 
 # Set source dir, downloading Minetest as needed
@@ -66,7 +65,6 @@ cmake_args=(
 	-DENABLE_SOUND=1
 	-DENABLE_CURL=1
 	-DENABLE_GETTEXT=1
-	-DENABLE_LEVELDB=1
 )
 add_cmake_libs
 cmake -S $sourcedir -B build "${cmake_args[@]}"

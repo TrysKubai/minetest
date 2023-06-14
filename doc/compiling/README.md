@@ -22,7 +22,6 @@ General options and their default values:
     ENABLE_CURL=ON             - Build with cURL; Enables use of online mod repo, public serverlist and remote media fetching via http
     ENABLE_CURSES=ON           - Build with (n)curses; Enables a server side terminal (command line option: --terminal)
     ENABLE_GETTEXT=ON          - Build with Gettext; Allows using translations
-    ENABLE_LEVELDB=ON          - Build with LevelDB; Enables use of LevelDB map backend
     ENABLE_POSTGRESQL=ON       - Build with libpq; Enables use of PostgreSQL map backend (PostgreSQL 9.5 or greater recommended)
     ENABLE_REDIS=ON            - Build with libhiredis; Enables use of Redis map backend
     ENABLE_SPATIAL=ON          - Build with LibSpatial; Speeds up AreaStores
@@ -55,9 +54,6 @@ Library specific options:
     ICONV_LIBRARY                   - Optional/platform-dependent; path to libiconv.so/libiconv.dylib
     IRRLICHT_DLL                    - Only on Windows; path to IrrlichtMt.dll
     IRRLICHT_INCLUDE_DIR            - Directory that contains IrrCompileConfig.h (usable for server build only)
-    LEVELDB_INCLUDE_DIR             - Only when building with LevelDB; directory that contains db.h
-    LEVELDB_LIBRARY                 - Only when building with LevelDB; path to libleveldb.a/libleveldb.so/libleveldb.dll.a
-    LEVELDB_DLL                     - Only when building with LevelDB on Windows; path to libleveldb.dll
     PostgreSQL_INCLUDE_DIR          - Only when building with PostgreSQL; directory that contains libpq-fe.h
     PostgreSQL_LIBRARY              - Only when building with PostgreSQL; path to libpq.a/libpq.so/libpq.lib
     REDIS_INCLUDE_DIR               - Only when building with Redis; directory that contains hiredis.h

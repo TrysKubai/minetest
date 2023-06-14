@@ -17,6 +17,16 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
 
+/*
+This file has been modified by Three Cubes
+###################
+	Changelog
+###################
+
+2023-06-14(@Shumeras):	Removed LEVELDB references
+
+*/
+
 #include <algorithm>
 #include <stack>
 #include "serverenvironment.h"
@@ -40,13 +50,9 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include "filesys.h"
 #include "gameparams.h"
 #include "database/database-dummy.h"
-#include "database/database-files.h"
 #include "database/database-sqlite3.h"
 #if USE_POSTGRESQL
 #include "database/database-postgresql.h"
-#endif
-#if USE_LEVELDB
-#include "database/database-leveldb.h"
 #endif
 #include "server/luaentity_sao.h"
 #include "server/player_sao.h"
@@ -2248,14 +2254,6 @@ PlayerDatabase *ServerEnvironment::openPlayerDatabase(const std::string &name,
 	}
 #endif
 
-#if USE_LEVELDB
-	if (name == "leveldb")
-		return new PlayerDatabaseLevelDB(savedir);
-#endif
-
-	if (name == "files")
-		return new PlayerDatabaseFiles(savedir + DIR_DELIM + "players");
-
 	throw BaseException(std::string("Database backend ") + name + " not supported.");
 }
 
@@ -2273,7 +2271,7 @@ bool ServerEnvironment::migratePlayersDatabase(const GameParams &game_params,
 	if (!world_mt.exists("player_backend")) {
 		errorstream << "Please specify your current backend in world.mt:"
 			<< std::endl
-			<< "	player_backend = {files|sqlite3|leveldb|postgresql}"
+			<< "	player_backend = {sqlite3|postgresql}"
 			<< std::endl;
 		return false;
 	}
@@ -2285,13 +2283,6 @@ bool ServerEnvironment::migratePlayersDatabase(const GameParams &game_params,
 		return false;
 	}
 
-	const std::string players_backup_path = game_params.world_path + DIR_DELIM
-		+ "players.bak";
-
-	if (backend == "files") {
-		// Create backup directory
-		fs::CreateDir(players_backup_path);
-	}
 
 	try {
 		PlayerDatabase *srcdb = ServerEnvironment::openPlayerDatabase(backend,
@@ -2314,12 +2305,6 @@ bool ServerEnvironment::migratePlayersDatabase(const GameParams &game_params,
 
 			dstdb->savePlayer(&player);
 
-			// For files source, move player files to backup dir
-			if (backend == "files") {
-				fs::Rename(
-					game_params.world_path + DIR_DELIM + "players" + DIR_DELIM + (*it),
-					players_backup_path + DIR_DELIM + (*it));
-			}
 		}
 
 		actionstream << "Successfully migrated " << player_list.size() << " players"
@@ -2329,12 +2314,6 @@ bool ServerEnvironment::migratePlayersDatabase(const GameParams &game_params,
 			errorstream << "Failed to update world.mt!" << std::endl;
 		else
 			actionstream << "world.mt updated" << std::endl;
-
-		// When migration is finished from file backend, remove players directory if empty
-		if (backend == "files") {
-			fs::DeleteSingleFileOrEmptyDirectory(game_params.world_path + DIR_DELIM
-				+ "players");
-		}
 
 		delete srcdb;
 		delete dstdb;
@@ -2358,14 +2337,6 @@ AuthDatabase *ServerEnvironment::openAuthDatabase(
 		conf.getNoEx("pgsql_auth_connection", connect_string);
 		return new AuthDatabasePostgreSQL(connect_string);
 	}
-#endif
-
-	if (name == "files")
-		return new AuthDatabaseFiles(savedir);
-
-#if USE_LEVELDB
-	if (name == "leveldb")
-		return new AuthDatabaseLevelDB(savedir);
 #endif
 
 	throw BaseException(std::string("Database backend ") + name + " not supported.");
