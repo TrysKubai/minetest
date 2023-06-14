@@ -549,22 +549,12 @@ void Server::start()
 	m_thread->start();
 
 	// ASCII art for the win!
-	const char *art[] = {
-		"         __.               __.                 __.  ",
-		"  _____ |__| ____   _____ /  |_  _____  _____ /  |_ ",
-		" /     \\|  |/    \\ /  __ \\    _\\/  __ \\/   __>    _\\",
-		"|  Y Y  \\  |   |  \\   ___/|  | |   ___/\\___  \\|  |  ",
-		"|__|_|  /  |___|  /\\______>  |  \\______>_____/|  |  ",
-		"      \\/ \\/     \\/         \\/                  \\/   "
-	};
-
-	if (!m_admin_chat) {
-		// we're not printing to rawstream to avoid it showing up in the logs.
-		// however it would then mess up the ncurses terminal (m_admin_chat),
-		// so we skip it in that case.
-		for (auto line : art)
-			std::cerr << line << std::endl;
-	}
+	std::cerr
+		<< " _|_|_|_|_|  _|                                         _|_|_|            _|                          " << std::endl
+		<< "     _|      _|_|_|    _|  _|_|   _|_|      _|_|      _|        _|    _|  _|_|_|      _|_|      _|_|_|" << std::endl
+		<< "     _|      _|    _|  _|_|     _|_|_|_|  _|_|_|_|    _|        _|    _|  _|    _|  _|_|_|_|  _|_|    " << std::endl
+		<< "     _|      _|    _|  _|       _|        _|          _|        _|    _|  _|    _|  _|            _|_|" << std::endl
+		<< "     _|      _|    _|  _|         _|_|_|    _|_|_|      _|_|_|    _|_|_|  _|_|_|      _|_|_|  _|_|_|  " << std::endl;
 	actionstream << "World at [" << m_path_world << "]" << std::endl;
 	actionstream << "Server for gameid=\"" << m_gamespec.id
 			<< "\" listening on ";
