@@ -842,11 +842,10 @@ bool Settings::setEntry(const std::string &name, const void *data,
 		return false;
 	if (!set_group && !checkValueValid(*(const std::string *)data))
 		return false;
-
+	
 	Settings *old_group = NULL;
 	{
 		MutexAutoLock lock(m_mutex);
-
 		SettingsEntry &entry = m_settings[name];
 		old_group = entry.group;
 
@@ -858,7 +857,7 @@ bool Settings::setEntry(const std::string &name, const void *data,
 	}
 
 	delete old_group;
-
+	
 	return true;
 }
 

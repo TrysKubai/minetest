@@ -17,6 +17,18 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 */
 
+/**
+ *  This file has been modified by Three Cubes.
+ *  
+ * ****************
+ * 	  Changelog
+ * ****************
+ * 2023-06-17(@Shumeras): Added reference to "cli_world_gen.h" for world generation
+ * using the CLI. Added appropriate calls to main function and CLI parameters to
+ * allowed parameter list (updated others that have multiple uses now).
+ * 2023-06-18(@Shumeras): Commented out server specific functionality (Not needed for now).
+ */
+
 #include "irrlichttypes.h" // must be included before anything irrlicht, see comment in the file
 #include "irrlicht.h" // createDevice
 #include "irrlichttypes_extrabloated.h"
@@ -40,6 +52,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include "porting.h"
 #include "network/socket.h"
 #include "mapblock.h"
+#include "cli_world_gen.h"
 #if USE_CURSES
 	#include "terminal_chat_console.h"
 #endif
@@ -239,6 +252,9 @@ int main(int argc, char *argv[])
 	}
 #endif // __ANDROID__
 
+	if (cmd_args.getFlag("generate-world"))
+		return generateWorldCli(cmd_args)? 0 : 1;
+
 	GameStartData game_params;
 #ifdef SERVER
 	porting::attachOrCreateConsole();
@@ -321,14 +337,14 @@ static void set_allowed_options(OptionList *allowed_options)
 			_("Show version information"))));
 	allowed_options->insert(std::make_pair("config", ValueSpec(VALUETYPE_STRING,
 			_("Load configuration from specified file"))));
-	allowed_options->insert(std::make_pair("port", ValueSpec(VALUETYPE_STRING,
-			_("Set network port (UDP)"))));
+	// allowed_options->insert(std::make_pair("port", ValueSpec(VALUETYPE_STRING,
+	// 		_("Set network port (UDP)"))));
 	allowed_options->insert(std::make_pair("run-unittests", ValueSpec(VALUETYPE_FLAG,
 			_("Run the unit tests and exit"))));
 	allowed_options->insert(std::make_pair("run-benchmarks", ValueSpec(VALUETYPE_FLAG,
 			_("Run the benchmarks and exit"))));
-	allowed_options->insert(std::make_pair("map-dir", ValueSpec(VALUETYPE_STRING,
-			_("Same as --world (deprecated)"))));
+	// allowed_options->insert(std::make_pair("map-dir", ValueSpec(VALUETYPE_STRING,
+	// 		_("Same as --world (deprecated)"))));
 	allowed_options->insert(std::make_pair("world", ValueSpec(VALUETYPE_STRING,
 			_("Set world path (implies local game if used with option --go)"))));
 	allowed_options->insert(std::make_pair("worldname", ValueSpec(VALUETYPE_STRING,
@@ -352,7 +368,7 @@ static void set_allowed_options(OptionList *allowed_options)
 	allowed_options->insert(std::make_pair("logfile", ValueSpec(VALUETYPE_STRING,
 			_("Set logfile path ('' = no logging)"))));
 	allowed_options->insert(std::make_pair("gameid", ValueSpec(VALUETYPE_STRING,
-			_("Set gameid (\"--gameid list\" prints available ones)"))));
+			_("Set gameid (\"--gameid list\" prints available ones) | Set gameid for --generate-world option"))));
 	allowed_options->insert(std::make_pair("migrate", ValueSpec(VALUETYPE_STRING,
 			_("Migrate from current map backend to another (Only works when using minetestserver or with --server)"))));
 	allowed_options->insert(std::make_pair("migrate-players", ValueSpec(VALUETYPE_STRING,
@@ -365,17 +381,35 @@ static void set_allowed_options(OptionList *allowed_options)
 			_("Feature an interactive terminal (Only works when using minetestserver or with --server)"))));
 	allowed_options->insert(std::make_pair("recompress", ValueSpec(VALUETYPE_FLAG,
 			_("Recompress the blocks of the given map database."))));
+
+	// World generation options
+	allowed_options->insert(std::make_pair("generate-world", ValueSpec(VALUETYPE_FLAG,
+		_("Generate a world."))));
+	allowed_options->insert(std::make_pair("from", ValueSpec(VALUETYPE_STRING,
+		_("Type of generation for --generate-world parameter one of: new|world|template"))));	
+	allowed_options->insert(std::make_pair("source", ValueSpec(VALUETYPE_STRING,
+		_("Set source for wold generation"))));
+	allowed_options->insert(std::make_pair("out-path", ValueSpec(VALUETYPE_STRING,
+		_("Output path for --generate-world parameter"))));
+	allowed_options->insert(std::make_pair("mapgen-opts", ValueSpec(VALUETYPE_STRING,
+		_("Override default map generation options for --generate-world. Default parameters are: 'mg_name=v7;mg_flags=light,decorations,ores,caves,biomes,dungeons;fixed_map_seed='"))));
+	allowed_options->insert(std::make_pair("dmg-enabled", ValueSpec(VALUETYPE_STRING,
+		_("Whether damage is enabled for world generated with --generate-world."))));
+	allowed_options->insert(std::make_pair("creative", ValueSpec(VALUETYPE_STRING,
+		_("whether generated world is creative world with --generate-world"))));
+	
+
 #ifndef SERVER
 	allowed_options->insert(std::make_pair("speedtests", ValueSpec(VALUETYPE_FLAG,
 			_("Run speed tests"))));
-	allowed_options->insert(std::make_pair("address", ValueSpec(VALUETYPE_STRING,
-			_("Address to connect to. ('' = local game)"))));
-	allowed_options->insert(std::make_pair("random-input", ValueSpec(VALUETYPE_FLAG,
-			_("Enable random user input, for testing"))));
-	allowed_options->insert(std::make_pair("server", ValueSpec(VALUETYPE_FLAG,
-			_("Run dedicated server"))));
+	// allowed_options->insert(std::make_pair("address", ValueSpec(VALUETYPE_STRING,
+	// 		_("Address to connect to. ('' = local game)"))));
+	// allowed_options->insert(std::make_pair("random-input", ValueSpec(VALUETYPE_FLAG,
+	// 		_("Enable random user input, for testing"))));
+	// allowed_options->insert(std::make_pair("server", ValueSpec(VALUETYPE_FLAG,
+	// 		_("Run dedicated server"))));
 	allowed_options->insert(std::make_pair("name", ValueSpec(VALUETYPE_STRING,
-			_("Set player name"))));
+			_("Set player name | Set world name with --generate-world command"))));
 	allowed_options->insert(std::make_pair("password", ValueSpec(VALUETYPE_STRING,
 			_("Set password"))));
 	allowed_options->insert(std::make_pair("password-file", ValueSpec(VALUETYPE_STRING,

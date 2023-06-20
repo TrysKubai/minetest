@@ -24,7 +24,7 @@ This file has been modified by Three Cubes
 ###################
 
 2023-06-14(@Shumeras):	Removed migration from files database
-
+2023-06-18(@Shumeras):	Changed ASCII art on server launch
 */
 
 #include "server.h"
@@ -554,11 +554,11 @@ void Server::start()
 
 	// ASCII art for the win!
 	std::cerr
-		<< " _|_|_|_|_|  _|                                         _|_|_|            _|                          " << std::endl
-		<< "     _|      _|_|_|    _|  _|_|   _|_|      _|_|      _|        _|    _|  _|_|_|      _|_|      _|_|_|" << std::endl
-		<< "     _|      _|    _|  _|_|     _|_|_|_|  _|_|_|_|    _|        _|    _|  _|    _|  _|_|_|_|  _|_|    " << std::endl
-		<< "     _|      _|    _|  _|       _|        _|          _|        _|    _|  _|    _|  _|            _|_|" << std::endl
-		<< "     _|      _|    _|  _|         _|_|_|    _|_|_|      _|_|_|    _|_|_|  _|_|_|      _|_|_|  _|_|_|  " << std::endl;
+		<< "_|_|_|_|_|  _|                                          _|_|_|            _|                          " << std::endl
+		<< "    _|      _|_|_|    _|  _|_|   _|_|      _|_|       _|        _|    _|  _|_|_|      _|_|      _|_|_|" << std::endl
+		<< "    _|      _|    _|  _|_|     _|_|_|_|  _|_|_|_|     _|        _|    _|  _|    _|  _|_|_|_|  _|_|    " << std::endl
+		<< "    _|      _|    _|  _|       _|        _|           _|        _|    _|  _|    _|  _|            _|_|" << std::endl
+		<< "    _|      _|    _|  _|         _|_|_|    _|_|_|       _|_|_|    _|_|_|  _|_|_|      _|_|_|  _|_|_|  " << std::endl;
 	actionstream << "World at [" << m_path_world << "]" << std::endl;
 	actionstream << "Server for gameid=\"" << m_gamespec.id
 			<< "\" listening on ";
