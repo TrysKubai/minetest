@@ -99,3 +99,5 @@ std::vector<WorldSpec> getAvailableWorlds();
 // and world.mt if they don't exist
 void loadGameConfAndInitWorld(const std::string &path, const std::string &name,
 		const SubgameSpec &gamespec, bool create_world);
+
+

@@ -542,9 +542,12 @@ int ModApiMainMenu::l_create_world(lua_State *L)
 			+ sanitizeDirName(name, "world_");
 
 	std::vector<SubgameSpec> games = getAvailableGames();
-	auto game_it = std::find_if(games.begin(), games.end(), [gameid] (const SubgameSpec &spec) {
-		return spec.id == gameid;
-	});
+	auto game_it = std::find_if(games.begin(), games.end(), 
+		[gameid] (const SubgameSpec &spec) 
+		{
+			return spec.id == gameid;
+		}
+	);
 	if (game_it == games.end()) {
 		lua_pushstring(L, "Game ID not found");
 		return 1;
@@ -553,7 +556,9 @@ int ModApiMainMenu::l_create_world(lua_State *L)
 	// Set the settings for world creation
 	// this is a bad hack but the best we have right now..
 	StringMap backup;
+	// std::cout<<"----- MAPGEN OPTIONS -----"<<std::endl;
 	for (auto it : use_settings) {
+		// std::cout<< it.first + "=" + it.second<<std::endl;
 		if (g_settings->existsLocal(it.first))
 			backup[it.first] = g_settings->get(it.first);
 		g_settings->set(it.first, it.second);
