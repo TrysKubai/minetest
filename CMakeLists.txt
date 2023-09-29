@@ -58,7 +58,6 @@ set(BUILD_CLIENT TRUE CACHE BOOL "Build client")
 set(BUILD_SERVER FALSE CACHE BOOL "Build server")
 set(BUILD_UNITTESTS TRUE CACHE BOOL "Build unittests")
 set(BUILD_BENCHMARKS FALSE CACHE BOOL "Build benchmarks")
-set(BUILD_EXTERNAL_SERIALIZER TRUE CACHE BOOL "Build shared libraries for using serialization externaly")
 
 set(WARN_ALL TRUE CACHE BOOL "Enable -Wall for Release build")
 
@@ -348,9 +347,6 @@ endif()
 # Be sure to add all relevant definitions above this
 # add_subdirectory(external)
 add_subdirectory(src)
-if(BUILD_EXTERNAL_SERIALIZER)
-	add_subdirectory(serialization_interface)
-endif()
 
 # CPack
 
