@@ -1,14 +1,14 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.13)
 
 # Set policies up to 3.9 since we want to enable the IPO option
-if(${CMAKE_VERSION} VERSION_LESS 3.9)
+if(${CMAKE_VERSION} VERSION_LESS 3.15)
 	cmake_policy(VERSION ${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION})
 else()
-	cmake_policy(VERSION 3.9)
+	cmake_policy(VERSION 3.13)
 endif()
 
 # This can be read from ${PROJECT_NAME} after project() is called
-project(t3c_game_runtime)
+project(t3c_game)
 set(PROJECT_NAME_CAPITALIZED "Three Cubes Game")
 
 set(CMAKE_CXX_STANDARD 14)
@@ -39,7 +39,6 @@ endif()
 
 message(STATUS "*** Will build version ${VERSION_STRING} ***")
 
-
 # Configuration options
 set(DEFAULT_RUN_IN_PLACE FALSE)
 if(WIN32)
@@ -53,6 +52,7 @@ set(BUILD_CLIENT TRUE CACHE BOOL "Build client")
 set(BUILD_SERVER FALSE CACHE BOOL "Build server")
 set(BUILD_UNITTESTS TRUE CACHE BOOL "Build unittests")
 set(BUILD_BENCHMARKS FALSE CACHE BOOL "Build benchmarks")
+set(BUILD_EXTERNAL_SERIALIZER TRUE CACHE BOOL "Build shared libraries for using serialization externaly")
 
 set(WARN_ALL TRUE CACHE BOOL "Enable -Wall for Release build")
 
@@ -64,21 +64,22 @@ endif()
 set(ENABLE_UPDATE_CHECKER (NOT ${DEVELOPMENT_BUILD}) CACHE BOOL
 	"Whether to enable update checks by default")
 
-set(LOCAL_BUILD_DIR "${CMAKE_SOURCE_DIR}/out" CACHE STRING "Build dir to copy local filest to")
-
+set(LOCAL_BUILD_DIR "${CMAKE_SOURCE_DIR}/out" CACHE STRING "Build dir to copy local files to")
+set(RESOURCES_DIR "${CMAKE_SOURCE_DIR}/resources" CACHE STRING "Base dir of non-compiled resource files")
 # Copy non-compiled resource dirs into build path
+# TODO This should probably go into install
 
-file(COPY "${CMAKE_SOURCE_DIR}/resources/builtin" DESTINATION "${LOCAL_BUILD_DIR}")
-file(COPY "${CMAKE_SOURCE_DIR}/resources/client" DESTINATION "${LOCAL_BUILD_DIR}")
-file(COPY "${CMAKE_SOURCE_DIR}/resources/clientmods" DESTINATION "${LOCAL_BUILD_DIR}")
-file(COPY "${CMAKE_SOURCE_DIR}/resources/fonts" DESTINATION "${LOCAL_BUILD_DIR}")
-file(COPY "${CMAKE_SOURCE_DIR}/resources/games" DESTINATION "${LOCAL_BUILD_DIR}")
-file(COPY "${CMAKE_SOURCE_DIR}/resources/mods" DESTINATION "${LOCAL_BUILD_DIR}")
-file(COPY "${CMAKE_SOURCE_DIR}/resources/misc" DESTINATION "${LOCAL_BUILD_DIR}")
-file(COPY "${CMAKE_SOURCE_DIR}/resources/po/" DESTINATION "${LOCAL_BUILD_DIR}/locale/"
-	FILES_MATCHING PATTERN "*/")
-file(COPY "${CMAKE_SOURCE_DIR}/resources/textures" DESTINATION "${LOCAL_BUILD_DIR}")
-file(COPY "${CMAKE_SOURCE_DIR}/resources/worlds" DESTINATION "${LOCAL_BUILD_DIR}")
+# file(COPY "${CMAKE_SOURCE_DIR}/resources/builtin" DESTINATION "${LOCAL_BUILD_DIR}")
+# file(COPY "${CMAKE_SOURCE_DIR}/resources/client" DESTINATION "${LOCAL_BUILD_DIR}")
+# file(COPY "${CMAKE_SOURCE_DIR}/resources/clientmods" DESTINATION "${LOCAL_BUILD_DIR}")
+# file(COPY "${CMAKE_SOURCE_DIR}/resources/fonts" DESTINATION "${LOCAL_BUILD_DIR}")
+# file(COPY "${CMAKE_SOURCE_DIR}/resources/games" DESTINATION "${LOCAL_BUILD_DIR}")
+# file(COPY "${CMAKE_SOURCE_DIR}/resources/mods" DESTINATION "${LOCAL_BUILD_DIR}")
+# file(COPY "${CMAKE_SOURCE_DIR}/resources/misc" DESTINATION "${LOCAL_BUILD_DIR}")
+# file(COPY "${CMAKE_SOURCE_DIR}/resources/po/" DESTINATION "${LOCAL_BUILD_DIR}/locale/"
+# 	FILES_MATCHING PATTERN "*/")
+# file(COPY "${CMAKE_SOURCE_DIR}/resources/textures" DESTINATION "${LOCAL_BUILD_DIR}")
+# file(COPY "${CMAKE_SOURCE_DIR}/resources/worlds" DESTINATION "${LOCAL_BUILD_DIR}")
 
 
 # Included stuff
@@ -193,15 +194,25 @@ elseif(APPLE)
 	set(LOCALEDIR "${SHAREDIR}/locale")
 elseif(UNIX) # Linux, BSD etc
 	if(RUN_IN_PLACE)
-		set(SHAREDIR ".")
-		set(BINDIR "bin")
-		set(DOCDIR "doc")
-		set(EXAMPLE_CONF_DIR ".")
-		set(MANDIR "unix/man")
-		set(XDG_APPS_DIR "unix/applications")
-		set(APPDATADIR "unix/metainfo")
-		set(ICONDIR "unix/icons")
-		set(LOCALEDIR "locale")
+		set(SHAREDIR "${CMAKE_SOURCE_DIR}/out/${CMAKE_BUILD_TYPE}")
+		set(BINDIR "${SHAREDIR}/bin")
+		set(DOCDIR "${SHAREDIR}/doc")
+		set(EXAMPLE_CONF_DIR "${SHAREDIR}")
+		set(MANDIR "${SHAREDIR}/unix/man")
+		set(XDG_APPS_DIR "${SHAREDIR}/unix/applications")
+		set(APPDATADIR "${SHAREDIR}/unix/metainfo")
+		set(ICONDIR "${SHAREDIR}/unix/icons")
+		set(LOCALEDIR "${SHAREDIR}/locale")
+		
+		file(MAKE_DIRECTORY "${SHAREDIR}")
+		file(MAKE_DIRECTORY "${BINDIR}")
+		file(MAKE_DIRECTORY "${DOCDIR}")
+		file(MAKE_DIRECTORY "${MANDIR}")
+		file(MAKE_DIRECTORY "${XDG_APPS_DIR}")
+		file(MAKE_DIRECTORY "${APPDATADIR}")
+		file(MAKE_DIRECTORY "${ICONDIR}")
+		file(MAKE_DIRECTORY "${LOCALEDIR}")
+		file(MAKE_DIRECTORY "${EXTERNAL_SERILIZER_DIR}")
 	else()
 		include(GNUInstallDirs)
 		set(SHAREDIR "${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_DATADIR}/${PROJECT_NAME}")
@@ -267,53 +278,52 @@ if(NOT CUSTOM_LOCALEDIR STREQUAL "")
 	message(STATUS "Using LOCALEDIR=${LOCALEDIR}")
 endif()
 
-
-install(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/builtin" DESTINATION "${SHAREDIR}")
+install(DIRECTORY "${RESOURCES_DIR}/builtin" DESTINATION "${SHAREDIR}")
 if(RUN_IN_PLACE)
-	install(FILES "${CMAKE_CURRENT_SOURCE_DIR}/mods/mods_here.txt" DESTINATION "${SHAREDIR}/mods")
-	install(FILES "${CMAKE_CURRENT_SOURCE_DIR}/textures/texture_packs_here.txt" DESTINATION "${SHAREDIR}/textures")
+	install(FILES "${RESOURCES_DIR}/mods/mods_here.txt" DESTINATION "${SHAREDIR}/mods")
+	install(FILES "${RESOURCES_DIR}/textures/texture_packs_here.txt" DESTINATION "${SHAREDIR}/textures")
 endif()
 
-install(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/games/minetest_game" DESTINATION "${SHAREDIR}/games/"
+install(DIRECTORY "${RESOURCES_DIR}/games/minetest_game" DESTINATION "${SHAREDIR}/games/"
 	COMPONENT "SUBGAME_MINETEST_GAME" OPTIONAL PATTERN ".git*" EXCLUDE )
 
 set(INSTALL_DEVTEST FALSE CACHE BOOL "Install Development Test")
 
 if(INSTALL_DEVTEST)
-	install(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/games/devtest" DESTINATION "${SHAREDIR}/games/"
+	install(DIRECTORY "${RESOURCES_DIR}/games/devtest" DESTINATION "${SHAREDIR}/games/"
 		PATTERN ".git*" EXCLUDE )
 endif()
 
 if(BUILD_CLIENT)
-	install(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/client/shaders" DESTINATION "${SHAREDIR}/client")
-	install(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/textures/base/pack" DESTINATION "${SHAREDIR}/textures/base")
+	install(DIRECTORY "${RESOURCES_DIR}/client/shaders" DESTINATION "${SHAREDIR}/client")
+	install(DIRECTORY "${RESOURCES_DIR}/textures/base/pack" DESTINATION "${SHAREDIR}/textures/base")
 	if(RUN_IN_PLACE)
-		install(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/clientmods" DESTINATION "${SHAREDIR}")
-		install(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/client/serverlist" DESTINATION "${SHAREDIR}/client")
+		install(DIRECTORY "${RESOURCES_DIR}/clientmods" DESTINATION "${SHAREDIR}")
+		install(DIRECTORY "${RESOURCES_DIR}/client/serverlist" DESTINATION "${SHAREDIR}/client")
 	endif()
 endif()
 
 install(FILES "README.md" DESTINATION "${DOCDIR}" COMPONENT "Docs")
-install(FILES "doc/lua_api.md" DESTINATION "${DOCDIR}" COMPONENT "Docs")
-install(FILES "doc/client_lua_api.md" DESTINATION "${DOCDIR}" COMPONENT "Docs")
-install(FILES "doc/menu_lua_api.md" DESTINATION "${DOCDIR}" COMPONENT "Docs")
-install(FILES "doc/texture_packs.md" DESTINATION "${DOCDIR}" COMPONENT "Docs")
-install(FILES "doc/world_format.txt" DESTINATION "${DOCDIR}" COMPONENT "Docs")
-install(FILES "minetest.conf.example" DESTINATION "${EXAMPLE_CONF_DIR}")
+install(FILES "${RESOURCES_DIR}/doc/lua_api.md" DESTINATION "${DOCDIR}" COMPONENT "Docs")
+install(FILES "${RESOURCES_DIR}/doc/client_lua_api.md" DESTINATION "${DOCDIR}" COMPONENT "Docs")
+install(FILES "${RESOURCES_DIR}/doc/menu_lua_api.md" DESTINATION "${DOCDIR}" COMPONENT "Docs")
+install(FILES "${RESOURCES_DIR}/doc/texture_packs.md" DESTINATION "${DOCDIR}" COMPONENT "Docs")
+install(FILES "${RESOURCES_DIR}/doc/world_format.txt" DESTINATION "${DOCDIR}" COMPONENT "Docs")
+install(FILES "${RESOURCES_DIR}/minetest.conf.example" DESTINATION "${EXAMPLE_CONF_DIR}")
 
 if(UNIX AND NOT APPLE)
-	install(FILES "doc/minetest.6" "doc/minetestserver.6" DESTINATION "${MANDIR}/man6")
-	install(FILES "misc/net.minetest.minetest.desktop" DESTINATION "${XDG_APPS_DIR}")
-	install(FILES "misc/net.minetest.minetest.appdata.xml" DESTINATION "${APPDATADIR}")
-	install(FILES "misc/minetest.svg" DESTINATION "${ICONDIR}/hicolor/scalable/apps")
-	install(FILES "misc/minetest-xorg-icon-128.png"
+	install(FILES "${RESOURCES_DIR}/doc/minetest.6" "${RESOURCES_DIR}/doc/minetestserver.6" DESTINATION "${MANDIR}/man6")
+	install(FILES "${RESOURCES_DIR}/misc/net.minetest.minetest.desktop" DESTINATION "${XDG_APPS_DIR}")
+	install(FILES "${RESOURCES_DIR}/misc/net.minetest.minetest.appdata.xml" DESTINATION "${APPDATADIR}")
+	install(FILES "${RESOURCES_DIR}/misc/minetest.svg" DESTINATION "${ICONDIR}/hicolor/scalable/apps")
+	install(FILES "${RESOURCES_DIR}/misc/minetest-xorg-icon-128.png"
 		DESTINATION "${ICONDIR}/hicolor/128x128/apps"
 		RENAME "minetest.png")
 endif()
 
 if(APPLE)
-	install(FILES "misc/minetest-icon.icns" DESTINATION "${SHAREDIR}")
-	install(FILES "misc/Info.plist" DESTINATION "${BUNDLE_PATH}/Contents")
+	install(FILES "${RESOURCES_DIR}/misc/minetest-icon.icns" DESTINATION "${SHAREDIR}")
+	install(FILES "${RESOURCES_DIR}/misc/Info.plist" DESTINATION "${BUNDLE_PATH}/Contents")
 endif()
 
 # Library pack
@@ -330,7 +340,11 @@ endif()
 
 # Subdirectories
 # Be sure to add all relevant definitions above this
+# add_subdirectory(external)
 add_subdirectory(src)
+if(BUILD_EXTERNAL_SERIALIZER)
+	add_subdirectory(serialization_interface)
+endif()
 
 # CPack
 
@@ -338,8 +352,8 @@ set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "A free open-source voxel game engine with
 set(CPACK_PACKAGE_VERSION_MAJOR ${VERSION_MAJOR})
 set(CPACK_PACKAGE_VERSION_MINOR ${VERSION_MINOR})
 set(CPACK_PACKAGE_VERSION_PATCH ${VERSION_PATCH})
-set(CPACK_PACKAGE_VENDOR "celeron55")
-set(CPACK_PACKAGE_CONTACT "Perttu Ahola <celeron55@gmail.com>")
+# set(CPACK_PACKAGE_VENDOR "celeron55")
+# set(CPACK_PACKAGE_CONTACT "Perttu Ahola <celeron55@gmail.com>")
 
 include(CPackComponent)
 
@@ -379,14 +393,14 @@ if(WIN32)
 		set(CPACK_CREATE_DESKTOP_LINKS ${PROJECT_NAME})
 		set(CPACK_PACKAGING_INSTALL_PREFIX "/${PROJECT_NAME_CAPITALIZED}")
 
-		set(CPACK_WIX_PRODUCT_ICON "${CMAKE_CURRENT_SOURCE_DIR}/misc/minetest-icon.ico")
+		set(CPACK_WIX_PRODUCT_ICON "${RESOURCES_DIR}/misc/minetest-icon.ico")
 		# Supported languages can be found at
 		# http://wixtoolset.org/documentation/manual/v3/wixui/wixui_localization.html
 		#set(CPACK_WIX_CULTURES "ar-SA,bg-BG,ca-ES,hr-HR,cs-CZ,da-DK,nl-NL,en-US,et-EE,fi-FI,fr-FR,de-DE")
-		set(CPACK_WIX_UI_BANNER "${CMAKE_CURRENT_SOURCE_DIR}/misc/CPACK_WIX_UI_BANNER.BMP")
-		set(CPACK_WIX_UI_DIALOG "${CMAKE_CURRENT_SOURCE_DIR}/misc/CPACK_WIX_UI_DIALOG.BMP")
+		set(CPACK_WIX_UI_BANNER "${RESOURCES_DIR}/misc/CPACK_WIX_UI_BANNER.BMP")
+		set(CPACK_WIX_UI_DIALOG "${RESOURCES_DIR}/misc/CPACK_WIX_UI_DIALOG.BMP")
 
-		set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/doc/lgpl-2.1.txt")
+		set(CPACK_RESOURCE_FILE_LICENSE "${RESOURCES_DIR}/doc/lgpl-2.1.txt")
 
 		# The correct way would be to include both x32 and x64 into one installer
 		# and install the appropriate one.

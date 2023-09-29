@@ -1,4 +1,4 @@
-project(minetest)
+project(t3c_game_runtime)
 
 INCLUDE(CheckTypeSize)
 INCLUDE(CheckIncludeFiles)
@@ -514,7 +514,7 @@ endif()
 # When cross-compiling assume the user doesn't want to run the executable anyway,
 # otherwise place it in <source dir>/bin/ since Minetest can only run from there.
 if(NOT CMAKE_CROSSCOMPILING)
-	set(EXECUTABLE_OUTPUT_PATH "${LOCAL_BUILD_DIR}/bin")
+	set(EXECUTABLE_OUTPUT_PATH "${SHAREDIR}/bin")
 endif()
 
 if(BUILD_CLIENT)
@@ -522,8 +522,10 @@ if(BUILD_CLIENT)
 		add_library(${PROJECT_NAME} SHARED ${client_SRCS})
 	else()
 		add_executable(${PROJECT_NAME} ${client_SRCS} ${extra_windows_SRCS})
+		set_target_properties(${PROJECT_NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${EXECUTABLE_OUTPUT_PATH}")
 	endif()
 	add_dependencies(${PROJECT_NAME} GenerateVersion)
+	
 	target_link_libraries(
 		${PROJECT_NAME}
 		${ZLIB_LIBRARIES}
@@ -887,7 +889,7 @@ if(BUILD_CLIENT AND NOT ANDROID)
 		endforeach()
 	endif()
 
-	install(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/../fonts" DESTINATION "${SHAREDIR}"
+	install(DIRECTORY "${RESOURCES_DIR}/fonts" DESTINATION "${SHAREDIR}"
 			FILES_MATCHING PATTERN "*.ttf" PATTERN "*.txt")
 endif()
 

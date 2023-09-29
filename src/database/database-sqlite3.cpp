@@ -280,7 +280,6 @@ bool MapDatabaseSQLite3::saveBlock(const v3s16 &pos, const std::string &data)
 	verifyDatabase();
 
 	bindPos(m_stmt_write, pos);
-	//TODO Check whether index position should actually be a 3
 	SQLOK(sqlite3_bind_blob(m_stmt_write, 4, data.data(), data.size(), NULL),
 		"Internal error: failed to bind query at " __FILE__ ":" TOSTRING(__LINE__));
 
