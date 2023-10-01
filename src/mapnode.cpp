@@ -666,14 +666,9 @@ SharedBuffer<u8> MapNode::serializeBulk(int version,
 	if (!ser_ver_supported(version))
 		throw VersionMismatchException("ERROR: MapNode format not supported");
 
+	// TODO Change to param version
 	sanity_check(content_width == 2);
 	sanity_check(params_width == 2);
-
-	// Can't do this anymore; we have 16-bit dynamically allocated node IDs
-	// in memory; conversion just won't work in this direction.
-	if (version < 24)
-		throw SerializationError("MapNode::serializeBulk: serialization to "
-				"version < 24 not possible");
 
 	SharedBuffer<u8> databuf(nodecount * (content_width + params_width));
 

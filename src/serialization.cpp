@@ -297,52 +297,60 @@ void decompressZstd(std::istream &is, std::ostream &os)
 
 void compress(u8 *data, u32 size, std::ostream &os, u8 version, int level)
 {
-	if(version >= 29)
-	{
-		// map the zlib levels [0,9] to [1,10]. -1 becomes 0 which indicates the default (currently 3)
-		compressZstd(data, size, os, level + 1);
-		return;
-	}
 
-	if(version >= 11)
-	{
-		compressZlib(data, size, os, level);
-		return;
-	}
 
-	if(size == 0)
-		return;
+	compressZstd(data, size, os, level + 1);
+	return;
 
-	// Write length (u32)
+	// if(version >= 29)
+	// {
+	// 	// map the zlib levels [0,9] to [1,10]. -1 becomes 0 which indicates the default (currently 3)
+	// 	compressZstd(data, size, os, level + 1);
+	// 	return;
+	// }
 
-	u8 tmp[4];
-	writeU32(tmp, size);
-	os.write((char*)tmp, 4);
+	//TODO Resolve whether this ever gets called with version <11
+	// Seems like not - but I will leave this for now just in case
 
-	// We will be writing 8-bit pairs of more_count and byte
-	u8 more_count = 0;
-	u8 current_byte = data[0];
-	for(u32 i=1; i<size; i++)
-	{
-		if(
-			data[i] != current_byte
-			|| more_count == 255
-		)
-		{
-			// write count and byte
-			os.write((char*)&more_count, 1);
-			os.write((char*)&current_byte, 1);
-			more_count = 0;
-			current_byte = data[i];
-		}
-		else
-		{
-			more_count++;
-		}
-	}
-	// write count and byte
-	os.write((char*)&more_count, 1);
-	os.write((char*)&current_byte, 1);
+	// if(version >= 11)
+	// {
+	// 	compressZlib(data, size, os, level);
+	// 	return;
+	// }
+
+	// if(size == 0)
+	// 	return;
+
+	// // Write length (u32)
+
+	// u8 tmp[4];
+	// writeU32(tmp, size);
+	// os.write((char*)tmp, 4);
+
+	// // We will be writing 8-bit pairs of more_count and byte
+	// u8 more_count = 0;
+	// u8 current_byte = data[0];
+	// for(u32 i=1; i<size; i++)
+	// {
+	// 	if(
+	// 		data[i] != current_byte
+	// 		|| more_count == 255
+	// 	)
+	// 	{
+	// 		// write count and byte
+	// 		os.write((char*)&more_count, 1);
+	// 		os.write((char*)&current_byte, 1);
+	// 		more_count = 0;
+	// 		current_byte = data[i];
+	// 	}
+	// 	else
+	// 	{
+	// 		more_count++;
+	// 	}
+	// }
+	// // write count and byte
+	// os.write((char*)&more_count, 1);
+	// os.write((char*)&current_byte, 1);
 }
 
 void compress(const SharedBuffer<u8> &data, std::ostream &os, u8 version, int level)

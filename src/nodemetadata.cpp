@@ -125,13 +125,16 @@ void NodeMetadataList::serialize(std::ostream &os, u8 blockver, bool disk,
 		return;
 	}
 
-	u8 version = (blockver > 27) ? 2 : 1;
+	// u8 version = (blockver > 27) ? 2 : 1;
+	u8 version = 2;
+
 	writeU8(os, version);
 	writeU16(os, count);
 
 	for (NodeMetadataMap::const_iterator
 			i = m_data.begin();
-			i != m_data.end(); ++i) {
+			i != m_data.end(); ++i) 
+	{
 		v3s16 p = i->first;
 		NodeMetadata *data = i->second;
 		if (!include_empty && data->empty())
