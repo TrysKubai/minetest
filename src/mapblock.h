@@ -433,11 +433,14 @@ public:
 
 	////
 	//// Serialization
-	///
 
-	// These don't write or read version by itself
-	// Set disk to true for on-disk format, false for over-the-network format
-	// Precondition: version >= SER_FMT_VER_LOWEST_WRITE
+	/// @brief Serialize map block. Format version should be read before and passed in.
+	/// If disk is true additional data is written for storage.
+	/// Precondition: version >= SER_FMT_VER_LOWEST_WRITE 
+	/// @param os_compressed Stream of compressed mapblock data
+	/// @param version Compression format version
+	/// @param disk Set disk to true for on-disk format, false for over-the-network format
+	/// @param compression_level Compression level to use with ZSTD. -1 becomes 0 which indicates the default (currently 3)
 	void serialize(std::ostream &result, u8 version, bool disk, int compression_level);
 	// If disk == true: In addition to doing other things, will add
 	// unknown blocks from id-name mapping to wndef

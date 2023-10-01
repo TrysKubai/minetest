@@ -45,17 +45,18 @@ void NodeTimer::deSerialize(std::istream &is)
 
 void NodeTimerList::serialize(std::ostream &os, u8 map_format_version) const
 {
-	if (map_format_version == 24) {
-		// Version 0 is a placeholder for "nothing to see here; go away."
-		if (m_timers.empty()) {
-			writeU8(os, 0); // version
-			return;
-		}
-		writeU8(os, 1); // version
-		writeU16(os, m_timers.size());
-	}
+	// if (map_format_version == 24) {
+	// 	// Version 0 is a placeholder for "nothing to see here; go away."
+	// 	if (m_timers.empty()) {
+	// 		writeU8(os, 0); // version
+	// 		return;
+	// 	}
+	// 	writeU8(os, 1); // version
+	// 	writeU16(os, m_timers.size());
+	// }
 
 	if (map_format_version >= 25) {
+		//TODO Replace with version
 		writeU8(os, 2 + 4 + 4); // length of the data for a single timer
 		writeU16(os, m_timers.size());
 	}

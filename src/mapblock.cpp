@@ -373,6 +373,7 @@ static void correctBlockNodeIds(const NameIdMapping *nimap, MapNode *nodes,
 	}
 }
 
+
 void MapBlock::serialize(std::ostream &os_compressed, u8 version, bool disk, int compression_level)
 {
 	if(!ser_ver_supported(version))
@@ -381,7 +382,7 @@ void MapBlock::serialize(std::ostream &os_compressed, u8 version, bool disk, int
 	FATAL_ERROR_IF(version < SER_FMT_VER_LOWEST_WRITE, "Serialization version error");
 
 	std::ostringstream os_raw(std::ios_base::binary);
-	std::ostream &os = version >= 29 ? os_raw : os_compressed;
+	std::ostream &os = os_raw;
 
 	// First byte
 	u8 flags = 0;
@@ -392,17 +393,19 @@ void MapBlock::serialize(std::ostream &os_compressed, u8 version, bool disk, int
 	if (!m_generated)
 		flags |= 0x08;
 	writeU8(os, flags);
-	if (version >= 27) {
-		writeU16(os, m_lighting_complete);
-	}
+
+	writeU16(os, m_lighting_complete);
 
 	/*
 		Bulk node data
 	*/
 	NameIdMapping nimap;
 	SharedBuffer<u8> buf;
+	
+	//TODO Convert to version 
 	const u8 content_width = 2;
 	const u8 params_width = 2;
+
  	if(disk)
 	{
 		MapNode *tmp_nodes = new MapNode[nodecount];
@@ -414,11 +417,9 @@ void MapBlock::serialize(std::ostream &os_compressed, u8 version, bool disk, int
 		delete[] tmp_nodes;
 
 		// write timestamp and node/id mapping first
-		if (version >= 29) {
-			writeU32(os, getTimestamp());
-
-			nimap.serialize(os);
-		}
+		
+		writeU32(os, getTimestamp());
+		nimap.serialize(os);
 	}
 	else
 	{
@@ -428,55 +429,27 @@ void MapBlock::serialize(std::ostream &os_compressed, u8 version, bool disk, int
 
 	writeU8(os, content_width);
 	writeU8(os, params_width);
-	if (version >= 29) {
-		os.write(reinterpret_cast<char*>(*buf), buf.getSize());
-	} else {
-		// prior to 29 node data was compressed individually
-		compress(buf, os, version, compression_level);
-	}
+
+	os.write(reinterpret_cast<char*>(*buf), buf.getSize());
 
 	/*
 		Node metadata
 	*/
-	if (version >= 29) {
-		m_node_metadata.serialize(os, version, disk);
-	} else {
-		// use os_raw from above to avoid allocating another stream object
-		m_node_metadata.serialize(os_raw, version, disk);
-		// prior to 29 node data was compressed individually
-		compress(os_raw.str(), os, version, compression_level);
-	}
+	m_node_metadata.serialize(os, version, disk);
 
 	/*
 		Data that goes to disk, but not the network
 	*/
 	if (disk) {
-		if (version <= 24) {
-			// Node timers
-			m_node_timers.serialize(os, version);
-		}
-
+		
 		// Static objects
 		m_static_objects.serialize(os);
 
-		if (version < 29) {
-			// Timestamp
-			writeU32(os, getTimestamp());
-
-			// Write block-specific node definition id mapping
-			nimap.serialize(os);
-		}
-
-		if (version >= 25) {
-			// Node timers
-			m_node_timers.serialize(os, version);
-		}
+		// Node Timers
+		m_node_timers.serialize(os, version);
 	}
 
-	if (version >= 29) {
-		// now compress the whole thing
-		compress(os_raw.str(), os_compressed, version, compression_level);
-	}
+	compress(os_raw.str(), os_compressed, version, compression_level);
 }
 
 void MapBlock::serializeNetworkSpecific(std::ostream &os)
