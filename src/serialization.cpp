@@ -297,60 +297,8 @@ void decompressZstd(std::istream &is, std::ostream &os)
 
 void compress(u8 *data, u32 size, std::ostream &os, u8 version, int level)
 {
-
-
 	compressZstd(data, size, os, level + 1);
 	return;
-
-	// if(version >= 29)
-	// {
-	// 	// map the zlib levels [0,9] to [1,10]. -1 becomes 0 which indicates the default (currently 3)
-	// 	compressZstd(data, size, os, level + 1);
-	// 	return;
-	// }
-
-	//TODO Resolve whether this ever gets called with version <11
-	// Seems like not - but I will leave this for now just in case
-
-	// if(version >= 11)
-	// {
-	// 	compressZlib(data, size, os, level);
-	// 	return;
-	// }
-
-	// if(size == 0)
-	// 	return;
-
-	// // Write length (u32)
-
-	// u8 tmp[4];
-	// writeU32(tmp, size);
-	// os.write((char*)tmp, 4);
-
-	// // We will be writing 8-bit pairs of more_count and byte
-	// u8 more_count = 0;
-	// u8 current_byte = data[0];
-	// for(u32 i=1; i<size; i++)
-	// {
-	// 	if(
-	// 		data[i] != current_byte
-	// 		|| more_count == 255
-	// 	)
-	// 	{
-	// 		// write count and byte
-	// 		os.write((char*)&more_count, 1);
-	// 		os.write((char*)&current_byte, 1);
-	// 		more_count = 0;
-	// 		current_byte = data[i];
-	// 	}
-	// 	else
-	// 	{
-	// 		more_count++;
-	// 	}
-	// }
-	// // write count and byte
-	// os.write((char*)&more_count, 1);
-	// os.write((char*)&current_byte, 1);
 }
 
 void compress(const SharedBuffer<u8> &data, std::ostream &os, u8 version, int level)
@@ -365,46 +313,25 @@ void compress(const std::string &data, std::ostream &os, u8 version, int level)
 
 void decompress(std::istream &is, std::ostream &os, u8 version)
 {
-	if(version >= 29)
-	{
-		decompressZstd(is, os);
-		return;
-	}
+	decompressZstd(is, os);
+	return;
 
-	if(version >= 11)
-	{
-		decompressZlib(is, os);
-		return;
-	}
+	// //TODO Remove Ser
+	// if(version >= 29)
+	// {
+	// 	decompressZstd(is, os);
+	// 	return;
+	// }
+	// decompressZlib(is, os);
+	// return;
+}
 
-	// Read length (u32)
-
-	u8 tmp[4];
-	is.read((char*)tmp, 4);
-	u32 len = readU32(tmp);
-
-	// We will be reading 8-bit pairs of more_count and byte
-	u32 count = 0;
-	for(;;)
-	{
-		u8 more_count=0;
-		u8 byte=0;
-
-		is.read((char*)&more_count, 1);
-
-		is.read((char*)&byte, 1);
-
-		if(is.eof())
-			throw SerializationError("decompress: stream ended halfway");
-
-		for(s32 i=0; i<(u16)more_count+1; i++)
-			os.write((char*)&byte, 1);
-
-		count += (u16)more_count+1;
-
-		if(count == len)
-			break;
-	}
+void decompressLegacyForMapGen(std::istream &is, std::ostream &os)
+{
+	// //! Map Gen still uses ZLib for created blocks this needs to be resolved 
+	// //! before removing this
+	decompressZlib(is, os);
+	return;
 }
 
 

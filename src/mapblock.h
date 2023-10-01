@@ -458,7 +458,7 @@ private:
 		Private methods
 	*/
 
-	void deSerialize_pre22(std::istream &is, u8 version, bool disk);
+	// void deSerialize_pre22(std::istream &is, u8 version, bool disk);
 
 public:
 	/*

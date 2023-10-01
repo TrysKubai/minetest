@@ -55,11 +55,10 @@ void NodeTimerList::serialize(std::ostream &os, u8 map_format_version) const
 	// 	writeU16(os, m_timers.size());
 	// }
 
-	if (map_format_version >= 25) {
-		//TODO Replace with version
-		writeU8(os, 2 + 4 + 4); // length of the data for a single timer
-		writeU16(os, m_timers.size());
-	}
+	//TODO Replace with version
+	writeU8(os, 2 + 4 + 4); // length of the data for a single timer
+	writeU16(os, m_timers.size());
+	
 
 	for (const auto &timer : m_timers) {
 		NodeTimer t = timer.second;
@@ -77,19 +76,9 @@ void NodeTimerList::deSerialize(std::istream &is, u8 map_format_version)
 {
 	clear();
 
-	if (map_format_version == 24) {
-		u8 timer_version = readU8(is);
-		if(timer_version == 0)
-			return;
-		if(timer_version != 1)
-			throw SerializationError("unsupported NodeTimerList version");
-	}
-
-	if (map_format_version >= 25) {
-		u8 timer_data_len = readU8(is);
-		if(timer_data_len != 2+4+4)
-			throw SerializationError("unsupported NodeTimer data length");
-	}
+	u8 timer_data_len = readU8(is);
+	if(timer_data_len != 2+4+4)
+		throw SerializationError("unsupported NodeTimer data length");
 
 	u16 count = readU16(is);
 
