@@ -51,6 +51,7 @@ void NodeMetadata::serialize(std::ostream &os, u8 version, bool disk) const
 
 		os << serializeString16(sv.first);
 		os << serializeString32(sv.second);
+		//TODO Update Version 
 		if (version >= 2)
 			writeU8(os, (priv) ? 1 : 0);
 	}
@@ -66,6 +67,7 @@ void NodeMetadata::deSerialize(std::istream &is, u8 version)
 		std::string name = deSerializeString16(is);
 		std::string var = deSerializeString32(is);
 		m_stringvars[name] = var;
+		//TODO Update Version 
 		if (version >= 2) {
 			if (readU8(is) == 1)
 				markPrivate(name, true);
@@ -165,6 +167,7 @@ void NodeMetadataList::deSerialize(std::istream &is,
 		return;
 	}
 
+	// TODO Update versions
 	if (version > 2) {
 		std::string err_str = std::string(FUNCTION_NAME)
 			+ ": version " + itos(version) + " not supported";

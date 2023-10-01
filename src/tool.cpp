@@ -92,6 +92,7 @@ void ToolCapabilities::serialize(std::ostream &os, u16 protocol_version) const
 void ToolCapabilities::deSerialize(std::istream &is)
 {
 	int version = readU8(is);
+	//TODO Update Version
 	if (version < 4)
 		throw SerializationError("unsupported ToolCapabilities version");
 
@@ -119,7 +120,7 @@ void ToolCapabilities::deSerialize(std::istream &is)
 		s16 rating = readS16(is);
 		damageGroups[name] = rating;
 	}
-
+	//TODO Update Version
 	if (version >= 5)
 		punch_attack_uses = readU16(is);
 }

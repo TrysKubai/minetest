@@ -192,6 +192,7 @@ void ItemDefinition::deSerialize(std::istream &is, u16 protocol_version)
 
 	// Deserialize
 	int version = readU8(is);
+	//TODO Update Version
 	if (version < 6)
 		throw SerializationError("unsupported ItemDefinition version");
 

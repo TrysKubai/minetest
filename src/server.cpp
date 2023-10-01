@@ -55,8 +55,6 @@ This file has been modified by Three Cubes
 #include "emerge.h"
 #include "mapgen/mapgen.h"
 #include "mapgen/mg_biome.h"
-#include "content_mapnode.h"
-#include "content_nodemeta.h"
 #include "content/mods.h"
 #include "modchannels.h"
 #include "serverlist.h"

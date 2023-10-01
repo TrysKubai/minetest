@@ -76,6 +76,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 // Lowest serialization version for writing
 // Can't do < 24 anymore; we have 16-bit dynamically allocated node IDs
 // in memory; conversion just won't work in this direction.
+// TODO Update Version
 #define SER_FMT_VER_LOWEST_WRITE 24
 
 inline bool ser_ver_supported(s32 v) {
@@ -99,3 +100,4 @@ void compress(const SharedBuffer<u8> &data, std::ostream &os, u8 version, int le
 void compress(const std::string &data, std::ostream &os, u8 version, int level = -1);
 void compress(u8 *data, u32 size, std::ostream &os, u8 version, int level = -1);
 void decompress(std::istream &is, std::ostream &os, u8 version);
+void decompressLegacyForMapGen(std::istream &is, std::ostream &os);

@@ -338,7 +338,10 @@ bool Schematic::deserializeFromMts(std::istream *is)
 	schemdata = new MapNode[nodecount];
 
 	std::stringstream d_ss(std::ios_base::binary | std::ios_base::in | std::ios_base::out);
-	decompress(ss, d_ss, MTSCHEM_MAPNODE_SER_FMT_VER);
+	//TODO Need to replace
+	//! This is left here - as for some reason mapgen needs to decompress using ZLib 
+	//! instead of ZStd - need to investigate 
+	decompressLegacyForMapGen(ss, d_ss);
 	MapNode::deSerializeBulk(d_ss, MTSCHEM_MAPNODE_SER_FMT_VER, schemdata,
 		nodecount, 2, 2);
 

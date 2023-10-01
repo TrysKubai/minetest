@@ -339,8 +339,6 @@ set(common_SRCS
 	chat.cpp
 	clientiface.cpp
 	collision.cpp
-	content_mapnode.cpp
-	content_nodemeta.cpp
 	convert_json.cpp
 	craftdef.cpp
 	debug.cpp

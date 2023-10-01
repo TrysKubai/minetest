@@ -28,8 +28,6 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include "irrlicht_changes/printing.h"
 #include "log.h"
 #include "nameidmapping.h"
-#include "content_mapnode.h"  // For legacy name-id mapping
-#include "content_nodemeta.h" // For legacy deserialization
 #include "serialization.h"
 #ifndef SERVER
 #include "client/mapblock_mesh.h"
@@ -427,6 +425,7 @@ void MapBlock::serialize(std::ostream &os_compressed, u8 version, bool disk, int
 				content_width, params_width);
 	}
 
+	//TODO Convert to version 
 	writeU8(os, content_width);
 	writeU8(os, params_width);
 
@@ -466,29 +465,21 @@ void MapBlock::deSerialize(std::istream &in_compressed, u8 version, bool disk)
 
 	m_day_night_differs_expired = false;
 
-	if(version <= 21)
-	{
-		deSerialize_pre22(in_compressed, version, disk);
-		return;
-	}
-
-	// Decompress the whole block (version >= 29)
+	// Decompress the whole block
 	std::stringstream in_raw(std::ios_base::binary | std::ios_base::in | std::ios_base::out);
-	if (version >= 29)
-		decompress(in_compressed, in_raw, version);
-	std::istream &is = version >= 29 ? in_raw : in_compressed;
+	decompress(in_compressed, in_raw, version);
+	std::istream &is = in_raw;
 
+	// Flags
 	u8 flags = readU8(is);
 	is_underground = (flags & 0x01) != 0;
 	m_day_night_differs = (flags & 0x02) != 0;
-	if (version < 27)
-		m_lighting_complete = 0xFFFF;
-	else
-		m_lighting_complete = readU16(is);
+	m_lighting_complete = readU16(is);
 	m_generated = (flags & 0x08) == 0;
 
 	NameIdMapping nimap;
-	if (disk && version >= 29) {
+
+	if (disk) {
 		// Timestamp
 		TRACESTREAM(<<"MapBlock::deSerialize "<<getPos()
 				<<": Timestamp"<<std::endl);
@@ -503,8 +494,12 @@ void MapBlock::deSerialize(std::istream &in_compressed, u8 version, bool disk)
 
 	TRACESTREAM(<<"MapBlock::deSerialize "<<getPos()
 			<<": Bulk node data"<<std::endl);
+	
+	//TODO Replace with version
 	u8 content_width = readU8(is);
 	u8 params_width = readU8(is);
+	//* I find the need to even have these variables when if they are not an exact
+	// value the it just throws an error
 	if(content_width != 1 && content_width != 2)
 		throw SerializationError("MapBlock::deSerialize(): invalid content_width");
 	if(params_width != 2)
@@ -513,87 +508,38 @@ void MapBlock::deSerialize(std::istream &in_compressed, u8 version, bool disk)
 	/*
 		Bulk node data
 	*/
-	if (version >= 29) {
-		MapNode::deSerializeBulk(is, version, data, nodecount,
+	MapNode::deSerializeBulk(is, version, data, nodecount,
 			content_width, params_width);
-	} else {
-		// use in_raw from above to avoid allocating another stream object
-		decompress(is, in_raw, version);
-		MapNode::deSerializeBulk(in_raw, version, data, nodecount,
-			content_width, params_width);
-	}
 
 	/*
 		NodeMetadata
 	*/
 	TRACESTREAM(<<"MapBlock::deSerialize "<<getPos()
 			<<": Node metadata"<<std::endl);
-	if (version >= 29) {
-		m_node_metadata.deSerialize(is, m_gamedef->idef());
-	} else {
-		try {
-			// reuse in_raw
-			in_raw.str("");
-			in_raw.clear();
-			decompress(is, in_raw, version);
-			if (version >= 23)
-				m_node_metadata.deSerialize(in_raw, m_gamedef->idef());
-			else
-				content_nodemeta_deserialize_legacy(in_raw,
-					&m_node_metadata, &m_node_timers,
-					m_gamedef->idef());
-		} catch(SerializationError &e) {
-			warningstream<<"MapBlock::deSerialize(): Ignoring an error"
-					<<" while deserializing node metadata at ("
-					<<getPos()<<": "<<e.what()<<std::endl;
-		}
-	}
+
+	m_node_metadata.deSerialize(is, m_gamedef->idef());
 
 	/*
 		Data that is only on disk
 	*/
 	if (disk) {
-		// Node timers
-		if (version == 23) {
-			// Read unused zero
-			readU8(is);
-		}
-		if (version == 24) {
-			TRACESTREAM(<< "MapBlock::deSerialize " << getPos()
-						<< ": Node timers (ver==24)" << std::endl);
-			m_node_timers.deSerialize(is, version);
-		}
-
 		// Static objects
 		TRACESTREAM(<<"MapBlock::deSerialize "<<getPos()
 				<<": Static objects"<<std::endl);
 		m_static_objects.deSerialize(is);
 
-		if (version < 29) {
-			// Timestamp
-			TRACESTREAM(<<"MapBlock::deSerialize "<<getPos()
-				    <<": Timestamp"<<std::endl);
-			setTimestampNoChangedFlag(readU32(is));
-			m_disk_timestamp = m_timestamp;
-
-			// Node/id mapping
-			TRACESTREAM(<<"MapBlock::deSerialize "<<getPos()
-				    <<": NameIdMapping"<<std::endl);
-			nimap.deSerialize(is);
-		}
-
 		// Dynamically re-set ids based on node names
 		correctBlockNodeIds(&nimap, data, m_gamedef);
 
-		if(version >= 25){
-			TRACESTREAM(<<"MapBlock::deSerialize "<<getPos()
-					<<": Node timers (ver>=25)"<<std::endl);
+		//TODO Update version
+		TRACESTREAM(<<"MapBlock::deSerialize "<<PP(getPos())
+					<<": Node timers"<<std::endl);
 			m_node_timers.deSerialize(is, version);
-		}
 	}
 
 	TRACESTREAM(<<"MapBlock::deSerialize "<<getPos()
 			<<": Done."<<std::endl);
+	
 }
 
 void MapBlock::deSerializeNetworkSpecific(std::istream &is)
@@ -629,210 +575,6 @@ u32 MapBlock::clearObjects()
 		raiseModified(MOD_STATE_WRITE_NEEDED, MOD_REASON_CLEAR_ALL_OBJECTS);
 	}
 	return size;
-}
-/*
-	Legacy serialization
-*/
-
-void MapBlock::deSerialize_pre22(std::istream &is, u8 version, bool disk)
-{
-	// Initialize default flags
-	is_underground = false;
-	m_day_night_differs = false;
-	m_lighting_complete = 0xFFFF;
-	m_generated = true;
-
-	// Make a temporary buffer
-	u32 ser_length = MapNode::serializedLength(version);
-	SharedBuffer<u8> databuf_nodelist(nodecount * ser_length);
-
-	// These have no compression
-	if (version <= 3 || version == 5 || version == 6) {
-		char tmp;
-		is.read(&tmp, 1);
-		if (is.gcount() != 1)
-			throw SerializationError(std::string(FUNCTION_NAME)
-				+ ": not enough input data");
-		is_underground = tmp;
-		is.read((char *)*databuf_nodelist, nodecount * ser_length);
-		if ((u32)is.gcount() != nodecount * ser_length)
-			throw SerializationError(std::string(FUNCTION_NAME)
-				+ ": not enough input data");
-	} else if (version <= 10) {
-		u8 t8;
-		is.read((char *)&t8, 1);
-		is_underground = t8;
-
-		{
-			// Uncompress and set material data
-			std::ostringstream os(std::ios_base::binary);
-			decompress(is, os, version);
-			std::string s = os.str();
-			if (s.size() != nodecount)
-				throw SerializationError(std::string(FUNCTION_NAME)
-					+ ": not enough input data");
-			for (u32 i = 0; i < s.size(); i++) {
-				databuf_nodelist[i*ser_length] = s[i];
-			}
-		}
-		{
-			// Uncompress and set param data
-			std::ostringstream os(std::ios_base::binary);
-			decompress(is, os, version);
-			std::string s = os.str();
-			if (s.size() != nodecount)
-				throw SerializationError(std::string(FUNCTION_NAME)
-					+ ": not enough input data");
-			for (u32 i = 0; i < s.size(); i++) {
-				databuf_nodelist[i*ser_length + 1] = s[i];
-			}
-		}
-
-		if (version >= 10) {
-			// Uncompress and set param2 data
-			std::ostringstream os(std::ios_base::binary);
-			decompress(is, os, version);
-			std::string s = os.str();
-			if (s.size() != nodecount)
-				throw SerializationError(std::string(FUNCTION_NAME)
-					+ ": not enough input data");
-			for (u32 i = 0; i < s.size(); i++) {
-				databuf_nodelist[i*ser_length + 2] = s[i];
-			}
-		}
-	} else { // All other versions (10 to 21)
-		u8 flags;
-		is.read((char*)&flags, 1);
-		is_underground = (flags & 0x01) != 0;
-		m_day_night_differs = (flags & 0x02) != 0;
-		if (version >= 18)
-			m_generated = (flags & 0x08) == 0;
-
-		// Uncompress data
-		std::ostringstream os(std::ios_base::binary);
-		decompress(is, os, version);
-		std::string s = os.str();
-		if (s.size() != nodecount * 3)
-			throw SerializationError(std::string(FUNCTION_NAME)
-				+ ": decompress resulted in size other than nodecount*3");
-
-		// deserialize nodes from buffer
-		for (u32 i = 0; i < nodecount; i++) {
-			databuf_nodelist[i*ser_length] = s[i];
-			databuf_nodelist[i*ser_length + 1] = s[i+nodecount];
-			databuf_nodelist[i*ser_length + 2] = s[i+nodecount*2];
-		}
-
-		/*
-			NodeMetadata
-		*/
-		if (version >= 14) {
-			// Ignore errors
-			try {
-				if (version <= 15) {
-					std::string data = deSerializeString16(is);
-					std::istringstream iss(data, std::ios_base::binary);
-					content_nodemeta_deserialize_legacy(iss,
-						&m_node_metadata, &m_node_timers,
-						m_gamedef->idef());
-				} else {
-					//std::string data = deSerializeString32(is);
-					std::ostringstream oss(std::ios_base::binary);
-					decompressZlib(is, oss);
-					std::istringstream iss(oss.str(), std::ios_base::binary);
-					content_nodemeta_deserialize_legacy(iss,
-						&m_node_metadata, &m_node_timers,
-						m_gamedef->idef());
-				}
-			} catch(SerializationError &e) {
-				warningstream<<"MapBlock::deSerialize(): Ignoring an error"
-						<<" while deserializing node metadata"<<std::endl;
-			}
-		}
-	}
-
-	// Deserialize node data
-	for (u32 i = 0; i < nodecount; i++) {
-		data[i].deSerialize(&databuf_nodelist[i * ser_length], version);
-	}
-
-	if (disk) {
-		/*
-			Versions up from 9 have block objects. (DEPRECATED)
-		*/
-		if (version >= 9) {
-			u16 count = readU16(is);
-			// Not supported and length not known if count is not 0
-			if(count != 0){
-				warningstream<<"MapBlock::deSerialize_pre22(): "
-						<<"Ignoring stuff coming at and after MBOs"<<std::endl;
-				return;
-			}
-		}
-
-		/*
-			Versions up from 15 have static objects.
-		*/
-		if (version >= 15)
-			m_static_objects.deSerialize(is);
-
-		// Timestamp
-		if (version >= 17) {
-			setTimestampNoChangedFlag(readU32(is));
-			m_disk_timestamp = m_timestamp;
-		} else {
-			setTimestampNoChangedFlag(BLOCK_TIMESTAMP_UNDEFINED);
-		}
-
-		// Dynamically re-set ids based on node names
-		NameIdMapping nimap;
-		// If supported, read node definition id mapping
-		if (version >= 21) {
-			nimap.deSerialize(is);
-		// Else set the legacy mapping
-		} else {
-			content_mapnode_get_name_id_mapping(&nimap);
-		}
-		correctBlockNodeIds(&nimap, data, m_gamedef);
-	}
-
-	// Legacy data changes
-	// This code has to convert from pre-22 to post-22 format.
-	const NodeDefManager *nodedef = m_gamedef->ndef();
-	for (u32 i = 0; i < nodecount; i++) {
-		const ContentFeatures &f = nodedef->get(data[i].getContent());
-		// Mineral
-		if(nodedef->getId("default:stone") == data[i].getContent()
-				&& data[i].getParam1() == 1)
-		{
-			data[i].setContent(nodedef->getId("default:stone_with_coal"));
-			data[i].setParam1(0);
-		}
-		else if(nodedef->getId("default:stone") == data[i].getContent()
-				&& data[i].getParam1() == 2)
-		{
-			data[i].setContent(nodedef->getId("default:stone_with_iron"));
-			data[i].setParam1(0);
-		}
-		// facedir_simple
-		if (f.legacy_facedir_simple) {
-			data[i].setParam2(data[i].getParam1());
-			data[i].setParam1(0);
-		}
-		// wall_mounted
-		if (f.legacy_wallmounted) {
-			u8 wallmounted_new_to_old[8] = {0x04, 0x08, 0x01, 0x02, 0x10, 0x20, 0, 0};
-			u8 dir_old_format = data[i].getParam2();
-			u8 dir_new_format = 0;
-			for (u8 j = 0; j < 8; j++) {
-				if ((dir_old_format & wallmounted_new_to_old[j]) != 0) {
-					dir_new_format = j;
-					break;
-				}
-			}
-			data[i].setParam2(dir_new_format);
-		}
-	}
 }
 
 /*
