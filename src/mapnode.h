@@ -316,14 +316,34 @@ struct alignas(u32) MapNode
 	//   content_width = the number of bytes of content per node
 	//   params_width = the number of bytes of params per node
 	//   compressed = true to zlib-compress output
-	static SharedBuffer<u8> serializeBulk(int version,
-			const MapNode *nodes, u32 nodecount,
-			u8 content_width, u8 params_width);
-	static void deSerializeBulk(std::istream &is, int version,
-			MapNode *nodes, u32 nodecount,
-			u8 content_width, u8 params_width);
+	
+	/// @brief Serializes a list of nodes in bulk format (first the
+	/// content of all nodes, then the param1 of all nodes, then the param2
+	/// of all nodes). This uses a shared buffer instead of writting dirrectly
+	/// to stream so the serialized bulk data can be sent over network or saved
+	/// to disk.
+	/// @param paramsVersion Version of bulk format
+	/// @param nodes Pointer to start of nodes array
+	/// @param nodecount 
+	/// @return A buffer to with the serialized node data
+	static SharedBuffer<u8> serializeBulk(int paramsVersion,
+			const MapNode *nodes, u32 nodecount);
 
-private:
-	// Deprecated serialization methods
-	void deSerialize_pre22(const u8 *source, u8 version);
+	/// @brief Deserializes a list of nodes in bulk format (first the
+	/// content of all nodes, then the param1 of all nodes, then the param2
+	/// of all nodes). Then writtes them to given stream
+	/// @param is Stream to read data from;
+	/// @param paramsVersion Version of bulk format
+	/// @param nodes Pointer to beggining of writting node array
+	/// @param nodecount 
+	static void deSerializeBulk(std::istream &is, int paramsVersion,
+			MapNode *nodes, u32 nodecount);
+
+	private:
+
+	static SharedBuffer<u8> serializeBulkV1(const MapNode *nodes, u32 nodecount);
+	static void deSerializeBulkV1(std::istream &is, MapNode *nodes, u32 nodecount);
+
+
+
 };

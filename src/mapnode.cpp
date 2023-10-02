@@ -605,30 +605,13 @@ u32 MapNode::serializedLength(u8 version)
 {
 	if(!ser_ver_supported(version))
 		throw VersionMismatchException("ERROR: MapNode format not supported");
-
-	// TODO Update Versions
-	if (version == 0)
-		return 1;
-
-	if (version <= 9)
-		return 2;
-
-	if (version <= 23)
-		return 3;
-
+	
 	return 4;
 }
 void MapNode::serialize(u8 *dest, u8 version) const
 {
 	if(!ser_ver_supported(version))
 		throw VersionMismatchException("ERROR: MapNode format not supported");
-
-	// Can't do this anymore; we have 16-bit dynamically allocated node IDs
-	// in memory; conversion just won't work in this direction.
-	//TODO Update Version
-	if(version < 24)
-		throw SerializationError("MapNode::serialize: serialization to "
-				"version < 24 not possible");
 
 	writeU16(dest+0, param0);
 	writeU8(dest+2, param1);
@@ -644,16 +627,19 @@ void MapNode::deSerialize(u8 *source, u8 version)
 	param2 = readU8(source+3);
 }
 
-SharedBuffer<u8> MapNode::serializeBulk(int version,
-		const MapNode *nodes, u32 nodecount,
-		u8 content_width, u8 params_width)
+SharedBuffer<u8> MapNode::serializeBulk(int paramsVersion,
+		const MapNode *nodes, u32 nodecount)
 {
-	if (!ser_ver_supported(version))
+	if (paramsVersion == 1)
+		return serializeBulkV1(nodes, nodecount);
+	else 
 		throw VersionMismatchException("ERROR: MapNode format not supported");
+}
 
-	// TODO Change to param version
-	sanity_check(content_width == 2);
-	sanity_check(params_width == 2);
+SharedBuffer<u8> MapNode::serializeBulkV1(const MapNode *nodes, u32 nodecount)
+{
+	const u8 content_width = 2;
+	const u8 params_width = 2;
 
 	SharedBuffer<u8> databuf(nodecount * (content_width + params_width));
 
@@ -670,57 +656,37 @@ SharedBuffer<u8> MapNode::serializeBulk(int version,
 }
 
 // Deserialize bulk node data
-void MapNode::deSerializeBulk(std::istream &is, int version,
-		MapNode *nodes, u32 nodecount,
-		u8 content_width, u8 params_width)
+void MapNode::deSerializeBulk(std::istream &is, int paramsVersion,
+		MapNode *nodes, u32 nodecount)
 {
-	if(!ser_ver_supported(version))
+	if(paramsVersion == 1)
+		deSerializeBulkV1(is, nodes, nodecount);
+	else
 		throw VersionMismatchException("ERROR: MapNode format not supported");
+}
 
-	//TODO Remove Ser
-	// if (version < 22
-	// 		|| (content_width != 1 && content_width != 2)
-	// 		|| params_width != 2)
-	// 	FATAL_ERROR("Deserialize bulk node data error");
+void MapNode::deSerializeBulkV1(std::istream &is, MapNode *nodes, u32 nodecount)
+{
+	const u8 contentWidth = 2;
+	const u8 paramsWidth = 2;
 
 	// read data
-	const u32 len = nodecount * (content_width + params_width);
+	const u32 len = nodecount * (contentWidth + paramsWidth);
 	Buffer<u8> databuf(len);
 	is.read(reinterpret_cast<char*>(*databuf), len);
 
 	// Deserialize content
-	if(content_width == 1)
-	{
-		for(u32 i=0; i<nodecount; i++)
-			nodes[i].param0 = readU8(&databuf[i]);
-	}
-	else if(content_width == 2)
-	{
-		for(u32 i=0; i<nodecount; i++)
-			nodes[i].param0 = readU16(&databuf[i*2]);
-	}
-
+	for(u32 i=0; i<nodecount; i++)
+		nodes[i].param0 = readU16(&databuf[i*2]);
+	
 	// Deserialize param1
-	u32 start1 = content_width * nodecount;
+	u32 start1 = contentWidth * nodecount;
 	for(u32 i=0; i<nodecount; i++)
 		nodes[i].param1 = readU8(&databuf[start1 + i]);
 
 	// Deserialize param2
-	u32 start2 = (content_width + 1) * nodecount;
-	if(content_width == 1)
-	{
-		for(u32 i=0; i<nodecount; i++) {
-			nodes[i].param2 = readU8(&databuf[start2 + i]);
-			if(nodes[i].param0 > 0x7F){
-				nodes[i].param0 <<= 4;
-				nodes[i].param0 |= (nodes[i].param2&0xF0)>>4;
-				nodes[i].param2 &= 0x0F;
-			}
-		}
-	}
-	else if(content_width == 2)
-	{
-		for(u32 i=0; i<nodecount; i++)
-			nodes[i].param2 = readU8(&databuf[start2 + i]);
-	}
+	u32 start2 = (contentWidth + 1) * nodecount;
+	for(u32 i=0; i<nodecount; i++)
+		nodes[i].param2 = readU8(&databuf[start2 + i]);
+	
 }

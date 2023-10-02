@@ -1797,7 +1797,7 @@ void ServerMap::loadBlock(std::string *blob, v3s16 p3d, MapSector *sector, bool 
 		}
 
 		// Read basic data
-		block->deSerialize(is, version, true);
+		block->deserialize(is, version, true);
 
 		// If it's a new block, insert it to the map
 		if (block_created_new) {

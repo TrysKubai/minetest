@@ -170,7 +170,7 @@ bool RollbackAction::applyRevert(Map *map, InventoryManager *imgr, IGameDef *gam
 						}
 					}
 					std::istringstream is(n_old.meta, std::ios::binary);
-					meta->deSerialize(is, 1); // FIXME: version bump??
+					meta->deserialize(is, 1); // FIXME: version bump??
 				}
 				// Inform other things that the meta data has changed
 				MapEditEvent event;

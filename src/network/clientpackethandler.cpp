@@ -275,8 +275,9 @@ void Client::handleCommand_NodemetaChanged(NetworkPacket *pkt)
 	std::stringstream sstr(std::ios::binary | std::ios::in | std::ios::out);
 	decompressZlib(is, sstr);
 
+	//TODO This might be an issue Zlib
 	NodeMetadataList meta_updates_list(false);
-	meta_updates_list.deSerialize(sstr, m_itemdef, true);
+	meta_updates_list.deserialize(sstr, m_itemdef, true);
 
 	Map &map = m_env.getMap();
 	for (NodeMetadataMap::const_iterator i = meta_updates_list.begin();
@@ -317,7 +318,7 @@ void Client::handleCommand_BlockData(NetworkPacket* pkt)
 		/*
 			Update an existing block
 		*/
-		block->deSerialize(istr, m_server_ser_ver, false);
+		block->deserialize(istr, m_server_ser_ver, false);
 		block->deSerializeNetworkSpecific(istr);
 	}
 	else {
@@ -325,7 +326,7 @@ void Client::handleCommand_BlockData(NetworkPacket* pkt)
 			Create a new block
 		*/
 		block = sector->createBlankBlock(p.Y);
-		block->deSerialize(istr, m_server_ser_ver, false);
+		block->deserialize(istr, m_server_ser_ver, false);
 		block->deSerializeNetworkSpecific(istr);
 	}
 

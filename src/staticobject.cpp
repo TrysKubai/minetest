@@ -48,8 +48,9 @@ void StaticObject::deSerialize(std::istream &is, u8 version)
 	data = deSerializeString16(is);
 }
 
-void StaticObjectList::serialize(std::ostream &os)
+void StaticObjectList::serialize(std::ostream &os, const u8 staticObjectVersion)
 {
+
 	// Check for problems first
 	auto problematic = [] (StaticObject &obj) -> bool {
 		if (obj.data.size() > U16_MAX) {
@@ -73,8 +74,18 @@ void StaticObjectList::serialize(std::ostream &os)
 			it++;
 	}
 
-	// version
-	u8 version = 0;
+	
+	if(staticObjectVersion == 1)
+		serializeV1(os);
+	else
+		throw VersionMismatchException("ERROR: Unsupported static object version");
+	
+}
+
+void StaticObjectList::serializeV1(std::ostream &os)
+{	
+	const u8 version = 1;
+
 	writeU8(os, version);
 
 	// count
@@ -100,7 +111,9 @@ void StaticObjectList::serialize(std::ostream &os)
 	}
 }
 
-void StaticObjectList::deSerialize(std::istream &is)
+
+
+void StaticObjectList::deserialize(std::istream &is)
 {
 	if (m_active.size()) {
 		errorstream << "StaticObjectList::deSerialize(): "
@@ -113,7 +126,18 @@ void StaticObjectList::deSerialize(std::istream &is)
 
 	// version
 	u8 version = readU8(is);
-	// count
+
+	if(version == 1)
+		deserializeV1(is);
+	else
+		throw VersionMismatchException("ERROR: Unsupported static object version");
+	
+}
+
+void StaticObjectList::deserializeV1(std::istream &is)
+{
+	const u8 version = 1;
+
 	u16 count = readU16(is);
 	for(u16 i = 0; i < count; i++) {
 		StaticObject s_obj;
@@ -132,3 +156,5 @@ bool StaticObjectList::storeActiveObject(u16 id)
 	m_active.erase(id);
 	return true;
 }
+
+

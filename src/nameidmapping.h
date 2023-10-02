@@ -31,7 +31,7 @@ typedef std::unordered_map<std::string, u16> NameToIdMap;
 class NameIdMapping
 {
 public:
-	void serialize(std::ostream &os) const;
+	void serialize(std::ostream &os, const u8 nameIdMappingVersion = 1) const;
 	void deSerialize(std::istream &is);
 
 	void clear()
@@ -88,4 +88,7 @@ public:
 private:
 	IdToNameMap m_id_to_name;
 	NameToIdMap m_name_to_id;
+
+	void serializeV1(std::ostream &os) const;
+	void deSerializeV1(std::istream &is);
 };

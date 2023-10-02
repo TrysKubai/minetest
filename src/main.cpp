@@ -1297,8 +1297,9 @@ static bool recompress_map_database(const GameParams &game_params, const Setting
 
 		{
 			MapBlock mb(nullptr, v3s16(0,0,0), &server);
+			//TODO Check version sent by server
 			u8 ver = readU8(iss);
-			mb.deSerialize(iss, ver, true);
+			mb.deserialize(iss, ver, true);
 
 			oss.str("");
 			oss.clear();
