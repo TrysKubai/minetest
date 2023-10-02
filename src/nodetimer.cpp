@@ -43,22 +43,28 @@ void NodeTimer::deSerialize(std::istream &is)
 	NodeTimerList
 */
 
-void NodeTimerList::serialize(std::ostream &os, u8 map_format_version) const
+void NodeTimerList::serialize(std::ostream &os, const u8 nodeTimerVersion) const
 {
-	// if (map_format_version == 24) {
-	// 	// Version 0 is a placeholder for "nothing to see here; go away."
-	// 	if (m_timers.empty()) {
-	// 		writeU8(os, 0); // version
-	// 		return;
-	// 	}
-	// 	writeU8(os, 1); // version
-	// 	writeU16(os, m_timers.size());
-	// }
 
-	//TODO Replace with version
-	writeU8(os, 2 + 4 + 4); // length of the data for a single timer
+	if(nodeTimerVersion == 0)
+	{
+		// Indicate empty node timer list
+		writeU8(os, 0);
+		return;
+	}
+	else if(nodeTimerVersion == 1)
+		serializeV1(os);
+	else
+		throw VersionMismatchException("ERROR: Unsupported node timer version");
+}
+
+void NodeTimerList::serializeV1(std::ostream &os) const
+{
+	const u8 nodeTimerVersion = 1;
+	//const u8 singleNodeTimerLength = 10;
+
+	writeU8(os, nodeTimerVersion);
 	writeU16(os, m_timers.size());
-	
 
 	for (const auto &timer : m_timers) {
 		NodeTimer t = timer.second;
@@ -72,14 +78,30 @@ void NodeTimerList::serialize(std::ostream &os, u8 map_format_version) const
 	}
 }
 
-void NodeTimerList::deSerialize(std::istream &is, u8 map_format_version)
+
+void NodeTimerList::deserialize(std::istream &is)
 {
 	clear();
 
-	u8 timer_data_len = readU8(is);
-	if(timer_data_len != 2+4+4)
-		throw SerializationError("unsupported NodeTimer data length");
+	const u8 nodeTimerVersion = readU8(is); 
+	
+	if(nodeTimerVersion == 0)
+	{
+		// Empty NodeTimer list
+		return;
+	}
+	else if (nodeTimerVersion == 1)
+	{
+		deserializeV1(is);
+	}
+	else
+		throw VersionMismatchException("ERROR: Unsupported node timer version");
 
+	
+}
+
+void NodeTimerList::deserializeV1(std::istream &is)
+{
 	u16 count = readU16(is);
 
 	for (u16 i = 0; i < count; i++) {
@@ -115,6 +137,7 @@ void NodeTimerList::deSerialize(std::istream &is, u8 map_format_version)
 	}
 }
 
+
 std::vector<NodeTimer> NodeTimerList::step(float dtime)
 {
 	std::vector<NodeTimer> elapsed_timers;
@@ -138,3 +161,5 @@ std::vector<NodeTimer> NodeTimerList::step(float dtime)
 		m_next_trigger_time = m_timers.begin()->first;
 	return elapsed_timers;
 }
+
+

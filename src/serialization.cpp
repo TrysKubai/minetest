@@ -311,19 +311,19 @@ void compress(const std::string &data, std::ostream &os, u8 version, int level)
 	compress((u8*)data.c_str(), data.size(), os, version, level);
 }
 
+void compressLegacyForMapGen(const SharedBuffer<u8> &data, std::ostream &os, int level)
+{
+	// //! Map Gen still uses ZLib for created blocks this needs to be resolved 
+	// //! before removing this
+	compressZlib(*data, data.getSize(), os, level + 1);
+	return;
+}
+
+
 void decompress(std::istream &is, std::ostream &os, u8 version)
 {
 	decompressZstd(is, os);
 	return;
-
-	// //TODO Remove Ser
-	// if(version >= 29)
-	// {
-	// 	decompressZstd(is, os);
-	// 	return;
-	// }
-	// decompressZlib(is, os);
-	// return;
 }
 
 void decompressLegacyForMapGen(std::istream &is, std::ostream &os)

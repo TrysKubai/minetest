@@ -372,17 +372,32 @@ static void correctBlockNodeIds(const NameIdMapping *nimap, MapNode *nodes,
 }
 
 
-void MapBlock::serialize(std::ostream &os_compressed, u8 version, bool disk, int compression_level)
+void MapBlock::serialize(std::ostream &result, const u8 version, bool disk, int compression_level)
 {
 	if(!ser_ver_supported(version))
 		throw VersionMismatchException("ERROR: MapBlock format not supported");
 
 	FATAL_ERROR_IF(version < SER_FMT_VER_LOWEST_WRITE, "Serialization version error");
 
+	if(version == 1)
+		serializeV1(result, disk, compression_level);
+	else
+		throw VersionMismatchException("ERROR: MapBlock format not supported");
+}
+
+void MapBlock::serializeV1(std::ostream &result, bool disk, int compression_level)
+{
+	const u8 nameIdMappingVersion = 1;
+	const u8 paramsVersion = 1;
+	const u8 nodeMetadataVersion = 1;
+	const u8 staticObjectVersion = 1;
+	const u8 nodeTimerVersion = 1;
+	const u8 compressionVersion = 1; 
+
 	std::ostringstream os_raw(std::ios_base::binary);
 	std::ostream &os = os_raw;
-
-	// First byte
+	
+	//	Flags
 	u8 flags = 0;
 	if(is_underground)
 		flags |= 0x01;
@@ -392,63 +407,52 @@ void MapBlock::serialize(std::ostream &os_compressed, u8 version, bool disk, int
 		flags |= 0x08;
 	writeU8(os, flags);
 
+
+	//	Lighting 
 	writeU16(os, m_lighting_complete);
 
-	/*
-		Bulk node data
-	*/
+
+	//	Bulk node data & name-id map
 	NameIdMapping nimap;
 	SharedBuffer<u8> buf;
 	
-	//TODO Convert to version 
-	const u8 content_width = 2;
-	const u8 params_width = 2;
-
  	if(disk)
 	{
 		MapNode *tmp_nodes = new MapNode[nodecount];
 		memcpy(tmp_nodes, data, nodecount * sizeof(MapNode));
 		getBlockNodeIdMapping(&nimap, tmp_nodes, m_gamedef->ndef());
 
-		buf = MapNode::serializeBulk(version, tmp_nodes, nodecount,
-				content_width, params_width);
+		buf = MapNode::serializeBulk(paramsVersion, tmp_nodes, nodecount);
 		delete[] tmp_nodes;
 
-		// write timestamp and node/id mapping first
-		
+		// write timestamp and node/id mapping first	
 		writeU32(os, getTimestamp());
-		nimap.serialize(os);
+		nimap.serialize(os, nameIdMappingVersion);
 	}
 	else
 	{
-		buf = MapNode::serializeBulk(version, data, nodecount,
-				content_width, params_width);
+		buf = MapNode::serializeBulk(paramsVersion, data, nodecount);
 	}
 
-	//TODO Convert to version 
-	writeU8(os, content_width);
-	writeU8(os, params_width);
-
+	writeU8(os, paramsVersion);
 	os.write(reinterpret_cast<char*>(*buf), buf.getSize());
+	
 
-	/*
-		Node metadata
-	*/
-	m_node_metadata.serialize(os, version, disk);
+	//	Node metadata
+	m_node_metadata.serialize(os, nodeMetadataVersion, disk);
 
-	/*
-		Data that goes to disk, but not the network
-	*/
+
+	//	Data that goes to disk, but not the network
 	if (disk) {
 		
 		// Static objects
-		m_static_objects.serialize(os);
+		m_static_objects.serialize(os, staticObjectVersion);
 
 		// Node Timers
-		m_node_timers.serialize(os, version);
+		m_node_timers.serialize(os, nodeTimerVersion);
 	}
 
-	compress(os_raw.str(), os_compressed, version, compression_level);
+	compress(os_raw.str(), result, compressionVersion, compression_level);
 }
 
 void MapBlock::serializeNetworkSpecific(std::ostream &os)
@@ -456,18 +460,32 @@ void MapBlock::serializeNetworkSpecific(std::ostream &os)
 	writeU8(os, 2); // version
 }
 
-void MapBlock::deSerialize(std::istream &in_compressed, u8 version, bool disk)
+void MapBlock::deserialize(std::istream &in_compressed, u8 version, bool disk)
 {
 	if(!ser_ver_supported(version))
 		throw VersionMismatchException("ERROR: MapBlock format not supported");
 
-	TRACESTREAM(<<"MapBlock::deSerialize "<<getPos()<<std::endl);
+	TRACESTREAM(<<"MapBlock::deSerialize "<<PP(getPos())<<std::endl);
+
+	if(version == 1)
+		deserializeV1(in_compressed, disk);
+	else
+		throw VersionMismatchException("ERROR: MapBlock format not supported");
+
+	TRACESTREAM(<<"MapBlock::deSerialize "<<PP(getPos())
+			<<": Done."<<std::endl);
+	
+}
+
+void MapBlock::deserializeV1(std::istream &isCompressed, bool disk)
+{
+	const u8 compressionVersion = 1; 
 
 	m_day_night_differs_expired = false;
 
 	// Decompress the whole block
 	std::stringstream in_raw(std::ios_base::binary | std::ios_base::in | std::ios_base::out);
-	decompress(in_compressed, in_raw, version);
+	decompress(isCompressed, in_raw, compressionVersion);
 	std::istream &is = in_raw;
 
 	// Flags
@@ -494,52 +512,37 @@ void MapBlock::deSerialize(std::istream &in_compressed, u8 version, bool disk)
 
 	TRACESTREAM(<<"MapBlock::deSerialize "<<getPos()
 			<<": Bulk node data"<<std::endl);
+
 	
-	//TODO Replace with version
-	u8 content_width = readU8(is);
-	u8 params_width = readU8(is);
-	//* I find the need to even have these variables when if they are not an exact
-	// value the it just throws an error
-	if(content_width != 1 && content_width != 2)
-		throw SerializationError("MapBlock::deSerialize(): invalid content_width");
-	if(params_width != 2)
-		throw SerializationError("MapBlock::deSerialize(): invalid params_width");
+	//	Bulk node data
+	u8 paramsVersion = readU8(is);
 
-	/*
-		Bulk node data
-	*/
-	MapNode::deSerializeBulk(is, version, data, nodecount,
-			content_width, params_width);
+	if(paramsVersion != 1)
+		throw VersionMismatchException("ERROR: Missmatched map data and params version");
+	
+	MapNode::deSerializeBulk(is, paramsVersion, data, nodecount);
 
-	/*
-		NodeMetadata
-	*/
-	TRACESTREAM(<<"MapBlock::deSerialize "<<getPos()
+	
+	//	NodeMetadata
+	TRACESTREAM(<<"MapBlock::deSerialize "<<PP(getPos())
 			<<": Node metadata"<<std::endl);
 
-	m_node_metadata.deSerialize(is, m_gamedef->idef());
+	m_node_metadata.deserialize(is, m_gamedef->idef());
 
-	/*
-		Data that is only on disk
-	*/
+	//	Data that is only on disk
 	if (disk) {
 		// Static objects
 		TRACESTREAM(<<"MapBlock::deSerialize "<<getPos()
 				<<": Static objects"<<std::endl);
-		m_static_objects.deSerialize(is);
+		m_static_objects.deserialize(is);
 
 		// Dynamically re-set ids based on node names
 		correctBlockNodeIds(&nimap, data, m_gamedef);
 
-		//TODO Update version
 		TRACESTREAM(<<"MapBlock::deSerialize "<<PP(getPos())
 					<<": Node timers"<<std::endl);
-			m_node_timers.deSerialize(is, version);
+			m_node_timers.deserialize(is);
 	}
-
-	TRACESTREAM(<<"MapBlock::deSerialize "<<getPos()
-			<<": Done."<<std::endl);
-	
 }
 
 void MapBlock::deSerializeNetworkSpecific(std::istream &is)

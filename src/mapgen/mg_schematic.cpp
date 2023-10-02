@@ -342,8 +342,7 @@ bool Schematic::deserializeFromMts(std::istream *is)
 	//! This is left here - as for some reason mapgen needs to decompress using ZLib 
 	//! instead of ZStd - need to investigate 
 	decompressLegacyForMapGen(ss, d_ss);
-	MapNode::deSerializeBulk(d_ss, MTSCHEM_MAPNODE_SER_FMT_VER, schemdata,
-		nodecount, 2, 2);
+	MapNode::deSerializeBulk(d_ss, 1, schemdata, nodecount);
 
 	// Fix probability values for nodes that were ignore; removed in v2
 	if (version < 2) {
@@ -387,9 +386,9 @@ bool Schematic::serializeToMts(std::ostream *os) const
 	}
 
 	// compressed bulk node data
-	SharedBuffer<u8> buf = MapNode::serializeBulk(MTSCHEM_MAPNODE_SER_FMT_VER,
-		schemdata, size.X * size.Y * size.Z, 2, 2);
-	compress(buf, ss, MTSCHEM_MAPNODE_SER_FMT_VER);
+	SharedBuffer<u8> buf = MapNode::serializeBulk(1, schemdata, 
+		size.X * size.Y * size.Z);
+	compressLegacyForMapGen(buf, ss);
 
 	return true;
 }

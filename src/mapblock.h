@@ -437,14 +437,14 @@ public:
 	/// @brief Serialize map block. Format version should be read before and passed in.
 	/// If disk is true additional data is written for storage.
 	/// Precondition: version >= SER_FMT_VER_LOWEST_WRITE 
-	/// @param os_compressed Stream of compressed mapblock data
+	/// @param result Target stream for output
 	/// @param version Compression format version
 	/// @param disk Set disk to true for on-disk format, false for over-the-network format
 	/// @param compression_level Compression level to use with ZSTD. -1 becomes 0 which indicates the default (currently 3)
-	void serialize(std::ostream &result, u8 version, bool disk, int compression_level);
+	void serialize(std::ostream &result, const u8 version, const bool disk, int compression_level);
 	// If disk == true: In addition to doing other things, will add
 	// unknown blocks from id-name mapping to wndef
-	void deSerialize(std::istream &is, u8 version, bool disk);
+	void deserialize(std::istream &is, const u8 version, const bool disk);
 
 	void serializeNetworkSpecific(std::ostream &os);
 	void deSerializeNetworkSpecific(std::istream &is);
@@ -457,8 +457,9 @@ private:
 	/*
 		Private methods
 	*/
+	void deserializeV1(std::istream &isCompressed, bool disk);
 
-	// void deSerialize_pre22(std::istream &is, u8 version, bool disk);
+	void serializeV1(std::ostream &result, bool disk, int compression_level);
 
 public:
 	/*

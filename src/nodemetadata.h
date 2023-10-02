@@ -41,7 +41,7 @@ public:
 	~NodeMetadata();
 
 	void serialize(std::ostream &os, u8 version, bool disk=true) const;
-	void deSerialize(std::istream &is, u8 version);
+	void deserialize(std::istream &is, u8 version);
 
 	void clear();
 	bool empty() const;
@@ -81,9 +81,16 @@ public:
 
 	~NodeMetadataList();
 
-	void serialize(std::ostream &os, u8 blockver, bool disk = true,
+	/// @brief Serialize node metadata
+	/// @param os Output stream - result stream
+	/// @param nodeMetadataVersion Name-id mapping version (valid [0,1])
+	/// @param disk Writte extra data for storing to disk
+	/// @param absolute_pos 
+	/// @param include_empty If true will write data even if the block has no metadata. If false - will write version 0 and skip writting data; 
+	void serialize(std::ostream &os, const u8 nodeMetadataVersion, bool disk = true,
 		bool absolute_pos = false, bool include_empty = false) const;
-	void deSerialize(std::istream &is, IItemDefManager *item_def_mgr,
+
+	void deserialize(std::istream &is, IItemDefManager *item_def_mgr,
 		bool absolute_pos = false);
 
 	// Add all keys in this list to the vector keys
@@ -114,4 +121,16 @@ private:
 
 	bool m_is_metadata_owner;
 	NodeMetadataMap m_data;
+
+	/* 
+		Serialization
+	*/
+	void serializeV1(std::ostream &os, const u16 nodeCount, const bool disk,
+		const bool absolute_pos, const bool include_empty) const;
+	
+	/*
+		Deserialization
+	*/
+	void deserializeV1(std::istream &is, const u8 nodeMetadataVersion, 
+		IItemDefManager *item_def_mgr, bool absolute_pos = false);
 };

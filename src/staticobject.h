@@ -73,8 +73,8 @@ public:
 		m_active.erase(id);
 	}
 
-	void serialize(std::ostream &os);
-	void deSerialize(std::istream &is);
+	void serialize(std::ostream &os, const u8 staticObjectVersion = 1);
+	void deserialize(std::istream &is);
 
 	// Never permit to modify outside of here. Only this object is responsible of m_stored and m_active modifications
 	const std::vector<StaticObject>& getAllStored() const { return m_stored; }
@@ -106,4 +106,7 @@ private:
 	*/
 	std::vector<StaticObject> m_stored;
 	std::map<u16, StaticObject> m_active;
+
+	void serializeV1(std::ostream &os);
+	void deserializeV1(std::istream &is);
 };

@@ -60,8 +60,8 @@ public:
 	NodeTimerList() = default;
 	~NodeTimerList() = default;
 
-	void serialize(std::ostream &os, u8 map_format_version) const;
-	void deSerialize(std::istream &is, u8 map_format_version);
+	void serialize(std::ostream &os, const u8 nodeTimerVersion) const;
+	void deserialize(std::istream &is);
 
 	// Get timer
 	NodeTimer get(const v3s16 &p) {
@@ -121,4 +121,8 @@ private:
 	std::map<v3s16, std::multimap<double, NodeTimer>::iterator> m_iterators;
 	double m_next_trigger_time = -1.0;
 	double m_time = 0.0;
+
+	void serializeV1(std::ostream &os) const;
+	void deserializeV1(std::istream &is);
+
 };

@@ -51,15 +51,13 @@ void NodeMetadata::serialize(std::ostream &os, u8 version, bool disk) const
 
 		os << serializeString16(sv.first);
 		os << serializeString32(sv.second);
-		//TODO Update Version 
-		if (version >= 2)
-			writeU8(os, (priv) ? 1 : 0);
+		writeU8(os, (priv) ? 1 : 0);
 	}
 
 	m_inventory->serialize(os);
 }
 
-void NodeMetadata::deSerialize(std::istream &is, u8 version)
+void NodeMetadata::deserialize(std::istream &is, u8 version)
 {
 	clear();
 	int num_vars = readU32(is);
@@ -67,11 +65,9 @@ void NodeMetadata::deSerialize(std::istream &is, u8 version)
 		std::string name = deSerializeString16(is);
 		std::string var = deSerializeString32(is);
 		m_stringvars[name] = var;
-		//TODO Update Version 
-		if (version >= 2) {
-			if (readU8(is) == 1)
-				markPrivate(name, true);
-		}
+		if (readU8(is) == 1)
+			markPrivate(name, true);
+		
 	}
 
 	m_inventory->deSerialize(is);
@@ -114,24 +110,32 @@ int NodeMetadata::countNonPrivate() const
 	NodeMetadataList
 */
 
-void NodeMetadataList::serialize(std::ostream &os, u8 blockver, bool disk,
+void NodeMetadataList::serialize(std::ostream &os, const u8 nodeMetadataVersion, bool disk,
 	bool absolute_pos, bool include_empty) const
 {
 	/*
 		Version 0 is a placeholder for "nothing to see here; go away."
 	*/
-
 	u16 count = include_empty ? m_data.size() : countNonEmpty();
 	if (count == 0) {
 		writeU8(os, 0); // version
 		return;
 	}
 
-	// u8 version = (blockver > 27) ? 2 : 1;
-	u8 version = 2;
+	if(nodeMetadataVersion == 1)
+		serializeV1(os, count, disk, absolute_pos, include_empty);
+	else
+		throw VersionMismatchException("ERROR: NameIdMappingVersion format not supported");
+	
+}
+
+void NodeMetadataList::serializeV1(std::ostream &os, const u16 nodeCount, bool disk,
+		bool absolute_pos, bool include_empty) const
+{
+	const u8 version = 1;
 
 	writeU8(os, version);
-	writeU16(os, count);
+	writeU16(os, nodeCount);
 
 	for (NodeMetadataMap::const_iterator
 			i = m_data.begin();
@@ -155,7 +159,9 @@ void NodeMetadataList::serialize(std::ostream &os, u8 blockver, bool disk,
 	}
 }
 
-void NodeMetadataList::deSerialize(std::istream &is,
+
+
+void NodeMetadataList::deserialize(std::istream &is,
 	IItemDefManager *item_def_mgr, bool absolute_pos)
 {
 	clear();
@@ -163,18 +169,21 @@ void NodeMetadataList::deSerialize(std::istream &is,
 	u8 version = readU8(is);
 
 	if (version == 0) {
-		// Nothing
+		//* Version 0 indicates empty metadata for the block
 		return;
 	}
-
-	// TODO Update versions
-	if (version > 2) {
-		std::string err_str = std::string(FUNCTION_NAME)
-			+ ": version " + itos(version) + " not supported";
-		infostream << err_str << std::endl;
-		throw SerializationError(err_str);
+	else if (version == 1)
+	{
+		deserializeV1(is, version, item_def_mgr, absolute_pos);
 	}
+	else
+		throw VersionMismatchException("ERROR: NameIdMappingVersion format not supported");
 
+	
+}
+
+void NodeMetadataList::deserializeV1(std::istream &is, const u8 nodeMetadataVersion, IItemDefManager *item_def_mgr, bool absolute_pos)
+{
 	u16 count = readU16(is);
 
 	for (u16 i = 0; i < count; i++) {
@@ -199,7 +208,7 @@ void NodeMetadataList::deSerialize(std::istream &is,
 		}
 
 		NodeMetadata *data = new NodeMetadata(item_def_mgr);
-		data->deSerialize(is, version);
+		data->deserialize(is, nodeMetadataVersion);
 		m_data[p] = data;
 	}
 }
