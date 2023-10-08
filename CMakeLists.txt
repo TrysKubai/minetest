@@ -1,58 +1,57 @@
+#
+# Cmake & Compiler Config
+#
 cmake_minimum_required(VERSION 3.13)
 
-# Set policies up to 3.9 since we want to enable the IPO option
-if(${CMAKE_VERSION} VERSION_LESS 3.15)
+# Set policies up to 3.23 as vcpkg recommends at least 3.22.4 for it's tool chain
+if(${CMAKE_VERSION} VERSION_LESS 3.23)
+	message(WARNING "CMake minimum version 3.23 is recomended. Project might not build correctly with older builds.") 
 	cmake_policy(VERSION ${CMAKE_MAJOR_VERSION}.${CMAKE_MINOR_VERSION})
 else()
-	cmake_policy(VERSION 3.13)
+	cmake_policy(VERSION 3.23)
 endif()
 
-# This can be read from ${PROJECT_NAME} after project() is called
-project(t3c_game)
-set(PROJECT_NAME_CAPITALIZED "Three Cubes Game")
+# Tell CMake where to find modules
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/Modules/")
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 set(GCC_MINIMUM_VERSION "7.5")
 set(CLANG_MINIMUM_VERSION "7.0.1")
 
+if(CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
+	if(CMAKE_CXX_COMPILER_VERSION VERSION_LESS "${GCC_MINIMUM_VERSION}")
+		message(FATAL_ERROR "Insufficient gcc version, found ${CMAKE_CXX_COMPILER_VERSION}. "
+			"Version ${GCC_MINIMUM_VERSION} or higher is required.")
+	endif()
+elseif(CMAKE_CXX_COMPILER_ID MATCHES "(Apple)?Clang")
+	if (CMAKE_CXX_COMPILER_VERSION VERSION_LESS "${CLANG_MINIMUM_VERSION}")
+		message(FATAL_ERROR "Insufficient clang version, found ${CMAKE_CXX_COMPILER_VERSION}. "
+			"Version ${CLANG_MINIMUM_VERSION} or higher is required.")
+	endif()
+endif()
+
+#
+# Project Setup
+#
+
+project(t3c_game_runtime)
+set(PROJECT_NAME_CAPITALIZED "Three Cubes Game")
+
 # You should not need to edit these manually, use util/bump_version.sh
-set(VERSION_MAJOR 1)
-set(VERSION_MINOR 0)
+set(VERSION_MAJOR 0)
+set(VERSION_MINOR 1)
 set(VERSION_PATCH 0)
+
+# TODO Remove
+# # Change to false for releases
+# set(DEVELOPMENT_BUILD TRUE)
+
+
+#
+#	Configuration Parameters
+#
 set(VERSION_EXTRA "" CACHE STRING "Stuff to append to version string")
-
-# Change to false for releases
-set(DEVELOPMENT_BUILD TRUE)
-
-set(VERSION_STRING "${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH}")
-if(VERSION_EXTRA)
-	set(VERSION_STRING "${VERSION_STRING}-${VERSION_EXTRA}")
-elseif(DEVELOPMENT_BUILD)
-	set(VERSION_STRING "${VERSION_STRING}-dev")
-endif()
-
-if (CMAKE_BUILD_TYPE STREQUAL Debug)
-	# Append "-debug" to version string
-	set(VERSION_STRING "${VERSION_STRING}-debug")
-endif()
-
-message(STATUS "*** Will build version ${VERSION_STRING} ***")
-
-# Configuration options
-set(BUILD_CLIENT TRUE CACHE BOOL "Build client")
-set(BUILD_SERVER FALSE CACHE BOOL "Build server")
-set(BUILD_UNITTESTS TRUE CACHE BOOL "Build unittests")
-set(BUILD_BENCHMARKS FALSE CACHE BOOL "Build benchmarks")
-set(BUILD_DOCUMENTATION TRUE CACHE BOOL "Build documentation")
-
-set(DEFAULT_RUN_IN_PLACE FALSE)
-if(WIN32)
-	set(DEFAULT_RUN_IN_PLACE TRUE)
-endif()
-set(RUN_IN_PLACE ${DEFAULT_RUN_IN_PLACE} CACHE BOOL
-	"Run directly in source directory structure")
-
 
 set(BUILD_CLIENT TRUE CACHE BOOL "Build client")
 set(BUILD_SERVER FALSE CACHE BOOL "Build server")
@@ -66,46 +65,71 @@ if(NOT CMAKE_BUILD_TYPE)
 	set(CMAKE_BUILD_TYPE Release CACHE STRING "Build type: Debug or Release" FORCE)
 endif()
 
-set(ENABLE_UPDATE_CHECKER (NOT ${DEVELOPMENT_BUILD}) CACHE BOOL
+#TODO Update checker needs to be removed
+set(ENABLE_UPDATE_CHECKER FALSE CACHE BOOL
 	"Whether to enable update checks by default")
 
-set(LOCAL_BUILD_DIR "${CMAKE_SOURCE_DIR}/out" CACHE STRING "Build dir to copy local files to")
 set(RESOURCES_DIR "${CMAKE_SOURCE_DIR}/resources" CACHE STRING "Base dir of non-compiled resource files")
-# Copy non-compiled resource dirs into build path
-# TODO This should probably go into install
+set(OUTPUT_DIR "${CMAKE_BINARY_DIR}/builds/${CMAKE_BUILD_TYPE}" CACHE STRING "Directory to place build artifacts")
+set(INSTALL_DIR "${CMAKE_SOURCE_DIR}/out/${CMAKE_BUILD_TYPE}" CACHE STRING "Directory to place installation files")
+set(IRRLICHTMT_BUILD_DIR "" CACHE PATH "Path to IrrlichtMt build directory.")
 
-# file(COPY "${CMAKE_SOURCE_DIR}/resources/builtin" DESTINATION "${LOCAL_BUILD_DIR}")
-# file(COPY "${CMAKE_SOURCE_DIR}/resources/client" DESTINATION "${LOCAL_BUILD_DIR}")
-# file(COPY "${CMAKE_SOURCE_DIR}/resources/clientmods" DESTINATION "${LOCAL_BUILD_DIR}")
-# file(COPY "${CMAKE_SOURCE_DIR}/resources/fonts" DESTINATION "${LOCAL_BUILD_DIR}")
-# file(COPY "${CMAKE_SOURCE_DIR}/resources/games" DESTINATION "${LOCAL_BUILD_DIR}")
-# file(COPY "${CMAKE_SOURCE_DIR}/resources/mods" DESTINATION "${LOCAL_BUILD_DIR}")
-# file(COPY "${CMAKE_SOURCE_DIR}/resources/misc" DESTINATION "${LOCAL_BUILD_DIR}")
-# file(COPY "${CMAKE_SOURCE_DIR}/resources/po/" DESTINATION "${LOCAL_BUILD_DIR}/locale/"
-# 	FILES_MATCHING PATTERN "*/")
-# file(COPY "${CMAKE_SOURCE_DIR}/resources/textures" DESTINATION "${LOCAL_BUILD_DIR}")
-# file(COPY "${CMAKE_SOURCE_DIR}/resources/worlds" DESTINATION "${LOCAL_BUILD_DIR}")
+set(INSTALL_DEVTEST FALSE CACHE BOOL "Install Development Test")
 
+#
+#	Static & Derivative Parameters
+#
 
-# Included stuff
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/Modules/")
+set(VERSION_STRING "${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH}")
+if(VERSION_EXTRA)
+	set(VERSION_STRING "${VERSION_STRING}-${VERSION_EXTRA}")
+endif()
 
-# Load default options for Android
-if(ANDROID)
-	cmake_minimum_required(VERSION 3.20)
-	include(MinetestAndroidLibs)
+if (CMAKE_BUILD_TYPE STREQUAL Debug)
+	# Append "-debug" to version string
+	set(VERSION_STRING "${VERSION_STRING}-debug")
+endif()
+
+if("${OUTPUT_DIR}" STREQUAL "")
+	set(OUTPUT_DIR "${CMAKE_BINARY_DIR}")
+endif()
+
+set(SHARE_DIR "${OUTPUT_DIR}")
+set(BIN_DIR "${SHARE_DIR}/bin")
+set(DOC_DIR "${SHARE_DIR}/doc")
+set(EXAMPLE_CONF_DIR "${SHARE_DIR}")
+set(LOCALE_DIR "${SHARE_DIR}/locale")
+
+if(APPLE)
+	# Ignoring and keeping this default for now
+
+	# set(BUNDLE_NAME ${PROJECT_NAME}.app)
+	# set(BUNDLE_PATH "${BUNDLE_NAME}")
+	# set(BINDIR ${BUNDLE_NAME}/Contents/MacOS)
+	# set(SHARE_DIR ${BUNDLE_NAME}/Contents/Resources)
+	# set(DOCDIR "${SHARE_DIR}/${PROJECT_NAME}")
+	# set(EXAMPLE_CONF_DIR ${DOCDIR})
+	# set(LOCALEDIR "${SHARE_DIR}/locale")
+elseif(UNIX) # Linux, BSD etc
+	set(MANDIR "${SHARE_DIR}/unix/man")
+	set(XDG_APPS_DIR "${SHARE_DIR}/unix/applications")
+	set(APPDATADIR "${SHARE_DIR}/unix/metainfo")
+	set(ICONDIR "${SHARE_DIR}/unix/icons")
 endif()
 
 
-set(IRRLICHTMT_BUILD_DIR "" CACHE PATH "Path to IrrlichtMt build directory.")
-if(ANDROID)
-	# currently manually provided
-elseif(NOT "${IRRLICHTMT_BUILD_DIR}" STREQUAL "")
+#
+#	Resolving IrrlichtMt
+#
+
+# 1. If ${IRRLICHTMT_BUILD_DIR} is set looks in that dir;
+# 2. Else if ${CMAKE_CURRENT_SOURCE_DIR}/lib/irrlichtmt exists looks for it there;
+# 3. Else uses find_package to try resolving for a global package
+if(NOT "${IRRLICHTMT_BUILD_DIR}" STREQUAL "")
 	find_package(IrrlichtMt QUIET
 		PATHS "${IRRLICHTMT_BUILD_DIR}"
 		NO_DEFAULT_PATH
 	)
-
 	if(NOT TARGET IrrlichtMt::IrrlichtMt)
 		# find_package() searches certain subdirectories. ${PATH}/cmake is not
 		# the only one, but it is the one where IrrlichtMt is supposed to export
@@ -151,193 +175,63 @@ else()
 	endif()
 endif()
 
-if(ANDROID)
-	# skipped for now
-elseif(BUILD_CLIENT AND TARGET IrrlichtMt::IrrlichtMt)
-	# retrieve version somehow
-	if(NOT IrrlichtMt_VERSION)
-		get_target_property(IrrlichtMt_VERSION IrrlichtMt VERSION)
-	endif()
-	message(STATUS "Found IrrlichtMt ${IrrlichtMt_VERSION}")
+# 
+#	Lib dependencies
+#
 
-	set(TARGET_VER_S 1.9.0mt13)
-	string(REPLACE "mt" "." TARGET_VER ${TARGET_VER_S})
-	if(IrrlichtMt_VERSION VERSION_LESS ${TARGET_VER})
-		message(FATAL_ERROR "At least IrrlichtMt ${TARGET_VER_S} is required to build")
-	elseif(NOT DEVELOPMENT_BUILD AND IrrlichtMt_VERSION VERSION_GREATER ${TARGET_VER})
-		message(FATAL_ERROR "IrrlichtMt ${TARGET_VER_S} is required to build")
-	endif()
-endif()
+find_package(GMP REQUIRED)
+find_package(Json REQUIRED)
+find_package(Lua REQUIRED)
 
-if(CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
-	if(CMAKE_CXX_COMPILER_VERSION VERSION_LESS "${GCC_MINIMUM_VERSION}")
-		message(FATAL_ERROR "Insufficient gcc version, found ${CMAKE_CXX_COMPILER_VERSION}. "
-			"Version ${GCC_MINIMUM_VERSION} or higher is required.")
-	endif()
-elseif(CMAKE_CXX_COMPILER_ID MATCHES "(Apple)?Clang")
-	if (CMAKE_CXX_COMPILER_VERSION VERSION_LESS "${CLANG_MINIMUM_VERSION}")
-		message(FATAL_ERROR "Insufficient clang version, found ${CMAKE_CXX_COMPILER_VERSION}. "
-			"Version ${CLANG_MINIMUM_VERSION} or higher is required.")
-	endif()
-endif()
 
-# Installation
+#
+#	Build
+#
+message(STATUS "*** Will build version ${VERSION_STRING} ***")
 
-if(WIN32)
-	set(SHAREDIR ".")
-	set(BINDIR "bin")
-	set(DOCDIR "doc")
-	set(EXAMPLE_CONF_DIR ".")
-	set(LOCALEDIR "locale")
-elseif(APPLE)
-	set(BUNDLE_NAME ${PROJECT_NAME}.app)
-	set(BUNDLE_PATH "${BUNDLE_NAME}")
-	set(BINDIR ${BUNDLE_NAME}/Contents/MacOS)
-	set(SHAREDIR ${BUNDLE_NAME}/Contents/Resources)
-	set(DOCDIR "${SHAREDIR}/${PROJECT_NAME}")
-	set(EXAMPLE_CONF_DIR ${DOCDIR})
-	set(LOCALEDIR "${SHAREDIR}/locale")
-elseif(UNIX) # Linux, BSD etc
-	if(RUN_IN_PLACE)
-		set(SHAREDIR "${CMAKE_SOURCE_DIR}/out/${CMAKE_BUILD_TYPE}")
-		set(BINDIR "${SHAREDIR}/bin")
-		set(DOCDIR "${SHAREDIR}/doc")
-		set(EXAMPLE_CONF_DIR "${SHAREDIR}")
-		set(MANDIR "${SHAREDIR}/unix/man")
-		set(XDG_APPS_DIR "${SHAREDIR}/unix/applications")
-		set(APPDATADIR "${SHAREDIR}/unix/metainfo")
-		set(ICONDIR "${SHAREDIR}/unix/icons")
-		set(LOCALEDIR "${SHAREDIR}/locale")
-		
-		file(MAKE_DIRECTORY "${SHAREDIR}")
-		file(MAKE_DIRECTORY "${BINDIR}")
-		file(MAKE_DIRECTORY "${DOCDIR}")
-		file(MAKE_DIRECTORY "${MANDIR}")
-		file(MAKE_DIRECTORY "${XDG_APPS_DIR}")
-		file(MAKE_DIRECTORY "${APPDATADIR}")
-		file(MAKE_DIRECTORY "${ICONDIR}")
-		file(MAKE_DIRECTORY "${LOCALEDIR}")
-		file(MAKE_DIRECTORY "${EXTERNAL_SERILIZER_DIR}")
-	else()
-		include(GNUInstallDirs)
-		set(SHAREDIR "${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_DATADIR}/${PROJECT_NAME}")
-		set(BINDIR "${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_BINDIR}")
-		set(DOCDIR "${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_DOCDIR}")
-		set(MANDIR "${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_MANDIR}")
-		set(EXAMPLE_CONF_DIR ${DOCDIR})
-		set(XDG_APPS_DIR "${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_DATADIR}/applications")
-		set(APPDATADIR "${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_DATADIR}/metainfo")
-		set(ICONDIR "${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_DATADIR}/icons")
-		set(LOCALEDIR "${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_LOCALEDIR}")
-	endif()
-endif()
+# Copy resource files into build dir
 
-set(CUSTOM_SHAREDIR "" CACHE STRING "Directory to install data files into")
-if(NOT CUSTOM_SHAREDIR STREQUAL "")
-	set(SHAREDIR "${CUSTOM_SHAREDIR}")
-	message(STATUS "Using SHAREDIR=${SHAREDIR}")
-endif()
+add_custom_target(copy_resource_files_to_share_dir ALL
+	COMMAND ${CMAKE_COMMAND} -E copy_directory
+		${RESOURCES_DIR}
+		${SHARE_DIR}
+)
 
-set(CUSTOM_BINDIR "" CACHE STRING "Directory to install binaries into")
-if(NOT CUSTOM_BINDIR STREQUAL "")
-	set(BINDIR "${CUSTOM_BINDIR}")
-	message(STATUS "Using BINDIR=${BINDIR}")
-endif()
+#
+#	Install
+#
 
-set(CUSTOM_DOCDIR "" CACHE STRING "Directory to install documentation into")
-if(NOT CUSTOM_DOCDIR STREQUAL "")
-	set(DOCDIR "${CUSTOM_DOCDIR}")
-	if(NOT RUN_IN_PLACE)
-		set(EXAMPLE_CONF_DIR ${DOCDIR})
-	endif()
-	message(STATUS "Using DOCDIR=${DOCDIR}")
-endif()
-
-set(CUSTOM_MANDIR "" CACHE STRING "Directory to install manpages into")
-if(NOT CUSTOM_MANDIR STREQUAL "")
-	set(MANDIR "${CUSTOM_MANDIR}")
-	message(STATUS "Using MANDIR=${MANDIR}")
-endif()
-
-set(CUSTOM_EXAMPLE_CONF_DIR "" CACHE STRING "Directory to install example config file into")
-if(NOT CUSTOM_EXAMPLE_CONF_DIR STREQUAL "")
-	set(EXAMPLE_CONF_DIR "${CUSTOM_EXAMPLE_CONF_DIR}")
-	message(STATUS "Using EXAMPLE_CONF_DIR=${EXAMPLE_CONF_DIR}")
-endif()
-
-set(CUSTOM_XDG_APPS_DIR "" CACHE STRING "Directory to install .desktop files into")
-if(NOT CUSTOM_XDG_APPS_DIR STREQUAL "")
-	set(XDG_APPS_DIR "${CUSTOM_XDG_APPS_DIR}")
-	message(STATUS "Using XDG_APPS_DIR=${XDG_APPS_DIR}")
-endif()
-
-set(CUSTOM_ICONDIR "" CACHE STRING "Directory to install icons into")
-if(NOT CUSTOM_ICONDIR STREQUAL "")
-	set(ICONDIR "${CUSTOM_ICONDIR}")
-	message(STATUS "Using ICONDIR=${ICONDIR}")
-endif()
-
-set(CUSTOM_LOCALEDIR "" CACHE STRING "Directory to install l10n files into")
-if(NOT CUSTOM_LOCALEDIR STREQUAL "")
-	set(LOCALEDIR "${CUSTOM_LOCALEDIR}")
-	message(STATUS "Using LOCALEDIR=${LOCALEDIR}")
-endif()
-
-install(DIRECTORY "${RESOURCES_DIR}/builtin" DESTINATION "${SHAREDIR}")
-if(RUN_IN_PLACE)
-	install(FILES "${RESOURCES_DIR}/mods/mods_here.txt" DESTINATION "${SHAREDIR}/mods")
-	install(FILES "${RESOURCES_DIR}/textures/texture_packs_here.txt" DESTINATION "${SHAREDIR}/textures")
-endif()
-
-install(DIRECTORY "${RESOURCES_DIR}/games/minetest_game" DESTINATION "${SHAREDIR}/games/"
+install(DIRECTORY "${RESOURCES_DIR}/builtin" DESTINATION "${INSTALL_DIR}")
+install(FILES "${RESOURCES_DIR}/mods/mods_here.txt" DESTINATION "${INSTALL_DIR}/mods")
+install(FILES "${RESOURCES_DIR}/textures/texture_packs_here.txt" DESTINATION "${INSTALL_DIR}/textures")
+install(DIRECTORY "${RESOURCES_DIR}/games/minetest_game" DESTINATION "${INSTALL_DIR}/games/"
 	COMPONENT "SUBGAME_MINETEST_GAME" OPTIONAL PATTERN ".git*" EXCLUDE )
-
-set(INSTALL_DEVTEST FALSE CACHE BOOL "Install Development Test")
-
-if(INSTALL_DEVTEST)
-	install(DIRECTORY "${RESOURCES_DIR}/games/devtest" DESTINATION "${SHAREDIR}/games/"
+install(DIRECTORY "${RESOURCES_DIR}/games/devtest" DESTINATION "${INSTALL_DIR}/games/"
 		PATTERN ".git*" EXCLUDE )
-endif()
 
 if(BUILD_CLIENT)
-	install(DIRECTORY "${RESOURCES_DIR}/client/shaders" DESTINATION "${SHAREDIR}/client")
-	install(DIRECTORY "${RESOURCES_DIR}/textures/base/pack" DESTINATION "${SHAREDIR}/textures/base")
-	if(RUN_IN_PLACE)
-		install(DIRECTORY "${RESOURCES_DIR}/clientmods" DESTINATION "${SHAREDIR}")
-		install(DIRECTORY "${RESOURCES_DIR}/client/serverlist" DESTINATION "${SHAREDIR}/client")
-	endif()
+	install(DIRECTORY "${RESOURCES_DIR}/client/shaders" DESTINATION "${INSTALL_DIR}/client")
+	install(DIRECTORY "${RESOURCES_DIR}/textures/base/pack" DESTINATION "${INSTALL_DIR}/textures/base")
+	install(DIRECTORY "${RESOURCES_DIR}/clientmods" DESTINATION "${INSTALL_DIR}")
+	install(DIRECTORY "${RESOURCES_DIR}/client/serverlist" DESTINATION "${INSTALL_DIR}/client")
 endif()
 
-install(FILES "README.md" DESTINATION "${DOCDIR}" COMPONENT "Docs")
-install(FILES "${RESOURCES_DIR}/doc/lua_api.md" DESTINATION "${DOCDIR}" COMPONENT "Docs")
-install(FILES "${RESOURCES_DIR}/doc/client_lua_api.md" DESTINATION "${DOCDIR}" COMPONENT "Docs")
-install(FILES "${RESOURCES_DIR}/doc/menu_lua_api.md" DESTINATION "${DOCDIR}" COMPONENT "Docs")
-install(FILES "${RESOURCES_DIR}/doc/texture_packs.md" DESTINATION "${DOCDIR}" COMPONENT "Docs")
-install(FILES "${RESOURCES_DIR}/doc/world_format.txt" DESTINATION "${DOCDIR}" COMPONENT "Docs")
-install(FILES "${RESOURCES_DIR}/minetest.conf.example" DESTINATION "${EXAMPLE_CONF_DIR}")
-
 if(UNIX AND NOT APPLE)
-	install(FILES "${RESOURCES_DIR}/doc/minetest.6" "${RESOURCES_DIR}/doc/minetestserver.6" DESTINATION "${MANDIR}/man6")
-	install(FILES "${RESOURCES_DIR}/misc/net.minetest.minetest.desktop" DESTINATION "${XDG_APPS_DIR}")
-	install(FILES "${RESOURCES_DIR}/misc/net.minetest.minetest.appdata.xml" DESTINATION "${APPDATADIR}")
-	install(FILES "${RESOURCES_DIR}/misc/minetest.svg" DESTINATION "${ICONDIR}/hicolor/scalable/apps")
+	install(FILES "${RESOURCES_DIR}/doc/minetest.6" "${RESOURCES_DIR}/doc/minetestserver.6" DESTINATION "${INSTALL_DIR}/unix/man6")
+	install(FILES "${RESOURCES_DIR}/misc/net.minetest.minetest.desktop" DESTINATION "${INSTALL_DIR}/unix/applications")
+	install(FILES "${RESOURCES_DIR}/misc/net.minetest.minetest.appdata.xml" DESTINATION "${INSTALL_DIR}/unix/metainfo")
+	install(FILES "${RESOURCES_DIR}/misc/minetest.svg" DESTINATION "${INSTALL_DIR}/unix/icons/hicolor/scalable/apps")
 	install(FILES "${RESOURCES_DIR}/misc/minetest-xorg-icon-128.png"
 		DESTINATION "${ICONDIR}/hicolor/128x128/apps"
 		RENAME "minetest.png")
 endif()
 
 if(APPLE)
-	install(FILES "${RESOURCES_DIR}/misc/minetest-icon.icns" DESTINATION "${SHAREDIR}")
+	install(FILES "${RESOURCES_DIR}/misc/minetest-icon.icns" DESTINATION "${INSTALL_DIR}")
 	install(FILES "${RESOURCES_DIR}/misc/Info.plist" DESTINATION "${BUNDLE_PATH}/Contents")
 endif()
 
 # Library pack
-find_package(GMP REQUIRED)
-find_package(Json REQUIRED)
-find_package(Lua REQUIRED)
-if(NOT USE_LUAJIT)
-	add_subdirectory(lib/bitop)
-endif()
 
 if(BUILD_BENCHMARKS)
 	add_subdirectory(lib/catch2)
@@ -348,9 +242,16 @@ endif()
 # add_subdirectory(external)
 add_subdirectory(src)
 
-# CPack
+#
+#	CPack
+#
 
-set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "A free open-source voxel game engine with easy modding and game creation.")
+#TODO CPack might have limited use now. We should no longer generate an installer
+# as installation will be handled by platform - all we need is a archive file with
+# all the needed files for execution.
+
+
+set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Three Cubes Game runtime installer")
 set(CPACK_PACKAGE_VERSION_MAJOR ${VERSION_MAJOR})
 set(CPACK_PACKAGE_VERSION_MINOR ${VERSION_MINOR})
 set(CPACK_PACKAGE_VERSION_PATCH ${VERSION_PATCH})
@@ -424,6 +325,7 @@ else()
 endif()
 
 include(CPack)
+
 
 
 # Add a target to generate API documentation with Doxygen
