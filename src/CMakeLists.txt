@@ -417,8 +417,8 @@ endif()
 
 # This gives us the icon and file version information
 if(WIN32)
-	set(WINRESOURCE_FILE "${SHARE_DIR}/misc/winresource.rc")
-	set(MINETEST_EXE_MANIFEST_FILE "${SHARE_DIR}/misc/minetest.exe.manifest")
+	set(WINRESOURCE_FILE "${RESOURCES_DIR}/misc/winresource.rc")
+	set(MINETEST_EXE_MANIFEST_FILE "${RESOURCES_DIR}/misc/minetest.exe.manifest")
 	if(MINGW)
 		if(NOT CMAKE_RC_COMPILER)
 			set(CMAKE_RC_COMPILER "windres.exe")
