@@ -3404,6 +3404,25 @@ void Server::hudSetHotbarSelectedImage(RemotePlayer *player, const std::string &
 	SendHUDSetParam(player->getPeerId(), HUD_PARAM_HOTBAR_SELECTED_IMAGE, name);
 }
 
+void Server::hudSetHotbarParams(RemotePlayer *player, const HotbarParams &hotbar_params)
+{
+	if(!player)
+		return;
+
+	player->setHotbarParams(hotbar_params);
+	std::ostringstream os(std::ios::binary);
+	os << serializeString16(hotbar_params.image);
+	writeF32(os, hotbar_params.image_margin);
+	writeU16(os, hotbar_params.image_size);
+	writeU16(os, hotbar_params.item_count);
+	writeF32(os, hotbar_params.item_padding);
+	writeV2F32(os, hotbar_params.pos);
+	os << serializeString16(hotbar_params.selected_image);
+
+	SendHUDSetParam(player->getPeerId(), HUD_PARAM_HOTBAR_PARAMS, os.str());
+}
+
+
 Address Server::getPeerAddress(session_t peer_id)
 {
 	// Note that this is only set after Init was received in Server::handleCommand_Init

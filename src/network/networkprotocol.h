@@ -871,6 +871,7 @@ enum ToClientCommand
 	*/
 
 	TOCLIENT_NUM_MSG_TYPES = 0x64,
+
 };
 
 enum ToServerCommand

@@ -1306,13 +1306,30 @@ void Client::handleCommand_HudSetParam(NetworkPacket* pkt)
 	if (param == HUD_PARAM_HOTBAR_ITEMCOUNT && value.size() == 4) {
 		s32 hotbar_itemcount = readS32((u8*) value.c_str());
 		if (hotbar_itemcount > 0 && hotbar_itemcount <= HUD_HOTBAR_ITEMCOUNT_MAX)
-			player->hud_hotbar_itemcount = hotbar_itemcount;
+		{
+			player->hotbar_params.item_count = hotbar_itemcount;
+			player->hotbar_params_dirty = true;
+		}
 	}
 	else if (param == HUD_PARAM_HOTBAR_IMAGE) {
-		player->hotbar_image = value;
+		player->hotbar_params.image = value;
+		player->hotbar_params_dirty = true;
 	}
 	else if (param == HUD_PARAM_HOTBAR_SELECTED_IMAGE) {
-		player->hotbar_selected_image = value;
+		player->hotbar_params.selected_image = value;
+		player->hotbar_params_dirty = true;
+	}
+	else if (param == HUD_PARAM_HOTBAR_PARAMS){
+		std::stringstream is(value);
+		player->hotbar_params.image = deSerializeString16(is);
+		player->hotbar_params.image_margin = readF32(is);
+		player->hotbar_params.image_size = readU16(is);
+		player->hotbar_params.item_count = readU16(is);
+		player->hotbar_params.item_padding = readF32(is);
+		player->hotbar_params.pos = readV2F32(is);
+		player->hotbar_params.selected_image = deSerializeString16(is);
+
+		player->hotbar_params_dirty = true;
 	}
 }
 

@@ -2137,7 +2137,7 @@ void Game::processItemSelection(u16 *new_playeritem)
 	 */
 	*new_playeritem = player->getWieldIndex();
 	u16 max_item = MYMIN(PLAYER_INVENTORY_SIZE - 1,
-		    player->hud_hotbar_itemcount - 1);
+		    player->hotbar_params.item_count - 1);
 
 	s32 wheel = input->getMouseWheel();
 	if (!m_enable_hotbar_mouse_wheel)
