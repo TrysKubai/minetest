@@ -43,6 +43,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include <map>
 #include <vector>
 #include <unordered_set>
+#include "../HotbarParams.h"
 
 class ChatEvent;
 struct ChatEventChat;
@@ -312,6 +313,7 @@ public:
 	bool hudSetHotbarItemcount(RemotePlayer *player, s32 hotbar_itemcount);
 	void hudSetHotbarImage(RemotePlayer *player, const std::string &name);
 	void hudSetHotbarSelectedImage(RemotePlayer *player, const std::string &name);
+	void hudSetHotbarParams(RemotePlayer *player, const HotbarParams &hotbar_params);
 
 	Address getPeerAddress(session_t peer_id);
 

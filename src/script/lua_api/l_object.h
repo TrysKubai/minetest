@@ -312,6 +312,12 @@ private:
 	// hud_get_hotbar_selected_image(self)
 	static int l_hud_get_hotbar_selected_image(lua_State *L);
 
+	// hud_set_hotbar_params(self, hotbar_parameters)
+	static int l_hud_set_hotbar_params(lua_State *L);
+	
+	// hud_get_hotbar_params(self)
+	static int l_hud_get_hotbar_params(lua_State *L);
+
 	// set_sky(self, sky_parameters)
 	static int l_set_sky(lua_State *L);
 

@@ -61,6 +61,8 @@ RemotePlayer::RemotePlayer(const char *name, IItemDefManager *idef):
 	movement_liquid_sink            = g_settings->getFloat("movement_liquid_sink")            * BS;
 	movement_gravity                = g_settings->getFloat("movement_gravity")                * BS;
 
+	hud_hotbar_params = HotbarParams::getDefaults();
+
 	// Skybox defaults:
 	m_cloud_params  = SkyboxDefaults::getCloudDefaults();
 	m_skybox_params = SkyboxDefaults::getSkyDefaults();
