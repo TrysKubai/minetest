@@ -219,7 +219,6 @@ public:
 	void        clearHud();
 
 	u32 hud_flags;
-	s32 hud_hotbar_itemcount;
 
 protected:
 	char m_name[PLAYERNAME_SIZE];

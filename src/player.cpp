@@ -74,7 +74,6 @@ Player::Player(const char *name, IItemDefManager *idef):
 		HUD_FLAG_MINIMAP_RADAR_VISIBLE | HUD_FLAG_BASIC_DEBUG   |
 		HUD_FLAG_CHAT_VISIBLE;
 
-	hud_hotbar_itemcount = HUD_HOTBAR_ITEMCOUNT_DEFAULT;
 
 	m_player_settings.readGlobalSettings();
 	// Register player setting callbacks

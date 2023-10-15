@@ -24,6 +24,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include <IGUIFont.h>
 #include "irr_aabb3d.h"
 #include "../hud.h"
+#include "../HotbarParams.h"
 
 class Client;
 class ITextureSource;
@@ -48,10 +49,10 @@ public:
 
 	bool use_crosshair_image = false;
 	bool use_object_crosshair_image = false;
-	std::string hotbar_image = "";
-	bool use_hotbar_image = false;
-	std::string hotbar_selected_image = "";
-	bool use_hotbar_selected_image = false;
+	
+	
+	// f32 hotbar_image_margin = 0;
+	// bool use_hotbar_individual_images = false;
 
 	bool pointing_at_object = false;
 
@@ -94,6 +95,8 @@ public:
 	void drawLuaElements(const v3s16 &camera_offset);
 
 private:
+	void updateHotbarParams();
+
 	bool calculateScreenPos(const v3s16 &camera_offset, HudElement *e, v2s32 *pos);
 	void drawStatbar(v2s32 pos, u16 corner, u16 drawdir,
 			const std::string &texture, const std::string& bgtexture,
@@ -122,8 +125,17 @@ private:
 	v3s16 m_camera_offset;
 	v2u32 m_screensize;
 	v2s32 m_displaycenter;
-	s32 m_hotbar_imagesize; // Takes hud_scaling into account, updated by resizeHotbar()
-	s32 m_padding; // Takes hud_scaling into account, updated by resizeHotbar()
+
+	// Hotbar params
+	s32 m_hotbar_image_size; // Takes hud_scaling into account, updated by resizeHotbar()
+	s32 m_hotbar_padding; 			// Takes hud_scaling into account, updated by resizeHotbar()
+	s32 m_hotbar_image_margin;	// Takes hud_scaling into account, updated by resizeHotbar()
+	v2s32 m_hotbar_pos;
+	s32 hotbar_item_count = HUD_HOTBAR_ITEMCOUNT_DEFAULT;
+	std::string hotbar_image = "";
+	bool use_hotbar_image = false;
+	std::string hotbar_selected_image = "";
+	bool use_hotbar_selected_image = false;
 	video::SColor hbar_colors[4];
 
 	std::vector<aabb3f> m_selection_boxes;

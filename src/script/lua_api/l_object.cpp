@@ -34,6 +34,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include "server/luaentity_sao.h"
 #include "server/player_sao.h"
 #include "server/serverinventorymgr.h"
+#include "l_object.h"
 
 /*
 	ObjectRef
@@ -1704,6 +1705,77 @@ int ObjectRef::l_hud_get_hotbar_selected_image(lua_State *L)
 	return 1;
 }
 
+// hud_set_hotbar_params(self, hotbar_parameters)
+int ObjectRef::l_hud_set_hotbar_params(lua_State *L)
+{
+	NO_MAP_LOCK_REQUIRED;
+	ObjectRef *ref = checkObject<ObjectRef>(L, 1);
+	RemotePlayer *player = getplayer(ref);
+	if (player == nullptr)
+		return 0;
+
+	HotbarParams hotbar_params = player->getHotbarParams();
+
+	// Reset if empty
+	if (lua_isnoneornil(L, 2)) 
+	{
+		hotbar_params = HotbarParams::getDefaults();
+	}
+	else 
+	{
+		luaL_checktype(L, 2, LUA_TTABLE);
+		hotbar_params.image = getstringfield_default(L, 2, "image", hotbar_params.image);
+		hotbar_params.image_margin = getfloatfield_default(L, 2, "image_margin", hotbar_params.image_margin);
+		hotbar_params.image_size = getintfield_default(L, 2, "image_size", hotbar_params.image_size);
+		hotbar_params.item_count = getintfield_default(L, 2, "item_count", hotbar_params.item_count);
+		hotbar_params.item_padding = getfloatfield_default(L, 2, "item_padding", hotbar_params.item_padding);
+		hotbar_params.selected_image = getstringfield_default(L, 2, "selected_image", hotbar_params.selected_image);
+		lua_getfield(L, 2, "pos");
+		if (!lua_isnil(L, -1))
+			hotbar_params.pos = read_v2f(L, -1);
+		lua_pop(L, 1);
+	}
+
+	getServer(L)->hudSetHotbarParams(player, hotbar_params);
+
+	return 1;
+}
+
+// hud_get_hotbar_params(self)
+int ObjectRef::l_hud_get_hotbar_params(lua_State *L)
+{
+	NO_MAP_LOCK_REQUIRED;
+	ObjectRef *ref = checkObject<ObjectRef>(L, 1);
+	RemotePlayer *player = getplayer(ref);
+	if (player == nullptr)
+		return 0;
+
+	const HotbarParams &hotbar_params = player->getHotbarParams();
+
+	lua_newtable(L);
+	lua_pushstring(L, hotbar_params.image.c_str());
+	lua_setfield(L, -2, "image");
+	lua_pushnumber(L, hotbar_params.image_margin);
+	lua_setfield(L, -2, "image_margin");
+	lua_pushnumber(L, hotbar_params.image_size);
+	lua_setfield(L, -2, "image_size");
+	lua_pushnumber(L, hotbar_params.item_count);
+	lua_setfield(L, -2, "item_count");
+	lua_pushnumber(L, hotbar_params.item_padding);
+	lua_setfield(L, -2, "item_padding");
+	lua_pushstring(L, hotbar_params.selected_image.c_str());
+	lua_setfield(L, -2, "selected_image");
+	
+	lua_newtable(L);
+	lua_pushnumber(L, hotbar_params.pos.X);
+	lua_setfield(L, -2, "x");
+	lua_pushnumber(L, hotbar_params.pos.Y);
+	lua_setfield(L, -2, "y");
+	lua_setfield(L, -2, "pos");
+
+	return 1;
+}
+
 // set_sky(self, sky_parameters)
 int ObjectRef::l_set_sky(lua_State *L)
 {
@@ -2498,6 +2570,8 @@ luaL_Reg ObjectRef::methods[] = {
 	luamethod(ObjectRef, hud_get_hotbar_image),
 	luamethod(ObjectRef, hud_set_hotbar_selected_image),
 	luamethod(ObjectRef, hud_get_hotbar_selected_image),
+	luamethod(ObjectRef, hud_set_hotbar_params),
+	luamethod(ObjectRef, hud_get_hotbar_params),
 	luamethod(ObjectRef, set_sky),
 	luamethod(ObjectRef, get_sky),
 	luamethod(ObjectRef, get_sky_color),

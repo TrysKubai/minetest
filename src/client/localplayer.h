@@ -25,6 +25,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include "settings.h"
 #include "lighting.h"
 #include <list>
+#include "../HotbarParams.h"
 
 class Client;
 class Environment;
@@ -93,8 +94,13 @@ public:
 	int last_animation = NO_ANIM;
 	float last_animation_speed = 0.0f;
 
-	std::string hotbar_image = "";
-	std::string hotbar_selected_image = "";
+	HotbarParams hotbar_params = HotbarParams::getDefaults();
+	bool hotbar_params_dirty = false;
+
+	// std::string hotbar_image = "";
+	// std::string hotbar_selected_image = "";
+	// bool hotbar_use_individual_images = false;
+	// f32 hotbar_image_margin = 0;
 
 	video::SColor light_color = video::SColor(255, 255, 255, 255);
 

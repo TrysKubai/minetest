@@ -23,6 +23,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include "player.h"
 #include "skyparams.h"
 #include "lighting.h"
+#include "HotbarParams.h"
 
 class PlayerSAO;
 
@@ -51,10 +52,10 @@ public:
 
 	void setHotbarItemcount(s32 hotbar_itemcount)
 	{
-		hud_hotbar_itemcount = hotbar_itemcount;
+		hud_hotbar_params.item_count = hotbar_itemcount;
 	}
 
-	s32 getHotbarItemcount() const { return hud_hotbar_itemcount; }
+	s32 getHotbarItemcount() const { return hud_hotbar_params.item_count; }
 
 	void overrideDayNightRatio(bool do_override, float ratio)
 	{
@@ -68,18 +69,33 @@ public:
 		*ratio = m_day_night_ratio;
 	}
 
-	void setHotbarImage(const std::string &name) { hud_hotbar_image = name; }
+	void setHotbarImage(const std::string &name) { hud_hotbar_params.image = name; }
 
-	const std::string &getHotbarImage() const { return hud_hotbar_image; }
+	const std::string &getHotbarImage() const { return hud_hotbar_params.image; }
 
 	void setHotbarSelectedImage(const std::string &name)
 	{
-		hud_hotbar_selected_image = name;
+		hud_hotbar_params.selected_image = name;
+	}
+
+	void setHotbarImageMargin(const f32 &margin)
+	{
+		hud_hotbar_params.image_margin = margin;
 	}
 
 	const std::string &getHotbarSelectedImage() const
 	{
-		return hud_hotbar_selected_image;
+		return hud_hotbar_params.selected_image;
+	}
+
+	void setHotbarParams(const HotbarParams &hotbar_params)
+	{
+		hud_hotbar_params = hotbar_params;
+	}
+
+	const HotbarParams &getHotbarParams() const
+	{
+		return hud_hotbar_params;
 	}
 
 	void setSky(const SkyboxParams &skybox_params)
@@ -155,8 +171,13 @@ private:
 
 	bool m_day_night_ratio_do_override = false;
 	float m_day_night_ratio;
-	std::string hud_hotbar_image = "";
-	std::string hud_hotbar_selected_image = "";
+
+	HotbarParams hud_hotbar_params;
+
+	// std::string hud_hotbar_image = "";
+	// std::string hud_hotbar_selected_image = "";
+	// bool hud_hotbar_use_individual_images = false;
+	// f32 hud_hotbar_image_margin = 0;
 
 	CloudParams m_cloud_params;
 

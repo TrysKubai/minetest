@@ -42,6 +42,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 
 #ifdef HAVE_TOUCHSCREENGUI
 #include "gui/touchscreengui.h"
+#include "hud.h"
 #endif
 
 #define OBJECT_CROSSHAIR_LINE_SIZE 8
@@ -57,10 +58,15 @@ Hud::Hud(Client *client, LocalPlayer *player,
 
 	m_hud_scaling      = g_settings->getFloat("hud_scaling", 0.5f, 20.0f);
 	m_scale_factor     = m_hud_scaling * RenderingEngine::getDisplayDensity();
-	m_hotbar_imagesize = std::floor(HOTBAR_IMAGE_SIZE *
+	m_hotbar_image_size = std::floor(player->hotbar_params.image_size *
 		RenderingEngine::getDisplayDensity() + 0.5f);
-	m_hotbar_imagesize *= m_hud_scaling;
-	m_padding = m_hotbar_imagesize / 12;
+	m_hotbar_image_size *= m_hud_scaling;
+	m_hotbar_image_margin = m_hotbar_image_size * player->hotbar_params.image_margin;
+	m_hotbar_padding = m_hotbar_image_size * player->hotbar_params.item_padding;
+	m_hotbar_pos = v2s32(m_screensize.X*player->hotbar_params.pos.X, m_screensize.Y*player->hotbar_params.pos.Y);
+
+	const v2u32 &window_size = RenderingEngine::getWindowSize();
+	m_screensize = window_size;
 
 	for (auto &hbar_color : hbar_colors)
 		hbar_color = video::SColor(255, 255, 255, 255);
@@ -149,77 +155,80 @@ Hud::~Hud()
 void Hud::drawItem(const ItemStack &item, const core::rect<s32>& rect,
 		bool selected)
 {
-	if (selected) {
-		/* draw highlighting around selected item */
-		if (use_hotbar_selected_image) {
-			core::rect<s32> imgrect2 = rect;
-			imgrect2.UpperLeftCorner.X  -= (m_padding*2);
-			imgrect2.UpperLeftCorner.Y  -= (m_padding*2);
-			imgrect2.LowerRightCorner.X += (m_padding*2);
-			imgrect2.LowerRightCorner.Y += (m_padding*2);
-				video::ITexture *texture = tsrc->getTexture(hotbar_selected_image);
-				core::dimension2di imgsize(texture->getOriginalSize());
-			draw2DImageFilterScaled(driver, texture, imgrect2,
-					core::rect<s32>(core::position2d<s32>(0,0), imgsize),
-					NULL, hbar_colors, true);
-		} else {
-			video::SColor c_outside(255,255,0,0);
-			//video::SColor c_outside(255,0,0,0);
-			//video::SColor c_inside(255,192,192,192);
-			s32 x1 = rect.UpperLeftCorner.X;
-			s32 y1 = rect.UpperLeftCorner.Y;
-			s32 x2 = rect.LowerRightCorner.X;
-			s32 y2 = rect.LowerRightCorner.Y;
-			// Black base borders
-			driver->draw2DRectangle(c_outside,
-				core::rect<s32>(
-				v2s32(x1 - m_padding, y1 - m_padding),
-				v2s32(x2 + m_padding, y1)
-				), NULL);
-			driver->draw2DRectangle(c_outside,
-				core::rect<s32>(
-				v2s32(x1 - m_padding, y2),
-				v2s32(x2 + m_padding, y2 + m_padding)
-				), NULL);
-			driver->draw2DRectangle(c_outside,
-				core::rect<s32>(
-				v2s32(x1 - m_padding, y1),
-					v2s32(x1, y2)
-				), NULL);
-			driver->draw2DRectangle(c_outside,
-				core::rect<s32>(
-					v2s32(x2, y1),
-				v2s32(x2 + m_padding, y2)
-				), NULL);
-			/*// Light inside borders
-			driver->draw2DRectangle(c_inside,
-				core::rect<s32>(
-					v2s32(x1 - padding/2, y1 - padding/2),
-					v2s32(x2 + padding/2, y1)
-				), NULL);
-			driver->draw2DRectangle(c_inside,
-				core::rect<s32>(
-					v2s32(x1 - padding/2, y2),
-					v2s32(x2 + padding/2, y2 + padding/2)
-				), NULL);
-			driver->draw2DRectangle(c_inside,
-				core::rect<s32>(
-					v2s32(x1 - padding/2, y1),
-					v2s32(x1, y2)
-				), NULL);
-			driver->draw2DRectangle(c_inside,
-				core::rect<s32>(
-					v2s32(x2, y1),
-					v2s32(x2 + padding/2, y2)
-				), NULL);
-			*/
-		}
+
+	// If drawing provided image
+	if((!selected && use_hotbar_image) || (selected && use_hotbar_selected_image))
+	{	
+		video::ITexture *texture;
+		if (selected)
+			texture = tsrc->getTexture(hotbar_selected_image);
+		else
+			texture = tsrc->getTexture(hotbar_image);
+
+		core::dimension2di imgsize(texture->getOriginalSize());
+		draw2DImageFilterScaled(driver, texture, rect,
+				core::rect<s32>(core::position2d<s32>(0,0), imgsize),
+				NULL, hbar_colors, true);
+	}
+	else // Drawing default image
+	{
+		// Background
+		video::SColor bgcolor(128, 0, 0, 0);
+		driver->draw2DRectangle(
+			bgcolor, 
+			core::rect<s32>(
+				v2s32(
+					rect.UpperLeftCorner.X + m_hotbar_padding, 
+					rect.UpperLeftCorner.Y + m_hotbar_padding
+				),
+				v2s32(
+					rect.LowerRightCorner.X - m_hotbar_padding,
+					rect.LowerRightCorner.Y - m_hotbar_padding
+				)
+			), 
+			NULL
+		);
+
+		video::SColor c_outside;
+		if(selected)
+			c_outside = video::SColor(255,255,0,0);
+		else
+			c_outside = video::SColor(200,200,200,200);
+		
+		// Border
+		// TOP
+		driver->draw2DRectangle(c_outside,
+			core::rect<s32>(
+				v2s32(rect.UpperLeftCorner),
+				v2s32(rect.LowerRightCorner.X, rect.UpperLeftCorner.Y + m_hotbar_padding)
+			), NULL);
+		// RIGHT
+		driver->draw2DRectangle(c_outside,
+			core::rect<s32>(
+				v2s32(rect.LowerRightCorner.X - m_hotbar_padding, rect.UpperLeftCorner.Y),
+				v2s32(rect.LowerRightCorner)
+			), NULL);
+		// BOTTOM
+		driver->draw2DRectangle(c_outside,
+			core::rect<s32>(
+				v2s32(rect.UpperLeftCorner.X, rect.LowerRightCorner.Y - m_hotbar_padding),
+				v2s32(rect.LowerRightCorner)
+			), NULL);
+		// LEFT
+		driver->draw2DRectangle(c_outside,
+			core::rect<s32>(
+				v2s32(rect.UpperLeftCorner),
+				v2s32(rect.UpperLeftCorner.X + m_hotbar_padding, rect.LowerRightCorner.Y)
+			), NULL);
 	}
 
-	video::SColor bgcolor2(128, 0, 0, 0);
-	if (!use_hotbar_image)
-		driver->draw2DRectangle(bgcolor2, rect, NULL);
-	drawItemStack(driver, g_fontengine->getFont(), item, rect, NULL,
+	core::rect<s32> rect2 = rect;
+	rect2.UpperLeftCorner.X  += m_hotbar_padding;
+	rect2.UpperLeftCorner.Y  += m_hotbar_padding;
+	rect2.LowerRightCorner.X -= m_hotbar_padding;
+	rect2.LowerRightCorner.Y -= m_hotbar_padding;
+
+	drawItemStack(driver, g_fontengine->getFont(), item, rect2, NULL,
 		client, selected ? IT_ROT_SELECTED : IT_ROT_NONE);
 }
 
@@ -233,8 +242,10 @@ void Hud::drawItems(v2s32 upperleftpos, v2s32 screen_offset, s32 itemcount,
 		g_touchscreengui->resetHud();
 #endif
 
-	s32 height  = m_hotbar_imagesize + m_padding * 2;
-	s32 width   = (itemcount - inv_offset) * (m_hotbar_imagesize + m_padding * 2);
+	s32 height  = m_hotbar_image_size;
+	s32 width = 
+		((itemcount - inv_offset) * (m_hotbar_image_size + m_hotbar_image_margin)) 
+			- m_hotbar_image_margin;
 
 	if (direction == HUD_DIR_TOP_BOTTOM || direction == HUD_DIR_BOTTOM_TOP) {
 		s32 tmp = height;
@@ -246,49 +257,49 @@ void Hud::drawItems(v2s32 upperleftpos, v2s32 screen_offset, s32 itemcount,
 	v2s32 pos = screen_offset * m_scale_factor;
 	pos += upperleftpos;
 
-	// Store hotbar_image in member variable, used by drawItem()
-	if (hotbar_image != player->hotbar_image) {
-		hotbar_image = player->hotbar_image;
-		use_hotbar_image = !hotbar_image.empty();
-	}
+	// // Store hotbar_image in member variable, used by drawItem()
+	// if (hotbar_image != player->hotbar_image) {
+	// 	hotbar_image = player->hotbar_image;
+	// 	use_hotbar_image = !hotbar_image.empty();
+	// }
 
-	// Store hotbar_selected_image in member variable, used by drawItem()
-	if (hotbar_selected_image != player->hotbar_selected_image) {
-		hotbar_selected_image = player->hotbar_selected_image;
-		use_hotbar_selected_image = !hotbar_selected_image.empty();
-	}
+	// // Store hotbar_selected_image in member variable, used by drawItem()
+	// if (hotbar_selected_image != player->hotbar_selected_image) {
+	// 	hotbar_selected_image = player->hotbar_selected_image;
+	// 	use_hotbar_selected_image = !hotbar_selected_image.empty();
+	// }
 
 	// draw customized item background
-	if (use_hotbar_image) {
-		core::rect<s32> imgrect2(-m_padding/2, -m_padding/2,
-			width+m_padding/2, height+m_padding/2);
-		core::rect<s32> rect2 = imgrect2 + pos;
-		video::ITexture *texture = tsrc->getTexture(hotbar_image);
-		core::dimension2di imgsize(texture->getOriginalSize());
-		draw2DImageFilterScaled(driver, texture, rect2,
-			core::rect<s32>(core::position2d<s32>(0,0), imgsize),
-			NULL, hbar_colors, true);
-	}
+	// if (use_hotbar_image && !use_hotbar_individual_images) {
+	// 	core::rect<s32> imgrect2(-m_padding/2, -m_padding/2,
+	// 		width+m_padding/2, height+m_padding/2);
+	// 	core::rect<s32> rect2 = imgrect2 + pos;
+	// 	video::ITexture *texture = tsrc->getTexture(hotbar_image);
+	// 	core::dimension2di imgsize(texture->getOriginalSize());
+	// 	draw2DImageFilterScaled(driver, texture, rect2,
+	// 		core::rect<s32>(core::position2d<s32>(0,0), imgsize),
+	// 		NULL, hbar_colors, true);
+	// }
 
 	// Draw items
-	core::rect<s32> imgrect(0, 0, m_hotbar_imagesize, m_hotbar_imagesize);
+	core::rect<s32> imgrect(0, 0, m_hotbar_image_size, m_hotbar_image_size);
 	const s32 list_size = mainlist ? mainlist->getSize() : 0;
 	for (s32 i = inv_offset; i < itemcount && i < list_size; i++) {
-		s32 fullimglen = m_hotbar_imagesize + m_padding * 2;
+		s32 fullimglen = m_hotbar_image_size + m_hotbar_image_margin;
 
 		v2s32 steppos;
 		switch (direction) {
 		case HUD_DIR_RIGHT_LEFT:
-			steppos = v2s32(-(m_padding + (i - inv_offset) * fullimglen), m_padding);
+			steppos = v2s32(-((i - inv_offset) * fullimglen), 0);
 			break;
 		case HUD_DIR_TOP_BOTTOM:
-			steppos = v2s32(m_padding, m_padding + (i - inv_offset) * fullimglen);
+			steppos = v2s32(0,(i - inv_offset) * fullimglen);
 			break;
 		case HUD_DIR_BOTTOM_TOP:
-			steppos = v2s32(m_padding, -(m_padding + (i - inv_offset) * fullimglen));
+			steppos = v2s32(0, -((i - inv_offset) * fullimglen));
 			break;
 		default:
-			steppos = v2s32(m_padding + (i - inv_offset) * fullimglen, m_padding);
+			steppos = v2s32((i - inv_offset) * fullimglen, 0);
 			break;
 		}
 
@@ -313,8 +324,29 @@ bool Hud::hasElementOfType(HudElementType type)
 	return false;
 }
 
+
+/// @brief Update hotbar rendering parameters after parameter change or screen resize.
+void Hud::updateHotbarParams()
+{
+	m_hotbar_image_size = floor(this->player->hotbar_params.image_size *
+			RenderingEngine::getDisplayDensity() + 0.5);
+	m_hotbar_image_size *= m_hud_scaling;
+	m_hotbar_padding = m_hotbar_image_size * player->hotbar_params.item_padding;
+	m_hotbar_image_margin = m_hotbar_image_size * player->hotbar_params.image_margin;
+	m_hotbar_pos = v2s32(m_screensize.X*player->hotbar_params.pos.X, m_screensize.Y*player->hotbar_params.pos.Y);
+
+	hotbar_item_count = player->hotbar_params.item_count;
+
+	hotbar_image = player->hotbar_params.image;
+	hotbar_selected_image = player->hotbar_params.selected_image;
+
+	use_hotbar_image = hotbar_image == "" ? false : true;
+	use_hotbar_selected_image = hotbar_selected_image == "" ? false : true;
+}
+
 // Calculates screen position of waypoint. Returns true if waypoint is visible (in front of the player), else false.
-bool Hud::calculateScreenPos(const v3s16 &camera_offset, HudElement *e, v2s32 *pos)
+bool Hud::calculateScreenPos(const v3s16 &camera_offset, HudElement *e,
+		v2s32 *pos) 
 {
 	v3f w_pos = e->world_pos * BS;
 	scene::ICameraSceneNode* camera =
@@ -740,7 +772,7 @@ void Hud::drawStatbar(v2s32 pos, u16 corner, u16 drawdir,
 
 void Hud::drawHotbar(u16 playeritem) {
 
-	v2s32 centerlowerpos(m_displaycenter.X, m_screensize.Y);
+	// v2s32 centerlowerpos(m_displaycenter.X, m_screensize.Y);
 
 	InventoryList *mainlist = inventory->getList("main");
 	if (mainlist == NULL) {
@@ -748,27 +780,33 @@ void Hud::drawHotbar(u16 playeritem) {
 		return;
 	}
 
-	s32 hotbar_itemcount = player->hud_hotbar_itemcount;
-	s32 width = hotbar_itemcount * (m_hotbar_imagesize + m_padding * 2);
-	v2s32 pos = centerlowerpos - v2s32(width / 2, m_hotbar_imagesize + m_padding * 3);
+	// Checking if hotbar parameter need updating
+	if(player->hotbar_params_dirty)
+	{
+		updateHotbarParams();
+		player->hotbar_params_dirty = false;
+	}
 
-	const v2u32 &window_size = RenderingEngine::getWindowSize();
-	if ((float) width / (float) window_size.X <=
+	s32 width = (hotbar_item_count * m_hotbar_image_size) + ((hotbar_item_count-1) * m_hotbar_image_margin);
+	
+	v2s32 pos = m_hotbar_pos - v2s32(width / 2, m_hotbar_image_size);
+
+	if ((float) width / (float) m_screensize.X <=
 			g_settings->getFloat("hud_hotbar_max_width")) {
 		if (player->hud_flags & HUD_FLAG_HOTBAR_VISIBLE) {
-			drawItems(pos, v2s32(0, 0), hotbar_itemcount, 0, mainlist, playeritem + 1, 0);
+			drawItems(pos, v2s32(0, 0), hotbar_item_count, 0, mainlist, playeritem + 1, 0);
 		}
 	} else {
 		pos.X += width/4;
 
 		v2s32 secondpos = pos;
-		pos = pos - v2s32(0, m_hotbar_imagesize + m_padding);
+		pos = pos - v2s32(0, m_hotbar_image_size);
 
 		if (player->hud_flags & HUD_FLAG_HOTBAR_VISIBLE) {
-			drawItems(pos, v2s32(0, 0), hotbar_itemcount / 2, 0,
+			drawItems(pos, v2s32(0, 0), hotbar_item_count / 2, 0,
 				mainlist, playeritem + 1, 0);
-			drawItems(secondpos, v2s32(0, 0), hotbar_itemcount,
-				hotbar_itemcount / 2, mainlist, playeritem + 1, 0);
+			drawItems(secondpos, v2s32(0, 0), hotbar_item_count,
+				hotbar_item_count / 2, mainlist, playeritem + 1, 0);
 		}
 	}
 }
@@ -971,12 +1009,8 @@ void Hud::resizeHotbar() {
 	const v2u32 &window_size = RenderingEngine::getWindowSize();
 
 	if (m_screensize != window_size) {
-		m_hotbar_imagesize = floor(HOTBAR_IMAGE_SIZE *
-			RenderingEngine::getDisplayDensity() + 0.5);
-		m_hotbar_imagesize *= m_hud_scaling;
-		m_padding = m_hotbar_imagesize / 12;
 		m_screensize = window_size;
-		m_displaycenter = v2s32(m_screensize.X/2,m_screensize.Y/2);
+		updateHotbarParams();
 	}
 }
 
