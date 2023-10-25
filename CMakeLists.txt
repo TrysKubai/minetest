@@ -70,9 +70,8 @@ set(ENABLE_UPDATE_CHECKER FALSE CACHE BOOL
 	"Whether to enable update checks by default")
 
 set(RESOURCES_DIR "${CMAKE_SOURCE_DIR}/resources" CACHE STRING "Base dir of non-compiled resource files")
-# These settings should not be cached or use some intermediary parameter
-set(OUTPUT_DIR "${CMAKE_BINARY_DIR}/builds/${CMAKE_BUILD_TYPE}" CACHE STRING "Directory to place build artifacts")
-set(INSTALL_DIR "${CMAKE_SOURCE_DIR}/out/${CMAKE_BUILD_TYPE}" CACHE STRING "Directory to place installation files")
+set(OVERRIDE_OUTPUT_DIR "" CACHE STRING "Override build artifacts placement directory")
+set(OVERRIDE_INSTALL_DIR "" CACHE STRING "Override installation file placement location")
 
 set(IRRLICHTMT_BUILD_DIR "" CACHE PATH "Path to IrrlichtMt build directory.")
 
@@ -81,6 +80,18 @@ set(INSTALL_DEVTEST FALSE CACHE BOOL "Install Development Test")
 #
 #	Static & Derivative Parameters
 #
+if("${OVERRIDE_OUTPUT_DIR}" STREQUAL "")
+	set(OUTPUT_DIR "${CMAKE_BINARY_DIR}/builds/${CMAKE_BUILD_TYPE}")
+else()
+	set(OUTPUT_DIR OVERRIDE_OUTPUT_DIR)
+endif()
+
+if("${OVERRIDE_INSTALL_DIR}" STREQUAL "")
+	set(INSTALL_DIR "${CMAKE_BINARY_DIR}/out/${CMAKE_BUILD_TYPE}")
+else()
+	set(INSTALL_DIR OVERRIDE_INSTALL_DIR)
+endif()
+
 
 set(VERSION_STRING "${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH}")
 if(VERSION_EXTRA)
