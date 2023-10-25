@@ -65,7 +65,7 @@ public:
 	void drawBlockBounds();
 
 	void drawHotbar(u16 playeritem);
-	void resizeHotbar();
+	void updateScreenSize();
 	void drawCrosshair();
 	void drawSelectionMesh();
 	void updateSelectionMesh(const v3s16 &camera_offset);
@@ -127,9 +127,9 @@ private:
 	v2s32 m_displaycenter;
 
 	// Hotbar params
-	s32 m_hotbar_image_size; // Takes hud_scaling into account, updated by resizeHotbar()
-	s32 m_hotbar_padding; 			// Takes hud_scaling into account, updated by resizeHotbar()
-	s32 m_hotbar_image_margin;	// Takes hud_scaling into account, updated by resizeHotbar()
+	s32 m_hotbar_image_size; // Takes hud_scaling into account, updated by updateScreenSize()
+	s32 m_hotbar_padding; 			// Takes hud_scaling into account, updated by updateScreenSize()
+	s32 m_hotbar_image_margin;	// Takes hud_scaling into account, updated by updateScreenSize()
 	v2s32 m_hotbar_pos;
 	s32 hotbar_item_count = HUD_HOTBAR_ITEMCOUNT_DEFAULT;
 	std::string hotbar_image = "";

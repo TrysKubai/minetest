@@ -67,6 +67,7 @@ Hud::Hud(Client *client, LocalPlayer *player,
 
 	const v2u32 &window_size = RenderingEngine::getWindowSize();
 	m_screensize = window_size;
+	m_displaycenter = v2s32(m_screensize.X/2, m_screensize.Y/2);
 
 	for (auto &hbar_color : hbar_colors)
 		hbar_color = video::SColor(255, 255, 255, 255);
@@ -839,6 +840,7 @@ void Hud::drawCrosshair()
 		return;
 	}
 
+	
 	if (use_crosshair_image) {
 		video::ITexture *crosshair = tsrc->getTexture("crosshair.png");
 		v2u32 size  = crosshair->getOriginalSize();
@@ -1005,11 +1007,12 @@ void Hud::updateSelectionMesh(const v3s16 &camera_offset)
 		m_halo_boxes, texture_uv, 0.5);
 }
 
-void Hud::resizeHotbar() {
+void Hud::updateScreenSize() {
 	const v2u32 &window_size = RenderingEngine::getWindowSize();
 
 	if (m_screensize != window_size) {
 		m_screensize = window_size;
+		m_displaycenter = v2s32(m_screensize.X/2, m_screensize.Y/2);
 		updateHotbarParams();
 	}
 }
