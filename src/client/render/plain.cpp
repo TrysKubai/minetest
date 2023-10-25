@@ -56,7 +56,7 @@ void DrawHUD::run(PipelineContext &context)
 		if (context.shadow_renderer)
 			context.shadow_renderer->drawDebug();
 
-		context.hud->resizeHotbar();
+		context.hud->updateScreenSize();
 
 		if (context.draw_crosshair)
 			context.hud->drawCrosshair();
