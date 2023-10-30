@@ -1,0 +1,5 @@
+<map id="irr::core::line2d::nearlyParallel" name="irr::core::line2d::nearlyParallel">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,133,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1line2d.html#aeb0b7bc3987165abc0eaca7f0e506a59" title="Get the vector of the line." alt="" coords="186,5,314,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1vector2d.html#a71588d7797092e07520d8fca9689ba99" title="check if this vector is parallel to another vector" alt="" coords="181,71,319,112"/>
+</map>

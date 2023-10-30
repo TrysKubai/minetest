@@ -1,0 +1,5 @@
+<map id="irr::video::S3DVertex" name="irr::video::S3DVertex">
+<area shape="rect" id="node1" title="standard vertex used by the Irrlicht engine." alt="" coords="155,5,311,32"/>
+<area shape="rect" id="node2" href="$structirr_1_1video_1_1S3DVertex2TCoords.html" title="Vertex with two texture coordinates." alt="" coords="5,80,221,107"/>
+<area shape="rect" id="node3" href="$structirr_1_1video_1_1S3DVertexTangents.html" title="Vertex with a tangent and binormal vector." alt="" coords="246,80,461,107"/>
+</map>

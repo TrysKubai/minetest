@@ -1,0 +1,7 @@
+<map id="irr::video::COpenGL3MaterialRenderer" name="irr::video::COpenGL3MaterialRenderer">
+<area shape="rect" id="node1" title=" " alt="" coords="117,169,328,211"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1COpenGL3Renderer2D.html" title=" " alt="" coords="106,259,339,285"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IMaterialRenderer.html" title="Interface for material rendering." alt="" coords="5,87,211,114"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="24,5,192,32"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1IMaterialRendererServices.html" title="Interface providing some methods for changing advanced, internal states of a IVideoDriver." alt="" coords="235,80,440,121"/>
+</map>

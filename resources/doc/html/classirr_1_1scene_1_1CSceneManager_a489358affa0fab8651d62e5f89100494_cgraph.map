@@ -1,0 +1,23 @@
+<map id="irr::scene::CSceneManager::drawAll" name="irr::scene::CSceneManager::drawAll">
+<area shape="rect" id="node1" title="draws all scene nodes" alt="" coords="5,352,200,393"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1CSceneManager.html#acc2357e6d3ed7cd44fc073545bb5f8ff" title="clears the deletion list" alt="" coords="263,5,457,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1ISceneNode.html#a09a1c2ce3cf5448197a0c7b0bb16a516" title="Gets the absolute position of the node in world coordinates." alt="" coords="277,71,443,112"/>
+<area shape="rect" id="node5" href="$classirr_1_1io_1_1CAttributes.html#a99c9babd4d0e18824200c566bb354866" title=" " alt="" coords="283,136,437,177"/>
+<area shape="rect" id="node6" href="$classirr_1_1video_1_1IVideoDriver.html#af119ebfd02f99f77a463007277abf14a" title="Get the global Material, which might override local materials." alt="" coords="275,201,445,243"/>
+<area shape="rect" id="node7" href="$classirr_1_1os_1_1Timer.html#a640377de088feab25b5b83f8d4ecc50d" title="returns the current time in milliseconds" alt="" coords="277,267,443,294"/>
+<area shape="rect" id="node9" href="$classirr_1_1scene_1_1ISceneNode.html#afc1dcb5cb19116d0c7aa3d4ebdf04cc5" title="OnAnimate() is called just before rendering the whole scene." alt="" coords="277,319,443,360"/>
+<area shape="rect" id="node16" href="$classirr_1_1scene_1_1ISceneNode.html#ac9795bfcb88dcaf8cba6ea3296e5d8d0" title="This method is called just before the rendering process of the whole scene." alt="" coords="273,384,447,425"/>
+<area shape="rect" id="node17" href="$classirr_1_1scene_1_1CSceneManager.html#a66305553150187b24d2b74967b65f6ae" title="renders the node." alt="" coords="263,449,457,491"/>
+<area shape="rect" id="node18" href="$classirr_1_1scene_1_1ISceneNode.html#aff530cc4856792101d0aedee51ce35fa" title="Renders the node." alt="" coords="277,515,443,556"/>
+<area shape="rect" id="node19" href="$classirr_1_1video_1_1IVideoDriver.html#af78022589e5b7cb42b4d6ed2f7950e42" title="Only used by the engine internally." alt="" coords="248,580,472,621"/>
+<area shape="rect" id="node20" href="$classirr_1_1video_1_1IVideoDriver.html#a8c9e31b41b7e6fd26cf65ce538ebab05" title="Sets a material." alt="" coords="275,645,445,687"/>
+<area shape="rect" id="node21" href="$classirr_1_1video_1_1IVideoDriver.html#aaf6e88bedf7b91666a2bd34f46e092fc" title="Sets transformation matrices." alt="" coords="275,711,445,752"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1CMatrix4.html#a574f83a4c1c6809f71ccb200020983f7" title="Gets the current translation." alt="" coords="543,71,681,112"/>
+<area shape="rect" id="node8" href="$classirr_1_1os_1_1Timer.html#aad6c27db995b80c795038bb2f827dfc5" title="returns if the timer currently is stopped" alt="" coords="523,267,701,294"/>
+<area shape="rect" id="node10" href="$classirr_1_1scene_1_1ISceneNode.html#aeb6e0dc034bb2101600ce87acbcf0f6e" title="Updates the absolute position based on the relative and the parents position." alt="" coords="520,319,704,360"/>
+<area shape="rect" id="node11" href="$classirr_1_1scene_1_1ISceneNode.html#af13dc546a7be796cc0868a2eec51e508" title="Get the absolute transformation of the node. Is recalculated every OnAnimate()&#45;call." alt="" coords="752,285,959,327"/>
+<area shape="rect" id="node12" href="$classirr_1_1scene_1_1ISceneNode.html#ac7c47ec49174315af83cf5f5d24edb24" title="Returns the relative transformation of the scene node." alt="" coords="754,351,957,392"/>
+<area shape="rect" id="node13" href="$classirr_1_1core_1_1CMatrix4.html#a8ee5ef8619d4b0f56d72ac84495ed644" title="Make a rotation matrix from Euler angles. The 4th row and column are unmodified." alt="" coords="1007,285,1165,327"/>
+<area shape="rect" id="node14" href="$classirr_1_1core_1_1CMatrix4.html#a47117d44419af87e70084c01ab852049" title="Set Scale." alt="" coords="1017,351,1155,392"/>
+<area shape="rect" id="node15" href="$classirr_1_1core_1_1CMatrix4.html#ac04a3b341cbfbb7986be682691655622" title="Set the translation of the current matrix. Will erase any previous values." alt="" coords="1017,416,1155,457"/>
+</map>

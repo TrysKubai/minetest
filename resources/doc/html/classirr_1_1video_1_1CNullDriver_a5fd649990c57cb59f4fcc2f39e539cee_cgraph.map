@@ -1,0 +1,8 @@
+<map id="irr::video::CNullDriver::addOcclusionQuery" name="irr::video::CNullDriver::addOcclusionQuery">
+<area shape="rect" id="node1" title="Create occlusion query." alt="" coords="5,136,168,177"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1ISceneNode.html#a0748cd5c678e41a4fcff0514937c77be" title="Gets the automatic culling state." alt="" coords="229,5,395,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1IAnimatedMeshSceneNode.html#ad52e5bd15a2bfb6d0745c77d4329086b" title="Returns the current mesh." alt="" coords="216,71,408,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1scene_1_1ISceneNode.html#a3468b09e4afa009d2036efbea9c09b8c" title="Returns type of the scene node." alt="" coords="229,136,395,177"/>
+<area shape="rect" id="node5" href="$classirr_1_1IReferenceCounted.html#a396f9cdbe311ada278626477b3c6f0f5" title="Grabs the object. Increments the reference counter by one." alt="" coords="228,201,396,243"/>
+<area shape="rect" id="node6" href="$classirr_1_1scene_1_1ISceneNode.html#a5fcd62dbf524b8d2d6daa61c7d6cf119" title="Set a culling style or disable culling completely." alt="" coords="229,267,395,308"/>
+</map>

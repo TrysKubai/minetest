@@ -1,0 +1,37 @@
+<map id="OreScatter" name="OreScatter">
+<area shape="rect" id="node1" title=" " alt="" coords="1925,607,2016,633"/>
+<area shape="rect" id="node2" href="$classOre.html" title=" " alt="" coords="1831,607,1876,633"/>
+<area shape="rect" id="node3" href="$classObjDef.html" title=" " alt="" coords="1251,41,1318,68"/>
+<area shape="rect" id="node4" title=" " alt="" coords="828,41,887,68"/>
+<area shape="rect" id="node5" title=" " alt="" coords="834,215,881,241"/>
+<area shape="rect" id="node6" href="$classNodeResolver.html" title=" " alt="" coords="1556,837,1669,864"/>
+<area shape="rect" id="node33" href="$structNoiseParams.html" title=" " alt="" coords="1231,496,1338,523"/>
+<area shape="rect" id="node35" href="$classNoise.html" title=" " alt="" coords="1583,433,1642,460"/>
+<area shape="rect" id="node7" href="$classNodeDefManager.html" title="This class is for getting the actual properties of nodes from their content ID." alt="" coords="1217,864,1353,891"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1aabbox3d.html" title=" " alt="" coords="785,721,929,762"/>
+<area shape="rect" id="node9" href="$classirr_1_1core_1_1vector3d.html" title=" " alt="" coords="412,767,549,809"/>
+<area shape="rect" id="node10" title=" " alt="" coords="170,1200,215,1227"/>
+<area shape="rect" id="node11" href="$classirr_1_1core_1_1vector3d.html" title="3d vector template class with lots of operators and methods." alt="" coords="105,560,280,587"/>
+<area shape="rect" id="node27" href="$classirr_1_1core_1_1vector3d.html" title=" " alt="" coords="412,553,549,594"/>
+<area shape="rect" id="node12" title=" " alt="" coords="5,560,44,587"/>
+<area shape="rect" id="node13" href="$classirr_1_1core_1_1aabbox3d.html" title="Axis aligned bounding box in 3d dimensional space." alt="" coords="389,665,572,692"/>
+<area shape="rect" id="node26" href="$classirr_1_1core_1_1aabbox3d.html" title=" " alt="" coords="785,655,929,697"/>
+<area shape="rect" id="node14" title=" " alt="" coords="134,665,251,692"/>
+<area shape="rect" id="node15" title=" " alt="" coords="778,787,937,843"/>
+<area shape="rect" id="node16" title=" " alt="" coords="757,867,957,893"/>
+<area shape="rect" id="node17" title=" " alt="" coords="834,553,881,580"/>
+<area shape="rect" id="node18" href="$structContentLightingFlags.html" title=" " alt="" coords="777,968,937,995"/>
+<area shape="rect" id="node19" title=" " alt="" coords="461,716,500,743"/>
+<area shape="rect" id="node20" href="$classbool.html" title=" " alt="" coords="455,1183,506,1209"/>
+<area shape="rect" id="node21" href="$classNameIdMapping.html" title=" " alt="" coords="793,917,922,944"/>
+<area shape="rect" id="node22" title=" " alt="" coords="401,911,560,953"/>
+<area shape="rect" id="node23" title=" " alt="" coords="397,846,564,887"/>
+<area shape="rect" id="node24" title=" " alt="" coords="760,1019,955,1045"/>
+<area shape="rect" id="node25" title=" " alt="" coords="778,1070,937,1111"/>
+<area shape="rect" id="node28" title=" " alt="" coords="167,359,218,385"/>
+<area shape="rect" id="node29" title=" " alt="" coords="1205,813,1364,840"/>
+<area shape="rect" id="node30" title=" " alt="" coords="1219,915,1350,941"/>
+<area shape="rect" id="node31" title=" " alt="" coords="1535,1393,1690,1420"/>
+<area shape="rect" id="node32" title=" " alt="" coords="1513,1444,1712,1471"/>
+<area shape="rect" id="node34" title=" " alt="" coords="835,392,880,419"/>
+</map>

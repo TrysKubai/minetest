@@ -1,0 +1,4 @@
+<map id="irr::gui::GUISkin::draw3DMenuPane" name="irr::gui::GUISkin::draw3DMenuPane">
+<area shape="rect" id="node1" title="draws a standard 3d menu pane" alt="" coords="5,5,144,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1GUISkin.html#af2133f8c6ad201797431fbff25dd00ae" title="draws a standard 3d menu pane" alt="" coords="192,5,381,47"/>
+</map>

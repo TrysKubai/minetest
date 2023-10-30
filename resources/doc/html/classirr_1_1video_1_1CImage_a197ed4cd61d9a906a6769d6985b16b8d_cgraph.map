@@ -1,0 +1,9 @@
+<map id="irr::video::CImage::copyTo" name="irr::video::CImage::copyTo">
+<area shape="rect" id="node1" title="copies this surface into another" alt="" coords="5,133,144,175"/>
+<area shape="rect" id="node2" href="$namespaceirr.html#a7cf0b599e3afb1a657cf6a9757e9e163" title=" " alt="" coords="243,111,309,138"/>
+<area shape="rect" id="node7" href="$classirr_1_1video_1_1IImage.html#a2e54dd41abc9f56e81f72de5e8538aee" title="check if this is compressed color format" alt="" coords="192,163,360,204"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1IImage.html#a5cf67b7209a93d12a02b30d3994af414" title="Returns bytes per pixel." alt="" coords="408,5,548,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1IImage.html#a226cba5c336847caae221a19a0ba932d" title="Use this to get a pointer to the image data." alt="" coords="411,71,545,112"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1IImage.html#adc7e2f7b2f592e8dbac545a8932d2645" title="Returns pitch of image." alt="" coords="411,136,545,177"/>
+<area shape="rect" id="node6" href="$namespaceirr.html#af037e002b14219cdcb337a6868e5258e" title="2D Intersection test" alt="" coords="427,202,529,229"/>
+</map>

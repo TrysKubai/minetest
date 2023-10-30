@@ -1,0 +1,13 @@
+<map id="irr::video::S3DVertexTangents" name="irr::video::S3DVertexTangents">
+<area shape="rect" id="node1" title="Vertex with a tangent and binormal vector." alt="" coords="64,440,279,467"/>
+<area shape="rect" id="node2" href="$structirr_1_1video_1_1S3DVertex.html" title="standard vertex used by the Irrlicht engine." alt="" coords="240,363,396,389"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1vector2d.html" title=" " alt="" coords="407,243,544,284"/>
+<area shape="rect" id="node4" title=" " alt="" coords="578,124,621,151"/>
+<area shape="rect" id="node5" href="$classirr_1_1core_1_1vector2d.html" title="2d vector template class with lots of operators and methods." alt="" coords="379,124,553,151"/>
+<area shape="rect" id="node6" title=" " alt="" coords="259,5,297,32"/>
+<area shape="rect" id="node9" href="$classirr_1_1core_1_1vector3d.html" title="3d vector template class with lots of operators and methods." alt="" coords="5,124,180,151"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1vector3d.html" title=" " alt="" coords="88,243,225,284"/>
+<area shape="rect" id="node8" title=" " alt="" coords="205,124,255,151"/>
+<area shape="rect" id="node10" href="$classirr_1_1video_1_1SColor.html" title="Class representing a 32 bit ARGB color." alt="" coords="251,250,382,277"/>
+<area shape="rect" id="node11" title=" " alt="" coords="279,124,354,151"/>
+</map>

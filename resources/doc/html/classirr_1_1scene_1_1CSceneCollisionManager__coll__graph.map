@@ -1,0 +1,9 @@
+<map id="irr::scene::CSceneCollisionManager" name="irr::scene::CSceneCollisionManager">
+<area shape="rect" id="node1" title=" " alt="" coords="799,64,993,105"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1ISceneCollisionManager.html" title=" " alt="" coords="459,5,649,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="241,71,409,98"/>
+<area shape="rect" id="node6" href="$classirr_1_1scene_1_1ISceneManager.html" title="The Scene Manager manages scene nodes, mesh resources, cameras and all the other stuff." alt="" coords="459,71,649,98"/>
+<area shape="rect" id="node7" href="$classirr_1_1video_1_1IVideoDriver.html" title="Interface to driver which is able to perform 2d and 3d graphics functions." alt="" coords="469,122,639,149"/>
+<area shape="rect" id="node4" title=" " alt="" coords="13,46,64,73"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,97,72,123"/>
+</map>

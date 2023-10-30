@@ -1,0 +1,28 @@
+var classirr_1_1video_1_1COpenGL3ExtensionHandler =
+[
+    [ "COpenGL3ExtensionHandler", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#a8c4412ba89d94f7c19f621cbf7e55742", null ],
+    [ "addExtension", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#acf92e8ed6b526596a00e63a6aafa9a63", null ],
+    [ "GetInteger", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#a00e02eea3c6c5b9a767a1d62d0e2ff16", null ],
+    [ "initExtensionsNew", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#ab313763abb90b833f5f6289b0bfcd739", null ],
+    [ "initExtensionsOld", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#ad088a4a6ca2b66eed9d10283ba220e9b", null ],
+    [ "irrGlActiveTexture", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#a9dec9e7097f9e1aff2ab5aa6446b53e2", null ],
+    [ "irrGlBindFramebuffer", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#aa742bdf5ecf01e5a416e0a3eb4f17a94", null ],
+    [ "irrGlBlendEquation", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#a0d4e73c575058aeaa0afab5ebd54e6fe", null ],
+    [ "irrGlBlendFuncSeparate", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#a8400643491abc7247c40d4b175538349", null ],
+    [ "irrGlCheckFramebufferStatus", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#ae356229beaf723bb13a84473b497ae8a", null ],
+    [ "irrGlCompressedTexImage2D", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#a112544fd6543e68b617d637bba8e1307", null ],
+    [ "irrGlCompressedTexSubImage2D", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#a928b16a2ba895a0d46595102edcb4bc1", null ],
+    [ "irrGlDeleteFramebuffers", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#a2633a1a050234593decc2ee8ef5acc06", null ],
+    [ "irrGlDrawBuffer", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#aa4993e7590b03aa06c83e7a4e4f97643", null ],
+    [ "irrGlDrawBuffers", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#a20ab05ea83fce7b16f2bcf8d3dc3f18a", null ],
+    [ "irrGlFramebufferTexture2D", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#a174c45970e4a902f60f86269aca5a733", null ],
+    [ "irrGlGenerateMipmap", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#a7bf3d229ee6d94ae65e349aacd59dd05", null ],
+    [ "irrGlGenFramebuffers", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#aeb3bffe4461cd7cffbb018edd224523b", null ],
+    [ "irrGlUseProgram", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#a8c33310a788874c220828e8f77048578", null ],
+    [ "queryExtension", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#a1174046865b62dfface870b3ae81fc1c", null ],
+    [ "queryFeature", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#adeecea81d977548a2dd9425abe7160e6", null ],
+    [ "updateLegacyExtensionList", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#a64d4035db9b6236c57f5c70d0991d2ba", null ],
+    [ "AnisotropicFilterSupported", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#ad63dd621c129d59e8a40d2a68742f257", null ],
+    [ "BlendMinMaxSupported", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#a5fa411e6756f6b7db64f0067bc9cbf4c", null ],
+    [ "Extensions", "classirr_1_1video_1_1COpenGL3ExtensionHandler.html#a80298d68573f7354cd6d0f9c78eba39d", null ]
+];

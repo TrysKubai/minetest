@@ -1,0 +1,7 @@
+<map id="MapDatabase" name="MapDatabase">
+<area shape="rect" id="node1" title=" " alt="" coords="210,80,322,107"/>
+<area shape="rect" id="node3" href="$classDatabase__Dummy.html" title=" " alt="" coords="5,155,148,181"/>
+<area shape="rect" id="node4" href="$classMapDatabasePostgreSQL.html" title=" " alt="" coords="173,155,359,181"/>
+<area shape="rect" id="node5" href="$classMapDatabaseSQLite3.html" title=" " alt="" coords="383,155,546,181"/>
+<area shape="rect" id="node2" href="$classDatabase.html" title=" " alt="" coords="224,5,308,32"/>
+</map>

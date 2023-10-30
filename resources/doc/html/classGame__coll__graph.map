@@ -1,0 +1,52 @@
+<map id="Game" name="Game">
+<area shape="rect" id="node1" title=" " alt="" coords="2376,2359,2437,2385"/>
+<area shape="rect" id="node2" href="$classIntervalLimiter.html" title=" " alt="" coords="757,1815,876,1841"/>
+<area shape="rect" id="node7" href="$classClient.html" title=" " alt="" coords="1205,1601,1265,1628"/>
+<area shape="rect" id="node32" href="$classServer.html" title=" " alt="" coords="1203,543,1267,569"/>
+<area shape="rect" id="node3" title=" " alt="" coords="339,1935,389,1961"/>
+<area shape="rect" id="node5" href="$structGameRunData.html" title=" " alt="" coords="1991,1359,2109,1385"/>
+<area shape="rect" id="node22" href="$structMapDrawControl.html" title=" " alt="" coords="969,2384,1099,2411"/>
+<area shape="rect" id="node23" href="$classRenderingEngine.html" title=" " alt="" coords="751,2056,883,2083"/>
+<area shape="rect" id="node37" href="$classHud.html" title=" " alt="" coords="1601,1867,1649,1893"/>
+<area shape="rect" id="node43" href="$classSky.html" title=" " alt="" coords="1602,2980,1647,3007"/>
+<area shape="rect" id="node45" href="$classSoundMaker.html" title=" " alt="" coords="1183,248,1286,275"/>
+<area shape="rect" id="node4" title=" " alt="" coords="2015,363,2085,389"/>
+<area shape="rect" id="node6" href="$classClientActiveObject.html" title=" " alt="" coords="1553,1599,1696,1625"/>
+<area shape="rect" id="node17" href="$classCamera.html" title=" " alt="" coords="1588,2280,1661,2307"/>
+<area shape="rect" id="node30" href="$classMinimap.html" title=" " alt="" coords="1585,709,1664,736"/>
+<area shape="rect" id="node39" href="$classGUIChatConsole.html" title=" " alt="" coords="1561,2736,1689,2763"/>
+<area shape="rect" id="node8" href="$classNodeDefManager.html" title="This class is for getting the actual properties of nodes from their content ID." alt="" coords="749,311,885,337"/>
+<area shape="rect" id="node9" href="$classirr_1_1core_1_1aabbox3d.html" title=" " alt="" coords="292,62,436,103"/>
+<area shape="rect" id="node10" title=" " alt="" coords="285,128,443,184"/>
+<area shape="rect" id="node11" title=" " alt="" coords="264,208,464,235"/>
+<area shape="rect" id="node12" title=" " alt="" coords="341,1019,387,1045"/>
+<area shape="rect" id="node31" href="$structPointedThing.html" title="An active object or node which is selected by a ray on the map." alt="" coords="1571,1255,1678,1281"/>
+<area shape="rect" id="node42" href="$classClouds.html" title=" " alt="" coords="1591,2616,1658,2643"/>
+<area shape="rect" id="node13" href="$structContentLightingFlags.html" title=" " alt="" coords="284,259,444,285"/>
+<area shape="rect" id="node14" href="$classbool.html" title=" " alt="" coords="5,2369,56,2396"/>
+<area shape="rect" id="node20" href="$classirr_1_1scene_1_1ISceneNode.html" title="Scene node interface." alt="" coords="1151,2808,1318,2835"/>
+<area shape="rect" id="node44" href="$structGame_1_1Flags.html" title=" " alt="" coords="536,3312,640,3339"/>
+<area shape="rect" id="node15" href="$classNameIdMapping.html" title=" " alt="" coords="299,387,429,413"/>
+<area shape="rect" id="node16" title=" " alt="" coords="267,437,461,464"/>
+<area shape="rect" id="node18" href="$classirr_1_1core_1_1vector3d.html" title="3d vector template class with lots of operators and methods." alt="" coords="1147,1853,1322,1880"/>
+<area shape="rect" id="node19" href="$classirr_1_1scene_1_1ISceneManager.html" title="The Scene Manager manages scene nodes, mesh resources, cameras and all the other stuff." alt="" coords="721,2724,912,2751"/>
+<area shape="rect" id="node21" title=" " alt="" coords="1213,972,1256,999"/>
+<area shape="rect" id="node36" href="$structClientDynamicInfo.html" title=" " alt="" coords="1751,919,1893,945"/>
+<area shape="rect" id="node24" href="$classirr_1_1IrrlichtDevice.html" title="The Irrlicht device. You can create it with createDevice() or createDeviceEx()." alt="" coords="299,2259,429,2285"/>
+<area shape="rect" id="node25" href="$classirr_1_1video_1_1IVideoDriver.html" title="Interface to driver which is able to perform 2d and 3d graphics functions." alt="" coords="279,1327,449,1353"/>
+<area shape="rect" id="node26" href="$classIWritableTextureSource.html" title=" " alt="" coords="730,1416,903,1443"/>
+<area shape="rect" id="node27" href="$classIWritableItemDefManager.html" title=" " alt="" coords="721,439,912,465"/>
+<area shape="rect" id="node28" title=" " alt="" coords="797,1187,836,1213"/>
+<area shape="rect" id="node29" href="$classIWritableShaderSource.html" title=" " alt="" coords="731,1865,902,1892"/>
+<area shape="rect" id="node33" href="$classQuicktuneShortcutter.html" title=" " alt="" coords="1970,2460,2130,2487"/>
+<area shape="rect" id="node34" href="$classInputHandler.html" title=" " alt="" coords="1997,2511,2103,2537"/>
+<area shape="rect" id="node35" href="$classGameOnDemandSoundFetcher.html" title=" " alt="" coords="1939,2561,2161,2588"/>
+<area shape="rect" id="node38" href="$classChatBackend.html" title=" " alt="" coords="1181,2909,1288,2936"/>
+<area shape="rect" id="node40" href="$structClientEventHandler.html" title=" " alt="" coords="1976,2839,2124,2865"/>
+<area shape="rect" id="node41" title=" " alt="" coords="1963,2889,2137,2916"/>
+<area shape="rect" id="node46" href="$classEventManager.html" title=" " alt="" coords="1992,3355,2108,3381"/>
+<area shape="rect" id="node47" title=" " alt="" coords="1939,3405,2161,3432"/>
+<area shape="rect" id="node48" title=" " alt="" coords="1944,3456,2156,3512"/>
+<area shape="rect" id="node49" title=" " alt="" coords="1967,3537,2133,3578"/>
+<area shape="rect" id="node50" href="$classLogOutputBuffer.html" title=" " alt="" coords="1986,3603,2114,3629"/>
+</map>

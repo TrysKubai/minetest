@@ -1,0 +1,10 @@
+<map id="irr::video::CNullDriver::SHWBufferLink" name="irr::video::CNullDriver::SHWBufferLink">
+<area shape="rect" id="node1" title=" " alt="" coords="243,275,405,316"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,171,187,197"/>
+<area shape="rect" id="node3" title=" " alt="" coords="211,171,285,197"/>
+<area shape="rect" id="node4" href="$classirr_1_1scene_1_1IMeshBuffer.html" title="Struct for holding a mesh with a single material." alt="" coords="312,171,480,197"/>
+<area shape="rect" id="node5" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="312,95,480,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="313,5,364,32"/>
+<area shape="rect" id="node7" title=" " alt="" coords="421,5,488,32"/>
+<area shape="rect" id="node8" title=" " alt="" coords="505,171,575,197"/>
+</map>

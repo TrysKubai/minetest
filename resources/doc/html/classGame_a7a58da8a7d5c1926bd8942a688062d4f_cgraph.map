@@ -1,0 +1,14 @@
+<map id="Game::updatePointedThing" name="Game::updatePointedThing">
+<area shape="rect" id="node1" title=" " alt="" coords="5,294,204,321"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1ISceneNode.html#af13dc546a7be796cc0868a2eec51e508" title="Get the absolute transformation of the node. Is recalculated every OnAnimate()&#45;call." alt="" coords="252,5,459,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1SColor.html#afb60ac456b2efc2f2a4f04a643293d26" title="Returns the blue component of the color." alt="" coords="290,71,421,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1SColor.html#a198773366f2a5436c1ca4adc9037bb8d" title="Returns the green component of the color." alt="" coords="290,136,421,177"/>
+<area shape="rect" id="node5" href="$structMapNode.html#ad0672c436fa3bffef6cfe2c9b313a3b9" title=" " alt="" coords="266,202,445,229"/>
+<area shape="rect" id="node7" href="$classirr_1_1video_1_1SColor.html#a70d11ec2247581c79ee11e0e1b511978" title="Returns the red component of the color." alt="" coords="290,253,421,295"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1CMatrix4.html#a0f650647b58282ea44a23508fc6a9dc0" title="Get the rotation, as set by setRotation() when you already know the scale used to create the matrix." alt="" coords="275,319,435,360"/>
+<area shape="rect" id="node9" href="$classClientActiveObject.html#abf6d5ee06d3dae4bf271865a191d5d6d" title=" " alt="" coords="284,384,427,425"/>
+<area shape="rect" id="node10" href="$classirr_1_1video_1_1SColor.html#a13d82e6b52d32f7394f3cce041dc2965" title="Sets the blue component of the Color." alt="" coords="290,449,421,491"/>
+<area shape="rect" id="node11" href="$classirr_1_1video_1_1SColor.html#af80cfedd5e761216b8bed259963ac948" title="Sets the green component of the Color." alt="" coords="290,515,421,556"/>
+<area shape="rect" id="node12" href="$classirr_1_1video_1_1SColor.html#a950c98714711ae9dd8c5219f83c07693" title="Sets the red component of the Color." alt="" coords="290,580,421,621"/>
+<area shape="rect" id="node6" href="$classNodeDefManager.html#a1454fd287c77a8d41c4a67bc474114b4" title=" " alt="" coords="507,202,672,229"/>
+</map>

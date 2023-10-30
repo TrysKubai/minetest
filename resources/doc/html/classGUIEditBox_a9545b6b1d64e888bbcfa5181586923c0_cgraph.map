@@ -1,0 +1,5 @@
+<map id="GUIEditBox::setPasswordBox" name="GUIEditBox::setPasswordBox">
+<area shape="rect" id="node1" title="Sets whether the edit box is a password box. Setting this to true will." alt="" coords="5,31,216,57"/>
+<area shape="rect" id="node2" href="$classGUIEditBox.html#a0bc46f4503438867b3db2fee0e5eda43" title="Enables or disables newlines." alt="" coords="267,5,451,32"/>
+<area shape="rect" id="node3" href="$classGUIEditBox.html#a53e1377fc66fce369f233a7d2881501d" title="Enables or disables word wrap for using the edit box as multiline text editor." alt="" coords="264,56,455,83"/>
+</map>

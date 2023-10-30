@@ -1,0 +1,13 @@
+<map id="irr::scene::CCameraSceneNode::render" name="irr::scene::CCameraSceneNode::render">
+<area shape="rect" id="node1" title="Render." alt="" coords="5,97,195,139"/>
+<area shape="rect" id="node2" href="$structirr_1_1scene_1_1SViewFrustum.html#acf8edd203e7479d2b444ed548075ffa6" title="get the given state&#39;s matrix based on frustum E_TRANSFORMATION_STATE" alt="" coords="499,5,681,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1ISceneManager.html#afde082160205a8faab44cd5b61e3745c" title="Get the video driver." alt="" coords="243,64,433,105"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1IVideoDriver.html#aaf6e88bedf7b91666a2bd34f46e092fc" title="Sets transformation matrices." alt="" coords="253,129,423,171"/>
+<area shape="rect" id="node5" href="$classirr_1_1scene_1_1CCameraSceneNode.html#adecfaffa58c4a89150d2e780ae9f130f" title="Update." alt="" coords="243,195,433,236"/>
+<area shape="rect" id="node6" href="$classirr_1_1core_1_1CMatrix4.html#a78e15297c806006898df58498755ecd4" title="Builds a left&#45;handed look&#45;at matrix." alt="" coords="481,71,699,112"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1vector3d.html#ae220d3f24173601c5957961382588394" title="Get the dot product with another vector." alt="" coords="521,136,659,177"/>
+<area shape="rect" id="node8" href="$namespaceirr_1_1core.html#ac1fa0ed48254bc3d2797468f3ffff735" title="returns if a equals b, taking possible rounding errors into account" alt="" coords="529,202,651,229"/>
+<area shape="rect" id="node9" href="$classirr_1_1scene_1_1ISceneNode.html#a09a1c2ce3cf5448197a0c7b0bb16a516" title="Gets the absolute position of the node in world coordinates." alt="" coords="507,253,673,295"/>
+<area shape="rect" id="node11" href="$classirr_1_1core_1_1vector3d.html#a84a1861464ef70e6965c146732103c09" title="Normalizes the vector." alt="" coords="521,319,659,360"/>
+<area shape="rect" id="node10" href="$classirr_1_1core_1_1CMatrix4.html#a574f83a4c1c6809f71ccb200020983f7" title="Gets the current translation." alt="" coords="747,253,885,295"/>
+</map>

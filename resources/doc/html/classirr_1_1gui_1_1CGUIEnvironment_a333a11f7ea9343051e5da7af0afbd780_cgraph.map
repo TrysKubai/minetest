@@ -1,0 +1,8 @@
+<map id="irr::gui::CGUIEnvironment::createSkin" name="irr::gui::CGUIEnvironment::createSkin">
+<area shape="rect" id="node1" title="Creates a new GUI Skin based on a template." alt="" coords="5,136,193,177"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1CGUIEnvironment.html#ad539ee4ffda324c8ecdc26f648281b89" title="returns default font" alt="" coords="241,5,429,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1IGUIFontBitmap.html#ab9185a0c2e708958a8caae7bdeba9deb" title="returns the parsed Symbol Information" alt="" coords="248,71,423,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1IGUIFont.html#a3d5a42997a718b510b73e7d6235b993e" title="Returns the type of this font." alt="" coords="271,136,399,177"/>
+<area shape="rect" id="node5" href="$classirr_1_1gui_1_1IGUISkin.html#a1e315ed3175b14294ba753911f8423eb" title="sets a default font" alt="" coords="271,201,399,243"/>
+<area shape="rect" id="node6" href="$classirr_1_1gui_1_1IGUISkin.html#a65c467725a7b2cd2bf772b5ae2efac44" title="sets the sprite bank" alt="" coords="271,267,399,308"/>
+</map>

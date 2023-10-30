@@ -1,0 +1,8 @@
+<map id="irr::scene::ISkinnedMesh" name="irr::scene::ISkinnedMesh">
+<area shape="rect" id="node1" title="Interface for using some special functions of Skinned meshes." alt="" coords="11,323,192,349"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1IAnimatedMesh.html" title="Interface for an animated mesh." alt="" coords="5,247,197,273"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1IMesh.html" title="Class which holds the geometry of an object." alt="" coords="37,171,166,197"/>
+<area shape="rect" id="node4" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="17,95,185,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="19,5,69,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="127,5,193,32"/>
+</map>

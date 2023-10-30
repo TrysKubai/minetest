@@ -1,0 +1,25 @@
+var structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint =
+[
+    [ "SJoint", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#a03896227a712b8e52a6e7ee5a2a6f3b2", null ],
+    [ "CSkinnedMesh", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#a9fe6767b50580f2235b3a86dda1e5b7c", null ],
+    [ "Animatedposition", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#afab6f8e97ab27f9ccb38414b525d3be8", null ],
+    [ "Animatedrotation", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#ac2339f830add4abe945d6a0d54cc0a98", null ],
+    [ "Animatedscale", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#af0c44ca1f439f609f65364d2ad80a58a", null ],
+    [ "AttachedMeshes", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#af156b11bdfe0702e27bffa5395690eb8", null ],
+    [ "Children", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#ab73e76450062d8761d59f4bd1c8bd21f", null ],
+    [ "GlobalAnimatedMatrix", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#a97acedfcb8e9f3e42066d2ec5d6fd9d9", null ],
+    [ "GlobalInversedMatrix", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#ad260047cd71d4276f095c169f8f3da72", null ],
+    [ "GlobalMatrix", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#a633203c1f514622febdad45edd06b9a5", null ],
+    [ "GlobalSkinningSpace", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#a2c1bc9c351a581293c023ac5bb0d4491", null ],
+    [ "LocalAnimatedMatrix", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#a85a41206d58fcf9c1137816b2458f6df", null ],
+    [ "LocalMatrix", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#a2db3a83c0672a5209ae9b9a8acaa4d8d", null ],
+    [ "Name", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#a1ec471464704aa4c3a7c83fe3c5625d9", null ],
+    [ "positionHint", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#acc5775923838e3d2d4451bb77293babb", null ],
+    [ "PositionKeys", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#a709730c20d5c391e9dc3776fbdc1fce8", null ],
+    [ "rotationHint", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#ab8e9daf4fc0a0fdb5d8375a03f319d22", null ],
+    [ "RotationKeys", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#a4fbaac53f1fe83c5059e1ca12bf33fc5", null ],
+    [ "scaleHint", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#af9723a3a126fa8121046ce6b80d2093f", null ],
+    [ "ScaleKeys", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#aaf8b629afa21dc3a887c0e2bfe253eac", null ],
+    [ "UseAnimationFrom", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#ac5012a24b8632a26708ffe6eece802eb", null ],
+    [ "Weights", "structirr_1_1scene_1_1ISkinnedMesh_1_1SJoint.html#a9e3cce49b0ce616ce1af590080ac3dd6", null ]
+];

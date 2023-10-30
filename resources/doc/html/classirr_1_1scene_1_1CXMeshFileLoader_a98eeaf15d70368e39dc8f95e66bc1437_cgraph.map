@@ -1,0 +1,13 @@
+<map id="irr::scene::CXMeshFileLoader::createMesh" name="irr::scene::CXMeshFileLoader::createMesh">
+<area shape="rect" id="node1" title=" " alt="" coords="5,112,216,153"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1string.html#a4a6d39561b095cbab46185dd20d11d85" title="Returns character string." alt="" coords="299,13,425,55"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="278,79,446,120"/>
+<area shape="rect" id="node4" href="$classirr_1_1scene_1_1CSkinnedMesh.html#a93ac8bd8153e8affb06380b12e2bbafa" title="loaders should call this after populating the mesh" alt="" coords="269,144,455,185"/>
+<area shape="rect" id="node11" href="$classirr_1_1os_1_1Timer.html#aa0a73b26f4f18ac6fbc737caae2061cd" title="returns the current real time in milliseconds" alt="" coords="264,210,460,237"/>
+<area shape="rect" id="node5" href="$classirr_1_1core_1_1aabbox3d.html#a7ccc210a3fb0ce82765d28f2047942c5" title="Adds another bounding box." alt="" coords="531,5,675,47"/>
+<area shape="rect" id="node6" href="$classirr_1_1core_1_1array.html#a142e1833faabec2b7578557fd12e72c2" title="Gets last element." alt="" coords="519,71,688,98"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1array.html#a95afc36513d08abb51bd399755730877" title="Adds an element at back of array." alt="" coords="508,122,699,149"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1array.html#a27ce37ef9e34e55d4f9987c62deda9d6" title="Adds an element at the front of the array." alt="" coords="527,173,679,215"/>
+<area shape="rect" id="node9" href="$classirr_1_1core_1_1aabbox3d.html#afc718e96ed11aa71a30311d32bfc885a" title="Resets the bounding box to a one&#45;point box." alt="" coords="531,239,675,280"/>
+<area shape="rect" id="node10" href="$classirr_1_1core_1_1array.html#af2a884d7e19d685b58617fed4ea4d4b9" title="Get number of occupied elements of the array." alt="" coords="530,305,677,331"/>
+</map>

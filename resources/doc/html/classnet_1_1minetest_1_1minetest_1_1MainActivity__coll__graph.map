@@ -1,0 +1,10 @@
+<map id="net.minetest.minetest.MainActivity" name="net.minetest.minetest.MainActivity">
+<area shape="rect" id="node1" title=" " alt="" coords="453,124,655,165"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,153,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="177,5,237,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="334,5,478,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="502,5,646,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="691,5,729,32"/>
+<area shape="rect" id="node7" title=" " alt="" coords="784,5,884,32"/>
+<area shape="rect" id="node8" title=" " alt="" coords="920,5,1001,32"/>
+</map>

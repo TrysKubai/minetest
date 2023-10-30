@@ -1,0 +1,14 @@
+<map id="irr::video::SExposedVideoData" name="irr::video::SExposedVideoData">
+<area shape="rect" id="node1" title="structure for holding data describing a driver and operating system specific data." alt="" coords="617,233,836,260"/>
+<area shape="rect" id="node2" href="$structirr_1_1video_1_1SExposedVideoData_1_1SOpenGLFB.html" title=" " alt="" coords="283,226,471,267"/>
+<area shape="rect" id="node3" title=" " alt="" coords="48,264,109,291"/>
+<area shape="rect" id="node4" href="$structirr_1_1video_1_1SExposedVideoData_1_1SD3D9.html" title=" " alt="" coords="283,43,471,85"/>
+<area shape="rect" id="node8" href="$structirr_1_1video_1_1SExposedVideoData_1_1SOpenGLWin32.html" title=" " alt="" coords="283,422,471,463"/>
+<area shape="rect" id="node9" href="$structirr_1_1video_1_1SExposedVideoData_1_1SOGLESAndroid.html" title=" " alt="" coords="283,109,471,150"/>
+<area shape="rect" id="node10" href="$structirr_1_1video_1_1SExposedVideoData_1_1SOpenGLLinux.html" title=" " alt="" coords="283,357,471,398"/>
+<area shape="rect" id="node12" href="$structirr_1_1video_1_1SExposedVideoData_1_1SOpenGLOSX.html" title=" " alt="" coords="283,291,471,333"/>
+<area shape="rect" id="node5" title=" " alt="" coords="27,5,130,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,56,152,83"/>
+<area shape="rect" id="node7" title=" " alt="" coords="315,175,438,201"/>
+<area shape="rect" id="node11" title=" " alt="" coords="38,488,119,515"/>
+</map>

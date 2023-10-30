@@ -1,0 +1,6 @@
+<map id="irr::executeBlit_TextureCombineColor_16_to_16" name="irr::executeBlit_TextureCombineColor_16_to_16">
+<area shape="rect" id="node1" title=" " alt="" coords="5,35,185,76"/>
+<area shape="rect" id="node2" href="$namespaceirr_1_1video.html#a929c6758a0edc772cf69b2c674e4f5cd" title="Converts a 32bit (A8R8G8B8) color to a 16bit A1R5G5B5 color." alt="" coords="233,5,420,47"/>
+<area shape="rect" id="node3" href="$namespaceirr.html#a1a82e683635afc1a766a7787f6c4699b" title=" " alt="" coords="252,71,401,98"/>
+<area shape="rect" id="node4" href="$namespaceirr_1_1video.html#a23358b142a005c4a4c747d227a4d77ab" title="Returns the alpha component from A1R5G5B5 color." alt="" coords="468,71,615,98"/>
+</map>

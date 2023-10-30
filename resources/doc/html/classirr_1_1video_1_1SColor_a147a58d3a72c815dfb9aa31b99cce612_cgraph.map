@@ -1,0 +1,8 @@
+<map id="irr::video::SColor::getData" name="irr::video::SColor::getData">
+<area shape="rect" id="node1" title="Write the color to data in the defined format." alt="" coords="5,123,136,164"/>
+<area shape="rect" id="node2" href="$namespaceirr_1_1video.html#a929c6758a0edc772cf69b2c674e4f5cd" title="Converts a 32bit (A8R8G8B8) color to a 16bit A1R5G5B5 color." alt="" coords="202,5,389,47"/>
+<area shape="rect" id="node3" href="$namespaceirr_1_1video.html#a10636302b225d7f525fa46bbd3f747a4" title="Converts a 32bit (A8R8G8B8) color to a 16bit R5G6B5 color." alt="" coords="184,71,407,98"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1SColor.html#afb60ac456b2efc2f2a4f04a643293d26" title="Returns the blue component of the color." alt="" coords="230,123,361,164"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1SColor.html#a198773366f2a5436c1ca4adc9037bb8d" title="Returns the green component of the color." alt="" coords="230,188,361,229"/>
+<area shape="rect" id="node6" href="$classirr_1_1video_1_1SColor.html#a70d11ec2247581c79ee11e0e1b511978" title="Returns the red component of the color." alt="" coords="230,253,361,295"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="irr::io::IWriteFile" name="irr::io::IWriteFile">
+<area shape="rect" id="node1" title="Interface providing write access to a file." alt="" coords="125,80,252,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1io_1_1CMemoryWriteFile.html" title=" " alt="" coords="5,155,191,181"/>
+<area shape="rect" id="node4" href="$classirr_1_1io_1_1CWriteFile.html" title=" " alt="" coords="215,155,346,181"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="105,5,273,32"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="irr::gui::CGUIEnvironment::getNextElement" name="irr::gui::CGUIEnvironment::getNextElement">
+<area shape="rect" id="node1" title="Find the next element which would be selected when pressing the tab&#45;key." alt="" coords="5,123,193,164"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1IGUIElement.html#aa1d5846a06c6f24140cbfbd831cc8a04" title="searches elements to find the closest next element to tab to" alt="" coords="241,5,396,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1IGUIElement.html#af1f535aacf6e19fda64511715100e069" title="Returns the number in the tab order sequence." alt="" coords="444,35,599,76"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1IGUIElement.html#ab3eacf3540cb5b020f3c4a24c6a67473" title="Returns parent of this element." alt="" coords="241,123,396,164"/>
+<area shape="rect" id="node5" href="$classirr_1_1gui_1_1IGUIElement.html#ab6266a2fd3d8b0be385f9f3f3364e9ff" title="Returns the container element which holds all elements in this element&#39;s tab group." alt="" coords="241,188,396,229"/>
+<area shape="rect" id="node6" href="$classirr_1_1gui_1_1IGUIElement.html#a70596321725a708ecea4974d4df760c9" title="Returns true if this element is a tab group." alt="" coords="241,253,396,295"/>
+</map>

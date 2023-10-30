@@ -1,0 +1,10 @@
+<map id="irr::gui::CGUIStaticText::setRightToLeft" name="irr::gui::CGUIStaticText::setRightToLeft">
+<area shape="rect" id="node1" title="Set whether the string should be interpreted as right&#45;to&#45;left (RTL) text." alt="" coords="5,129,175,171"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1CGUIStaticText.html#ac066f346a7975a17b4076911a5286fcb" title="Breaks the single text line." alt="" coords="223,129,392,171"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1CGUIStaticText.html#af057b2c6fabaf08be6e5e4c221fa643f" title="Get the font which is used right now for drawing." alt="" coords="441,12,611,53"/>
+<area shape="rect" id="node5" href="$classirr_1_1gui_1_1IGUIEnvironment.html#a54ce9072ea7b89cdaea65306e93ba90c" title="Returns pointer to the current gui skin." alt="" coords="660,71,843,112"/>
+<area shape="rect" id="node6" href="$classirr_1_1gui_1_1IGUIFont.html#aa7612db0c9dc2837b44a1a2fa5668797" title="Calculates the width and height of a given string of text." alt="" coords="462,129,590,171"/>
+<area shape="rect" id="node7" href="$classirr_1_1gui_1_1IGUISkin.html#ac48a8a0b6cdccacfa90a0fb23e4d9503" title="returns size for the given size type" alt="" coords="462,195,590,236"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1rect.html#ad5dcae186b85b938d42b59c91bfeb9a5" title="Get width of rectangle." alt="" coords="440,261,612,287"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1IGUISkin.html#ab1b2623d04688c4dfe106ca407171d6e" title="returns the default font" alt="" coords="687,5,815,47"/>
+</map>

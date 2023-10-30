@@ -1,0 +1,13 @@
+<map id="irr::gui::GUISkin::draw3DButtonPaneStandard" name="irr::gui::GUISkin::draw3DButtonPaneStandard">
+<area shape="rect" id="node1" title="draws a standard 3d button pane" alt="" coords="5,181,209,222"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1GUISkin.html#a792f0dc23c0091f50a816615482b85ad" title="draws a standard 3d button pane" alt="" coords="257,181,512,222"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1SColor.html#a20bfa471b5cf672db83355c181a3cae6" title="Interpolates the color with a f32 value to another color." alt="" coords="560,181,691,222"/>
+<area shape="rect" id="node4" href="$namespaceirr_1_1core.html#a6162f685b68f629e77336081d3316969" title="clamps a value between low and high" alt="" coords="744,31,864,57"/>
+<area shape="rect" id="node7" href="$classirr_1_1video_1_1SColor.html#a8b0bcff9036b06e3483978a84a924b91" title="Returns the alpha component of the color." alt="" coords="739,82,869,123"/>
+<area shape="rect" id="node8" href="$classirr_1_1video_1_1SColor.html#afb60ac456b2efc2f2a4f04a643293d26" title="Returns the blue component of the color." alt="" coords="739,147,869,189"/>
+<area shape="rect" id="node9" href="$classirr_1_1video_1_1SColor.html#a198773366f2a5436c1ca4adc9037bb8d" title="Returns the green component of the color." alt="" coords="739,213,869,254"/>
+<area shape="rect" id="node10" href="$classirr_1_1video_1_1SColor.html#a70d11ec2247581c79ee11e0e1b511978" title="Returns the red component of the color." alt="" coords="739,278,869,319"/>
+<area shape="rect" id="node11" href="$classirr_1_1video_1_1SColor.html#ab001c0c2515ff5f8a0b324d1345485f4" title="Constructor of the Color. Does nothing." alt="" coords="739,343,869,385"/>
+<area shape="rect" id="node5" href="$namespaceirr_1_1core.html#afca1ce7ac54e0c31a9047947f4c7319b" title="returns maximum of two values. Own implementation to get rid of the STL (VS6 problems)" alt="" coords="917,5,1033,32"/>
+<area shape="rect" id="node6" href="$namespaceirr_1_1core.html#a9d34bfdbbe9c136b01ae04974572bc11" title="returns minimum of two values. Own implementation to get rid of the STL (VS6 problems)" alt="" coords="919,56,1031,83"/>
+</map>

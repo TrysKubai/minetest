@@ -1,0 +1,23 @@
+<map id="irr::scene::ISceneNode" name="irr::scene::ISceneNode">
+<area shape="rect" id="node1" title="Scene node interface." alt="" coords="221,325,388,352"/>
+<area shape="rect" id="node3" href="$classClientMap.html" title=" " alt="" coords="514,5,602,32"/>
+<area shape="rect" id="node4" href="$classClouds.html" title=" " alt="" coords="525,56,591,83"/>
+<area shape="rect" id="node5" href="$classirr_1_1scene_1_1CEmptySceneNode.html" title=" " alt="" coords="451,107,665,133"/>
+<area shape="rect" id="node6" href="$classirr_1_1scene_1_1CSceneManager.html" title=" " alt="" coords="461,157,655,184"/>
+<area shape="rect" id="node7" href="$classirr_1_1scene_1_1IAnimatedMeshSceneNode.html" title="Scene node capable of displaying an animated mesh." alt="" coords="462,209,654,250"/>
+<area shape="rect" id="node9" href="$classirr_1_1scene_1_1IBillboardSceneNode.html" title="A billboard scene node." alt="" coords="445,275,671,301"/>
+<area shape="rect" id="node11" href="$classirr_1_1scene_1_1IBoneSceneNode.html" title="Interface for bones used for skeletal animation." alt="" coords="458,325,658,352"/>
+<area shape="rect" id="node13" href="$classirr_1_1scene_1_1ICameraSceneNode.html" title="Scene Node which is a (controllable) camera." alt="" coords="449,376,667,403"/>
+<area shape="rect" id="node15" href="$classirr_1_1scene_1_1IDummyTransformationSceneNode.html" title="Dummy scene node for adding additional transformations to the scene graph." alt="" coords="436,427,680,469"/>
+<area shape="rect" id="node17" href="$classirr_1_1scene_1_1IMeshSceneNode.html" title="A scene node displaying a static mesh." alt="" coords="457,493,659,520"/>
+<area shape="rect" id="node19" href="$classParticle.html" title=" " alt="" coords="523,544,593,571"/>
+<area shape="rect" id="node20" href="$classSky.html" title=" " alt="" coords="535,595,581,621"/>
+<area shape="rect" id="node21" href="$classWieldMeshSceneNode.html" title=" " alt="" coords="475,645,641,672"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="5,325,173,352"/>
+<area shape="rect" id="node8" href="$classirr_1_1scene_1_1CAnimatedMeshSceneNode.html" title=" " alt="" coords="754,209,951,250"/>
+<area shape="rect" id="node10" href="$classirr_1_1scene_1_1CBillboardSceneNode.html" title=" " alt="" coords="737,275,968,301"/>
+<area shape="rect" id="node12" href="$classirr_1_1scene_1_1CBoneSceneNode.html" title=" " alt="" coords="750,325,955,352"/>
+<area shape="rect" id="node14" href="$classirr_1_1scene_1_1CCameraSceneNode.html" title=" " alt="" coords="741,376,964,403"/>
+<area shape="rect" id="node16" href="$classirr_1_1scene_1_1CDummyTransformationSceneNode.html" title=" " alt="" coords="728,427,977,469"/>
+<area shape="rect" id="node18" href="$classirr_1_1scene_1_1CMeshSceneNode.html" title=" " alt="" coords="749,493,956,520"/>
+</map>

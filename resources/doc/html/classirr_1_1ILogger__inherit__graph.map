@@ -1,0 +1,5 @@
+<map id="irr::ILogger" name="irr::ILogger">
+<area shape="rect" id="node1" title="Interface for logging messages, warnings and errors." alt="" coords="43,80,135,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1CLogger.html" title="Class for logging messages, warnings and errors to stdout." alt="" coords="41,155,138,181"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="5,5,173,32"/>
+</map>

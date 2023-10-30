@@ -1,0 +1,11 @@
+<map id="irr::scene::CB3DMeshFileLoader::createMesh" name="irr::scene::CB3DMeshFileLoader::createMesh">
+<area shape="rect" id="node1" title=" " alt="" coords="5,112,189,153"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="247,79,415,120"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1CSkinnedMesh.html#a93ac8bd8153e8affb06380b12e2bbafa" title="loaders should call this after populating the mesh" alt="" coords="237,144,424,185"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1aabbox3d.html#a7ccc210a3fb0ce82765d28f2047942c5" title="Adds another bounding box." alt="" coords="495,5,639,47"/>
+<area shape="rect" id="node5" href="$classirr_1_1core_1_1array.html#a142e1833faabec2b7578557fd12e72c2" title="Gets last element." alt="" coords="483,71,652,98"/>
+<area shape="rect" id="node6" href="$classirr_1_1core_1_1array.html#a95afc36513d08abb51bd399755730877" title="Adds an element at back of array." alt="" coords="472,122,663,149"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1array.html#a27ce37ef9e34e55d4f9987c62deda9d6" title="Adds an element at the front of the array." alt="" coords="491,173,643,215"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1aabbox3d.html#afc718e96ed11aa71a30311d32bfc885a" title="Resets the bounding box to a one&#45;point box." alt="" coords="495,239,639,280"/>
+<area shape="rect" id="node9" href="$classirr_1_1core_1_1array.html#af2a884d7e19d685b58617fed4ea4d4b9" title="Get number of occupied elements of the array." alt="" coords="494,305,641,331"/>
+</map>

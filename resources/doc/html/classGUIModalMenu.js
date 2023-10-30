@@ -1,0 +1,26 @@
+var classGUIModalMenu =
+[
+    [ "clickpos", "structGUIModalMenu_1_1clickpos.html", "structGUIModalMenu_1_1clickpos" ],
+    [ "GUIModalMenu", "classGUIModalMenu.html#ad43fd8fd3a39056abf4ed293eaffec68", null ],
+    [ "~GUIModalMenu", "classGUIModalMenu.html#ad633db6fde9cca32a3cd20deba725c93", null ],
+    [ "allowFocusRemoval", "classGUIModalMenu.html#a537b12439b0374a7bcc2e9d126c7fbc5", null ],
+    [ "canTakeFocus", "classGUIModalMenu.html#aae71d8ef5330ef39df36978c895ebd7c", null ],
+    [ "DoubleClickDetection", "classGUIModalMenu.html#a35ed1d345e76108c5871ccaf4c0c9430", null ],
+    [ "draw", "classGUIModalMenu.html#a7b082042a4bcf7ce323d52028dce328f", null ],
+    [ "drawMenu", "classGUIModalMenu.html#a1c5130ae0312060abc4ff36ac195f783", null ],
+    [ "getLabelByID", "classGUIModalMenu.html#ac024fba37fe716b7d3c88a1d207e467f", null ],
+    [ "getNameByID", "classGUIModalMenu.html#a32bb2e4a8c041c820882d933e759abea", null ],
+    [ "OnEvent", "classGUIModalMenu.html#a49e854beec6b9e0e0302d330d13df681", null ],
+    [ "pausesGame", "classGUIModalMenu.html#a55e3a77f13e611fdfd1cc91081e3baec", null ],
+    [ "preprocessEvent", "classGUIModalMenu.html#a477ddb7c3dffeb83733d54707fc22e67", null ],
+    [ "quitMenu", "classGUIModalMenu.html#a8b1d0bcbd2606aa8bab9fd266ebdebb0", null ],
+    [ "regenerateGui", "classGUIModalMenu.html#a83928f18e29d723fd6e446805896df80", null ],
+    [ "m_allow_focus_removal", "classGUIModalMenu.html#aba9d2e7a77e317bc2f6106a0fa31b1fd", null ],
+    [ "m_doubleclickdetect", "classGUIModalMenu.html#a3014a06392ac54d474ed094a947d3539", null ],
+    [ "m_gui_scale", "classGUIModalMenu.html#a46009ae7255f93650f4ee4b080c12a6d", null ],
+    [ "m_menumgr", "classGUIModalMenu.html#ab5f91516634627310b20ad5c1fa8f981", null ],
+    [ "m_old_pointer", "classGUIModalMenu.html#ae55754ac7aa592099878e9d95c806756", null ],
+    [ "m_pointer", "classGUIModalMenu.html#a7c1244bccb121cb966dd2ee4a9bc298b", null ],
+    [ "m_remap_dbl_click", "classGUIModalMenu.html#a8158b81f54b95e908faeac58c5665139", null ],
+    [ "m_screensize_old", "classGUIModalMenu.html#ae19d9a3f1d809ddfcf210346c9d55dfe", null ]
+];

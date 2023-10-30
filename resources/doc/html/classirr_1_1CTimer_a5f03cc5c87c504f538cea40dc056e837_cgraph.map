@@ -1,0 +1,6 @@
+<map id="irr::CTimer::stop" name="irr::CTimer::stop">
+<area shape="rect" id="node1" title="Stops the game timer." alt="" coords="5,31,132,57"/>
+<area shape="rect" id="node2" href="$classirr_1_1os_1_1Timer.html#ad2639d4bb96c4aee882bd7770b074919" title="stops the virtual (game) timer" alt="" coords="180,31,359,57"/>
+<area shape="rect" id="node3" href="$classirr_1_1os_1_1Timer.html#a640377de088feab25b5b83f8d4ecc50d" title="returns the current time in milliseconds" alt="" coords="407,5,573,32"/>
+<area shape="rect" id="node4" href="$classirr_1_1os_1_1Timer.html#aad6c27db995b80c795038bb2f827dfc5" title="returns if the timer currently is stopped" alt="" coords="621,31,799,57"/>
+</map>

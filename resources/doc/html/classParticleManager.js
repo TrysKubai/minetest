@@ -1,0 +1,25 @@
+var classParticleManager =
+[
+    [ "ParticleManager", "classParticleManager.html#ac07f1d433abd6039d061b67f11a32146", null ],
+    [ "~ParticleManager", "classParticleManager.html#a3d3be537ebf5e8d6cd00181bff9dfbd6", null ],
+    [ "addDiggingParticles", "classParticleManager.html#aa75cfc1cd8571278ae968a565456cbbf", null ],
+    [ "addNodeParticle", "classParticleManager.html#a6975f14ffa035253296aa7d6f0aedcc0", null ],
+    [ "addParticle", "classParticleManager.html#a4461185259677752faa82446db57339a", null ],
+    [ "addParticleSpawner", "classParticleManager.html#a9ab9c58fa461eaa4536dd239fe11edbf", null ],
+    [ "clearAll", "classParticleManager.html#a2e957a61f62257aa2231b5f384024419", null ],
+    [ "deleteParticleSpawner", "classParticleManager.html#aa7148a911f83507a934e58ee2bb9509d", null ],
+    [ "generateSpawnerId", "classParticleManager.html#a9e06c753ed19dec69cbf683d88ae9126", null ],
+    [ "getNodeParticleParams", "classParticleManager.html#a2a5e6be09653ee5ef276835ee036429f", null ],
+    [ "handleParticleEvent", "classParticleManager.html#aae5879338305800dc349770017473bda", null ],
+    [ "reserveParticleSpace", "classParticleManager.html#a9dd24c03c96821aa22dfb43365a33d17", null ],
+    [ "step", "classParticleManager.html#a8f49e38ae0f170e2d3bbaec7c45c963c", null ],
+    [ "stepParticles", "classParticleManager.html#a5a1d6acb76cf3f8c2d019c2bb4033fc6", null ],
+    [ "stepSpawners", "classParticleManager.html#a23e02d602cf9fcdf2ecfce3950ceb671", null ],
+    [ "ParticleSpawner", "classParticleManager.html#aa78db77b62c687ad345a67da7db7e336", null ],
+    [ "m_env", "classParticleManager.html#aea799a424ab6b4fe72cfef9edc51490d", null ],
+    [ "m_next_particle_spawner_id", "classParticleManager.html#a117186c52f76484a48599386bde94ad8", null ],
+    [ "m_particle_list_lock", "classParticleManager.html#a1d337169be3e6445c4f414e336b1887d", null ],
+    [ "m_particle_spawners", "classParticleManager.html#aed6319b779c3b5ff42dba2437a9bba5b", null ],
+    [ "m_particles", "classParticleManager.html#a9d18168203819edf5b5ebbd0cb494805", null ],
+    [ "m_spawner_list_lock", "classParticleManager.html#af1aad77741f5fdaf0bb928625ddb8481", null ]
+];

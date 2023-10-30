@@ -1,0 +1,4 @@
+<map id="irr::core::triangle3d::isPointInsideFast" name="irr::core::triangle3d::isPointInsideFast">
+<area shape="rect" id="node1" title="Check if a point is inside the triangle (border&#45;points count also as inside)" alt="" coords="5,5,152,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1vector3d.html#ae220d3f24173601c5957961382588394" title="Get the dot product with another vector." alt="" coords="200,5,337,47"/>
+</map>

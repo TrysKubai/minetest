@@ -1,0 +1,15 @@
+<map id="irr::video::CImage::copyToScalingBoxFilter" name="irr::video::CImage::copyToScalingBoxFilter">
+<area shape="rect" id="node1" title="copies this surface into another, scaling it to fit, applying a box filter" alt="" coords="5,264,185,305"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IImage.html#a5cba4942759d65f6132b707e3b4c3ed4" title="Returns width and height of image data." alt="" coords="236,169,369,211"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1CImage.html#a7cb906b066c3b6ef4068af4ea8b432c9" title="get a filtered pixel" alt="" coords="233,235,372,276"/>
+<area shape="rect" id="node11" href="$classirr_1_1video_1_1IImage.html#a2e54dd41abc9f56e81f72de5e8538aee" title="check if this is compressed color format" alt="" coords="420,384,588,425"/>
+<area shape="rect" id="node13" href="$classirr_1_1video_1_1IImage.html#a89bf6020ce6ac1066e4d585ce46f79bd" title="Sets a pixel." alt="" coords="236,352,369,393"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1SColor.html#a8b0bcff9036b06e3483978a84a924b91" title="Returns the alpha component of the color." alt="" coords="439,5,569,47"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1SColor.html#afb60ac456b2efc2f2a4f04a643293d26" title="Returns the blue component of the color." alt="" coords="439,71,569,112"/>
+<area shape="rect" id="node6" href="$classirr_1_1video_1_1SColor.html#a198773366f2a5436c1ca4adc9037bb8d" title="Returns the green component of the color." alt="" coords="439,136,569,177"/>
+<area shape="rect" id="node7" href="$classirr_1_1video_1_1CImage.html#a3955990818c6eb1a3bb0b174f445da94" title="returns a pixel" alt="" coords="435,201,573,243"/>
+<area shape="rect" id="node10" href="$classirr_1_1video_1_1SColor.html#a70d11ec2247581c79ee11e0e1b511978" title="Returns the red component of the color." alt="" coords="439,267,569,308"/>
+<area shape="rect" id="node12" href="$classirr_1_1video_1_1SColor.html#a8cf295c05c7406cc249843acbb31ec5f" title="Sets all four components of the color at once." alt="" coords="425,333,583,359"/>
+<area shape="rect" id="node8" href="$namespaceirr_1_1video.html#a8aa9e69faa25064379df5a91273b9fbe" title="Convert A8R8G8B8 Color from A1R5G5B5 color." alt="" coords="654,172,841,213"/>
+<area shape="rect" id="node9" href="$namespaceirr_1_1video.html#a421971627afe81533a3c2b51907b72bd" title="Returns A8R8G8B8 Color from R5G6B5 color." alt="" coords="636,238,859,265"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="irr::video::CNullDriver::endScene" name="irr::video::CNullDriver::endScene">
+<area shape="rect" id="node1" title="Presents the rendered image to the screen." alt="" coords="5,90,168,131"/>
+<area shape="rect" id="node2" href="$classirr_1_1os_1_1Timer.html#aa0a73b26f4f18ac6fbc737caae2061cd" title="returns the current real time in milliseconds" alt="" coords="221,5,417,32"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1CFPSCounter.html#a6b1225e5446da7d3a2df43cadcfd7c01" title="to be called every frame" alt="" coords="233,57,405,98"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1CNullDriver.html#a30a7473263d5fa362b1979d1191d2c8f" title="Update all hardware buffers, remove unused ones." alt="" coords="218,122,419,163"/>
+<area shape="rect" id="node7" href="$classirr_1_1video_1_1CNullDriver.html#ae3b1fbf43aa03be754005561867a7d02" title="Update all occlusion queries. Retrieves results from GPU." alt="" coords="216,187,421,229"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1CNullDriver.html#a6e22b60b40214b6ed40ab95969874641" title="Delete hardware buffer." alt="" coords="474,57,647,98"/>
+<area shape="rect" id="node6" href="$classirr_1_1IReferenceCounted.html#ae9836f102c33c68068e74292e0a01819" title="Get the reference count." alt="" coords="477,122,645,163"/>
+<area shape="rect" id="node8" href="$classirr_1_1video_1_1CNullDriver.html#ab52bcfd989716dad325aa9cdeb58a47f" title="Remove occlusion query." alt="" coords="469,187,652,229"/>
+<area shape="rect" id="node11" href="$classirr_1_1video_1_1CNullDriver.html#ab8ff6600aae5eede9bd754a451586988" title="Update occlusion query. Retrieves results from GPU." alt="" coords="472,253,649,294"/>
+<area shape="rect" id="node9" href="$classirr_1_1scene_1_1ISceneNode.html#a0748cd5c678e41a4fcff0514937c77be" title="Gets the automatic culling state." alt="" coords="700,154,867,195"/>
+<area shape="rect" id="node10" href="$classirr_1_1scene_1_1ISceneNode.html#a5fcd62dbf524b8d2d6daa61c7d6cf119" title="Set a culling style or disable culling completely." alt="" coords="700,219,867,261"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="irr::core::ustring16::trim" name="irr::core::ustring16::trim">
+<area shape="rect" id="node1" title=" " alt="" coords="5,225,147,266"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1ustring16.html#ade9935f3811ec548e326331018dc7dd7" title=" " alt="" coords="440,254,581,295"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1array.html#a7cd7985c7fb32e90205e1df663f0fffb" title="Gets a const pointer to the array." alt="" coords="202,378,358,419"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1ustring16.html#a4e84291ab0924dc6b4e007bfb6dad84e" title=" " alt="" coords="424,5,597,32"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1ustring16.html#a4c42b0eb9c676fbe37eac84b8701cc61" title=" " alt="" coords="195,195,365,237"/>
+<area shape="rect" id="node10" href="$classirr_1_1core_1_1ustring16.html#af1379490d496d38cf614bdb8f2f19f16" title=" " alt="" coords="195,97,365,138"/>
+<area shape="rect" id="node13" href="$classirr_1_1core_1_1ustring16.html#a5cbf28f768cd85f0657bf3471bfec87c" title=" " alt="" coords="209,313,351,354"/>
+<area shape="rect" id="node5" href="$classirr_1_1core_1_1ustring16_1_1__ustring16__const__iterator.html#a981163b41ee4bd0f594118d90ffffe1c" title="Moves the iterator to the end of the string." alt="" coords="656,20,851,76"/>
+<area shape="rect" id="node6" href="$classirr_1_1core_1_1ustring16.html#a6ccdb1699994dcf50ff8f3db0cfb2686" title=" " alt="" coords="899,65,1040,106"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1ustring16_1_1__ustring16__const__iterator.html#ada60fedde4f9b8b92e318794b4d9140a" title="Is the iterator at the end of the string?" alt="" coords="656,159,851,215"/>
+<area shape="rect" id="node9" href="$classirr_1_1core_1_1ustring16.html#a13d082695b759bb889795470890ab5be" title=" " alt="" coords="899,166,1040,207"/>
+<area shape="rect" id="node11" href="$classirr_1_1core_1_1ustring16_1_1__ustring16__const__iterator.html#a91bdec2f90455a703b8a20677bb3e5c8" title="Is the iterator at the start of the string?" alt="" coords="413,56,608,112"/>
+<area shape="rect" id="node12" href="$classirr_1_1core_1_1ustring16.html#aa8379341f14aaeef408d969620f87852" title=" " alt="" coords="440,137,581,178"/>
+<area shape="rect" id="node14" href="$classirr_1_1core_1_1ustring16.html#afdcd3a2e44db3bdbbe10f3303d9f2bd3" title=" " alt="" coords="440,371,581,413"/>
+<area shape="rect" id="node16" href="$classirr_1_1core_1_1ustring16.html#a3f3acd2beeb7ed033c2e79830a152615" title=" " alt="" coords="440,437,581,478"/>
+<area shape="rect" id="node17" href="$classirr_1_1core_1_1ustring16.html#a00605034bd03228e1cf15f90523ce87f" title="Default constructor." alt="" coords="440,502,581,543"/>
+<area shape="rect" id="node15" href="$classirr_1_1core_1_1ustring16.html#aed4535dda4bb841389071c473db1ebe9" title=" " alt="" coords="683,403,824,445"/>
+</map>

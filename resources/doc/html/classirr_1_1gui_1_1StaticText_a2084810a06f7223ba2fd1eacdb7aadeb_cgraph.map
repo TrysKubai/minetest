@@ -1,0 +1,26 @@
+<map id="irr::gui::StaticText::setRightToLeft" name="irr::gui::StaticText::setRightToLeft">
+<area shape="rect" id="node1" title="Set whether the string should be interpreted as right&#45;to&#45;left (RTL) text." alt="" coords="5,921,141,963"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1StaticText.html#ab1fe7aaccadfd6cd062c01280793f1b4" title="Breaks the single text line." alt="" coords="189,921,325,963"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1StaticText.html#a5c136d54d54e76ffb0b954798d05a6bc" title="Get the font which is used right now for drawing." alt="" coords="1017,601,1153,643"/>
+<area shape="rect" id="node5" href="$classirr_1_1gui_1_1IGUIEnvironment.html#a54ce9072ea7b89cdaea65306e93ba90c" title="Returns pointer to the current gui skin." alt="" coords="1211,172,1393,213"/>
+<area shape="rect" id="node6" href="$classirr_1_1gui_1_1IGUIFont.html#aa7612db0c9dc2837b44a1a2fa5668797" title="Calculates the width and height of a given string of text." alt="" coords="1021,845,1149,887"/>
+<area shape="rect" id="node7" href="$classirr_1_1gui_1_1IGUISkin.html#ac48a8a0b6cdccacfa90a0fb23e4d9503" title="returns size for the given size type" alt="" coords="805,955,933,996"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1rect.html#ad5dcae186b85b938d42b59c91bfeb9a5" title="Get width of rectangle." alt="" coords="373,1071,545,1098"/>
+<area shape="rect" id="node9" href="$classirr_1_1gui_1_1StaticText.html#ac5e07a14148968323395e68ee1e05e77" title="Sets another color for the background." alt="" coords="379,1123,540,1164"/>
+<area shape="rect" id="node10" href="$classirr_1_1gui_1_1StaticText.html#abf21c2bc36be3e6693e657f282e87b95" title="Sets whether to draw the background." alt="" coords="379,591,540,632"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1IGUISkin.html#ab1b2623d04688c4dfe106ca407171d6e" title="returns the default font" alt="" coords="1238,601,1366,643"/>
+<area shape="rect" id="node11" href="$classirr_1_1gui_1_1StaticText.html#ac005959d222d4479a1cae286c5ed9361" title="draws the element and its children" alt="" coords="593,525,729,567"/>
+<area shape="rect" id="node12" href="$classirr_1_1gui_1_1IGUIFont.html#af5627e546c474f31260fe671c24f9a33" title="Draws some text and clips it to the specified rectangle if wanted." alt="" coords="805,721,933,763"/>
+<area shape="rect" id="node13" href="$classirr_1_1gui_1_1CGUITTFont.html#a6891281c4df75d99b31aa68401d05a6f" title="Draws some text and clips it to the specified rectangle if wanted." alt="" coords="794,109,943,151"/>
+<area shape="rect" id="node14" href="$classirr_1_1gui_1_1IGUIElement.html#a1ef7eeaff67b8a9f4f37cacdc7e54be2" title="Draws the element and its children." alt="" coords="791,357,946,399"/>
+<area shape="rect" id="node16" href="$classirr_1_1video_1_1IVideoDriver.html#ac7f452fae0ef8abe01768a78ba7033b7" title="Draws a 2d rectangle." alt="" coords="784,175,953,216"/>
+<area shape="rect" id="node17" href="$classirr_1_1gui_1_1IGUISkin.html#ae9db467e7b631d5462c7d2092efbc531" title="draws a sunken 3d pane" alt="" coords="789,240,948,281"/>
+<area shape="rect" id="node18" href="$classirr_1_1gui_1_1StaticText.html#a25f0dd062fd69d2fb8bd67b11b9756c8" title="Gets the background color." alt="" coords="787,44,950,85"/>
+<area shape="rect" id="node20" href="$classirr_1_1core_1_1rect.html#adf7b75a834fde75f5932f2a89a3d75cd" title="Get the center of the rectangle." alt="" coords="780,474,957,501"/>
+<area shape="rect" id="node21" href="$classirr_1_1gui_1_1IGUIFont.html#a1f1a760be155fc0f6a632b457154a5d8" title="Returns the distance between letters." alt="" coords="797,525,940,567"/>
+<area shape="rect" id="node22" href="$classirr_1_1gui_1_1StaticText.html#afc5e70088d74a2df4b965cfd6c26b4c1" title="Returns the width of the current text, in the current font." alt="" coords="801,787,937,828"/>
+<area shape="rect" id="node23" href="$classirr_1_1gui_1_1IGUIFont.html#a3d5a42997a718b510b73e7d6235b993e" title="Returns the type of this font." alt="" coords="805,591,933,632"/>
+<area shape="rect" id="node24" href="$classirr_1_1gui_1_1IGUIEnvironment.html#a48f5e442f0a2074a531234ab83148fe2" title="Returns the current video driver." alt="" coords="777,656,960,697"/>
+<area shape="rect" id="node15" href="$classirr_1_1gui_1_1IGUIElement.html#a9cb14270ab55bdfe45442542b35567a7" title="Returns true if element is visible." alt="" coords="1008,357,1163,399"/>
+<area shape="rect" id="node19" href="$classirr_1_1gui_1_1IGUISkin.html#ad1afa2e5e34c30e0cbfb85b1dee2dbe3" title="returns default color" alt="" coords="1021,103,1149,144"/>
+</map>

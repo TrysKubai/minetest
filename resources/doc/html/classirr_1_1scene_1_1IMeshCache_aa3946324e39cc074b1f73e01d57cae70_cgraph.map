@@ -1,0 +1,4 @@
+<map id="irr::scene::IMeshCache::getMeshByFilename" name="irr::scene::IMeshCache::getMeshByFilename">
+<area shape="rect" id="node1" title="Returns a mesh based on its name (often a filename)." alt="" coords="5,5,175,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1IMeshCache.html#a4c93e736bdca8c84d478afc82540d6bb" title="Returns a mesh based on its name." alt="" coords="223,5,392,47"/>
+</map>

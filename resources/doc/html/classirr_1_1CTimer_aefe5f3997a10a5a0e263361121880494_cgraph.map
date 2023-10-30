@@ -1,0 +1,4 @@
+<map id="irr::CTimer::getRealTime" name="irr::CTimer::getRealTime">
+<area shape="rect" id="node1" title="Returns current real time in milliseconds of the system." alt="" coords="5,5,188,32"/>
+<area shape="rect" id="node2" href="$classirr_1_1os_1_1Timer.html#aa0a73b26f4f18ac6fbc737caae2061cd" title="returns the current real time in milliseconds" alt="" coords="236,5,432,32"/>
+</map>

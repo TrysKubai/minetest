@@ -1,0 +1,25 @@
+<map id="irr::video::CNullDriver::runOcclusionQuery" name="irr::video::CNullDriver::runOcclusionQuery">
+<area shape="rect" id="node1" title="Run occlusion query. Draws mesh stored in query." alt="" coords="5,483,168,524"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1CNullDriver.html#a0a910080e8257a9f19414cc9c0c06939" title="Draws a mesh buffer." alt="" coords="238,287,401,328"/>
+<area shape="rect" id="node18" href="$classirr_1_1scene_1_1ISceneNode.html#af13dc546a7be796cc0868a2eec51e508" title="Get the absolute transformation of the node. Is recalculated every OnAnimate()&#45;call." alt="" coords="216,352,423,393"/>
+<area shape="rect" id="node19" href="$classirr_1_1scene_1_1IMeshBuffer.html#a26fd922f00fde56abbbbbe40b485238b" title="Get the material of this meshbuffer." alt="" coords="235,417,403,459"/>
+<area shape="rect" id="node20" href="$classirr_1_1scene_1_1IMesh.html#a2cd1a04b396235101f426befba0c5b82" title="Get pointer to a mesh buffer." alt="" coords="251,483,388,524"/>
+<area shape="rect" id="node21" href="$classirr_1_1scene_1_1IMesh.html#a2ebed0bdae2d6537c36b0b7ac831edb8" title="Get the amount of mesh buffers." alt="" coords="242,548,397,589"/>
+<area shape="rect" id="node22" href="$classirr_1_1video_1_1CNullDriver.html#a7a9bcbfeb5cd14f908a694b9b9344872" title="sets a material" alt="" coords="238,613,401,655"/>
+<area shape="rect" id="node23" href="$classirr_1_1video_1_1CNullDriver.html#a6792421602b7150ebda4a8792a6a0223" title="sets transformation" alt="" coords="238,679,401,720"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1CNullDriver.html#aa22c7942c97156f60d8624e824b043b3" title="Draw hardware buffer (only some drivers can)" alt="" coords="482,5,646,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1CNullDriver.html#abe4cff04f1e461d5212042ebbc3aa367" title="draws a vertex primitive list" alt="" coords="471,71,657,112"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1CNullDriver.html#ac9df633286ec99c7feab5e21426fe989" title="Gets hardware buffer link from a meshbuffer (may create or update buffer)" alt="" coords="483,136,645,177"/>
+<area shape="rect" id="node10" href="$classirr_1_1scene_1_1IMeshBuffer.html#a77ab285c8c886af8ddeb0371db7bde96" title="Get amount of vertices in meshbuffer." alt="" coords="1015,203,1183,244"/>
+<area shape="rect" id="node11" href="$classirr_1_1scene_1_1IMeshBuffer.html#a8a993431c2c35420b62a577dc18dbdc2" title="Get type of index data which is stored in this meshbuffer." alt="" coords="480,253,648,295"/>
+<area shape="rect" id="node12" href="$classirr_1_1scene_1_1IMeshBuffer.html#a76c0013378012af7aeb6cb8f4ea8f9a1" title="Get access to indices." alt="" coords="480,319,648,360"/>
+<area shape="rect" id="node13" href="$classirr_1_1scene_1_1IMeshBuffer.html#a976905588bf5c8234d51899563a205c1" title="Calculate how many geometric primitives are used by this meshbuffer." alt="" coords="480,384,648,425"/>
+<area shape="rect" id="node15" href="$classirr_1_1scene_1_1IMeshBuffer.html#ae81cefb18a0a6cd9be1ef14a8bf14e20" title="Get the kind of primitive geometry which is used by the meshbuffer." alt="" coords="734,443,902,484"/>
+<area shape="rect" id="node16" href="$classirr_1_1scene_1_1IMeshBuffer.html#a4d7a84ae4416487736f0ed0f519bb4f0" title="Get type of vertex data which is stored in this meshbuffer." alt="" coords="480,501,648,543"/>
+<area shape="rect" id="node17" href="$classirr_1_1scene_1_1IMeshBuffer.html#a99891e516246b2cff13b362a435c8028" title="Get access to vertex data. The data is an array of vertices." alt="" coords="480,567,648,608"/>
+<area shape="rect" id="node6" href="$classirr_1_1video_1_1CNullDriver.html#a9e6ded286ab06cb926d676a1d02077b6" title="Create hardware buffer from mesh (only some drivers can)" alt="" coords="731,71,905,112"/>
+<area shape="rect" id="node7" href="$classirr_1_1video_1_1CNullDriver.html#a5c9d77ba3c60822b92fcb7cb5dbe5760" title="is vbo recommended on this mesh?" alt="" coords="705,136,931,177"/>
+<area shape="rect" id="node8" href="$classirr_1_1scene_1_1IMeshBuffer.html#a2260f9efb3fad4ba9581e18fccaad5a7" title="get the current hardware mapping hint" alt="" coords="979,56,1219,97"/>
+<area shape="rect" id="node9" href="$classirr_1_1scene_1_1IMeshBuffer.html#abbf42191b2fb4d2f7094a77fd76a530e" title="get the current hardware mapping hint" alt="" coords="1000,122,1197,178"/>
+<area shape="rect" id="node14" href="$classirr_1_1scene_1_1IMeshBuffer.html#a96e08662e15b1205516b87ada3301551" title="Get amount of indices in this meshbuffer." alt="" coords="734,377,902,419"/>
+</map>

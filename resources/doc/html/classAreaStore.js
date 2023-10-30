@@ -1,0 +1,25 @@
+var classAreaStore =
+[
+    [ "AreaMap", "classAreaStore.html#a602704830a6caa5203b9d2be392978b2", null ],
+    [ "AreaStore", "classAreaStore.html#a206c909a50b45cfc4aeaec00be9abde7", null ],
+    [ "~AreaStore", "classAreaStore.html#a5e4e1ef114c4855be520780c05809cf8", null ],
+    [ "cacheMiss", "classAreaStore.html#a4b089b9ce6ff29d1826ea51cda947b24", null ],
+    [ "deserialize", "classAreaStore.html#a8ff06d61057f6bd0d44efbb5d7d5d2ac", null ],
+    [ "getArea", "classAreaStore.html#a6561db3201ec1c0aa081258692a3c9f3", null ],
+    [ "getAreasForPos", "classAreaStore.html#a4c43019d4457268f603e4f5ee1594d27", null ],
+    [ "getAreasForPosImpl", "classAreaStore.html#a4802a1f810e5d29492ff04ecc515716c", null ],
+    [ "getAreasInArea", "classAreaStore.html#a8c1016898e217860e4564ab635b2fb13", null ],
+    [ "getNextId", "classAreaStore.html#a5097417521486501bff59461c98653d7", null ],
+    [ "getOptimalImplementation", "classAreaStore.html#a5237bb742850ed5fd83f062821346906", null ],
+    [ "insertArea", "classAreaStore.html#a62b4928857f7b74c9f9d18deb3b88cc8", null ],
+    [ "invalidateCache", "classAreaStore.html#ae03a4502204433170dea3daf82358022", null ],
+    [ "removeArea", "classAreaStore.html#a72441c934f4a643e963582bea6f7aa7c", null ],
+    [ "reserve", "classAreaStore.html#a46f28f60157d016ff33c5b2aa2c944ef", null ],
+    [ "serialize", "classAreaStore.html#a84293144551848096fa95ee5882e2298", null ],
+    [ "setCacheParams", "classAreaStore.html#a49ad044216fb37ebd1dda100d6102f6b", null ],
+    [ "size", "classAreaStore.html#ae3cfa1cf6b299b274854d3f62c7b7c45", null ],
+    [ "areas_map", "classAreaStore.html#a1fe9d33b898518d33f3377aa4747dd7b", null ],
+    [ "m_cache_enabled", "classAreaStore.html#afd6014d729bb37a225befbe27cccca58", null ],
+    [ "m_cacheblock_radius", "classAreaStore.html#aaec391c973111fcb0436e8d0c023f0c5", null ],
+    [ "m_res_cache", "classAreaStore.html#a723e71c50b0f9df31cafc0c34284c875", null ]
+];

@@ -1,0 +1,9 @@
+<map id="irr::scene::CSkinnedMesh::finalize" name="irr::scene::CSkinnedMesh::finalize">
+<area shape="rect" id="node1" title="loaders should call this after populating the mesh" alt="" coords="5,144,192,185"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1aabbox3d.html#a7ccc210a3fb0ce82765d28f2047942c5" title="Adds another bounding box." alt="" coords="263,5,407,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1array.html#a142e1833faabec2b7578557fd12e72c2" title="Gets last element." alt="" coords="251,71,420,98"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1array.html#a95afc36513d08abb51bd399755730877" title="Adds an element at back of array." alt="" coords="240,122,431,149"/>
+<area shape="rect" id="node5" href="$classirr_1_1core_1_1array.html#a27ce37ef9e34e55d4f9987c62deda9d6" title="Adds an element at the front of the array." alt="" coords="259,173,411,215"/>
+<area shape="rect" id="node6" href="$classirr_1_1core_1_1aabbox3d.html#afc718e96ed11aa71a30311d32bfc885a" title="Resets the bounding box to a one&#45;point box." alt="" coords="263,239,407,280"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1array.html#af2a884d7e19d685b58617fed4ea4d4b9" title="Get number of occupied elements of the array." alt="" coords="262,305,409,331"/>
+</map>

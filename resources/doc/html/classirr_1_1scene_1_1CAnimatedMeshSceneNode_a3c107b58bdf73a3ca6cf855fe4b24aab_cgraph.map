@@ -1,0 +1,4 @@
+<map id="irr::scene::CAnimatedMeshSceneNode::setTransitionTime" name="irr::scene::CAnimatedMeshSceneNode::setTransitionTime">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,224,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1CAnimatedMeshSceneNode.html#af3edba079759619307ed71ea037f60c3" title="Set the joint update mode (0&#45;unused, 1&#45;get joints only, 2&#45;set joints only, 3&#45;move and set)" alt="" coords="272,5,469,47"/>
+</map>

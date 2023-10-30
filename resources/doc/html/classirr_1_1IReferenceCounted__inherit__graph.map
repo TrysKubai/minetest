@@ -1,0 +1,51 @@
+<map id="irr::IReferenceCounted" name="irr::IReferenceCounted">
+<area shape="rect" id="node1" title="Base class of most objects of the Irrlicht Engine." alt="" coords="5,1073,173,1100"/>
+<area shape="rect" id="node2" href="$classExtrusionMeshCache.html" title=" " alt="" coords="245,31,404,57"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1ICursorControl.html" title="Interface to manipulate the mouse cursor." alt="" coords="242,81,407,108"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1IGUIElement.html" title="Base class of all GUI elements." alt="" coords="247,132,402,159"/>
+<area shape="rect" id="node11" href="$classirr_1_1gui_1_1IGUIEnvironment.html" title="GUI Environment. Used as factory and manager of all other GUI elements." alt="" coords="233,183,416,209"/>
+<area shape="rect" id="node12" href="$classirr_1_1gui_1_1IGUIFont.html" title="Font interface." alt="" coords="261,233,389,260"/>
+<area shape="rect" id="node13" href="$classirr_1_1gui_1_1IGUIImageList.html" title="Font interface." alt="" coords="243,284,407,311"/>
+<area shape="rect" id="node14" href="$classirr_1_1gui_1_1IGUISkin.html" title="A skin modifies the look of the GUI elements." alt="" coords="261,335,389,361"/>
+<area shape="rect" id="node15" href="$classirr_1_1gui_1_1IGUISpriteBank.html" title="Sprite bank interface." alt="" coords="239,385,410,412"/>
+<area shape="rect" id="node16" href="$structirr_1_1gui_1_1SGUITTFace.html" title=" " alt="" coords="250,436,399,463"/>
+<area shape="rect" id="node17" href="$classirr_1_1ILogger.html" title="Interface for logging messages, warnings and errors." alt="" coords="279,487,371,513"/>
+<area shape="rect" id="node18" href="$classirr_1_1io_1_1IArchiveLoader.html" title="Class which is able to create an archive from a file." alt="" coords="244,537,405,564"/>
+<area shape="rect" id="node19" href="$classirr_1_1io_1_1IAttribute.html" title=" " alt="" coords="262,588,387,615"/>
+<area shape="rect" id="node20" href="$classirr_1_1io_1_1IAttributes.html" title="Provides a generic interface for attributes and their values and the possibility to serialize them." alt="" coords="259,639,391,665"/>
+<area shape="rect" id="node21" href="$classirr_1_1io_1_1IFileArchive.html" title="The FileArchive manages archives and provides access to files inside them." alt="" coords="255,689,395,716"/>
+<area shape="rect" id="node22" href="$classirr_1_1io_1_1IFileList.html" title="Provides a list of files and folders." alt="" coords="267,740,382,767"/>
+<area shape="rect" id="node23" href="$classirr_1_1io_1_1IFileSystem.html" title="The FileSystem manages files and archives and provides access to them." alt="" coords="255,791,395,817"/>
+<area shape="rect" id="node24" href="$classirr_1_1io_1_1IReadFile.html" title="Interface providing read access to a file." alt="" coords="263,841,387,868"/>
+<area shape="rect" id="node25" href="$classirr_1_1io_1_1IWriteFile.html" title="Interface providing write access to a file." alt="" coords="261,892,388,919"/>
+<area shape="rect" id="node26" href="$classirr_1_1IOSOperator.html" title="The Operating system operator provides operation system specific methods and information." alt="" coords="263,943,386,969"/>
+<area shape="rect" id="node27" href="$classirr_1_1IrrlichtDevice.html" title="The Irrlicht device. You can create it with createDevice() or createDeviceEx()." alt="" coords="259,993,390,1020"/>
+<area shape="rect" id="node28" href="$classirr_1_1ITimer.html" title="Interface for getting and manipulating the virtual time." alt="" coords="281,1044,368,1071"/>
+<area shape="rect" id="node29" href="$classirr_1_1scene_1_1IAnimationEndCallBack.html" title="Callback interface for catching events of ended animations." alt="" coords="232,1095,417,1137"/>
+<area shape="rect" id="node30" href="$classirr_1_1scene_1_1IIndexBuffer.html" title=" " alt="" coords="240,1161,409,1188"/>
+<area shape="rect" id="node31" href="$classirr_1_1scene_1_1IMesh.html" title="Class which holds the geometry of an object." alt="" coords="260,1212,389,1239"/>
+<area shape="rect" id="node32" href="$classirr_1_1scene_1_1IMeshBuffer.html" title="Struct for holding a mesh with a single material." alt="" coords="241,1263,409,1289"/>
+<area shape="rect" id="node33" href="$classirr_1_1scene_1_1IMeshCache.html" title="The mesh cache stores already loaded meshes and provides an interface to them." alt="" coords="240,1313,409,1340"/>
+<area shape="rect" id="node34" href="$classirr_1_1scene_1_1IMeshLoader.html" title="Class which is able to load an animated mesh from a file." alt="" coords="238,1364,411,1391"/>
+<area shape="rect" id="node35" href="$classirr_1_1scene_1_1IMeshManipulator.html" title="An interface for easy manipulation of meshes." alt="" coords="221,1415,428,1441"/>
+<area shape="rect" id="node36" href="$classirr_1_1scene_1_1IMeshWriter.html" title="Interface for writing meshes." alt="" coords="240,1465,409,1492"/>
+<area shape="rect" id="node37" href="$classirr_1_1scene_1_1ISceneCollisionManager.html" title=" " alt="" coords="230,1517,419,1558"/>
+<area shape="rect" id="node38" href="$classirr_1_1scene_1_1ISceneManager.html" title="The Scene Manager manages scene nodes, mesh resources, cameras and all the other stuff." alt="" coords="229,1583,420,1609"/>
+<area shape="rect" id="node39" href="$classirr_1_1scene_1_1ISceneNode.html" title="Scene node interface." alt="" coords="241,1633,408,1660"/>
+<area shape="rect" id="node40" href="$classirr_1_1scene_1_1IVertexBuffer.html" title=" " alt="" coords="237,1684,412,1711"/>
+<area shape="rect" id="node41" href="$classirr_1_1video_1_1IContextManager.html" title=" " alt="" coords="225,1735,425,1761"/>
+<area shape="rect" id="node42" href="$classirr_1_1video_1_1IImage.html" title="Interface for software image data." alt="" coords="258,1785,391,1812"/>
+<area shape="rect" id="node43" href="$classirr_1_1video_1_1IImageLoader.html" title="Class which is able to create a image from a file." alt="" coords="236,1836,413,1863"/>
+<area shape="rect" id="node44" href="$classirr_1_1video_1_1IImageWriter.html" title="Interface for writing software image data." alt="" coords="238,1887,411,1913"/>
+<area shape="rect" id="node45" href="$classirr_1_1video_1_1IMaterialRenderer.html" title="Interface for material rendering." alt="" coords="222,1937,427,1964"/>
+<area shape="rect" id="node46" href="$classirr_1_1video_1_1IRenderTarget.html" title="Interface of a Render Target." alt="" coords="235,1988,414,2015"/>
+<area shape="rect" id="node47" href="$classirr_1_1video_1_1IShaderConstantSetCallBack.html" title="Interface making it possible to set constants for gpu programs every frame." alt="" coords="227,2039,422,2081"/>
+<area shape="rect" id="node48" href="$classirr_1_1video_1_1ITexture.html" title="Interface of a Video Driver dependent Texture." alt="" coords="255,2105,395,2132"/>
+<area shape="rect" id="node49" href="$classirr_1_1video_1_1IVideoDriver.html" title="Interface to driver which is able to perform 2d and 3d graphics functions." alt="" coords="240,2156,409,2183"/>
+<area shape="rect" id="node5" href="$classGUIAnimatedImage.html" title=" " alt="" coords="483,5,633,32"/>
+<area shape="rect" id="node6" href="$classGUIBackgroundImage.html" title=" " alt="" coords="476,56,640,83"/>
+<area shape="rect" id="node7" href="$classGUIBox.html" title=" " alt="" coords="523,107,593,133"/>
+<area shape="rect" id="node8" href="$classGUIChatConsole.html" title=" " alt="" coords="494,157,622,184"/>
+<area shape="rect" id="node9" href="$classGUIHyperText.html" title=" " alt="" coords="502,208,614,235"/>
+<area shape="rect" id="node10" href="$classGUIInventoryList.html" title=" " alt="" coords="493,259,623,285"/>
+</map>

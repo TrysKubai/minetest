@@ -1,0 +1,5 @@
+<map id="FontEngine::updateSkin" name="FontEngine::updateSkin">
+<area shape="rect" id="node1" title=" " alt="" coords="5,46,180,73"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1IGUIEnvironment.html#a54ce9072ea7b89cdaea65306e93ba90c" title="Returns pointer to the current gui skin." alt="" coords="228,5,411,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1IGUISkin.html#a1e315ed3175b14294ba753911f8423eb" title="sets a default font" alt="" coords="255,71,383,112"/>
+</map>

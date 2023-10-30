@@ -1,0 +1,9 @@
+<map id="ShadowRenderer::addNodeToShadowList" name="ShadowRenderer::addNodeToShadowList">
+<area shape="rect" id="node1" title=" " alt="" coords="5,72,217,113"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1ISceneNode.html#ab0e72b38949f926a1929468cd2b1ce16" title="Returns the name of the node." alt="" coords="265,23,432,64"/>
+<area shape="rect" id="node4" href="$classirr_1_1scene_1_1ISceneNode.html#a0d5d2e05ebe08e6a432fbb4fd1d28dd0" title="Sets the texture of the specified layer in all materials of this scene node to the new texture." alt="" coords="265,104,432,145"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1string.html#a4a6d39561b095cbab46185dd20d11d85" title="Returns character string." alt="" coords="501,5,626,47"/>
+<area shape="rect" id="node5" href="$classirr_1_1scene_1_1ISceneNode.html#a1f44d8cf753b2e4c17c90d4fc2ed05b2" title="Returns the material based on the zero based index i." alt="" coords="480,71,647,112"/>
+<area shape="rect" id="node6" href="$classirr_1_1scene_1_1ISceneNode.html#a8e75e9baede63e31e6aa6e42e6c8ddfe" title="Get amount of materials used by this scene node." alt="" coords="480,136,647,177"/>
+<area shape="rect" id="node7" href="$classirr_1_1video_1_1SMaterial.html#a44dc38e7d4a78434d12ffd02e88e3d60" title="Sets the i&#45;th texture." alt="" coords="488,201,639,243"/>
+</map>

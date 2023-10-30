@@ -1,0 +1,9 @@
+<map id="irr::video::SColor::operator+" name="irr::video::SColor::operator+">
+<area shape="rect" id="node1" title="Adds two colors, result is clamped to 0..255 values." alt="" coords="5,169,136,211"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1SColor.html#a8b0bcff9036b06e3483978a84a924b91" title="Returns the alpha component of the color." alt="" coords="184,5,315,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1SColor.html#afb60ac456b2efc2f2a4f04a643293d26" title="Returns the blue component of the color." alt="" coords="184,71,315,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1SColor.html#a198773366f2a5436c1ca4adc9037bb8d" title="Returns the green component of the color." alt="" coords="184,136,315,177"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1SColor.html#a70d11ec2247581c79ee11e0e1b511978" title="Returns the red component of the color." alt="" coords="184,201,315,243"/>
+<area shape="rect" id="node6" href="$namespaceirr_1_1core.html#a9d34bfdbbe9c136b01ae04974572bc11" title="returns minimum of two values. Own implementation to get rid of the STL (VS6 problems)" alt="" coords="193,267,305,294"/>
+<area shape="rect" id="node7" href="$classirr_1_1video_1_1SColor.html#ab001c0c2515ff5f8a0b324d1345485f4" title="Constructor of the Color. Does nothing." alt="" coords="184,319,315,360"/>
+</map>

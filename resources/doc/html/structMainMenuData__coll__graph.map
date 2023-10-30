@@ -1,0 +1,8 @@
+<map id="MainMenuData" name="MainMenuData">
+<area shape="rect" id="node1" title=" " alt="" coords="407,245,528,272"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,125,124,152"/>
+<area shape="rect" id="node3" href="$structMainMenuDataForScript.html" title=" " alt="" coords="378,125,557,152"/>
+<area shape="rect" id="node4" title=" " alt="" coords="234,5,293,32"/>
+<area shape="rect" id="node5" href="$classbool.html" title=" " alt="" coords="498,5,549,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="805,125,844,152"/>
+</map>

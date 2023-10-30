@@ -1,0 +1,4 @@
+<map id="irr::scene::ISceneNode::getAbsolutePosition" name="irr::scene::ISceneNode::getAbsolutePosition">
+<area shape="rect" id="node1" title="Gets the absolute position of the node in world coordinates." alt="" coords="5,5,172,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1CMatrix4.html#a574f83a4c1c6809f71ccb200020983f7" title="Gets the current translation." alt="" coords="220,5,359,47"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="irr::gui::CGUITTFont::createGlyphPage" name="irr::gui::CGUITTFont::createGlyphPage">
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,155,145"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1CGUITTGlyphPage.html#a5dbfa44c82c04958d2b810fb04d81012" title="Create the actual page texture,." alt="" coords="203,71,393,112"/>
+<area shape="rect" id="node6" href="$classirr_1_1video_1_1IVideoDriver.html#a9bc9632861757d167c035bb5ecfa6854" title="Get the maximum texture size supported." alt="" coords="213,136,383,177"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1IVideoDriver.html#a8c02ee280bb738cdf38b77e7a798244e" title="Creates an empty texture of specified size." alt="" coords="448,5,617,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1IVideoDriver.html#ae64d474cbca38f64f2dbb8fcacb1a035" title="Returns if a texture creation flag is enabled or disabled." alt="" coords="441,71,624,112"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1IVideoDriver.html#a868b58a6b86b9e4841ca3879ce246c4e" title="Enables or disables a texture creation flag." alt="" coords="442,136,623,177"/>
+</map>

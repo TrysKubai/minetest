@@ -1,0 +1,8 @@
+<map id="irr::io::CFileSystem::CFileSystem" name="irr::io::CFileSystem::CFileSystem">
+<area shape="rect" id="node1" title="constructor" alt="" coords="5,103,151,144"/>
+<area shape="rect" id="node2" href="$classirr_1_1io_1_1CFileSystem.html#a8f22fe991640e54f1b0e5f129944b99d" title="Returns the string of the current working directory." alt="" coords="201,37,365,79"/>
+<area shape="rect" id="node5" href="$classirr_1_1IReferenceCounted.html#a704c5042d399fe8cd3bdd65a0559002a" title="Sets the debug name of the object." alt="" coords="199,103,367,144"/>
+<area shape="rect" id="node6" href="$classirr_1_1io_1_1CFileSystem.html#a0a86014197dd247b0e5a4aa83fe7de78" title="Sets the current file systen type." alt="" coords="210,168,355,209"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1string.html#a42d3f10e2d2f0a63c53077f52248cb84" title="Replaces all characters of a special type with another one." alt="" coords="415,5,540,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1string.html#a3540f845ff62da6bca57bfece964dea5" title="verify the existing string." alt="" coords="415,71,540,112"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="irr::video::IMaterialRendererServices::setVertexShaderConstant" name="irr::video::IMaterialRendererServices::setVertexShaderConstant">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,256,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IMaterialRendererServices.html#a368195f7c77f0d9f677bee912416aac6" title="Return an index constant for the vertex shader based on a name." alt="" coords="304,5,569,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1IMaterialRendererServices.html#a737ef09fe6f80110c320ec4b0d8ad1dc" title="Sets a constant for the vertex shader based on a name." alt="" coords="311,71,562,112"/>
+</map>

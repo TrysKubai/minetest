@@ -1,0 +1,9 @@
+<map id="irr::gui::SGUISprite" name="irr::gui::SGUISprite">
+<area shape="rect" id="node1" title="A sprite composed of several frames." alt="" coords="157,303,300,329"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1array.html" title=" " alt="" coords="60,199,244,240"/>
+<area shape="rect" id="node3" href="$classbool.html" title=" " alt="" coords="8,5,59,32"/>
+<area shape="rect" id="node5" href="$classirr_1_1core_1_1array.html" title="Self reallocating template array (like stl vector) with additional features." alt="" coords="90,102,242,129"/>
+<area shape="rect" id="node4" title=" " alt="" coords="280,95,478,136"/>
+<area shape="rect" id="node6" title=" " alt="" coords="115,5,216,32"/>
+<area shape="rect" id="node7" title=" " alt="" coords="268,206,343,233"/>
+</map>

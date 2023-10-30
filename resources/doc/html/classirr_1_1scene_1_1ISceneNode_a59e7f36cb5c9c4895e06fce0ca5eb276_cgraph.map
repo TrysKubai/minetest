@@ -1,0 +1,9 @@
+<map id="irr::scene::ISceneNode::setParent" name="irr::scene::ISceneNode::setParent">
+<area shape="rect" id="node1" title="Changes the parent of the scene node." alt="" coords="5,100,172,141"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1ISceneNode.html#acceef4fbb68f6cc7bb40035225350970" title="Adds a child to this scene node." alt="" coords="221,71,387,112"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html#a396f9cdbe311ada278626477b3c6f0f5" title="Grabs the object. Increments the reference counter by one." alt="" coords="436,5,604,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1scene_1_1ISceneNode.html#a2efa2670e29d6bb33b0dd99403b8b69c" title="Removes this scene node from the scene." alt="" coords="437,136,603,177"/>
+<area shape="rect" id="node7" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="220,188,388,229"/>
+<area shape="rect" id="node6" href="$classirr_1_1scene_1_1ISceneNode.html#a513d09ae37f71391d7c4838e29164a3e" title=" " alt="" coords="437,71,603,112"/>
+<area shape="rect" id="node5" href="$classirr_1_1scene_1_1ISceneNode.html#a831e371142fc883c7dd229552e0340de" title="Removes a child from this scene node." alt="" coords="652,136,819,177"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="CraftDefinitionFuel" name="CraftDefinitionFuel">
+<area shape="rect" id="node1" title=" " alt="" coords="264,213,407,240"/>
+<area shape="rect" id="node2" href="$classCraftDefinition.html" title=" " alt="" coords="75,109,191,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,13,121,39"/>
+<area shape="rect" id="node4" title=" " alt="" coords="145,13,259,39"/>
+<area shape="rect" id="node5" title=" " alt="" coords="215,109,266,136"/>
+<area shape="rect" id="node6" href="$classbool.html" title=" " alt="" coords="310,109,361,136"/>
+<area shape="rect" id="node7" title=" " alt="" coords="417,109,475,136"/>
+<area shape="rect" id="node8" href="$structCraftReplacements.html" title=" " alt="" coords="499,109,646,136"/>
+<area shape="rect" id="node9" title=" " alt="" coords="475,5,670,47"/>
+</map>

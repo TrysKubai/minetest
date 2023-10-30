@@ -1,0 +1,13 @@
+<map id="irr::gui::CGUITTFont::createTextureFromChar" name="irr::gui::CGUITTFont::createTextureFromChar">
+<area shape="rect" id="node1" title=" " alt="" coords="5,260,188,301"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IImage.html#ae4a8a2fc245f691224825aceffd53b8a" title="copies this surface into another" alt="" coords="496,5,629,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1IVideoDriver.html#aee1578fdd92118665755f31c0dd1dbb5" title="Creates an empty software image." alt="" coords="247,420,416,461"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1IVideoDriver.html#a425d60f2fcad42d8a79c33c587f41a06" title="Creates a software image from a byte array." alt="" coords="475,71,651,112"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1ITexture.html#a010326ee83cdc96429b245a515559bec" title="Get the color format of texture." alt="" coords="493,136,633,177"/>
+<area shape="rect" id="node6" href="$classirr_1_1video_1_1ITexture.html#a570e1eec61d7c71be2d7c2d570c05d76" title="Get original size of the texture." alt="" coords="493,267,633,308"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1rect.html#aa5e0bf0e6474c1603c735a63843833fa" title="Get the dimensions of the rectangle." alt="" coords="251,486,412,513"/>
+<area shape="rect" id="node8" href="$classirr_1_1video_1_1ITexture.html#a21d6777c26d707a3b377330c84bbc6ac" title="Lock function." alt="" coords="493,332,633,373"/>
+<area shape="rect" id="node9" href="$classirr_1_1video_1_1ITexture.html#a15b9a25aa18528ade37a492bd7b20a10" title="Unlock function. Must be called after a lock() to the texture." alt="" coords="493,397,633,439"/>
+<area shape="rect" id="node10" href="$classirr_1_1gui_1_1CGUITTGlyphPage.html#ae616a44ced4351c85efaac46d0c3f52d" title="Updates the texture atlas with new glyphs." alt="" coords="236,201,427,243"/>
+<area shape="rect" id="node11" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="479,201,647,243"/>
+</map>

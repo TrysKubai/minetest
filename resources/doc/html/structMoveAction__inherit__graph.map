@@ -1,0 +1,5 @@
+<map id="MoveAction" name="MoveAction">
+<area shape="rect" id="node1" title=" " alt="" coords="68,5,167,32"/>
+<area shape="rect" id="node2" href="$structIDropAction.html" title=" " alt="" coords="5,80,104,107"/>
+<area shape="rect" id="node3" href="$structIMoveAction.html" title=" " alt="" coords="129,80,231,107"/>
+</map>

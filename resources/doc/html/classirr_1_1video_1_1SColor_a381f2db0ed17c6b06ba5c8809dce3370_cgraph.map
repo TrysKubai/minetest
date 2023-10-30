@@ -1,0 +1,6 @@
+<map id="irr::video::SColor::setData" name="irr::video::SColor::setData">
+<area shape="rect" id="node1" title="set the color by expecting data in the given format" alt="" coords="5,64,136,105"/>
+<area shape="rect" id="node2" href="$namespaceirr_1_1video.html#a8aa9e69faa25064379df5a91273b9fbe" title="Convert A8R8G8B8 Color from A1R5G5B5 color." alt="" coords="202,5,389,47"/>
+<area shape="rect" id="node3" href="$namespaceirr_1_1video.html#a421971627afe81533a3c2b51907b72bd" title="Returns A8R8G8B8 Color from R5G6B5 color." alt="" coords="184,71,407,98"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1SColor.html#a8cf295c05c7406cc249843acbb31ec5f" title="Sets all four components of the color at once." alt="" coords="216,122,375,149"/>
+</map>

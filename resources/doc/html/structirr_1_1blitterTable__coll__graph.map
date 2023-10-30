@@ -1,0 +1,13 @@
+<map id="irr::blitterTable" name="irr::blitterTable">
+<area shape="rect" id="node1" title=" " alt="" coords="69,391,186,417"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,301,76,328"/>
+<area shape="rect" id="node3" title=" " alt="" coords="115,5,182,32"/>
+<area shape="rect" id="node7" href="$structirr_1_1AbsRectangle.html" title=" " alt="" coords="165,139,298,165"/>
+<area shape="rect" id="node4" href="$structirr_1_1SBlitJob.html" title=" " alt="" coords="437,301,532,328"/>
+<area shape="rect" id="node5" title=" " alt="" coords="322,139,373,165"/>
+<area shape="rect" id="node6" title=" " alt="" coords="397,139,497,165"/>
+<area shape="rect" id="node8" title=" " alt="" coords="521,139,595,165"/>
+<area shape="rect" id="node9" title=" " alt="" coords="620,139,659,165"/>
+<area shape="rect" id="node10" href="$classbool.html" title=" " alt="" coords="691,139,742,165"/>
+<area shape="rect" id="node11" title=" " alt="" coords="766,139,827,165"/>
+</map>

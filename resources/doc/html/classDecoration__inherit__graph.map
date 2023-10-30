@@ -1,0 +1,7 @@
+<map id="Decoration" name="Decoration">
+<area shape="rect" id="node1" title=" " alt="" coords="88,80,181,107"/>
+<area shape="rect" id="node4" href="$classDecoSchematic.html" title=" " alt="" coords="5,155,128,181"/>
+<area shape="rect" id="node5" href="$classDecoSimple.html" title=" " alt="" coords="153,155,253,181"/>
+<area shape="rect" id="node2" href="$classObjDef.html" title=" " alt="" coords="44,5,111,32"/>
+<area shape="rect" id="node3" href="$classNodeResolver.html" title=" " alt="" coords="135,5,249,32"/>
+</map>

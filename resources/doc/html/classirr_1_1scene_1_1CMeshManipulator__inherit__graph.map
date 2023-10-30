@@ -1,0 +1,5 @@
+<map id="irr::scene::CMeshManipulator" name="irr::scene::CMeshManipulator">
+<area shape="rect" id="node1" title="An interface for easy manipulation of meshes." alt="" coords="5,155,217,181"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1IMeshManipulator.html" title="An interface for easy manipulation of meshes." alt="" coords="8,80,215,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="27,5,195,32"/>
+</map>

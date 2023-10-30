@@ -1,0 +1,52 @@
+<map id="CavesNoiseIntersection" name="CavesNoiseIntersection">
+<area shape="rect" id="node1" title=" " alt="" coords="2497,823,2673,849"/>
+<area shape="rect" id="node2" href="$classNodeDefManager.html" title="This class is for getting the actual properties of nodes from their content ID." alt="" coords="940,1131,1076,1157"/>
+<area shape="rect" id="node22" href="$classObjDefManager.html" title=" " alt="" coords="1266,969,1390,996"/>
+<area shape="rect" id="node25" href="$classServer.html" title=" " alt="" coords="2998,1101,3062,1128"/>
+<area shape="rect" id="node36" href="$classEmergeManager.html" title=" " alt="" coords="2521,1380,2650,1407"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1aabbox3d.html" title=" " alt="" coords="513,1282,657,1323"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1vector3d.html" title=" " alt="" coords="140,1469,277,1510"/>
+<area shape="rect" id="node38" href="$classBiomeGen.html" title=" " alt="" coords="2097,1257,2188,1284"/>
+<area shape="rect" id="node5" title=" " alt="" coords="8,1609,53,1636"/>
+<area shape="rect" id="node6" href="$classirr_1_1core_1_1aabbox3d.html" title="Axis aligned bounding box in 3d dimensional space." alt="" coords="117,973,300,1000"/>
+<area shape="rect" id="node18" href="$classirr_1_1core_1_1aabbox3d.html" title=" " alt="" coords="513,866,657,907"/>
+<area shape="rect" id="node7" title=" " alt="" coords="506,1100,665,1156"/>
+<area shape="rect" id="node8" title=" " alt="" coords="485,1231,685,1257"/>
+<area shape="rect" id="node9" title=" " alt="" coords="562,807,609,833"/>
+<area shape="rect" id="node34" href="$classAddress.html" title=" " alt="" coords="1122,825,1197,852"/>
+<area shape="rect" id="node49" href="$structNoiseParams.html" title=" " alt="" coords="1709,567,1815,593"/>
+<area shape="rect" id="node10" href="$structContentLightingFlags.html" title=" " alt="" coords="505,1180,665,1207"/>
+<area shape="rect" id="node11" title=" " alt="" coords="189,1180,228,1207"/>
+<area shape="rect" id="node12" href="$classbool.html" title=" " alt="" coords="183,1600,234,1627"/>
+<area shape="rect" id="node42" href="$structServer_1_1ShutdownState.html" title=" " alt="" coords="500,1527,671,1553"/>
+<area shape="rect" id="node44" href="$classServerEnvironment.html" title=" " alt="" coords="3251,1376,3397,1403"/>
+<area shape="rect" id="node13" href="$classNameIdMapping.html" title=" " alt="" coords="521,932,650,959"/>
+<area shape="rect" id="node14" title=" " alt="" coords="129,907,288,949"/>
+<area shape="rect" id="node15" title=" " alt="" coords="125,1025,292,1066"/>
+<area shape="rect" id="node16" title=" " alt="" coords="488,983,683,1009"/>
+<area shape="rect" id="node17" title=" " alt="" coords="506,1034,665,1075"/>
+<area shape="rect" id="node19" href="$classirr_1_1core_1_1vector3d.html" title=" " alt="" coords="140,806,277,847"/>
+<area shape="rect" id="node20" title=" " alt="" coords="5,613,56,640"/>
+<area shape="rect" id="node31" href="$classIntervalLimiter.html" title=" " alt="" coords="2526,1481,2645,1508"/>
+<area shape="rect" id="node48" href="$classNoise.html" title=" " alt="" coords="2113,567,2172,593"/>
+<area shape="rect" id="node21" href="$classBiomeManager.html" title=" " alt="" coords="1701,1052,1823,1079"/>
+<area shape="rect" id="node23" title=" " alt="" coords="959,968,1057,995"/>
+<area shape="rect" id="node24" title=" " alt="" coords="933,917,1083,944"/>
+<area shape="rect" id="node33" href="$classServerThread.html" title=" " alt="" coords="3269,540,3379,567"/>
+<area shape="rect" id="node26" href="$classcon_1_1PeerHandler.html" title=" " alt="" coords="2519,1177,2652,1204"/>
+<area shape="rect" id="node27" href="$classMapEventReceiver.html" title=" " alt="" coords="2513,1228,2657,1255"/>
+<area shape="rect" id="node28" href="$classIGameDef.html" title=" " alt="" coords="2541,1279,2629,1305"/>
+<area shape="rect" id="node29" title=" " alt="" coords="2483,1769,2687,1796"/>
+<area shape="rect" id="node30" href="$structChatInterface.html" title=" " alt="" coords="2530,1329,2641,1356"/>
+<area shape="rect" id="node32" title=" " alt="" coords="2472,1431,2699,1457"/>
+<area shape="rect" id="node35" title=" " alt="" coords="2473,1668,2698,1695"/>
+<area shape="rect" id="node37" title=" " alt="" coords="2036,1668,2249,1695"/>
+<area shape="rect" id="node39" title=" " alt="" coords="1305,672,1351,699"/>
+<area shape="rect" id="node40" title=" " alt="" coords="2484,405,2687,432"/>
+<area shape="rect" id="node41" title=" " alt="" coords="2480,457,2691,498"/>
+<area shape="rect" id="node43" href="$classMutexedVariable.html" title=" " alt="" coords="2502,706,2669,747"/>
+<area shape="rect" id="node45" href="$classModStorageDatabase.html" title=" " alt="" coords="2504,772,2667,799"/>
+<area shape="rect" id="node46" href="$classIWritableCraftDefManager.html" title=" " alt="" coords="2489,924,2681,951"/>
+<area shape="rect" id="node47" title=" " alt="" coords="1305,464,1351,491"/>
+<area shape="rect" id="node50" title=" " alt="" coords="2077,764,2209,791"/>
+</map>

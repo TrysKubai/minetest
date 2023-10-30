@@ -1,0 +1,7 @@
+<map id="irr::scene::IMeshLoader" name="irr::scene::IMeshLoader">
+<area shape="rect" id="node1" title="Class which is able to load an animated mesh from a file." alt="" coords="221,78,395,105"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1CB3DMeshFileLoader.html" title="Meshloader for B3D format." alt="" coords="456,5,640,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1scene_1_1COBJMeshFileLoader.html" title="Meshloader capable of loading obj meshes." alt="" coords="458,71,638,112"/>
+<area shape="rect" id="node5" href="$classirr_1_1scene_1_1CXMeshFileLoader.html" title="Meshloader capable of loading x meshes." alt="" coords="443,137,653,163"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="5,78,173,105"/>
+</map>

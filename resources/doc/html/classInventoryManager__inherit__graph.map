@@ -1,0 +1,6 @@
+<map id="InventoryManager" name="InventoryManager">
+<area shape="rect" id="node1" title=" " alt="" coords="107,5,249,32"/>
+<area shape="rect" id="node2" href="$classClient.html" title=" " alt="" coords="5,80,65,107"/>
+<area shape="rect" id="node3" href="$classMockInventoryManager.html" title=" " alt="" coords="90,80,266,107"/>
+<area shape="rect" id="node4" href="$classServerInventoryManager.html" title=" " alt="" coords="291,80,473,107"/>
+</map>

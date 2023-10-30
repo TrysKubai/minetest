@@ -1,0 +1,4 @@
+<map id="irr::scene::ISceneNode::getName" name="irr::scene::ISceneNode::getName">
+<area shape="rect" id="node1" title="Returns the name of the node." alt="" coords="5,5,172,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1string.html#a4a6d39561b095cbab46185dd20d11d85" title="Returns character string." alt="" coords="220,5,345,47"/>
+</map>

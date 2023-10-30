@@ -1,0 +1,11 @@
+<map id="CraftDefinitionShapeless" name="CraftDefinitionShapeless">
+<area shape="rect" id="node1" title=" " alt="" coords="331,213,513,240"/>
+<area shape="rect" id="node2" href="$classCraftDefinition.html" title=" " alt="" coords="75,109,191,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,13,121,39"/>
+<area shape="rect" id="node4" title=" " alt="" coords="145,13,259,39"/>
+<area shape="rect" id="node5" title=" " alt="" coords="215,109,373,136"/>
+<area shape="rect" id="node6" href="$classbool.html" title=" " alt="" coords="398,109,449,136"/>
+<area shape="rect" id="node7" title=" " alt="" coords="503,109,562,136"/>
+<area shape="rect" id="node8" href="$structCraftReplacements.html" title=" " alt="" coords="586,109,733,136"/>
+<area shape="rect" id="node9" title=" " alt="" coords="562,5,757,47"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="ModStorageDatabase" name="ModStorageDatabase">
+<area shape="rect" id="node1" title=" " alt="" coords="209,80,371,107"/>
+<area shape="rect" id="node3" href="$classDatabase__Dummy.html" title=" " alt="" coords="5,155,148,181"/>
+<area shape="rect" id="node4" href="$classModStorageDatabasePostgreSQL.html" title=" " alt="" coords="172,155,408,181"/>
+<area shape="rect" id="node5" href="$classModStorageDatabaseSQLite3.html" title=" " alt="" coords="432,155,644,181"/>
+<area shape="rect" id="node2" href="$classDatabase.html" title=" " alt="" coords="248,5,332,32"/>
+</map>

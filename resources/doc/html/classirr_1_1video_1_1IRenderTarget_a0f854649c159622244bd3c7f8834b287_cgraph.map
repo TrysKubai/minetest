@@ -1,0 +1,6 @@
+<map id="irr::video::IRenderTarget::setTexture" name="irr::video::IRenderTarget::setTexture">
+<area shape="rect" id="node1" title="Set multiple textures." alt="" coords="5,71,184,112"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1array.html#a7cd7985c7fb32e90205e1df663f0fffb" title="Gets a const pointer to the array." alt="" coords="243,5,399,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1IRenderTarget.html#ad73cc8d3fe37713fe27a84b8d80475f1" title="Set multiple textures." alt="" coords="232,71,411,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1array.html#af2a884d7e19d685b58617fed4ea4d4b9" title="Get number of occupied elements of the array." alt="" coords="248,137,395,163"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="irr::video::CImage::copyToScaling" name="irr::video::CImage::copyToScaling">
+<area shape="rect" id="node1" title="copies this surface into another, scaling it to fit." alt="" coords="5,51,144,92"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1CImage.html#ac206a05ef5a89bd9f085a37f643d996e" title="copies this surface into another, if it has the exact same size and format." alt="" coords="192,51,332,92"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1IImage.html#a70b50ef1bbb6f90ec4c43a91f521c2b6" title="get the amount of Bits per Pixel of the given color format" alt="" coords="380,5,587,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1IImage.html#a2e54dd41abc9f56e81f72de5e8538aee" title="check if this is compressed color format" alt="" coords="399,84,567,125"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="GUIEditBoxWithScrollBar::createVScrollBar" name="GUIEditBoxWithScrollBar::createVScrollBar">
+<area shape="rect" id="node1" title="create a Vertical ScrollBar" alt="" coords="5,201,189,243"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1IGUIFont.html#aa7612db0c9dc2837b44a1a2fa5668797" title="Calculates the width and height of a given string of text." alt="" coords="265,5,393,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1IGUISkin.html#ab1b2623d04688c4dfe106ca407171d6e" title="returns the default font" alt="" coords="265,71,393,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1IGUIElement.html#ab3eacf3540cb5b020f3c4a24c6a67473" title="Returns parent of this element." alt="" coords="251,136,406,177"/>
+<area shape="rect" id="node5" href="$classirr_1_1gui_1_1IGUISkin.html#ac48a8a0b6cdccacfa90a0fb23e4d9503" title="returns size for the given size type" alt="" coords="265,201,393,243"/>
+<area shape="rect" id="node6" href="$classirr_1_1gui_1_1IGUIEnvironment.html#a54ce9072ea7b89cdaea65306e93ba90c" title="Returns pointer to the current gui skin." alt="" coords="237,267,420,308"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1rect.html#ad5dcae186b85b938d42b59c91bfeb9a5" title="Get width of rectangle." alt="" coords="243,333,415,359"/>
+<area shape="rect" id="node8" href="$classirr_1_1gui_1_1IGUIElement.html#aed537cb0b16c670b8f895179f0027bad" title="Sets the visible state of this element." alt="" coords="251,384,406,425"/>
+</map>

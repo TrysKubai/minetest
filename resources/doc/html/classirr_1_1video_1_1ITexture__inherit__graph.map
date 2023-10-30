@@ -1,0 +1,6 @@
+<map id="irr::video::ITexture" name="irr::video::ITexture">
+<area shape="rect" id="node1" title="Interface of a Video Driver dependent Texture." alt="" coords="221,46,361,73"/>
+<area shape="rect" id="node3" href="$structirr_1_1video_1_1CNullDriver_1_1SDummyTexture.html" title=" " alt="" coords="441,5,604,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1COpenGLCoreTexture.html" title=" " alt="" coords="409,71,636,112"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="5,46,173,73"/>
+</map>

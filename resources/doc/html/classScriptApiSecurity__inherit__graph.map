@@ -1,0 +1,8 @@
+<map id="ScriptApiSecurity" name="ScriptApiSecurity">
+<area shape="rect" id="node1" title=" " alt="" coords="173,155,306,181"/>
+<area shape="rect" id="node4" href="$classAsyncWorkerThread.html" title=" " alt="" coords="5,229,156,256"/>
+<area shape="rect" id="node5" href="$classClientScripting.html" title=" " alt="" coords="181,229,298,256"/>
+<area shape="rect" id="node6" href="$classServerScripting.html" title=" " alt="" coords="323,229,444,256"/>
+<area shape="rect" id="node2" href="$classScriptApiBase.html" title=" " alt="" coords="183,80,295,107"/>
+<area shape="rect" id="node3" href="$classLuaHelper.html" title=" " alt="" coords="195,5,283,32"/>
+</map>

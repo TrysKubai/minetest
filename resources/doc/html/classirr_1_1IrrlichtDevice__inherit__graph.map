@@ -1,0 +1,5 @@
+<map id="irr::IrrlichtDevice" name="irr::IrrlichtDevice">
+<area shape="rect" id="node1" title="The Irrlicht device. You can create it with createDevice() or createDeviceEx()." alt="" coords="24,80,155,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1CIrrDeviceStub.html" title="Stub for an Irrlicht Device implementation." alt="" coords="19,155,160,181"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="5,5,173,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="irr::scene::CAnimatedMeshSceneNode::setCurrentFrame" name="irr::scene::CAnimatedMeshSceneNode::setCurrentFrame">
+<area shape="rect" id="node1" title="sets the current frame. from now on the animation is played from this frame." alt="" coords="5,23,217,65"/>
+<area shape="rect" id="node2" href="$namespaceirr_1_1core.html#a6162f685b68f629e77336081d3316969" title="clamps a value between low and high" alt="" coords="265,31,385,57"/>
+<area shape="rect" id="node3" href="$namespaceirr_1_1core.html#afca1ce7ac54e0c31a9047947f4c7319b" title="returns maximum of two values. Own implementation to get rid of the STL (VS6 problems)" alt="" coords="433,5,549,32"/>
+<area shape="rect" id="node4" href="$namespaceirr_1_1core.html#a9d34bfdbbe9c136b01ae04974572bc11" title="returns minimum of two values. Own implementation to get rid of the STL (VS6 problems)" alt="" coords="435,56,547,83"/>
+</map>

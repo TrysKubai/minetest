@@ -1,0 +1,6 @@
+<map id="GUIEngine::drawBackground" name="GUIEngine::drawBackground">
+<area shape="rect" id="node1" title=" " alt="" coords="5,78,212,105"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IVideoDriver.html#ac7f452fae0ef8abe01768a78ba7033b7" title="Draws a 2d rectangle." alt="" coords="260,5,429,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1ITexture.html#a570e1eec61d7c71be2d7c2d570c05d76" title="Get original size of the texture." alt="" coords="275,71,415,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1IVideoDriver.html#aa106dd9ff233497f9ea9a07dc6441c82" title="Get the size of the screen or render window." alt="" coords="260,136,429,177"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="irr::video::CNullDriver::createImageFromFile" name="irr::video::CNullDriver::createImageFromFile">
+<area shape="rect" id="node1" title="Creates a software image from a file." alt="" coords="5,35,173,76"/>
+<area shape="rect" id="node2" href="$classirr_1_1io_1_1IFileSystem.html#a3678bb77e12cc6ee2b3947f4c79f6c90" title="Opens a file for read access." alt="" coords="221,5,375,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1string.html#aa8bd67d3b9e153e1a8e47ea921c95933" title="Returns length of the string&#39;s content." alt="" coords="223,71,373,98"/>
+</map>

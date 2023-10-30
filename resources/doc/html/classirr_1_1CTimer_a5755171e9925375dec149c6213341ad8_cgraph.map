@@ -1,0 +1,5 @@
+<map id="irr::CTimer::tick" name="irr::CTimer::tick">
+<area shape="rect" id="node1" title="Advances the virtual time." alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node2" href="$classirr_1_1os_1_1Timer.html#a0473ceda20f46f2259020ee6e4c1aa04" title="makes the virtual timer update the time value based on the real time" alt="" coords="176,5,313,32"/>
+<area shape="rect" id="node3" href="$classirr_1_1os_1_1Timer.html#aa0a73b26f4f18ac6fbc737caae2061cd" title="returns the current real time in milliseconds" alt="" coords="361,5,557,32"/>
+</map>

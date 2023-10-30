@@ -1,0 +1,5 @@
+<map id="irr::gui::CGUIImageList::createImageList" name="irr::gui::CGUIImageList::createImageList">
+<area shape="rect" id="node1" title="Creates the image list from texture." alt="" coords="5,39,175,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1ITexture.html#aa2d4f5a6dc7dcae625845ab0bbac8ca4" title="Get dimension (=size) of the texture." alt="" coords="237,5,377,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html#a396f9cdbe311ada278626477b3c6f0f5" title="Grabs the object. Increments the reference counter by one." alt="" coords="223,71,391,112"/>
+</map>

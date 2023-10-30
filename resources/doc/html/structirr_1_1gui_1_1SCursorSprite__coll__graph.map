@@ -1,0 +1,8 @@
+<map id="irr::gui::SCursorSprite" name="irr::gui::SCursorSprite">
+<area shape="rect" id="node1" title="structure used to set sprites as cursors." alt="" coords="106,273,266,300"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,184,148,211"/>
+<area shape="rect" id="node3" title=" " alt="" coords="175,5,242,32"/>
+<area shape="rect" id="node5" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="225,95,393,121"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1IGUISpriteBank.html" title="Sprite bank interface." alt="" coords="223,184,394,211"/>
+<area shape="rect" id="node6" title=" " alt="" coords="357,5,407,32"/>
+</map>

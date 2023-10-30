@@ -1,0 +1,10 @@
+<map id="MapgenBasic" name="MapgenBasic">
+<area shape="rect" id="node1" title=" " alt="" coords="367,80,477,107"/>
+<area shape="rect" id="node3" href="$classMapgenCarpathian.html" title=" " alt="" coords="5,155,151,181"/>
+<area shape="rect" id="node4" href="$classMapgenFlat.html" title=" " alt="" coords="175,155,274,181"/>
+<area shape="rect" id="node5" href="$classMapgenFractal.html" title=" " alt="" coords="299,155,417,181"/>
+<area shape="rect" id="node6" href="$classMapgenV5.html" title=" " alt="" coords="442,155,533,181"/>
+<area shape="rect" id="node7" href="$classMapgenV7.html" title=" " alt="" coords="557,155,647,181"/>
+<area shape="rect" id="node8" href="$classMapgenValleys.html" title=" " alt="" coords="672,155,793,181"/>
+<area shape="rect" id="node2" href="$classMapgen.html" title=" " alt="" coords="385,5,459,32"/>
+</map>

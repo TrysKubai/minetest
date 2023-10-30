@@ -1,0 +1,26 @@
+var classirr_1_1core_1_1dimension2d =
+[
+    [ "dimension2d", "classirr_1_1core_1_1dimension2d.html#ae0c2a30ce6283602c454901ef0bd6a04", null ],
+    [ "dimension2d", "classirr_1_1core_1_1dimension2d.html#a9032aa6e975b32497ed3b570e3d03b76", null ],
+    [ "dimension2d", "classirr_1_1core_1_1dimension2d.html#a96f90d1d96392bf736a01f8def8aa7db", null ],
+    [ "dimension2d", "classirr_1_1core_1_1dimension2d.html#a50814f5fc29d226104d5739350befb31", null ],
+    [ "getArea", "classirr_1_1core_1_1dimension2d.html#a320dee7a21500fd4625ab7660a33248b", null ],
+    [ "getInterpolated", "classirr_1_1core_1_1dimension2d.html#a30981123f90a2221acd85c1fe4364eee", null ],
+    [ "getOptimalSize", "classirr_1_1core_1_1dimension2d.html#a5861f95f79fe5a23a0f2d867b6ca70fc", null ],
+    [ "operator!=", "classirr_1_1core_1_1dimension2d.html#a7bc8e7a51170f1e0758476d5fac4ff1b", null ],
+    [ "operator!=", "classirr_1_1core_1_1dimension2d.html#a230d66671db32235f414f67c49d4ed7a", null ],
+    [ "operator*", "classirr_1_1core_1_1dimension2d.html#a93c0e2bc5492325febfe9b5703bfc75d", null ],
+    [ "operator*=", "classirr_1_1core_1_1dimension2d.html#acd311b8270b3c95791edf9a5b2869b1b", null ],
+    [ "operator+", "classirr_1_1core_1_1dimension2d.html#a128002f9610d1647fd8617ab7187e9a9", null ],
+    [ "operator+=", "classirr_1_1core_1_1dimension2d.html#ae233386e59e95f213367922f7638bc46", null ],
+    [ "operator-", "classirr_1_1core_1_1dimension2d.html#aec5df4b45e5af7fa0fe13f2b0c6d5976", null ],
+    [ "operator-=", "classirr_1_1core_1_1dimension2d.html#af5bb67163a3cdbcbceb9eda015382bfe", null ],
+    [ "operator/", "classirr_1_1core_1_1dimension2d.html#a927291115ac1098aeb5f98de6ce306ea", null ],
+    [ "operator/=", "classirr_1_1core_1_1dimension2d.html#ac581fbe07dabf2a342314c7a73f862c8", null ],
+    [ "operator=", "classirr_1_1core_1_1dimension2d.html#a22388905976bbcd11f32a765a601a4fd", null ],
+    [ "operator==", "classirr_1_1core_1_1dimension2d.html#acb4e8b532083b57ee9849703657c7309", null ],
+    [ "operator==", "classirr_1_1core_1_1dimension2d.html#a31161cd8b96a4fc21cc61dc206678e63", null ],
+    [ "set", "classirr_1_1core_1_1dimension2d.html#a81860d7ff5a888a37af84f7bbbad7c91", null ],
+    [ "Height", "classirr_1_1core_1_1dimension2d.html#a89b253523d31336c6b2a6a56dfd48a6b", null ],
+    [ "Width", "classirr_1_1core_1_1dimension2d.html#a0399dcc023c19d381d1a192596107db4", null ]
+];

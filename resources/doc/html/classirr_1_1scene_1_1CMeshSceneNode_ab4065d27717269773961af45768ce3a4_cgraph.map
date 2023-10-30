@@ -1,0 +1,6 @@
+<map id="irr::scene::CMeshSceneNode::getMaterial" name="irr::scene::CMeshSceneNode::getMaterial">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,212,112"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1IMeshBuffer.html#a26fd922f00fde56abbbbbe40b485238b" title="Get the material of this meshbuffer." alt="" coords="260,5,428,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1ISceneNode.html#a1f44d8cf753b2e4c17c90d4fc2ed05b2" title="Returns the material based on the zero based index i." alt="" coords="261,71,427,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1scene_1_1IMesh.html#a2cd1a04b396235101f426befba0c5b82" title="Get pointer to a mesh buffer." alt="" coords="275,136,413,177"/>
+</map>

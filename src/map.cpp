@@ -1778,7 +1778,8 @@ bool ServerMap::saveBlock(MapBlock *block, MapDatabase *db, int compression_leve
 
 void ServerMap::loadBlock(std::string *blob, v3s16 p3d, MapSector *sector, bool save_after_load)
 {
-	try {
+	try 
+	{
 		std::istringstream is(*blob, std::ios_base::binary);
 
 		u8 version = SER_FMT_VER_INVALID;
@@ -1795,8 +1796,6 @@ void ServerMap::loadBlock(std::string *blob, v3s16 p3d, MapSector *sector, bool 
 			block_created_new = sector->createBlankBlockNoInsert(p3d.Y);
 			block = block_created_new.get();
 		}
-
-		{
 		ScopeProfiler sp(g_profiler, "ServerMap: deSer block", SPT_AVG);
 		// Read basic data
 		block->deserialize(is, version, true);

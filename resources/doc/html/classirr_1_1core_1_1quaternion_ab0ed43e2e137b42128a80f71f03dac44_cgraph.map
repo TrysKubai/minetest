@@ -1,0 +1,5 @@
+<map id="irr::core::quaternion::getMatrixCenter" name="irr::core::quaternion::getMatrixCenter">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,156,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1quaternion.html#aac7a34ffd2a14a78de12d994539b94f9" title="Normalizes the quaternion." alt="" coords="204,5,355,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1CMatrix4.html#a8117628146ce654b3b292af7c49e25e2" title="Builds a combined matrix which translates to a center before rotation and translates from origin afte..." alt="" coords="205,71,353,112"/>
+</map>

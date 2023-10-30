@@ -1,0 +1,5 @@
+<map id="GUIEngine::setTexture" name="GUIEngine::setTexture">
+<area shape="rect" id="node1" title=" " alt="" coords="5,46,172,73"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IVideoDriver.html#af4055165190e4adf221c6dc6f2434ea0" title="Get access to a named texture." alt="" coords="220,5,389,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1IVideoDriver.html#ac88319ec41daa23fef2ae935285afcc9" title="Removes a texture from the texture cache and deletes it." alt="" coords="220,71,389,112"/>
+</map>

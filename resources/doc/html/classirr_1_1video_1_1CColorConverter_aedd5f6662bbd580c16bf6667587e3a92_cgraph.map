@@ -1,0 +1,4 @@
+<map id="irr::video::CColorConverter::convert8BitTo16Bit" name="irr::video::CColorConverter::convert8BitTo16Bit">
+<area shape="rect" id="node1" title="converts a 8 bit palettized image to A1R5G5B5" alt="" coords="5,5,200,47"/>
+<area shape="rect" id="node2" href="$namespaceirr_1_1video.html#a6824dfc9c71a7fd9d7a3e704b1267ddc" title="Converts a 32bit (X8R8G8B8) color to a 16bit A1R5G5B5 color." alt="" coords="248,5,435,47"/>
+</map>

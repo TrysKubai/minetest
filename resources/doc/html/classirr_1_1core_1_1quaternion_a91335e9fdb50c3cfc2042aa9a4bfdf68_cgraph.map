@@ -1,0 +1,6 @@
+<map id="irr::core::quaternion::slerp" name="irr::core::quaternion::slerp">
+<area shape="rect" id="node1" title="Set this quaternion to the result of the spherical interpolation between two quaternions." alt="" coords="5,39,156,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1quaternion.html#a1815b23fdca2b759f7dc43e10c26439f" title="Calculates the dot product." alt="" coords="204,5,355,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1quaternion.html#acdb8b31f25b3b47e640a13f8a25ef1cd" title="Set this quaternion to the linear interpolation between two quaternions and normalize the result." alt="" coords="204,71,355,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1quaternion.html#aac7a34ffd2a14a78de12d994539b94f9" title="Normalizes the quaternion." alt="" coords="403,71,553,112"/>
+</map>

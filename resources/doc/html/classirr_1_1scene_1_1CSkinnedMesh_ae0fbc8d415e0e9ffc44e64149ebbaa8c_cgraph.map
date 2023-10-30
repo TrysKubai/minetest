@@ -1,0 +1,11 @@
+<map id="irr::scene::CSkinnedMesh::getMesh" name="irr::scene::CSkinnedMesh::getMesh">
+<area shape="rect" id="node1" title="returns the animated mesh based on a detail level (which is ignored)" alt="" coords="5,87,192,129"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1CSkinnedMesh.html#a7fc6789fd7bd0d02fa86c6f961564e37" title=" " alt="" coords="240,54,427,95"/>
+<area shape="rect" id="node9" href="$classirr_1_1scene_1_1CSkinnedMesh.html#a666e2af7c873ea72f4c8591eb2168f31" title="Preforms a software skin on this mesh based of joint positions." alt="" coords="240,119,427,161"/>
+<area shape="rect" id="node3" href="$namespaceirr_1_1core.html#ae2e6a5729b911d26565b508e8b8dae91" title=" " alt="" coords="497,5,603,32"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1array.html#af2a884d7e19d685b58617fed4ea4d4b9" title="Get number of occupied elements of the array." alt="" coords="477,124,623,151"/>
+<area shape="rect" id="node5" href="$classirr_1_1core_1_1quaternion.html#a91335e9fdb50c3cfc2042aa9a4bfdf68" title="Set this quaternion to the result of the spherical interpolation between two quaternions." alt="" coords="475,57,625,98"/>
+<area shape="rect" id="node6" href="$classirr_1_1core_1_1quaternion.html#a1815b23fdca2b759f7dc43e10c26439f" title="Calculates the dot product." alt="" coords="673,23,824,65"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1quaternion.html#acdb8b31f25b3b47e640a13f8a25ef1cd" title="Set this quaternion to the linear interpolation between two quaternions and normalize the result." alt="" coords="673,89,824,130"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1quaternion.html#aac7a34ffd2a14a78de12d994539b94f9" title="Normalizes the quaternion." alt="" coords="872,89,1023,130"/>
+</map>

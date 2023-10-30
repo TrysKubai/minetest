@@ -1,0 +1,6 @@
+<map id="irr::gui::CGUISkin::draw3DTabBody" name="irr::gui::CGUISkin::draw3DTabBody">
+<area shape="rect" id="node1" title="draws a tab control body" alt="" coords="5,71,140,112"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IVideoDriver.html#ac7f452fae0ef8abe01768a78ba7033b7" title="Draws a 2d rectangle." alt="" coords="188,5,357,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1CGUISkin.html#a0f12cb721c0b7d19004a209fe32cd04d" title="returns default color" alt="" coords="206,71,339,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1CGUISkin.html#a124841d8dd783286d8cef294b5d6ee21" title="returns size for the given size type" alt="" coords="206,136,339,177"/>
+</map>

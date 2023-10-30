@@ -1,0 +1,6 @@
+<map id="irr::scene::CSceneManager::addCameraSceneNode" name="irr::scene::CSceneManager::addCameraSceneNode">
+<area shape="rect" id="node1" title=" " alt="" coords="5,35,200,76"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="491,5,659,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1CSceneManager.html#ab51eada7234e5e5b3a2cd504126d7817" title=" " alt="" coords="248,64,443,105"/>
+<area shape="rect" id="node4" href="$classirr_1_1IReferenceCounted.html#a396f9cdbe311ada278626477b3c6f0f5" title="Grabs the object. Increments the reference counter by one." alt="" coords="491,71,659,112"/>
+</map>

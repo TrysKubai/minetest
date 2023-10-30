@@ -1,0 +1,5 @@
+<map id="irr::scene::ISceneManager" name="irr::scene::ISceneManager">
+<area shape="rect" id="node1" title="The Scene Manager manages scene nodes, mesh resources, cameras and all the other stuff." alt="" coords="7,80,198,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1CSceneManager.html" title=" " alt="" coords="5,155,200,181"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="19,5,187,32"/>
+</map>

@@ -1,0 +1,25 @@
+var classScriptApiSecurity =
+[
+    [ "checkPath", "classScriptApiSecurity.html#a328bf307e2f5c766ba6df31a529a8a4a", null ],
+    [ "checkWhitelisted", "classScriptApiSecurity.html#af6f033b7c3b4176bc480f739b0314ef4", null ],
+    [ "createEmptyEnv", "classScriptApiSecurity.html#ac88a07eaa9fbff6d2d883462dea97cdf", null ],
+    [ "getThread", "classScriptApiSecurity.html#a513bb45de9d07c688933618e0dc25c75", null ],
+    [ "initializeSecurity", "classScriptApiSecurity.html#a2315f62da1f02f49284a2d7884afe154", null ],
+    [ "initializeSecurityClient", "classScriptApiSecurity.html#a179db419eaed8e8b3098428f8a50c226", null ],
+    [ "isSecure", "classScriptApiSecurity.html#acb3429c5538a428f76697b9da9f1ee77", null ],
+    [ "safeLoadFile", "classScriptApiSecurity.html#a2bd1ed778b53f464d367d39a84edc4ac", null ],
+    [ "safeLoadString", "classScriptApiSecurity.html#acc5ba662219384deb79bf62ff807a419", null ],
+    [ "setLuaEnv", "classScriptApiSecurity.html#af980cc06db61ed8a731a98a637596e69", null ],
+    [ "sl_g_dofile", "classScriptApiSecurity.html#aaa277fc7a6ce646e11a6635a5b5a712b", null ],
+    [ "sl_g_load", "classScriptApiSecurity.html#af054576627e14eb34f3457be1802b0fc", null ],
+    [ "sl_g_loadfile", "classScriptApiSecurity.html#a88d91da0892aa080cfec5091e9b93016", null ],
+    [ "sl_g_loadstring", "classScriptApiSecurity.html#a2d5ac46240e26ea22eaec0be4055e205", null ],
+    [ "sl_g_require", "classScriptApiSecurity.html#a695c276519a9e87803e66be2daa133ff", null ],
+    [ "sl_io_input", "classScriptApiSecurity.html#aa358a7a762034aba3a34e2afe1139f48", null ],
+    [ "sl_io_lines", "classScriptApiSecurity.html#aa6eba0b7eb0f76a1bcc52e7a1c68cfab", null ],
+    [ "sl_io_open", "classScriptApiSecurity.html#a849ad702ae636677651049f14a8acd46", null ],
+    [ "sl_io_output", "classScriptApiSecurity.html#ae5b6a9df227ebcdae3ac8211258a1111", null ],
+    [ "sl_os_remove", "classScriptApiSecurity.html#a084083ce8701665214eb616deabfe92d", null ],
+    [ "sl_os_rename", "classScriptApiSecurity.html#a6dfed67a6d427664ed71c050d11679b8", null ],
+    [ "sl_os_setlocale", "classScriptApiSecurity.html#a0f3164940b7ab9d91eec197794fff1bb", null ]
+];

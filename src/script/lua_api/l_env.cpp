@@ -905,6 +905,12 @@ int ModApiEnvBase::findNodesInArea(lua_State *L, const NodeDefManager *ndef,
 			return true;
 		});
 
+		// If there is no nodes in the filter list 
+		if(filter.size() == 0)
+		{
+			return 0;
+		}
+
 		// last filter table is at top of stack
 		u32 i = filter.size() - 1;
 		do {

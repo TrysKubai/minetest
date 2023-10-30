@@ -1,0 +1,6 @@
+<map id="irr::scene::ISceneNode::setMaterialTexture" name="irr::scene::ISceneNode::setMaterialTexture">
+<area shape="rect" id="node1" title="Sets the texture of the specified layer in all materials of this scene node to the new texture." alt="" coords="5,71,172,112"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1ISceneNode.html#a1f44d8cf753b2e4c17c90d4fc2ed05b2" title="Returns the material based on the zero based index i." alt="" coords="220,5,387,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1ISceneNode.html#a8e75e9baede63e31e6aa6e42e6c8ddfe" title="Get amount of materials used by this scene node." alt="" coords="220,71,387,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1SMaterial.html#a44dc38e7d4a78434d12ffd02e88e3d60" title="Sets the i&#45;th texture." alt="" coords="228,136,379,177"/>
+</map>

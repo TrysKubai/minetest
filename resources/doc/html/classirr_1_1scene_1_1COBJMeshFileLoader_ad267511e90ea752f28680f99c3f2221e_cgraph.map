@@ -1,0 +1,34 @@
+<map id="irr::scene::COBJMeshFileLoader::createMesh" name="irr::scene::COBJMeshFileLoader::createMesh">
+<area shape="rect" id="node1" title=" " alt="" coords="5,679,185,720"/>
+<area shape="rect" id="node2" href="$structirr_1_1scene_1_1SAnimatedMesh.html#a45bacd8ae07d47db3a204d3fd8d8bc50" title="adds a Mesh" alt="" coords="238,5,435,47"/>
+<area shape="rect" id="node4" href="$structirr_1_1scene_1_1SMesh.html#a890e7506262b2ebaf45ff95c681452bd" title="adds a MeshBuffer" alt="" coords="266,71,407,112"/>
+<area shape="rect" id="node5" href="$classirr_1_1core_1_1string.html#a4a6d39561b095cbab46185dd20d11d85" title="Returns character string." alt="" coords="274,136,399,177"/>
+<area shape="rect" id="node6" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="253,201,421,243"/>
+<area shape="rect" id="node7" href="$classirr_1_1scene_1_1COBJMeshFileLoader.html#a23a88136e648ba3c5638f1593413e4c1" title="Find and return the material with the given name." alt="" coords="247,319,427,360"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1string.html#aa8bd67d3b9e153e1a8e47ea921c95933" title="Returns length of the string&#39;s content." alt="" coords="503,297,653,323"/>
+<area shape="rect" id="node9" href="$classirr_1_1io_1_1IAttributes.html#aa111852fb00646f04e3364f001a4d485" title=" " alt="" coords="260,384,413,425"/>
+<area shape="rect" id="node10" href="$structirr_1_1scene_1_1SMesh.html#a49a876a789780c3d730f08182f47bc13" title="returns amount of mesh buffers." alt="" coords="259,449,414,491"/>
+<area shape="rect" id="node11" href="$classirr_1_1scene_1_1ISceneManager.html#a05138d6b5f99fced0061794fb5c42318" title="Get pointer to the mesh manipulator." alt="" coords="241,515,432,556"/>
+<area shape="rect" id="node12" href="$classirr_1_1scene_1_1ISceneManager.html#a4dba8ee7f48fdf6ede2c3f4b5fabcad3" title="Get interface to the parameters set in this scene." alt="" coords="241,580,432,621"/>
+<area shape="rect" id="node13" href="$classirr_1_1scene_1_1COBJMeshFileLoader.html#a6f776b19a0ebb028def5960f2a12b6f4" title="Read until line break is reached and stop at the next non&#45;space character." alt="" coords="247,645,427,687"/>
+<area shape="rect" id="node15" href="$classirr_1_1scene_1_1COBJMeshFileLoader.html#aea620b729121f3bbfe4f02116f0ef44a" title="skip current word and stop at beginning of next one" alt="" coords="247,711,427,752"/>
+<area shape="rect" id="node16" href="$classirr_1_1core_1_1array.html#a95afc36513d08abb51bd399755730877" title="Adds an element at back of array." alt="" coords="241,777,432,803"/>
+<area shape="rect" id="node17" href="$classirr_1_1scene_1_1COBJMeshFileLoader.html#ac5def76d67c7bfcc1cb6d951650a5fd3" title="Read 2d vector of floats." alt="" coords="247,893,427,935"/>
+<area shape="rect" id="node22" href="$namespaceirr_1_1core.html#ae7f759b603f4caaa8471cb9bc2e23648" title="Convert a simple string of base 10 digits into an unsigned 32 bit integer." alt="" coords="1125,909,1264,935"/>
+<area shape="rect" id="node23" href="$classirr_1_1scene_1_1COBJMeshFileLoader.html#add38d941d16cddfcecf99a4c17500423" title="Read 3d vector of floats." alt="" coords="247,828,427,869"/>
+<area shape="rect" id="node24" href="$classirr_1_1core_1_1array.html#aa591c18145f3368828122173318786c4" title="Reallocates the array, make it bigger or smaller." alt="" coords="243,1010,430,1037"/>
+<area shape="rect" id="node25" href="$structirr_1_1scene_1_1SMesh.html#a7a16bc83094ab242ae779baf817dc7f9" title="recalculates the bounding box" alt="" coords="247,1127,427,1168"/>
+<area shape="rect" id="node29" href="$structirr_1_1scene_1_1SAnimatedMesh.html#a95990a26946e43a4bdfbc1edb3ddefbb" title="Recalculates the bounding box." alt="" coords="238,1061,435,1103"/>
+<area shape="rect" id="node30" href="$classirr_1_1scene_1_1IMeshManipulator.html#a8dba16b7eedeac07761c9c1247944429" title="Recalculates all normals of the mesh." alt="" coords="233,1192,440,1233"/>
+<area shape="rect" id="node31" href="$classirr_1_1core_1_1array.html#a0767f2095c59d44a73abf4a9fa9480ba" title="Sets the size of the array and allocates new elements if necessary." alt="" coords="247,1258,426,1285"/>
+<area shape="rect" id="node32" href="$classirr_1_1core_1_1array.html#af2a884d7e19d685b58617fed4ea4d4b9" title="Get number of occupied elements of the array." alt="" coords="263,1309,410,1335"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html#a396f9cdbe311ada278626477b3c6f0f5" title="Grabs the object. Increments the reference counter by one." alt="" coords="494,39,662,80"/>
+<area shape="rect" id="node14" href="$classirr_1_1scene_1_1COBJMeshFileLoader.html#aacb395f4a0accea88311d93b9516df78" title="skip space characters and stop on first non&#45;space" alt="" coords="488,679,668,720"/>
+<area shape="rect" id="node18" href="$namespaceirr_1_1core.html#af69b7d3604a1089438106fcce3cedb34" title="Convert a string to a floating point number." alt="" coords="509,879,647,906"/>
+<area shape="rect" id="node19" href="$namespaceirr_1_1core.html#ae5806ec05e45a700461890ec5e6f602a" title="Provides a fast function for converting a string into a float." alt="" coords="716,879,899,906"/>
+<area shape="rect" id="node20" href="$namespaceirr_1_1core.html#a032ec5ae63987749c7b30c18ea4ccd92" title="Converts a sequence of digits into a whole positive floating point value." alt="" coords="947,909,1077,935"/>
+<area shape="rect" id="node21" href="$namespaceirr_1_1core.html#a6ff97e442233218d18acd56add48766f" title="Convert a simple string of base 10 digits into a signed 32 bit integer." alt="" coords="947,858,1077,885"/>
+<area shape="rect" id="node26" href="$classirr_1_1core_1_1aabbox3d.html#a7ccc210a3fb0ce82765d28f2047942c5" title="Adds another bounding box." alt="" coords="506,1061,650,1103"/>
+<area shape="rect" id="node27" href="$classirr_1_1core_1_1aabbox3d.html#a99f4afcfa29afd6e353b4377e4cbae84" title="Check if the box is empty." alt="" coords="506,1192,650,1233"/>
+<area shape="rect" id="node28" href="$classirr_1_1core_1_1aabbox3d.html#afc718e96ed11aa71a30311d32bfc885a" title="Resets the bounding box to a one&#45;point box." alt="" coords="506,1127,650,1168"/>
+</map>

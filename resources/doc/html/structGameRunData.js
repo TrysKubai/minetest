@@ -1,0 +1,28 @@
+var structGameRunData =
+[
+    [ "btn_down_for_dig", "structGameRunData.html#a155b40436121c9f6f4ec09ec1bc6f3f2", null ],
+    [ "damage_flash", "structGameRunData.html#a823f88f34ba059a29c7e754fdf92a5fd", null ],
+    [ "dig_index", "structGameRunData.html#ac3829d03b00b7dc1d10a510abe459f5a", null ],
+    [ "dig_instantly", "structGameRunData.html#a38ff06fb3c751e8744e3be5bf3c92e81", null ],
+    [ "dig_time", "structGameRunData.html#abdf9663c6e102026ea3dd5f23cf7b61a", null ],
+    [ "dig_time_complete", "structGameRunData.html#ae46a14fb1e67c60913e5d18d86a5b02c", null ],
+    [ "digging", "structGameRunData.html#ad3b3d1ef01ec0c49ef82c6269af97fee", null ],
+    [ "digging_blocked", "structGameRunData.html#a1cc25239b6c709ce92a0f33646873dea", null ],
+    [ "fog_range", "structGameRunData.html#aaf5c07ed97930ec72e9b5af9faf2042d", null ],
+    [ "jump_timer_down", "structGameRunData.html#a70d62a6f99deeccf5f7c0b0b800bd87d", null ],
+    [ "jump_timer_down_before", "structGameRunData.html#a8f6a8e3e6c4a3f2ee7a190ecd97ab899", null ],
+    [ "jump_timer_up", "structGameRunData.html#aa861ea7280c83e476d18760ecf086f2c", null ],
+    [ "new_playeritem", "structGameRunData.html#a30dd9f248cdc0cf644e4eb8acde09165", null ],
+    [ "nodig_delay_timer", "structGameRunData.html#a8da68b35746c1554c2c78c9806040c4f", null ],
+    [ "object_hit_delay_timer", "structGameRunData.html#a9618c2f708638cd65f6a69355b5cc323", null ],
+    [ "pointed_old", "structGameRunData.html#a2486a7dd0d03c8870d9344d9e53d338c", null ],
+    [ "punching", "structGameRunData.html#a3ee57ac09557fe9e738ffebdba74e195", null ],
+    [ "repeat_place_timer", "structGameRunData.html#a6d6bf4ac8a82860e048553ce408e60e7", null ],
+    [ "reset_jump_timer", "structGameRunData.html#aecc26e467e940f2142623e377091dc90", null ],
+    [ "selected_object", "structGameRunData.html#a103481952787007a9d5f3f470046bbc7", null ],
+    [ "time_from_last_punch", "structGameRunData.html#aeaf9a69c8a2149f1a98c0781781ffca3", null ],
+    [ "time_of_day_smooth", "structGameRunData.html#ad8c22ee5eda6915ad962cf0c72b4a91a", null ],
+    [ "touch_blocks_timer", "structGameRunData.html#aafda13b5a13cbca78d2a35c5de154a4c", null ],
+    [ "update_draw_list_last_cam_dir", "structGameRunData.html#a326f60cf59d7f485d088239a329a97b7", null ],
+    [ "update_draw_list_timer", "structGameRunData.html#a9e5860f2d44482d9b34e53b953e80c8f", null ]
+];

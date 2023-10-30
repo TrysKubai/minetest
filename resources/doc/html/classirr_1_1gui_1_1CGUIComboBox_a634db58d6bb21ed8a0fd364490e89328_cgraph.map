@@ -1,0 +1,4 @@
+<map id="irr::gui::CGUIComboBox::getText" name="irr::gui::CGUIComboBox::getText">
+<area shape="rect" id="node1" title="returns the text of the currently selected item" alt="" coords="5,5,181,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1CGUIComboBox.html#a5c56641b9baf82ee1fec9588d7b1c348" title="returns string of an item. the idx may be a value from 0 to itemCount&#45;1" alt="" coords="229,5,405,47"/>
+</map>

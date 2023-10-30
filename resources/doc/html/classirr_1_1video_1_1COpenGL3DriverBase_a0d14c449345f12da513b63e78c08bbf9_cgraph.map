@@ -1,0 +1,10 @@
+<map id="irr::video::COpenGL3DriverBase::beginScene" name="irr::video::COpenGL3DriverBase::beginScene">
+<area shape="rect" id="node1" title="Applications must call this method before performing any rendering." alt="" coords="5,71,201,112"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IContextManager.html#a94fe2f289751c7d8ccbed453bc3c4c96" title="Change render context, disable old and activate new defined by videoData." alt="" coords="249,5,449,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1CNullDriver.html#ad144dff8be7e8f0a504b8d8daf7a2293" title="Applications must call this method before performing any rendering." alt="" coords="268,71,431,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1COpenGL3DriverBase.html#a9b529e12eac739ed421e5a11533313be" title="Clear the color, depth and/or stencil buffers." alt="" coords="251,136,447,177"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1SColor.html#a8b0bcff9036b06e3483978a84a924b91" title="Returns the alpha component of the color." alt="" coords="497,37,628,79"/>
+<area shape="rect" id="node6" href="$classirr_1_1video_1_1SColor.html#afb60ac456b2efc2f2a4f04a643293d26" title="Returns the blue component of the color." alt="" coords="497,103,628,144"/>
+<area shape="rect" id="node7" href="$classirr_1_1video_1_1SColor.html#a198773366f2a5436c1ca4adc9037bb8d" title="Returns the green component of the color." alt="" coords="497,168,628,209"/>
+<area shape="rect" id="node8" href="$classirr_1_1video_1_1SColor.html#a70d11ec2247581c79ee11e0e1b511978" title="Returns the red component of the color." alt="" coords="497,233,628,275"/>
+</map>

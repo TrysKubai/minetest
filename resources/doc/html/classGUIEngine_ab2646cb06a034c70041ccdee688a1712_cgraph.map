@@ -1,0 +1,5 @@
+<map id="GUIEngine::cloudInit" name="GUIEngine::cloudInit">
+<area shape="rect" id="node1" title=" " alt="" coords="5,46,160,73"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1ISceneManager.html#afc3733849319078d5d22d94f58c7d1f2" title="Adds a camera scene node to the scene graph and sets it as active camera." alt="" coords="208,5,399,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1ICameraSceneNode.html#ab7e427dd639b6bb63f648d6d087da1ea" title="Sets the value of the far clipping plane (default: 2000.0f)" alt="" coords="211,71,395,112"/>
+</map>

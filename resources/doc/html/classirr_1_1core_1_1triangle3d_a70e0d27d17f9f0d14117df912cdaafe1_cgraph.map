@@ -1,0 +1,8 @@
+<map id="irr::core::triangle3d::getIntersectionWithLine" name="irr::core::triangle3d::getIntersectionWithLine">
+<area shape="rect" id="node1" title="Get an intersection with a 3d line." alt="" coords="5,104,191,145"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1triangle3d.html#a860339e3646bf2f7cbb7e88be1cf0783" title="Calculates the intersection between a 3d line and the plane the triangle is on." alt="" coords="239,71,475,112"/>
+<area shape="rect" id="node6" href="$classirr_1_1core_1_1triangle3d.html#abd425100f688516bdd701135cc980f18" title="Check if a point is inside the triangle (border&#45;points count also as inside)" alt="" coords="283,136,430,177"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1vector3d.html#ae220d3f24173601c5957961382588394" title="Get the dot product with another vector." alt="" coords="527,5,665,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1triangle3d.html#af894905e54d2c29bdb23f95f892604f1" title="Get the normal of the triangle." alt="" coords="523,71,669,112"/>
+<area shape="rect" id="node5" href="$namespaceirr_1_1core.html#afc24e6ba26469ec7ca7001ed272dc3b2" title="returns if a equals zero, taking rounding errors into account" alt="" coords="537,137,655,163"/>
+</map>

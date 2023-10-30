@@ -1,0 +1,26 @@
+var classCItemDefManager =
+[
+    [ "ClientCached", "structCItemDefManager_1_1ClientCached.html", "structCItemDefManager_1_1ClientCached" ],
+    [ "CItemDefManager", "classCItemDefManager.html#aa9e5740adcbd01750e5d20b8e0c15251", null ],
+    [ "~CItemDefManager", "classCItemDefManager.html#a3d81a9d8f3d7bdba15fb26c123c1d801", null ],
+    [ "applyTextureOverrides", "classCItemDefManager.html#a78d8d7c9989943842867de0c932635a2", null ],
+    [ "clear", "classCItemDefManager.html#ae87cae17e7627956b55fc3845655fb37", null ],
+    [ "createClientCachedDirect", "classCItemDefManager.html#ac8d5d33abf1f47fd1b48f0bd1125b92c", null ],
+    [ "deSerialize", "classCItemDefManager.html#a88c42506e091a912ba367bbad9e1413f", null ],
+    [ "get", "classCItemDefManager.html#a365962658f9654b74b3781964d7de42c", null ],
+    [ "getAlias", "classCItemDefManager.html#ac1dfa6481816648469c04b29b80a5045", null ],
+    [ "getAll", "classCItemDefManager.html#ab4c4cacae3c36f6713ee322dfb04162a", null ],
+    [ "getInventoryTexture", "classCItemDefManager.html#a43d54ea5c95a5be3565e7502f34a025f", null ],
+    [ "getItemstackColor", "classCItemDefManager.html#a420e21826720d2cac2bf1cfa58573d60", null ],
+    [ "getPalette", "classCItemDefManager.html#a8dcd5e80c38e09011424b91e8251fdb1", null ],
+    [ "getWieldMesh", "classCItemDefManager.html#a2cfc24c32b3ab97b60a97a3fdb1b5324", null ],
+    [ "isKnown", "classCItemDefManager.html#afcb184e7f0850b6df46d4edff4a71880", null ],
+    [ "registerAlias", "classCItemDefManager.html#a5cd0d86b483d21d9ece5a36ddd2aad65", null ],
+    [ "registerItem", "classCItemDefManager.html#af25cb80d9a2b86de8084bc98a7c15598", null ],
+    [ "serialize", "classCItemDefManager.html#a9f229c5f711f344078a00e549b4e0644", null ],
+    [ "unregisterItem", "classCItemDefManager.html#a941dab2043e3d30f9a41101147dc890e", null ],
+    [ "m_aliases", "classCItemDefManager.html#a64a15d99aa3876bb3f74c6944e22cd7d", null ],
+    [ "m_clientcached", "classCItemDefManager.html#a88801208da9ce25ea7b29f0bc420b633", null ],
+    [ "m_item_definitions", "classCItemDefManager.html#affebbc0bddb875d796c9e1ff25fe04bf", null ],
+    [ "m_main_thread", "classCItemDefManager.html#a21f2d7fa5a1e807f82a61b27b58ff3db", null ]
+];

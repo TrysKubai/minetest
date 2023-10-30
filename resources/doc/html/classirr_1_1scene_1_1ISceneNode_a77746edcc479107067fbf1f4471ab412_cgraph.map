@@ -1,0 +1,5 @@
+<map id="irr::scene::ISceneNode::getTransformedBoundingBox" name="irr::scene::ISceneNode::getTransformedBoundingBox">
+<area shape="rect" id="node1" title="Get the axis aligned, transformed and animated absolute bounding box of this node." alt="" coords="5,39,224,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1ISceneNode.html#a223f718fc2f4944b5ad28c592f6cc8c6" title="Get the axis aligned, not transformed bounding box of this node." alt="" coords="272,5,439,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1CMatrix4.html#a2fcdfa14ef16240470e2b46d19a5cb43" title="Transforms a axis aligned bounding box." alt="" coords="286,71,425,112"/>
+</map>

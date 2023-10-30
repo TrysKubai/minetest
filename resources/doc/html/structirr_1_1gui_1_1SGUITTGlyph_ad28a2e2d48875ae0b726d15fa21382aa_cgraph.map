@@ -1,0 +1,20 @@
+<map id="irr::gui::SGUITTGlyph::preload" name="irr::gui::SGUITTGlyph::preload">
+<area shape="rect" id="node1" title=" " alt="" coords="5,521,164,562"/>
+<area shape="rect" id="node2" href="$structirr_1_1gui_1_1SGUITTGlyph.html#a8eef5bec7bc7d098bd0d57b61943338d" title="Creates the IImage object from the FT_Bitmap." alt="" coords="212,221,371,262"/>
+<area shape="rect" id="node10" href="$classirr_1_1gui_1_1CGUITTFont.html#a775457d5f5466301b19f24f8acd8e10e" title=" " alt="" coords="217,455,366,497"/>
+<area shape="rect" id="node16" href="$classirr_1_1gui_1_1CGUITTFont.html#aa230d88d6a3eee601e99d5e754b33da8" title=" " alt="" coords="217,521,366,562"/>
+<area shape="rect" id="node17" href="$classirr_1_1gui_1_1CGUITTFont.html#a9a4d6d97f3e9bf169a31c0a28fe71a5f" title="Get the last glyph page&#39;s index." alt="" coords="433,579,616,621"/>
+<area shape="rect" id="node18" href="$classirr_1_1video_1_1ITexture.html#a570e1eec61d7c71be2d7c2d570c05d76" title="Get original size of the texture." alt="" coords="221,638,361,679"/>
+<area shape="rect" id="node3" href="$namespaceirr_1_1gui.html#a777d30f948cacafa5a03de0acdb8f0b6" title=" " alt="" coords="419,5,631,32"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1IVideoDriver.html#aee1578fdd92118665755f31c0dd1dbb5" title="Creates an empty software image." alt="" coords="440,57,609,98"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1IImage.html#a04973e101790130f611c4c6790e5b352" title="fills the surface with given color" alt="" coords="458,122,591,163"/>
+<area shape="rect" id="node6" href="$classirr_1_1video_1_1IImage.html#a226cba5c336847caae221a19a0ba932d" title="Use this to get a pointer to the image data." alt="" coords="458,187,591,229"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1dimension2d.html#a5861f95f79fe5a23a0f2d867b6ca70fc" title="Get the optimal size according to some properties." alt="" coords="443,253,607,294"/>
+<area shape="rect" id="node8" href="$classirr_1_1video_1_1IImage.html#adc7e2f7b2f592e8dbac545a8932d2645" title="Returns pitch of image." alt="" coords="458,318,591,359"/>
+<area shape="rect" id="node9" href="$classirr_1_1video_1_1IVideoDriver.html#adde468368b77441ada246e1603da4f47" title="Queries the features of the driver." alt="" coords="440,383,609,425"/>
+<area shape="rect" id="node11" href="$classirr_1_1gui_1_1CGUITTGlyphPage.html#a5dbfa44c82c04958d2b810fb04d81012" title="Create the actual page texture,." alt="" coords="429,449,620,490"/>
+<area shape="rect" id="node15" href="$classirr_1_1video_1_1IVideoDriver.html#a9bc9632861757d167c035bb5ecfa6854" title="Get the maximum texture size supported." alt="" coords="440,514,609,555"/>
+<area shape="rect" id="node12" href="$classirr_1_1video_1_1IVideoDriver.html#a8c02ee280bb738cdf38b77e7a798244e" title="Creates an empty texture of specified size." alt="" coords="685,383,855,425"/>
+<area shape="rect" id="node13" href="$classirr_1_1video_1_1IVideoDriver.html#ae64d474cbca38f64f2dbb8fcacb1a035" title="Returns if a texture creation flag is enabled or disabled." alt="" coords="679,449,861,490"/>
+<area shape="rect" id="node14" href="$classirr_1_1video_1_1IVideoDriver.html#a868b58a6b86b9e4841ca3879ce246c4e" title="Enables or disables a texture creation flag." alt="" coords="679,514,861,555"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="irr::gui::CGUISkin::draw3DSunkenPane" name="irr::gui::CGUISkin::draw3DSunkenPane">
+<area shape="rect" id="node1" title="draws a sunken 3d pane" alt="" coords="5,39,164,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IVideoDriver.html#ac7f452fae0ef8abe01768a78ba7033b7" title="Draws a 2d rectangle." alt="" coords="212,5,381,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1CGUISkin.html#a0f12cb721c0b7d19004a209fe32cd04d" title="returns default color" alt="" coords="230,71,363,112"/>
+</map>

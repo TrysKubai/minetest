@@ -1,0 +1,27 @@
+var classirr_1_1io_1_1IAttributes =
+[
+    [ "addBool", "classirr_1_1io_1_1IAttributes.html#a3335f912c0dfcf0e88f662796314123b", null ],
+    [ "addFloat", "classirr_1_1io_1_1IAttributes.html#a8e3add73bd9daba6f6e614361c659930", null ],
+    [ "addInt", "classirr_1_1io_1_1IAttributes.html#afbde111f36d59e9cf42b20595cf2ed24", null ],
+    [ "clear", "classirr_1_1io_1_1IAttributes.html#ab33109fc1b62432973a49b794231a061", null ],
+    [ "existsAttribute", "classirr_1_1io_1_1IAttributes.html#a6efeb1aa8572ce4c0f32a16228c1f389", null ],
+    [ "findAttribute", "classirr_1_1io_1_1IAttributes.html#abda2f84c5b87d69d9008485740afcb7c", null ],
+    [ "getAttributeAsBool", "classirr_1_1io_1_1IAttributes.html#aa111852fb00646f04e3364f001a4d485", null ],
+    [ "getAttributeAsBool", "classirr_1_1io_1_1IAttributes.html#ab9c1fdb30bb4824b57a72d0446784e8b", null ],
+    [ "getAttributeAsFloat", "classirr_1_1io_1_1IAttributes.html#ad06e9c37f7349f8b63d5711a6412eab2", null ],
+    [ "getAttributeAsFloat", "classirr_1_1io_1_1IAttributes.html#a95505256de4e2abada1c7b0a6658abb8", null ],
+    [ "getAttributeAsInt", "classirr_1_1io_1_1IAttributes.html#a063f8fe983d37d32ede03e6d08ee5095", null ],
+    [ "getAttributeAsInt", "classirr_1_1io_1_1IAttributes.html#a71aab77245c8cfc02b547d1031548006", null ],
+    [ "getAttributeCount", "classirr_1_1io_1_1IAttributes.html#a796bdd9440ee7ba0b6742a90a82870b6", null ],
+    [ "getAttributeName", "classirr_1_1io_1_1IAttributes.html#a2df36a28fb26de511070e9979925f663", null ],
+    [ "getAttributeType", "classirr_1_1io_1_1IAttributes.html#a0c706d3512058abefb38f4f350582fb0", null ],
+    [ "getAttributeType", "classirr_1_1io_1_1IAttributes.html#a2dcbe5f5a42f1aa9b1cec62c986cace4", null ],
+    [ "getAttributeTypeString", "classirr_1_1io_1_1IAttributes.html#a3e0a75f510da4467240686e9090f17da", null ],
+    [ "getAttributeTypeString", "classirr_1_1io_1_1IAttributes.html#a86cd51d96c45672f6e8bf0d2f3d27332", null ],
+    [ "setAttribute", "classirr_1_1io_1_1IAttributes.html#a1c145485baeebae6066cee83af3a6b31", null ],
+    [ "setAttribute", "classirr_1_1io_1_1IAttributes.html#ab6f77e30a926a509847439b345537aaf", null ],
+    [ "setAttribute", "classirr_1_1io_1_1IAttributes.html#a03fa31acb481ae23678676cc183f09a6", null ],
+    [ "setAttribute", "classirr_1_1io_1_1IAttributes.html#a02fde3a6de462bd36b9338e2f3b35a92", null ],
+    [ "setAttribute", "classirr_1_1io_1_1IAttributes.html#a7346bf5c9c2e42c05d5827872e77c51b", null ],
+    [ "setAttribute", "classirr_1_1io_1_1IAttributes.html#aab68bfaf76afb61799ab0b6bc2d66cd7", null ]
+];

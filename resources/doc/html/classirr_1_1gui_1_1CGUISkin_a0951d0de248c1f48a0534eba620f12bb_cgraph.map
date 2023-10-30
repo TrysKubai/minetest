@@ -1,0 +1,5 @@
+<map id="irr::gui::CGUISkin::draw3DToolBar" name="irr::gui::CGUISkin::draw3DToolBar">
+<area shape="rect" id="node1" title="draws a standard 3d tool bar" alt="" coords="5,39,139,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IVideoDriver.html#ac7f452fae0ef8abe01768a78ba7033b7" title="Draws a 2d rectangle." alt="" coords="187,5,356,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1CGUISkin.html#a0f12cb721c0b7d19004a209fe32cd04d" title="returns default color" alt="" coords="205,71,338,112"/>
+</map>

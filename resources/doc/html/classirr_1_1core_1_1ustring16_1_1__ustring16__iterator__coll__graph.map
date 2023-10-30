@@ -1,0 +1,10 @@
+<map id="irr::core::ustring16::_ustring16_iterator" name="irr::core::ustring16::_ustring16_iterator">
+<area shape="rect" id="node1" title="Iterator to iterate through a UTF&#45;16 string." alt="" coords="1071,119,1224,160"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1ustring16_1_1__ustring16__const__iterator.html" title="Iterator to iterate through a UTF&#45;16 string." alt="" coords="827,119,1021,160"/>
+<area shape="rect" id="node3" title=" " alt="" coords="455,5,669,76"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1ustring16.html" title="UTF&#45;16 string class." alt="" coords="237,233,379,259"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1ustring16_1_1__ustring16__iterator__access.html" title="Access an element in a unicode string, allowing one to change it." alt="" coords="485,151,639,207"/>
+<area shape="rect" id="node5" title=" " alt="" coords="27,153,102,179"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,247,124,274"/>
+<area shape="rect" id="node7" title=" " alt="" coords="16,298,113,325"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="irr::scene::ISceneNode::getTransformedBoundingBoxEdges" name="irr::scene::ISceneNode::getTransformedBoundingBoxEdges">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,263,112"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1ISceneNode.html#a223f718fc2f4944b5ad28c592f6cc8c6" title="Get the axis aligned, not transformed bounding box of this node." alt="" coords="311,5,477,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1aabbox3d.html#acb31d9c6a79559c2636c1e32a3e2e459" title="Stores all 8 edges of the box into an array." alt="" coords="322,71,466,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1CMatrix4.html#a4f100721bb28df8b71b21ec10b9c2db6" title="Transforms the vector by this matrix." alt="" coords="325,136,463,177"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="GUIButton::setIsPushButton" name="GUIButton::setIsPushButton">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,208,32"/>
+<area shape="rect" id="node2" href="$classGUIButton.html#a215c99c1f48cffcec9ab40932a1e1a60" title="Checks whether the button is a push button." alt="" coords="256,5,439,32"/>
+</map>

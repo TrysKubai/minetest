@@ -1,0 +1,5 @@
+<map id="irr::scene::CSceneManager::postEventFromUser" name="irr::scene::CSceneManager::postEventFromUser">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,200,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1CSceneManager.html#a87c4a45715bf0d9d291ce8bb5e18bc7e" title=" " alt="" coords="248,5,443,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1ICameraSceneNode.html#a4fcb1e71192e5ba09268c47c0575e4f7" title="It is possible to send mouse and key events to the camera." alt="" coords="253,71,437,112"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="irr::io::CArchiveLoaderZIP::createArchive" name="irr::io::CArchiveLoaderZIP::createArchive">
+<area shape="rect" id="node1" title="Creates an archive from the filename." alt="" coords="5,5,192,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1io_1_1IFileSystem.html#a3678bb77e12cc6ee2b3947f4c79f6c90" title="Opens a file for read access." alt="" coords="240,5,393,47"/>
+</map>

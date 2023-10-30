@@ -1,0 +1,7 @@
+<map id="irr::gui::IGUIFont" name="irr::gui::IGUIFont">
+<area shape="rect" id="node1" title="Font interface." alt="" coords="109,80,237,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1CGUITTFont.html" title="Class representing a TrueType font." alt="" coords="5,155,155,181"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1IGUIFontBitmap.html" title="Font interface." alt="" coords="179,155,354,181"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="89,5,257,32"/>
+<area shape="rect" id="node5" href="$classirr_1_1gui_1_1CGUIFont.html" title=" " alt="" coords="200,229,333,256"/>
+</map>

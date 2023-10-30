@@ -1,0 +1,6 @@
+<map id="irr::video::CNullDriver::addShaderMaterialFromFiles" name="irr::video::CNullDriver::addShaderMaterialFromFiles">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,221,112"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1CNullDriver.html#aed8f5db075097b87063562bc2fc711c8" title=" " alt="" coords="269,5,432,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1io_1_1IReadFile.html#a9c64fca7f1d665d7e458cd7d766c35a2" title="Get size of file." alt="" coords="289,71,413,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1io_1_1IReadFile.html#a62b4c55c9ab76e08ada14d935fbaf2b4" title="Reads an amount of bytes from the file." alt="" coords="289,136,413,177"/>
+</map>

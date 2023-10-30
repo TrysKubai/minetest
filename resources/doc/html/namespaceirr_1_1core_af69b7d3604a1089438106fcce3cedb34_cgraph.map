@@ -1,0 +1,7 @@
+<map id="irr::core::fast_atof" name="irr::core::fast_atof">
+<area shape="rect" id="node1" title="Convert a string to a floating point number." alt="" coords="5,31,144,57"/>
+<area shape="rect" id="node2" href="$namespaceirr_1_1core.html#ae5806ec05e45a700461890ec5e6f602a" title="Provides a fast function for converting a string into a float." alt="" coords="192,31,375,57"/>
+<area shape="rect" id="node3" href="$namespaceirr_1_1core.html#a032ec5ae63987749c7b30c18ea4ccd92" title="Converts a sequence of digits into a whole positive floating point value." alt="" coords="423,5,553,32"/>
+<area shape="rect" id="node4" href="$namespaceirr_1_1core.html#a6ff97e442233218d18acd56add48766f" title="Convert a simple string of base 10 digits into a signed 32 bit integer." alt="" coords="423,56,553,83"/>
+<area shape="rect" id="node5" href="$namespaceirr_1_1core.html#ae7f759b603f4caaa8471cb9bc2e23648" title="Convert a simple string of base 10 digits into an unsigned 32 bit integer." alt="" coords="601,56,740,83"/>
+</map>

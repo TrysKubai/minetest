@@ -1,0 +1,4 @@
+<map id="irr::scene::IVertexManipulator" name="irr::scene::IVertexManipulator">
+<area shape="rect" id="node1" title="Interface for vertex manipulators." alt="" coords="5,5,220,32"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1SVertexPositionScaleManipulator.html" title="Vertex manipulator which scales the position of the vertex." alt="" coords="17,80,209,121"/>
+</map>

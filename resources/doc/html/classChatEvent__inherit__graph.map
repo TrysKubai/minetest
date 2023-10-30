@@ -1,0 +1,6 @@
+<map id="ChatEvent" name="ChatEvent">
+<area shape="rect" id="node1" title=" " alt="" coords="163,5,252,32"/>
+<area shape="rect" id="node2" href="$structChatEventChat.html" title=" " alt="" coords="5,80,124,107"/>
+<area shape="rect" id="node3" href="$structChatEventNick.html" title=" " alt="" coords="148,80,267,107"/>
+<area shape="rect" id="node4" href="$structChatEventTimeInfo.html" title=" " alt="" coords="291,80,438,107"/>
+</map>

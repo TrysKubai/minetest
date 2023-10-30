@@ -1,0 +1,51 @@
+<map id="LuaHelper" name="LuaHelper">
+<area shape="rect" id="node1" title=" " alt="" coords="5,1424,93,1451"/>
+<area shape="rect" id="node2" href="$classModApiBase.html" title=" " alt="" coords="146,841,249,868"/>
+<area shape="rect" id="node36" href="$classScriptApiBase.html" title=" " alt="" coords="141,1956,253,1983"/>
+<area shape="rect" id="node3" href="$classInvRef.html" title=" " alt="" coords="353,664,417,691"/>
+<area shape="rect" id="node4" href="$classLuaAreaStore.html" title=" " alt="" coords="331,715,440,741"/>
+<area shape="rect" id="node5" href="$classLuaCamera.html" title=" " alt="" coords="337,765,433,792"/>
+<area shape="rect" id="node6" href="$classLuaItemStack.html" title=" " alt="" coords="330,816,441,843"/>
+<area shape="rect" id="node7" href="$classLuaLocalPlayer.html" title=" " alt="" coords="325,867,445,893"/>
+<area shape="rect" id="node8" href="$classLuaMinimap.html" title=" " alt="" coords="334,917,437,944"/>
+<area shape="rect" id="node9" href="$classLuaPcgRandom.html" title=" " alt="" coords="324,968,447,995"/>
+<area shape="rect" id="node10" href="$classLuaPerlinNoise.html" title=" " alt="" coords="326,1019,445,1045"/>
+<area shape="rect" id="node11" href="$classLuaPerlinNoiseMap.html" title=" " alt="" coords="312,1069,459,1096"/>
+<area shape="rect" id="node12" href="$classLuaPseudoRandom.html" title=" " alt="" coords="312,1120,459,1147"/>
+<area shape="rect" id="node13" href="$classLuaRaycast.html" title="Lua wrapper for RaycastState objects." alt="" coords="337,1171,434,1197"/>
+<area shape="rect" id="node14" href="$classLuaSecureRandom.html" title=" " alt="" coords="314,1221,457,1248"/>
+<area shape="rect" id="node15" href="$classLuaSettings.html" title=" " alt="" coords="336,1272,435,1299"/>
+<area shape="rect" id="node16" href="$classLuaVoxelManip.html" title=" " alt="" coords="325,1323,445,1349"/>
+<area shape="rect" id="node17" href="$classMetaDataRef.html" title=" " alt="" coords="331,1373,439,1400"/>
+<area shape="rect" id="node18" href="$classModApiAuth.html" title=" " alt="" coords="335,1424,436,1451"/>
+<area shape="rect" id="node19" href="$classModApiChannels.html" title=" " alt="" coords="320,1475,451,1501"/>
+<area shape="rect" id="node20" href="$classModApiClient.html" title=" " alt="" coords="331,1525,440,1552"/>
+<area shape="rect" id="node21" href="$classModApiEnvMod.html" title=" " alt="" coords="324,1576,447,1603"/>
+<area shape="rect" id="node22" href="$classModApiHttp.html" title=" " alt="" coords="336,1627,435,1653"/>
+<area shape="rect" id="node23" href="$classModApiInventory.html" title=" " alt="" coords="319,5,452,32"/>
+<area shape="rect" id="node24" href="$classModApiItemMod.html" title=" " alt="" coords="321,56,450,83"/>
+<area shape="rect" id="node25" href="$classModApiMainMenu.html" title=" " alt="" coords="316,107,455,133"/>
+<area shape="rect" id="node26" href="$classModApiParticles.html" title=" " alt="" coords="322,157,449,184"/>
+<area shape="rect" id="node27" href="$classModApiParticlesLocal.html" title=" " alt="" coords="305,208,465,235"/>
+<area shape="rect" id="node28" href="$classModApiRollback.html" title=" " alt="" coords="322,259,449,285"/>
+<area shape="rect" id="node29" href="$classModApiServer.html" title=" " alt="" coords="329,309,442,336"/>
+<area shape="rect" id="node30" href="$classModApiSound.html" title=" " alt="" coords="330,360,441,387"/>
+<area shape="rect" id="node31" href="$classModApiStorage.html" title=" " alt="" coords="325,411,446,437"/>
+<area shape="rect" id="node32" href="$classModApiUtil.html" title=" " alt="" coords="338,461,433,488"/>
+<area shape="rect" id="node33" href="$classModChannelRef.html" title=" " alt="" coords="323,512,448,539"/>
+<area shape="rect" id="node34" href="$classNodeTimerRef.html" title=" " alt="" coords="327,563,443,589"/>
+<area shape="rect" id="node35" href="$classObjectRef.html" title=" " alt="" coords="342,613,429,640"/>
+<area shape="rect" id="node37" href="$classAsyncWorkerThread.html" title=" " alt="" coords="517,2007,668,2033"/>
+<area shape="rect" id="node38" href="$classClientScripting.html" title=" " alt="" coords="534,2108,651,2135"/>
+<area shape="rect" id="node39" href="$classMainMenuScripting.html" title=" " alt="" coords="519,1855,666,1881"/>
+<area shape="rect" id="node40" href="$classScriptApiClient.html" title=" " alt="" coords="326,2184,445,2211"/>
+<area shape="rect" id="node41" href="$classScriptApiDetached.html" title=" " alt="" coords="314,2235,457,2261"/>
+<area shape="rect" id="node42" href="$classScriptApiEntity.html" title=" " alt="" coords="326,2285,445,2312"/>
+<area shape="rect" id="node43" href="$classScriptApiEnv.html" title=" " alt="" coords="333,1677,437,1704"/>
+<area shape="rect" id="node44" href="$classScriptApiItem.html" title=" " alt="" coords="330,1728,441,1755"/>
+<area shape="rect" id="node45" href="$classScriptApiNodemeta.html" title=" " alt="" coords="519,1753,667,1780"/>
+<area shape="rect" id="node46" href="$classScriptApiMainMenu.html" title=" " alt="" coords="311,1829,459,1856"/>
+<area shape="rect" id="node47" href="$classScriptApiModChannels.html" title=" " alt="" coords="301,2133,469,2160"/>
+<area shape="rect" id="node48" href="$classScriptApiPlayer.html" title=" " alt="" coords="325,1931,446,1957"/>
+<area shape="rect" id="node49" href="$classScriptApiSecurity.html" title=" " alt="" coords="319,2032,452,2059"/>
+</map>

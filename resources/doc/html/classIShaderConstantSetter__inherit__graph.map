@@ -1,0 +1,6 @@
+<map id="IShaderConstantSetter" name="IShaderConstantSetter">
+<area shape="rect" id="node1" title=" " alt="" coords="241,5,409,32"/>
+<area shape="rect" id="node2" href="$classCAOShaderConstantSetter.html" title="Shader constant setter for passing material emissive color to the CAO object_shader." alt="" coords="5,87,197,114"/>
+<area shape="rect" id="node3" href="$classGameGlobalShaderConstantSetter.html" title=" " alt="" coords="222,80,429,121"/>
+<area shape="rect" id="node4" href="$classMainShaderConstantSetter.html" title=" " alt="" coords="453,87,649,114"/>
+</map>

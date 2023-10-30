@@ -1,0 +1,5 @@
+<map id="irr::scene::SMesh" name="irr::scene::SMesh">
+<area shape="rect" id="node1" title="Simple implementation of the IMesh interface." alt="" coords="23,155,156,181"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1IMesh.html" title="Class which holds the geometry of an object." alt="" coords="25,80,154,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="5,5,173,32"/>
+</map>

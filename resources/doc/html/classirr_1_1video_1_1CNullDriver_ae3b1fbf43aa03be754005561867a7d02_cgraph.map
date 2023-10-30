@@ -1,0 +1,7 @@
+<map id="irr::video::CNullDriver::updateAllOcclusionQueries" name="irr::video::CNullDriver::updateAllOcclusionQueries">
+<area shape="rect" id="node1" title="Update all occlusion queries. Retrieves results from GPU." alt="" coords="5,71,211,112"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1CNullDriver.html#ab52bcfd989716dad325aa9cdeb58a47f" title="Remove occlusion query." alt="" coords="259,37,441,79"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1CNullDriver.html#ab8ff6600aae5eede9bd754a451586988" title="Update occlusion query. Retrieves results from GPU." alt="" coords="261,103,439,144"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1ISceneNode.html#a0748cd5c678e41a4fcff0514937c77be" title="Gets the automatic culling state." alt="" coords="489,5,656,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1scene_1_1ISceneNode.html#a5fcd62dbf524b8d2d6daa61c7d6cf119" title="Set a culling style or disable culling completely." alt="" coords="489,71,656,112"/>
+</map>

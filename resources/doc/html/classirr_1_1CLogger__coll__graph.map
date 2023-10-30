@@ -1,0 +1,9 @@
+<map id="irr::CLogger" name="irr::CLogger">
+<area shape="rect" id="node1" title="Class for logging messages, warnings and errors to stdout." alt="" coords="182,260,279,287"/>
+<area shape="rect" id="node2" href="$classirr_1_1ILogger.html" title="Interface for logging messages, warnings and errors." alt="" coords="43,171,135,197"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="5,95,173,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="7,5,57,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="115,5,181,32"/>
+<area shape="rect" id="node6" href="$classirr_1_1IEventReceiver.html" title="Interface of an object which can receive events." alt="" coords="159,171,302,197"/>
+<area shape="rect" id="node7" title=" " alt="" coords="326,171,429,197"/>
+</map>

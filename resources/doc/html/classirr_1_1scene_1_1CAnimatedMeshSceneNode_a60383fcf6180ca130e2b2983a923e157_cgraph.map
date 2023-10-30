@@ -1,0 +1,5 @@
+<map id="irr::scene::CAnimatedMeshSceneNode::setAnimationEndCallback" name="irr::scene::CAnimatedMeshSceneNode::setAnimationEndCallback">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,276,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="324,5,492,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html#a396f9cdbe311ada278626477b3c6f0f5" title="Grabs the object. Increments the reference counter by one." alt="" coords="324,71,492,112"/>
+</map>

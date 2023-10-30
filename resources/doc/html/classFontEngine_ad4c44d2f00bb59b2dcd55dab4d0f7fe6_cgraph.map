@@ -1,0 +1,5 @@
+<map id="FontEngine::getLineHeight" name="FontEngine::getLineHeight">
+<area shape="rect" id="node1" title=" " alt="" coords="5,46,199,73"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1IGUIFont.html#aa7612db0c9dc2837b44a1a2fa5668797" title="Calculates the width and height of a given string of text." alt="" coords="254,5,382,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1IGUIFont.html#a1f1a760be155fc0f6a632b457154a5d8" title="Returns the distance between letters." alt="" coords="247,71,389,112"/>
+</map>

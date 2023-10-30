@@ -1,0 +1,5 @@
+<map id="irr::CIrrDeviceStub::setInputReceivingSceneManager" name="irr::CIrrDeviceStub::setInputReceivingSceneManager">
+<area shape="rect" id="node1" title="Sets the input receiving scene manager." alt="" coords="5,39,248,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="296,5,464,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html#a396f9cdbe311ada278626477b3c6f0f5" title="Grabs the object. Increments the reference counter by one." alt="" coords="296,71,464,112"/>
+</map>

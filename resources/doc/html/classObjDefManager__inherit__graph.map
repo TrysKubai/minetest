@@ -1,0 +1,8 @@
+<map id="ObjDefManager" name="ObjDefManager">
+<area shape="rect" id="node1" title=" " alt="" coords="336,5,460,32"/>
+<area shape="rect" id="node2" href="$classBiomeManager.html" title=" " alt="" coords="5,80,127,107"/>
+<area shape="rect" id="node3" href="$classDecorationManager.html" title=" " alt="" coords="151,80,301,107"/>
+<area shape="rect" id="node4" href="$classMyObjDefManager.html" title=" " alt="" coords="326,80,470,107"/>
+<area shape="rect" id="node5" href="$classOreManager.html" title=" " alt="" coords="495,80,597,107"/>
+<area shape="rect" id="node6" href="$classSchematicManager.html" title=" " alt="" coords="622,80,769,107"/>
+</map>

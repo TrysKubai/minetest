@@ -1,0 +1,4 @@
+<map id="irr::video::S3DVertexTangents" name="irr::video::S3DVertexTangents">
+<area shape="rect" id="node1" title="Vertex with a tangent and binormal vector." alt="" coords="5,80,220,107"/>
+<area shape="rect" id="node2" href="$structirr_1_1video_1_1S3DVertex.html" title="standard vertex used by the Irrlicht engine." alt="" coords="35,5,191,32"/>
+</map>

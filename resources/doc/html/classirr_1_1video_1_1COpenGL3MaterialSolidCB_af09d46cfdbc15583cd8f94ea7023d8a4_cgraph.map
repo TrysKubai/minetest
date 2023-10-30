@@ -1,0 +1,4 @@
+<map id="irr::video::COpenGL3MaterialSolidCB::OnSetMaterial" name="irr::video::COpenGL3MaterialSolidCB::OnSetMaterial">
+<area shape="rect" id="node1" title="Called to let the callBack know the used material (optional method)" alt="" coords="5,5,216,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1COpenGL3MaterialBaseCB.html#ad1280e75184c680e625ea8dbd4d52f31" title="Called to let the callBack know the used material (optional method)" alt="" coords="264,5,475,47"/>
+</map>

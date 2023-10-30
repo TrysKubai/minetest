@@ -1,0 +1,8 @@
+<map id="irr::video::IVideoDriver" name="irr::video::IVideoDriver">
+<area shape="rect" id="node1" title="Interface to driver which is able to perform 2d and 3d graphics functions." alt="" coords="132,80,301,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1CNullDriver.html" title=" " alt="" coords="135,155,298,181"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="133,5,301,32"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1COpenGL3DriverBase.html" title=" " alt="" coords="103,229,331,256"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1COpenGL3Driver.html" title=" " alt="" coords="5,304,201,331"/>
+<area shape="rect" id="node6" href="$classirr_1_1video_1_1COpenGLES2Driver.html" title=" " alt="" coords="225,304,437,331"/>
+</map>

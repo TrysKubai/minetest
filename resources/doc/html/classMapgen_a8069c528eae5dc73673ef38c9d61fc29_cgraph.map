@@ -1,0 +1,7 @@
+<map id="Mapgen::calcLighting" name="Mapgen::calcLighting">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,165,57"/>
+<area shape="rect" id="node2" href="$classMapgen.html#af02d3a81808d41e931aa5538a36943b5" title=" " alt="" coords="213,5,415,32"/>
+<area shape="rect" id="node4" href="$classMapgen.html#ad9cabc6176fcaf59bdd242e990a3efd6" title=" " alt="" coords="235,56,393,83"/>
+<area shape="rect" id="node3" href="$classVoxelArea.html#a3c092ae03696091c32fd674778fdbed7" title=" " alt="" coords="473,5,608,32"/>
+<area shape="rect" id="node5" href="$classMapgen.html#a4fc4ffe6d2c9ebbcb35c3c1360881327" title=" " alt="" coords="463,56,619,83"/>
+</map>

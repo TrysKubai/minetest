@@ -1,0 +1,5 @@
+<map id="irr::scene::IBoneSceneNode::getBoneName" name="irr::scene::IBoneSceneNode::getBoneName">
+<area shape="rect" id="node1" title="Get the name of the bone." alt="" coords="5,5,205,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1ISceneNode.html#ab0e72b38949f926a1929468cd2b1ce16" title="Returns the name of the node." alt="" coords="253,5,420,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1string.html#a4a6d39561b095cbab46185dd20d11d85" title="Returns character string." alt="" coords="468,5,593,47"/>
+</map>

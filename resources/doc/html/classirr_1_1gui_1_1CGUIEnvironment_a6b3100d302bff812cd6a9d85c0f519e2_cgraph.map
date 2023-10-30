@@ -1,0 +1,6 @@
+<map id="irr::gui::CGUIEnvironment::clear" name="irr::gui::CGUIEnvironment::clear">
+<area shape="rect" id="node1" title="removes all elements from the environment" alt="" coords="5,71,193,112"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="251,5,419,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1CGUIEnvironment.html#a3d6d8d187d2f4becc596dc62075e1d22" title="Returns the root gui element." alt="" coords="241,71,429,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1IGUIElement.html#af7bf0169ca55e03f1dcd08d723aef66f" title="Removes all children." alt="" coords="258,136,413,177"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classIGameDef.html" title=" " alt="" coords="33,157,121,184"/>
+<area shape="rect" id="node2" href="$classClient.html" title=" " alt="" coords="279,157,339,184"/>
+<area shape="rect" id="node3" href="$classDummyGameDef.html" title=" " alt="" coords="241,107,377,133"/>
+<area shape="rect" id="node5" href="$classServer.html" title=" " alt="" coords="277,259,341,285"/>
+<area shape="rect" id="node4" href="$classTestGameDef.html" title=" " alt="" coords="469,107,580,133"/>
+<area shape="rect" id="node6" href="$classMockServer.html" title=" " alt="" coords="475,259,574,285"/>
+<area shape="rect" id="node7" href="$classInventoryManager.html" title=" " alt="" coords="7,56,148,83"/>
+<area shape="rect" id="node8" href="$classMockInventoryManager.html" title=" " alt="" coords="221,56,397,83"/>
+<area shape="rect" id="node9" href="$classServerInventoryManager.html" title=" " alt="" coords="218,5,401,32"/>
+<area shape="rect" id="node10" href="$classMapEventReceiver.html" title=" " alt="" coords="5,284,149,311"/>
+<area shape="rect" id="node11" href="$structOnMapblocksChangedReceiver.html" title=" " alt="" coords="197,309,421,336"/>
+<area shape="rect" id="node12" href="$classcon_1_1PeerHandler.html" title=" " alt="" coords="11,208,144,235"/>
+<area shape="rect" id="node13" href="$structHandler.html" title=" " alt="" coords="273,208,346,235"/>
+</map>

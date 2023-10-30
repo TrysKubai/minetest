@@ -1,0 +1,8 @@
+<map id="DrawImageStep::run" name="DrawImageStep::run">
+<area shape="rect" id="node1" title=" " alt="" coords="5,129,160,156"/>
+<area shape="rect" id="node2" href="$classRenderTarget.html#a4e1e36294e2cf0836bc6be5644cb45b1" title=" " alt="" coords="218,5,387,32"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1IVideoDriver.html#accfd3ba8a8deca828bafbc4c45800797" title="Draws a 2d image without any special effects." alt="" coords="218,57,387,98"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1IVideoDriver.html#aa106dd9ff233497f9ea9a07dc6441c82" title="Get the size of the screen or render window." alt="" coords="218,122,387,163"/>
+<area shape="rect" id="node5" href="$classRenderSource.html#a4af64fc7e84370adeba6a59827e900b6" title=" " alt="" coords="208,188,397,215"/>
+<area shape="rect" id="node6" href="$classirr_1_1IrrlichtDevice.html#ada90707ba5c645d47e000e4e0f87c4c4" title="Provides access to the video driver for drawing 3d and 2d geometry." alt="" coords="237,239,368,281"/>
+</map>

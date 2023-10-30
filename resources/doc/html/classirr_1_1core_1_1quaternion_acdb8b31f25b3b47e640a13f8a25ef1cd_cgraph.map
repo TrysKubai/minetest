@@ -1,0 +1,4 @@
+<map id="irr::core::quaternion::lerpN" name="irr::core::quaternion::lerpN">
+<area shape="rect" id="node1" title="Set this quaternion to the linear interpolation between two quaternions and normalize the result." alt="" coords="5,5,156,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1quaternion.html#aac7a34ffd2a14a78de12d994539b94f9" title="Normalizes the quaternion." alt="" coords="204,5,355,47"/>
+</map>

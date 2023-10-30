@@ -1,0 +1,5 @@
+<map id="irr::core::triangle3d::isFrontFacing" name="irr::core::triangle3d::isFrontFacing">
+<area shape="rect" id="node1" title="Test if the triangle would be front or backfacing from any point." alt="" coords="5,39,152,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1vector3d.html#ae220d3f24173601c5957961382588394" title="Get the dot product with another vector." alt="" coords="205,5,342,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1triangle3d.html#af894905e54d2c29bdb23f95f892604f1" title="Get the normal of the triangle." alt="" coords="200,71,347,112"/>
+</map>

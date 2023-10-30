@@ -1,0 +1,5 @@
+<map id="irr::CIrrDeviceStub::checkVersion" name="irr::CIrrDeviceStub::checkVersion">
+<area shape="rect" id="node1" title="checks version of SDK and prints warning if there might be a problem" alt="" coords="5,39,147,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1string.html#a4a6d39561b095cbab46185dd20d11d85" title="Returns character string." alt="" coords="203,5,328,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1CIrrDeviceStub.html#a68aa38b88255f7206d2330e835d3e5ca" title="Returns the version of the engine." alt="" coords="195,71,336,112"/>
+</map>

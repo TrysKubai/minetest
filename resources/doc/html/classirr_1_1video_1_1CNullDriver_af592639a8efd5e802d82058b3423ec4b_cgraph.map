@@ -1,0 +1,4 @@
+<map id="irr::video::CNullDriver::getFPS" name="irr::video::CNullDriver::getFPS">
+<area shape="rect" id="node1" title="Returns current frames per second value." alt="" coords="5,5,168,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1CFPSCounter.html#aa936a4711ef87d1e5492df32b3335fc4" title="returns current fps" alt="" coords="216,5,388,47"/>
+</map>

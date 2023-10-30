@@ -1,0 +1,36 @@
+<map id="irr::scene::SB3dMaterial" name="irr::scene::SB3dMaterial">
+<area shape="rect" id="node1" title=" " alt="" coords="2332,204,2509,231"/>
+<area shape="rect" id="node2" href="$structirr_1_1scene_1_1SB3dTexture.html" title=" " alt="" coords="2053,148,2224,175"/>
+<area shape="rect" id="node3" title=" " alt="" coords="1724,272,1775,299"/>
+<area shape="rect" id="node10" href="$classirr_1_1video_1_1SMaterial.html" title="Struct for holding parameters for a material renderer." alt="" coords="2063,780,2214,807"/>
+<area shape="rect" id="node4" title=" " alt="" coords="637,123,704,149"/>
+<area shape="rect" id="node21" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="997,376,1165,403"/>
+<area shape="rect" id="node5" href="$classirr_1_1core_1_1string.html" title=" " alt="" coords="589,60,752,87"/>
+<area shape="rect" id="node6" title=" " alt="" coords="271,92,416,119"/>
+<area shape="rect" id="node7" title=" " alt="" coords="5,147,168,173"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1string.html" title="Very simple string class with some useful features." alt="" coords="266,147,421,173"/>
+<area shape="rect" id="node29" href="$classirr_1_1core_1_1string.html" title=" " alt="" coords="607,199,735,241"/>
+<area shape="rect" id="node9" title=" " alt="" coords="17,284,156,311"/>
+<area shape="rect" id="node11" title=" " alt="" coords="1668,927,1831,953"/>
+<area shape="rect" id="node12" href="$classirr_1_1video_1_1SColor.html" title="Class representing a 32 bit ARGB color." alt="" coords="1190,949,1321,976"/>
+<area shape="rect" id="node13" title=" " alt="" coords="633,545,708,572"/>
+<area shape="rect" id="node20" href="$classirr_1_1video_1_1ITexture.html" title="Interface of a Video Driver dependent Texture." alt="" coords="1345,408,1485,435"/>
+<area shape="rect" id="node23" href="$classirr_1_1core_1_1dimension2d.html" title=" " alt="" coords="999,478,1163,519"/>
+<area shape="rect" id="node14" title=" " alt="" coords="1672,1028,1827,1055"/>
+<area shape="rect" id="node15" title=" " alt="" coords="1705,563,1793,589"/>
+<area shape="rect" id="node16" href="$classirr_1_1video_1_1SMaterialLayer.html" title="Struct for holding material parameters which exist per texture layer." alt="" coords="1656,613,1843,640"/>
+<area shape="rect" id="node17" title=" " alt="" coords="1386,529,1445,556"/>
+<area shape="rect" id="node18" href="$classirr_1_1core_1_1CMatrix4.html" title="4x4 matrix. Mostly used as transformation matrix for 3d calculations." alt="" coords="796,752,973,779"/>
+<area shape="rect" id="node19" title=" " alt="" coords="324,621,363,648"/>
+<area shape="rect" id="node24" href="$classirr_1_1core_1_1dimension2d.html" title="Specifies a 2 dimensional size." alt="" coords="569,468,772,495"/>
+<area shape="rect" id="node22" title=" " alt="" coords="645,376,696,403"/>
+<area shape="rect" id="node25" title=" " alt="" coords="1002,224,1161,251"/>
+<area shape="rect" id="node26" title=" " alt="" coords="1013,275,1150,301"/>
+<area shape="rect" id="node27" title=" " alt="" coords="1019,325,1144,352"/>
+<area shape="rect" id="node28" href="$structirr_1_1io_1_1SNamedPath.html" title="Used in places where we identify objects by a filename, but don&#39;t actually work with the real filenam..." alt="" coords="1008,173,1155,200"/>
+<area shape="rect" id="node30" title=" " alt="" coords="252,197,435,224"/>
+<area shape="rect" id="node31" href="$classbool.html" title=" " alt="" coords="1056,657,1107,684"/>
+<area shape="rect" id="node32" title=" " alt="" coords="1013,427,1149,453"/>
+<area shape="rect" id="node33" title=" " alt="" coords="1382,729,1449,756"/>
+<area shape="rect" id="node34" title=" " alt="" coords="1679,876,1820,903"/>
+</map>

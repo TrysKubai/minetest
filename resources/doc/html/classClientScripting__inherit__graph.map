@@ -1,0 +1,8 @@
+<map id="ClientScripting" name="ClientScripting">
+<area shape="rect" id="node1" title=" " alt="" coords="107,229,224,256"/>
+<area shape="rect" id="node2" href="$classScriptApiBase.html" title=" " alt="" coords="110,80,222,107"/>
+<area shape="rect" id="node4" href="$classScriptApiSecurity.html" title=" " alt="" coords="24,155,158,181"/>
+<area shape="rect" id="node5" href="$classScriptApiClient.html" title=" " alt="" coords="182,155,301,181"/>
+<area shape="rect" id="node6" href="$classScriptApiModChannels.html" title=" " alt="" coords="326,155,494,181"/>
+<area shape="rect" id="node3" href="$classLuaHelper.html" title=" " alt="" coords="122,5,210,32"/>
+</map>

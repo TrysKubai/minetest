@@ -1,0 +1,33 @@
+<map id="BaseException" name="BaseException">
+<area shape="rect" id="node1" title=" " alt="" coords="140,705,259,732"/>
+<area shape="rect" id="node3" href="$classAlreadyExistsException.html" title=" " alt="" coords="335,5,510,32"/>
+<area shape="rect" id="node4" href="$classClientNotFoundException.html" title=" " alt="" coords="329,56,516,83"/>
+<area shape="rect" id="node5" href="$classClientStateError.html" title=" " alt="" coords="360,107,485,133"/>
+<area shape="rect" id="node6" href="$classcon_1_1ConnectionBindFailed.html" title=" " alt="" coords="326,157,519,184"/>
+<area shape="rect" id="node7" href="$classcon_1_1ConnectionException.html" title=" " alt="" coords="327,208,518,235"/>
+<area shape="rect" id="node8" href="$classcon_1_1IncomingDataCorruption.html" title=" " alt="" coords="317,259,529,285"/>
+<area shape="rect" id="node9" href="$classcon_1_1InvalidIncomingDataException.html" title=" " alt="" coords="329,310,517,351"/>
+<area shape="rect" id="node10" href="$classcon_1_1NoIncomingDataException.html" title=" " alt="" coords="309,376,536,403"/>
+<area shape="rect" id="node11" href="$classcon_1_1NotFoundException.html" title=" " alt="" coords="333,427,512,453"/>
+<area shape="rect" id="node12" href="$classcon_1_1PeerNotFoundException.html" title=" " alt="" coords="319,477,527,504"/>
+<area shape="rect" id="node13" href="$classcon_1_1ProcessedQueued.html" title=" " alt="" coords="338,528,507,555"/>
+<area shape="rect" id="node14" href="$classcon_1_1ProcessedSilentlyException.html" title=" " alt="" coords="307,579,539,605"/>
+<area shape="rect" id="node15" href="$classDatabaseException.html" title=" " alt="" coords="349,629,497,656"/>
+<area shape="rect" id="node16" href="$classFileNotGoodException.html" title=" " alt="" coords="339,680,506,707"/>
+<area shape="rect" id="node17" href="$classInvalidNoiseParamsException.html" title=" " alt="" coords="315,731,530,757"/>
+<area shape="rect" id="node18" href="$classInvalidPositionException.html" title=" " alt="" coords="331,781,514,808"/>
+<area shape="rect" id="node19" href="$classItemNotFoundException.html" title=" " alt="" coords="333,832,512,859"/>
+<area shape="rect" id="node20" href="$classModError.html" title=" " alt="" coords="382,883,463,909"/>
+<area shape="rect" id="node22" href="$classPacketError.html" title=" " alt="" coords="375,933,470,960"/>
+<area shape="rect" id="node23" href="$classPrngException.html" title=" " alt="" coords="365,984,480,1011"/>
+<area shape="rect" id="node24" href="$classResolveError.html" title=" " alt="" coords="370,1035,475,1061"/>
+<area shape="rect" id="node25" href="$classSendFailedException.html" title=" " alt="" coords="345,1085,501,1112"/>
+<area shape="rect" id="node26" href="$classSerializationError.html" title=" " alt="" coords="355,1136,490,1163"/>
+<area shape="rect" id="node27" href="$classServerError.html" title=" " alt="" coords="375,1187,470,1213"/>
+<area shape="rect" id="node28" href="$classSettingNotFoundException.html" title=" " alt="" coords="325,1237,520,1264"/>
+<area shape="rect" id="node29" href="$classSocketException.html" title=" " alt="" coords="358,1288,487,1315"/>
+<area shape="rect" id="node30" href="$classUnknownKeycode.html" title=" " alt="" coords="353,1339,492,1365"/>
+<area shape="rect" id="node31" href="$classVersionMismatchException.html" title=" " alt="" coords="323,1389,522,1416"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,705,92,732"/>
+<area shape="rect" id="node21" href="$classLuaError.html" title=" " alt="" coords="587,883,663,909"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="irr::core::line2d::lineIntersectSegment" name="irr::core::line2d::lineIntersectSegment">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,167,112"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1line2d.html#a2d9c3529d5114d99f65a3b4f677055f5" title=" " alt="" coords="215,5,373,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1vector2d.html#aeaf8fc27c46894825b3d84ff47f08a4a" title="Returns if this vector interpreted as a point is on a line between two other points." alt="" coords="225,71,363,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1line2d.html#a01af0230cbc761c5fb79e5b60297e089" title=" " alt="" coords="230,136,358,177"/>
+<area shape="rect" id="node5" href="$classirr_1_1core_1_1line2d.html#aeb0b7bc3987165abc0eaca7f0e506a59" title="Get the vector of the line." alt="" coords="426,103,554,144"/>
+<area shape="rect" id="node6" href="$classirr_1_1core_1_1vector2d.html#a71588d7797092e07520d8fca9689ba99" title="check if this vector is parallel to another vector" alt="" coords="421,168,559,209"/>
+</map>

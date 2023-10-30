@@ -1,0 +1,5 @@
+<map id="irr::scene::IMeshWriter" name="irr::scene::IMeshWriter">
+<area shape="rect" id="node1" title="Interface for writing meshes." alt="" coords="21,80,191,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1CB3DMeshWriter.html" title="class to write B3D mesh files" alt="" coords="5,155,207,181"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="22,5,190,32"/>
+</map>

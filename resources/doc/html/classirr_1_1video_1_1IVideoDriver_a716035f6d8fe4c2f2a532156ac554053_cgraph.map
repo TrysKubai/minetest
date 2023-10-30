@@ -1,0 +1,6 @@
+<map id="irr::video::IVideoDriver::setRenderTarget" name="irr::video::IVideoDriver::setRenderTarget">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,175,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IVideoDriver.html#a0abc6f837cf465d1090a913d4d2fd1aa" title="Clears the ZBuffer." alt="" coords="223,5,392,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1IVideoDriver.html#a137b33417d715e48d7274e5ec547cb95" title="Sets a new render target." alt="" coords="223,71,392,112"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1IVideoDriver.html#abe154185ea7c1f8332cd048829db9c46" title="Clear the color, depth and/or stencil buffers." alt="" coords="440,5,609,47"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="irr::scene::SAnimatedMesh" name="irr::scene::SAnimatedMesh">
+<area shape="rect" id="node1" title="Simple implementation of the IAnimatedMesh interface." alt="" coords="1207,132,1404,159"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1IAnimatedMesh.html" title="Interface for an animated mesh." alt="" coords="912,31,1104,57"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1IMesh.html" title="Class which holds the geometry of an object." alt="" coords="555,31,684,57"/>
+<area shape="rect" id="node4" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="245,31,413,57"/>
+<area shape="rect" id="node5" title=" " alt="" coords="13,56,64,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,5,72,32"/>
+<area shape="rect" id="node7" title=" " alt="" coords="913,81,1103,108"/>
+<area shape="rect" id="node8" title=" " alt="" coords="303,161,354,188"/>
+<area shape="rect" id="node15" href="$classirr_1_1core_1_1vector3d.html" title=" " alt="" coords="551,189,688,230"/>
+<area shape="rect" id="node9" href="$classirr_1_1core_1_1array.html" title=" " alt="" coords="937,335,1079,377"/>
+<area shape="rect" id="node10" href="$classbool.html" title=" " alt="" coords="303,388,354,415"/>
+<area shape="rect" id="node12" href="$classirr_1_1core_1_1array.html" title="Self reallocating template array (like stl vector) with additional features." alt="" coords="543,435,695,461"/>
+<area shape="rect" id="node11" title=" " alt="" coords="550,306,689,347"/>
+<area shape="rect" id="node13" title=" " alt="" coords="278,453,379,480"/>
+<area shape="rect" id="node14" href="$classirr_1_1core_1_1aabbox3d.html" title=" " alt="" coords="936,189,1080,230"/>
+<area shape="rect" id="node16" href="$classirr_1_1core_1_1vector3d.html" title="3d vector template class with lots of operators and methods." alt="" coords="241,241,416,268"/>
+<area shape="rect" id="node17" title=" " alt="" coords="19,241,58,268"/>
+<area shape="rect" id="node18" href="$classirr_1_1core_1_1aabbox3d.html" title="Axis aligned bounding box in 3d dimensional space." alt="" coords="528,255,711,281"/>
+<area shape="rect" id="node19" title=" " alt="" coords="270,301,387,328"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="irr::gui::IGUIEnvironment" name="irr::gui::IGUIEnvironment">
+<area shape="rect" id="node1" title="GUI Environment. Used as factory and manager of all other GUI elements." alt="" coords="8,80,191,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1CGUIEnvironment.html" title=" " alt="" coords="5,155,193,181"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="15,5,183,32"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="irr::gui::CGUITabControl::addTab" name="irr::gui::CGUITabControl::addTab">
+<area shape="rect" id="node1" title="Adds an existing tab." alt="" coords="5,100,180,141"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1CGUITabControl.html#a7a1934b09e7ea1f58ae5468669c617af" title="Insert the tab at the given index." alt="" coords="228,100,403,141"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1IGUIElement.html#a1eb3d7ec13ebbf8c73859810088f666b" title="The alignment defines how the borders of this element will be positioned when the parent element is r..." alt="" coords="451,35,605,76"/>
+<area shape="rect" id="node6" href="$classirr_1_1gui_1_1IGUIElement.html#a8f864c26d4b2ee3551c53d3ebf870656" title="Sets the new caption of this element." alt="" coords="451,100,605,141"/>
+<area shape="rect" id="node7" href="$classirr_1_1gui_1_1IGUIElement.html#aed537cb0b16c670b8f895179f0027bad" title="Sets the visible state of this element." alt="" coords="451,165,605,207"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1IGUIElement.html#a6c5b94dd889533a306a03e25d0998bdf" title="Gets the absolute rectangle of this element." alt="" coords="654,5,814,47"/>
+<area shape="rect" id="node5" href="$classirr_1_1core_1_1rect.html#aa5e0bf0e6474c1603c735a63843833fa" title="Get the dimensions of the rectangle." alt="" coords="653,71,815,98"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="irr::video::IMaterialRendererServices" name="irr::video::IMaterialRendererServices">
+<area shape="rect" id="node1" title="Interface providing some methods for changing advanced, internal states of a IVideoDriver." alt="" coords="5,74,211,115"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1COpenGL3DriverBase.html" title=" " alt="" coords="259,52,487,79"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1COpenGL3MaterialRenderer.html" title=" " alt="" coords="267,103,478,145"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1COpenGL3Driver.html" title=" " alt="" coords="553,5,749,32"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1COpenGLES2Driver.html" title=" " alt="" coords="545,56,757,83"/>
+<area shape="rect" id="node6" href="$classirr_1_1video_1_1COpenGL3Renderer2D.html" title=" " alt="" coords="535,111,768,137"/>
+</map>

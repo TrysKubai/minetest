@@ -1,0 +1,29 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classRenderPipelineObject.html" title=" " alt="" coords="5,335,168,361"/>
+<area shape="rect" id="node2" href="$classRenderSource.html" title=" " alt="" coords="216,81,328,108"/>
+<area shape="rect" id="node6" href="$classRenderStep.html" title=" " alt="" coords="223,335,321,361"/>
+<area shape="rect" id="node22" href="$classRenderTarget.html" title=" " alt="" coords="218,651,326,677"/>
+<area shape="rect" id="node3" href="$classDynamicSource.html" title=" " alt="" coords="411,5,535,32"/>
+<area shape="rect" id="node4" href="$classRemappingSource.html" title=" " alt="" coords="403,56,543,83"/>
+<area shape="rect" id="node5" href="$classTextureBuffer.html" title=" " alt="" coords="419,107,528,133"/>
+<area shape="rect" id="node7" href="$classDraw3D.html" title=" " alt="" coords="436,157,511,184"/>
+<area shape="rect" id="node8" href="$classDrawHUD.html" title=" " alt="" coords="430,208,517,235"/>
+<area shape="rect" id="node9" href="$classDrawImageStep.html" title=" " alt="" coords="410,259,537,285"/>
+<area shape="rect" id="node10" href="$classDrawWield.html" title=" " alt="" coords="427,309,520,336"/>
+<area shape="rect" id="node11" href="$classPostProcessingStep.html" title=" " alt="" coords="399,360,548,387"/>
+<area shape="rect" id="node12" href="$classRenderPipeline.html" title=" " alt="" coords="413,411,533,437"/>
+<area shape="rect" id="node13" href="$classTrivialRenderStep.html" title=" " alt="" coords="405,461,541,488"/>
+<area shape="rect" id="node21" href="$classUpscaleStep.html" title=" " alt="" coords="422,512,525,539"/>
+<area shape="rect" id="node14" href="$classInitInterlacedMaskStep.html" title=" " alt="" coords="621,309,793,336"/>
+<area shape="rect" id="node15" href="$classMapPostFxStep.html" title=" " alt="" coords="645,360,768,387"/>
+<area shape="rect" id="node16" href="$classOffsetCameraStep.html" title=" " alt="" coords="636,411,777,437"/>
+<area shape="rect" id="node17" href="$classRenderShadowMapStep.html" title=" " alt="" coords="619,461,795,488"/>
+<area shape="rect" id="node18" href="$classSetColorMaskStep.html" title=" " alt="" coords="636,512,777,539"/>
+<area shape="rect" id="node19" href="$classSetRenderTargetStep.html" title=" " alt="" coords="627,563,786,589"/>
+<area shape="rect" id="node20" href="$classSwapTexturesStep.html" title=" " alt="" coords="636,613,777,640"/>
+<area shape="rect" id="node23" href="$classClearDepthBufferTarget.html" title=" " alt="" coords="386,563,561,589"/>
+<area shape="rect" id="node24" href="$classConfigureOverrideMaterialTarget.html" title=" " alt="" coords="376,614,571,655"/>
+<area shape="rect" id="node25" href="$classDynamicTarget.html" title=" " alt="" coords="413,680,533,707"/>
+<area shape="rect" id="node26" href="$classScreenTarget.html" title=" " alt="" coords="420,731,527,757"/>
+<area shape="rect" id="node27" href="$classTextureBufferOutput.html" title=" " alt="" coords="397,781,550,808"/>
+</map>

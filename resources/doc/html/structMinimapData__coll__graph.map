@@ -1,0 +1,34 @@
+<map id="MinimapData" name="MinimapData">
+<area shape="rect" id="node1" title=" " alt="" coords="1677,379,1788,406"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IImage.html" title="Interface for software image data." alt="" coords="1323,261,1456,287"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="941,575,1109,602"/>
+<area shape="rect" id="node13" href="$classirr_1_1video_1_1ITexture.html" title="Interface of a Video Driver dependent Texture." alt="" coords="1319,581,1459,607"/>
+<area shape="rect" id="node4" title=" " alt="" coords="645,546,696,573"/>
+<area shape="rect" id="node5" title=" " alt="" coords="637,597,704,623"/>
+<area shape="rect" id="node6" href="$classirr_1_1core_1_1dimension2d.html" title=" " alt="" coords="943,261,1107,303"/>
+<area shape="rect" id="node7" title=" " alt="" coords="633,269,708,295"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1dimension2d.html" title="Specifies a 2 dimensional size." alt="" coords="569,165,772,191"/>
+<area shape="rect" id="node9" title=" " alt="" coords="324,122,363,149"/>
+<area shape="rect" id="node32" href="$classirr_1_1core_1_1vector3d.html" title="3d vector template class with lots of operators and methods." alt="" coords="583,25,758,51"/>
+<area shape="rect" id="node10" title=" " alt="" coords="957,443,1094,470"/>
+<area shape="rect" id="node11" href="$classbool.html" title=" " alt="" coords="1000,210,1051,237"/>
+<area shape="rect" id="node12" title=" " alt="" coords="992,71,1059,98"/>
+<area shape="rect" id="node14" title=" " alt="" coords="946,727,1105,754"/>
+<area shape="rect" id="node15" title=" " alt="" coords="963,778,1088,805"/>
+<area shape="rect" id="node16" href="$structirr_1_1io_1_1SNamedPath.html" title="Used in places where we identify objects by a filename, but don&#39;t actually work with the real filenam..." alt="" coords="952,626,1099,653"/>
+<area shape="rect" id="node17" href="$classirr_1_1core_1_1string.html" title=" " alt="" coords="607,649,735,691"/>
+<area shape="rect" id="node18" title=" " alt="" coords="252,605,435,631"/>
+<area shape="rect" id="node19" title=" " alt="" coords="5,671,168,698"/>
+<area shape="rect" id="node20" href="$classirr_1_1core_1_1string.html" title="Very simple string class with some useful features." alt="" coords="266,718,421,745"/>
+<area shape="rect" id="node21" title=" " alt="" coords="17,737,156,763"/>
+<area shape="rect" id="node22" title=" " alt="" coords="957,677,1093,703"/>
+<area shape="rect" id="node23" href="$structMinimapModeDef.html" title=" " alt="" coords="956,829,1095,855"/>
+<area shape="rect" id="node24" title=" " alt="" coords="616,742,725,769"/>
+<area shape="rect" id="node25" title=" " alt="" coords="647,921,694,947"/>
+<area shape="rect" id="node27" href="$structMinimapPixel.html" title=" " alt="" coords="1334,921,1445,947"/>
+<area shape="rect" id="node28" href="$structMapNode.html" title=" " alt="" coords="983,982,1067,1009"/>
+<area shape="rect" id="node26" title=" " alt="" coords="641,802,700,829"/>
+<area shape="rect" id="node29" title=" " alt="" coords="651,1015,690,1042"/>
+<area shape="rect" id="node30" href="$classirr_1_1core_1_1vector3d.html" title=" " alt="" coords="957,5,1094,47"/>
+<area shape="rect" id="node31" title=" " alt="" coords="648,87,693,114"/>
+</map>

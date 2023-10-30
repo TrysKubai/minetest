@@ -1,0 +1,6 @@
+<map id="irr::scene::CDummyTransformationSceneNode" name="irr::scene::CDummyTransformationSceneNode">
+<area shape="rect" id="node1" title=" " alt="" coords="5,244,255,285"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1IDummyTransformationSceneNode.html" title="Dummy scene node for adding additional transformations to the scene graph." alt="" coords="8,155,252,196"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1ISceneNode.html" title="Scene node interface." alt="" coords="47,80,213,107"/>
+<area shape="rect" id="node4" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="46,5,214,32"/>
+</map>

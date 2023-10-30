@@ -1,0 +1,5 @@
+<map id="irr::gui::CGUIListBox::removeItem" name="irr::gui::CGUIListBox::removeItem">
+<area shape="rect" id="node1" title="removes an item from the list" alt="" coords="5,5,159,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1os_1_1Timer.html#a640377de088feab25b5b83f8d4ecc50d" title="returns the current time in milliseconds" alt="" coords="207,13,373,39"/>
+<area shape="rect" id="node3" href="$classirr_1_1os_1_1Timer.html#aad6c27db995b80c795038bb2f827dfc5" title="returns if the timer currently is stopped" alt="" coords="421,13,599,39"/>
+</map>

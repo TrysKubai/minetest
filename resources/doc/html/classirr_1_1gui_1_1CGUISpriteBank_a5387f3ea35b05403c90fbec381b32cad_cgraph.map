@@ -1,0 +1,5 @@
+<map id="irr::gui::CGUISpriteBank::clear" name="irr::gui::CGUISpriteBank::clear">
+<area shape="rect" id="node1" title="clears sprites, rectangles and textures" alt="" coords="5,23,181,65"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1array.html#a611c70809111b608a103f86e004d6eb7" title="Clears the array and deletes all allocated memory." alt="" coords="229,5,383,32"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1array.html#af2a884d7e19d685b58617fed4ea4d4b9" title="Get number of occupied elements of the array." alt="" coords="233,56,379,83"/>
+</map>

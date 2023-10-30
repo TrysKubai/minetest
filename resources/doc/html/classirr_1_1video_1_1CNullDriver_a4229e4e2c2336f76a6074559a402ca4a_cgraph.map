@@ -1,0 +1,7 @@
+<map id="irr::video::CNullDriver::addHighLevelShaderMaterialFromFiles" name="irr::video::CNullDriver::addHighLevelShaderMaterialFromFiles">
+<area shape="rect" id="node1" title=" " alt="" coords="5,97,224,153"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1CNullDriver.html#a740f08cd92e7500534b3e65630c982bc" title="Adds a new material renderer to the VideoDriver, based on a high level shading language." alt="" coords="272,5,491,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1io_1_1IReadFile.html#a9c64fca7f1d665d7e458cd7d766c35a2" title="Get size of file." alt="" coords="319,71,443,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1io_1_1IReadFile.html#a62b4c55c9ab76e08ada14d935fbaf2b4" title="Reads an amount of bytes from the file." alt="" coords="319,136,443,177"/>
+<area shape="rect" id="node5" href="$classirr_1_1io_1_1IReadFile.html#ac1cd81f18832e8703838d7abd495bf34" title="Changes position in file." alt="" coords="319,201,443,243"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="GUIScene::setAnimationSpeed" name="GUIScene::setAnimationSpeed">
+<area shape="rect" id="node1" title=" " alt="" coords="5,13,225,39"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1IAnimatedMeshSceneNode.html#a89ef2d20c6e9e83fdb861403c9698c4a" title="Sets the speed with which the animation is played." alt="" coords="273,5,504,47"/>
+</map>

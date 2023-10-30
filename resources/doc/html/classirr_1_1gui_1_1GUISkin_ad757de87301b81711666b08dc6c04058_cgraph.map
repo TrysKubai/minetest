@@ -1,0 +1,4 @@
+<map id="irr::gui::GUISkin::draw3DSunkenPane" name="irr::gui::GUISkin::draw3DSunkenPane">
+<area shape="rect" id="node1" title="draws a sunken 3d pane" alt="" coords="5,5,156,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1GUISkin.html#a35b4af93c53979249f3895d3c5b8a768" title="draws a sunken 3d pane" alt="" coords="204,5,404,47"/>
+</map>

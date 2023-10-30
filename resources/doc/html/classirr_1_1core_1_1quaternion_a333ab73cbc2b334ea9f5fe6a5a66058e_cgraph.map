@@ -1,0 +1,5 @@
+<map id="irr::core::quaternion::getMatrix" name="irr::core::quaternion::getMatrix">
+<area shape="rect" id="node1" title="Creates a matrix from this quaternion." alt="" coords="5,39,156,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1quaternion.html#aac7a34ffd2a14a78de12d994539b94f9" title="Normalizes the quaternion." alt="" coords="231,5,382,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1CMatrix4.html#a87f7195337a2bf7a49978c2ec1100c0a" title="Sets if the matrix is definitely identity matrix." alt="" coords="204,71,409,112"/>
+</map>

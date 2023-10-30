@@ -1,0 +1,5 @@
+<map id="irr::video::IImage" name="irr::video::IImage">
+<area shape="rect" id="node1" title="Interface for software image data." alt="" coords="23,80,156,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1CImage.html" title=" " alt="" coords="20,155,159,181"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="5,5,173,32"/>
+</map>

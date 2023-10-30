@@ -1,0 +1,13 @@
+<map id="irr::scene::SViewFrustum" name="irr::scene::SViewFrustum">
+<area shape="rect" id="node1" title="Defines the view frustum. That&#39;s the space visible by the camera." alt="" coords="1011,152,1193,179"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1plane3d.html" title=" " alt="" coords="735,145,867,186"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1vector3d.html" title=" " alt="" coords="412,83,549,125"/>
+<area shape="rect" id="node10" href="$classirr_1_1core_1_1aabbox3d.html" title=" " alt="" coords="729,262,873,303"/>
+<area shape="rect" id="node4" title=" " alt="" coords="167,91,218,117"/>
+<area shape="rect" id="node5" href="$classirr_1_1core_1_1vector3d.html" title="3d vector template class with lots of operators and methods." alt="" coords="105,5,280,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,173,44,200"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1plane3d.html" title="Template plane class with some intersection testing methods." alt="" coords="395,217,566,244"/>
+<area shape="rect" id="node8" title=" " alt="" coords="134,272,251,299"/>
+<area shape="rect" id="node11" href="$classirr_1_1core_1_1aabbox3d.html" title="Axis aligned bounding box in 3d dimensional space." alt="" coords="389,295,572,321"/>
+<area shape="rect" id="node9" title=" " alt="" coords="735,211,867,237"/>
+</map>

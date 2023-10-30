@@ -1,0 +1,8 @@
+<map id="irr::io::CArchiveLoaderZIP" name="irr::io::CArchiveLoaderZIP">
+<area shape="rect" id="node1" title="Archiveloader capable of loading ZIP Archives." alt="" coords="79,260,266,287"/>
+<area shape="rect" id="node2" href="$classirr_1_1io_1_1IArchiveLoader.html" title="Class which is able to create an archive from a file." alt="" coords="5,171,167,197"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="89,95,257,121"/>
+<area shape="rect" id="node6" href="$classirr_1_1io_1_1IFileSystem.html" title="The FileSystem manages files and archives and provides access to them." alt="" coords="191,171,331,197"/>
+<area shape="rect" id="node4" title=" " alt="" coords="90,5,141,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="198,5,265,32"/>
+</map>

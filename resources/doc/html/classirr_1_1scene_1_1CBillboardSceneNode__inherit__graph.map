@@ -1,0 +1,6 @@
+<map id="irr::scene::CBillboardSceneNode" name="irr::scene::CBillboardSceneNode">
+<area shape="rect" id="node1" title=" " alt="" coords="5,229,236,256"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1IBillboardSceneNode.html" title="A billboard scene node." alt="" coords="8,155,233,181"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1ISceneNode.html" title="Scene node interface." alt="" coords="37,80,204,107"/>
+<area shape="rect" id="node4" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="37,5,205,32"/>
+</map>

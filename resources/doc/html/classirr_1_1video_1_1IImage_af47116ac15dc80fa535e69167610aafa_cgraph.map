@@ -1,0 +1,4 @@
+<map id="irr::video::IImage::lock" name="irr::video::IImage::lock">
+<area shape="rect" id="node1" title="Lock function. Use this to get a pointer to the image data." alt="" coords="5,5,139,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IImage.html#a226cba5c336847caae221a19a0ba932d" title="Use this to get a pointer to the image data." alt="" coords="187,5,320,47"/>
+</map>

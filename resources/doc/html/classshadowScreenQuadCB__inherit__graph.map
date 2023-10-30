@@ -1,0 +1,5 @@
+<map id="shadowScreenQuadCB" name="shadowScreenQuadCB">
+<area shape="rect" id="node1" title=" " alt="" coords="19,169,187,196"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IShaderConstantSetCallBack.html" title="Interface making it possible to set constants for gpu programs every frame." alt="" coords="5,80,200,121"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="19,5,187,32"/>
+</map>

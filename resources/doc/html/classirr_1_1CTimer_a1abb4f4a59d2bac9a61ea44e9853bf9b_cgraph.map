@@ -1,0 +1,4 @@
+<map id="irr::CTimer::getSpeed" name="irr::CTimer::getSpeed">
+<area shape="rect" id="node1" title="Returns current speed of the timer." alt="" coords="5,5,165,32"/>
+<area shape="rect" id="node2" href="$classirr_1_1os_1_1Timer.html#aceb41ea1ae8146920a0a8b62332b4df7" title="gets the speed of the virtual timer" alt="" coords="213,5,388,32"/>
+</map>

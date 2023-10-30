@@ -1,0 +1,4 @@
+<map id="irr::video::IGPUProgrammingServices::addHighLevelShaderMaterialFromFiles" name="irr::video::IGPUProgrammingServices::addHighLevelShaderMaterialFromFiles">
+<area shape="rect" id="node1" title="convenience function for use with many defaults, with geometry shader" alt="" coords="5,5,279,61"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IGPUProgrammingServices.html#a63db9ae2f1684a888ac491278eeb8585" title="Like IGPUProgrammingServices::addShaderMaterial(), but loads from files." alt="" coords="327,5,600,61"/>
+</map>

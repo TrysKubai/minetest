@@ -1,0 +1,25 @@
+var classMainShaderConstantSetter =
+[
+    [ "MainShaderConstantSetter", "classMainShaderConstantSetter.html#a22d60c3fe90ef2bf7d20cb4564a6455d", null ],
+    [ "~MainShaderConstantSetter", "classMainShaderConstantSetter.html#aff79a37ee549933113f75f8587fec9d2", null ],
+    [ "onSetConstants", "classMainShaderConstantSetter.html#ac89037174a1d88926ca3139bb1f48a12", null ],
+    [ "m_camera_pos", "classMainShaderConstantSetter.html#a2a34fd7c841f7ca76e05089bdb246c01", null ],
+    [ "m_light_direction", "classMainShaderConstantSetter.html#ae33f9d6469534a4bbed301f6959198f6", null ],
+    [ "m_normal", "classMainShaderConstantSetter.html#af1457c0a6b778278657efe267edb131f", null ],
+    [ "m_perspective_bias0_pixel", "classMainShaderConstantSetter.html#ac1d1d3a5e6bffeb0b5a2a8b0b0f4bc2e", null ],
+    [ "m_perspective_bias0_vertex", "classMainShaderConstantSetter.html#a076d629beff5c419bf8f5f249137c6b0", null ],
+    [ "m_perspective_bias1_pixel", "classMainShaderConstantSetter.html#a2020e2e3d1a60f6c34a824457462586a", null ],
+    [ "m_perspective_bias1_vertex", "classMainShaderConstantSetter.html#abc1f092ee564518c2509905b6402298c", null ],
+    [ "m_perspective_zbias_pixel", "classMainShaderConstantSetter.html#a5679d8462d5399bc7a379ad2c70f5e37", null ],
+    [ "m_perspective_zbias_vertex", "classMainShaderConstantSetter.html#aaf5ae402f4117c8fc3e74ff510e8ff57", null ],
+    [ "m_shadow_strength", "classMainShaderConstantSetter.html#ac238751c3bd4dec42556d9f0d3c22d49", null ],
+    [ "m_shadow_texture", "classMainShaderConstantSetter.html#a2dc5d560c214f0c7d88a23a5d55cf3e8", null ],
+    [ "m_shadow_view_proj", "classMainShaderConstantSetter.html#a221e5a21cba647c8b228b87792b85be9", null ],
+    [ "m_shadowfar", "classMainShaderConstantSetter.html#a949a4187b612b1b9c5c196a5f2d11c1d", null ],
+    [ "m_texture", "classMainShaderConstantSetter.html#a5c3e6f165ef6d01e0681c2c624e012cd", null ],
+    [ "m_texture_res", "classMainShaderConstantSetter.html#ae943bc8c3c05f1a56fb0c37d198f7002", null ],
+    [ "m_time_of_day", "classMainShaderConstantSetter.html#a6eb5edbf8ac74a26860edd92150bd3ab", null ],
+    [ "m_world", "classMainShaderConstantSetter.html#a9bfc513f1e9fb57ba44c5943773def45", null ],
+    [ "m_world_view", "classMainShaderConstantSetter.html#ab68c94a5b57832f0f22ee726c51dc5d8", null ],
+    [ "m_world_view_proj", "classMainShaderConstantSetter.html#afe335b29991e6d8e993f24a228167f68", null ]
+];

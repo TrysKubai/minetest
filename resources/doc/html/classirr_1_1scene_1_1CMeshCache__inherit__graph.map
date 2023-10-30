@@ -1,0 +1,5 @@
+<map id="irr::scene::CMeshCache" name="irr::scene::CMeshCache">
+<area shape="rect" id="node1" title=" " alt="" coords="5,155,180,181"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1IMeshCache.html" title="The mesh cache stores already loaded meshes and provides an interface to them." alt="" coords="8,80,177,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="9,5,177,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="irr::CIrrDeviceStub::checkSuccessiveClicks" name="irr::CIrrDeviceStub::checkSuccessiveClicks">
+<area shape="rect" id="node1" title="Compares to the last call of this function to return double and triple clicks." alt="" coords="5,49,184,90"/>
+<area shape="rect" id="node2" href="$namespaceirr_1_1core.html#a2cab2ba5899c9262ca29501ea7551c91" title="returns abs of two values. Own implementation to get rid of STL (VS6 problems)" alt="" coords="265,5,376,32"/>
+<area shape="rect" id="node3" href="$classirr_1_1ITimer.html#a67d6b3ae61c2e6aaad82c4ae15ab55f1" title="Returns current real time in milliseconds of the system." alt="" coords="232,56,409,83"/>
+<area shape="rect" id="node4" href="$classirr_1_1CIrrDeviceStub.html#a4bcc3e0aa26170f8753323cc5c08738c" title="Returns a pointer to the ITimer object. With it the current Time can be received." alt="" coords="250,107,391,149"/>
+</map>

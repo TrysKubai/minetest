@@ -1,0 +1,26 @@
+var classObjDefManager =
+[
+    [ "ObjDefManager", "classObjDefManager.html#ab3461237f90ee195a7d8e627a2b12547", null ],
+    [ "~ObjDefManager", "classObjDefManager.html#a3e0bd04f7444b73ac717c99c3df8416d", null ],
+    [ "ObjDefManager", "classObjDefManager.html#a65921fbc488c5ee20df738f361f04722", null ],
+    [ "add", "classObjDefManager.html#a361694ce51715193c8308ea8e9aff17e", null ],
+    [ "addRaw", "classObjDefManager.html#aea4b62d975bf852672f436a5a56bc6e4", null ],
+    [ "clear", "classObjDefManager.html#a8c82dc71297ef37b690aed1f21e35a9b", null ],
+    [ "cloneTo", "classObjDefManager.html#a07c17742a9a46150e73d79303909039f", null ],
+    [ "createHandle", "classObjDefManager.html#a8739c04b3be56350d77a91982b0070a8", null ],
+    [ "decodeHandle", "classObjDefManager.html#a5d7f14e53785562c823da2254f1da5d7", null ],
+    [ "DISABLE_CLASS_COPY", "classObjDefManager.html#aa884e3911c38925e13a75b5871dc5f9f", null ],
+    [ "get", "classObjDefManager.html#a8df6bd694b0d8d8fed94a1f097321fe3", null ],
+    [ "getByName", "classObjDefManager.html#afcd1a25828ef2abedbad5f42e49ec579", null ],
+    [ "getNodeDef", "classObjDefManager.html#a480938bba2f6a706050d45de20f3cf8c", null ],
+    [ "getNumObjects", "classObjDefManager.html#a757baa87e5214bc38974ad2fdeec4395", null ],
+    [ "getObjectTitle", "classObjDefManager.html#ae26e59299a0ac090dac03371f3605921", null ],
+    [ "getRaw", "classObjDefManager.html#a87da5ab38d346c3a3bc4a49eb9198b46", null ],
+    [ "getType", "classObjDefManager.html#acc8abae39db9a18de8644702c0a95e9e", null ],
+    [ "set", "classObjDefManager.html#ab36113a8d8cccb01d0c7d25a62febdf9", null ],
+    [ "setRaw", "classObjDefManager.html#af7326a8bcaf264c0deaafdc2297b61ad", null ],
+    [ "validateHandle", "classObjDefManager.html#a6a0b57f6596a35e8ad6b3e0632a6a2d5", null ],
+    [ "m_ndef", "classObjDefManager.html#a8e3c31a8ad338e4801fa63a3f696204c", null ],
+    [ "m_objects", "classObjDefManager.html#abe34d5c905f4618c001e297e136b836b", null ],
+    [ "m_objtype", "classObjDefManager.html#aafee6a9abeedd367ac9760edcd665d5f", null ]
+];

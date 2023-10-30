@@ -1,0 +1,4 @@
+<map id="irr::scene::CAnimatedMeshSceneNode::getJointNode" name="irr::scene::CAnimatedMeshSceneNode::getJointNode">
+<area shape="rect" id="node1" title="same as getJointNode(const c8* jointName), but based on id" alt="" coords="5,5,203,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1IAnimatedMesh.html#a537abeeb31786f3a0ad8187fe07523ba" title="Returns the type of the animated mesh." alt="" coords="251,5,443,47"/>
+</map>

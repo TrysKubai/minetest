@@ -1,0 +1,6 @@
+<map id="irr::io::IFileList" name="irr::io::IFileList">
+<area shape="rect" id="node1" title="Provides a list of files and folders." alt="" coords="32,80,147,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1io_1_1CFileList.html" title="Implementation of a file list." alt="" coords="30,155,149,181"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="5,5,173,32"/>
+<area shape="rect" id="node4" href="$classirr_1_1io_1_1CZipReader.html" title=" " alt="" coords="19,229,159,256"/>
+</map>

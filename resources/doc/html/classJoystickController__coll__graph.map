@@ -1,0 +1,13 @@
+<map id="JoystickController" name="JoystickController">
+<area shape="rect" id="node1" title=" " alt="" coords="229,332,366,359"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,51,121"/>
+<area shape="rect" id="node5" href="$structJoystickLayout.html" title=" " alt="" coords="137,191,255,218"/>
+<area shape="rect" id="node3" title=" " alt="" coords="278,191,317,218"/>
+<area shape="rect" id="node4" title=" " alt="" coords="341,184,542,225"/>
+<area shape="rect" id="node6" title=" " alt="" coords="81,95,298,121"/>
+<area shape="rect" id="node7" href="$structJoystickAxisLayout.html" title=" " alt="" coords="322,95,467,121"/>
+<area shape="rect" id="node8" title=" " alt="" coords="330,5,377,32"/>
+<area shape="rect" id="node9" title=" " alt="" coords="415,5,454,32"/>
+<area shape="rect" id="node10" title=" " alt="" coords="492,95,695,121"/>
+<area shape="rect" id="node11" title=" " alt="" coords="589,191,632,218"/>
+</map>

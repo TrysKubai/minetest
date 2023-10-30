@@ -1,0 +1,23 @@
+<map id="irr::scene::ICameraSceneNode" name="irr::scene::ICameraSceneNode">
+<area shape="rect" id="node1" title="Scene Node which is a (controllable) camera." alt="" coords="1233,581,1452,608"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1ISceneNode.html" title="Scene node interface." alt="" coords="1017,335,1184,361"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="342,177,510,204"/>
+<area shape="rect" id="node20" href="$classirr_1_1scene_1_1ISceneManager.html" title="The Scene Manager manages scene nodes, mesh resources, cameras and all the other stuff." alt="" coords="619,193,809,220"/>
+<area shape="rect" id="node4" title=" " alt="" coords="61,155,112,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="53,224,120,251"/>
+<area shape="rect" id="node6" href="$classirr_1_1core_1_1vector3d.html" title=" " alt="" coords="645,361,783,402"/>
+<area shape="rect" id="node7" title=" " alt="" coords="401,392,451,419"/>
+<area shape="rect" id="node11" href="$classirr_1_1core_1_1CMatrix4.html" title=" " alt="" coords="645,426,783,467"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1vector3d.html" title="3d vector template class with lots of operators and methods." alt="" coords="339,301,513,328"/>
+<area shape="rect" id="node9" title=" " alt="" coords="67,355,106,381"/>
+<area shape="rect" id="node12" href="$classirr_1_1core_1_1CMatrix4.html" title="4x4 matrix. Mostly used as transformation matrix for 3d calculations." alt="" coords="337,452,515,479"/>
+<area shape="rect" id="node10" title=" " alt="" coords="630,295,798,337"/>
+<area shape="rect" id="node13" href="$classirr_1_1core_1_1string.html" title=" " alt="" coords="633,75,795,101"/>
+<area shape="rect" id="node14" title=" " alt="" coords="353,57,499,84"/>
+<area shape="rect" id="node15" title=" " alt="" coords="5,80,168,107"/>
+<area shape="rect" id="node16" href="$classirr_1_1core_1_1string.html" title="Very simple string class with some useful features." alt="" coords="349,7,503,33"/>
+<area shape="rect" id="node17" title=" " alt="" coords="17,7,156,33"/>
+<area shape="rect" id="node18" title=" " alt="" coords="677,492,751,519"/>
+<area shape="rect" id="node19" href="$classbool.html" title=" " alt="" coords="689,560,739,587"/>
+<area shape="rect" id="node21" href="$classirr_1_1IEventReceiver.html" title="Interface of an object which can receive events." alt="" coords="1029,643,1172,669"/>
+</map>

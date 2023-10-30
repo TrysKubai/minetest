@@ -1,0 +1,6 @@
+<map id="irr::core::strtoul_prefix" name="irr::core::strtoul_prefix">
+<area shape="rect" id="node1" title="Convert a C&#45;style prefixed string (hex, oct, integer) into an unsigned 32 bit integer." alt="" coords="5,49,128,90"/>
+<area shape="rect" id="node2" href="$namespaceirr_1_1core.html#ae7f759b603f4caaa8471cb9bc2e23648" title="Convert a simple string of base 10 digits into an unsigned 32 bit integer." alt="" coords="176,5,315,32"/>
+<area shape="rect" id="node3" href="$namespaceirr_1_1core.html#a96fa4fe7401b30c9057a0dbc7cd27c73" title="Convert a simple string of base 16 digits into an unsigned 32 bit integer." alt="" coords="176,56,315,83"/>
+<area shape="rect" id="node4" href="$namespaceirr_1_1core.html#a005590192e3f22d79759d98d42844b38" title="Convert a simple string of base 8 digits into an unsigned 32 bit integer." alt="" coords="180,107,311,133"/>
+</map>

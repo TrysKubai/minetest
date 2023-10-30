@@ -1,0 +1,11 @@
+<map id="irr::video::COpenGL3MaterialBaseCB::OnSetConstants" name="irr::video::COpenGL3MaterialBaseCB::OnSetConstants">
+<area shape="rect" id="node1" title="Called by the engine when the vertex and/or pixel shader constants for an material renderer should be..." alt="" coords="5,235,216,276"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IVideoDriver.html#a29435c6a654675bdb276c89fd4a1356c" title="Gets the fog mode." alt="" coords="312,5,481,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1IVideoDriver.html#a85c7d04aee02c2d5d8102279f9233101" title="Returns the transformation set by setTransform." alt="" coords="312,71,481,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1CMatrix4.html#a773b3fbfcc406232ec7a1e50558f931f" title="Gets transposed matrix." alt="" coords="327,136,466,177"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1IMaterialRendererServices.html#a368195f7c77f0d9f677bee912416aac6" title="Return an index constant for the vertex shader based on a name." alt="" coords="264,201,529,243"/>
+<area shape="rect" id="node6" href="$classirr_1_1video_1_1IMaterialRendererServices.html#a2a80795887e43cb743eb5ee82604d4cf" title="Get pointer to the IVideoDriver interface." alt="" coords="294,267,499,308"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1CMatrix4.html#a3fbface2cb6b959af64f82a5bb17540e" title="Calculates inverse of matrix. Slow." alt="" coords="327,332,466,373"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1CMatrix4.html#a4d258434b1baa3a52f1ae35903ca97f9" title="Returns pointer to internal array." alt="" coords="327,397,466,439"/>
+<area shape="rect" id="node9" href="$classirr_1_1video_1_1IMaterialRendererServices.html#a490d1f591fdbacb105c2622f0f155ce6" title="Sets a constant for the pixel shader based on a name." alt="" coords="277,463,516,504"/>
+</map>

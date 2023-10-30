@@ -1,0 +1,27 @@
+<map id="irr::gui::IGUICheckBox" name="irr::gui::IGUICheckBox">
+<area shape="rect" id="node1" title="GUI Check box interface." alt="" coords="1281,381,1447,408"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1IGUIElement.html" title="Base class of all GUI elements." alt="" coords="1077,381,1232,408"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="320,36,488,63"/>
+<area shape="rect" id="node17" href="$classirr_1_1gui_1_1IGUIEnvironment.html" title="GUI Environment. Used as factory and manager of all other GUI elements." alt="" coords="687,19,869,45"/>
+<area shape="rect" id="node4" title=" " alt="" coords="44,31,95,57"/>
+<area shape="rect" id="node5" title=" " alt="" coords="36,101,103,128"/>
+<area shape="rect" id="node6" href="$classirr_1_1IEventReceiver.html" title="Interface of an object which can receive events." alt="" coords="707,171,849,197"/>
+<area shape="rect" id="node7" title=" " alt="" coords="708,272,848,299"/>
+<area shape="rect" id="node8" title=" " alt="" coords="375,241,433,268"/>
+<area shape="rect" id="node18" title=" " alt="" coords="726,221,830,248"/>
+<area shape="rect" id="node9" href="$classirr_1_1core_1_1dimension2d.html" title=" " alt="" coords="696,323,860,365"/>
+<area shape="rect" id="node10" title=" " alt="" coords="367,372,441,399"/>
+<area shape="rect" id="node11" href="$classirr_1_1core_1_1dimension2d.html" title="Specifies a 2 dimensional size." alt="" coords="303,312,505,339"/>
+<area shape="rect" id="node12" title=" " alt="" coords="50,312,89,339"/>
+<area shape="rect" id="node13" href="$classirr_1_1core_1_1rect.html" title=" " alt="" coords="699,433,857,460"/>
+<area shape="rect" id="node14" title=" " alt="" coords="333,432,475,459"/>
+<area shape="rect" id="node15" href="$classirr_1_1core_1_1rect.html" title="Rectangle template." alt="" coords="333,503,475,529"/>
+<area shape="rect" id="node19" href="$classirr_1_1core_1_1rect.html" title=" " alt="" coords="700,523,856,549"/>
+<area shape="rect" id="node16" title=" " alt="" coords="5,503,133,529"/>
+<area shape="rect" id="node20" title=" " alt="" coords="333,583,475,609"/>
+<area shape="rect" id="node21" href="$classbool.html" title=" " alt="" coords="753,592,803,619"/>
+<area shape="rect" id="node22" title=" " alt="" coords="671,643,885,669"/>
+<area shape="rect" id="node23" title=" " alt="" coords="743,693,813,720"/>
+<area shape="rect" id="node24" title=" " alt="" coords="697,744,859,771"/>
+<area shape="rect" id="node25" title=" " alt="" coords="709,831,847,857"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="irr::video::SColor::toA1R5G5B5" name="irr::video::SColor::toA1R5G5B5">
+<area shape="rect" id="node1" title="Calculates a 16 bit A1R5G5B5 value of this color." alt="" coords="5,5,136,47"/>
+<area shape="rect" id="node2" href="$namespaceirr_1_1video.html#a929c6758a0edc772cf69b2c674e4f5cd" title="Converts a 32bit (A8R8G8B8) color to a 16bit A1R5G5B5 color." alt="" coords="184,5,371,47"/>
+</map>

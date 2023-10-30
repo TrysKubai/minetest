@@ -1,0 +1,4 @@
+<map id="irr::scene::CMeshBuffer::getIndices" name="irr::scene::CMeshBuffer::getIndices">
+<area shape="rect" id="node1" title="Get pointer to indices." alt="" coords="5,5,179,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1array.html#a7cd7985c7fb32e90205e1df663f0fffb" title="Gets a const pointer to the array." alt="" coords="227,5,383,47"/>
+</map>

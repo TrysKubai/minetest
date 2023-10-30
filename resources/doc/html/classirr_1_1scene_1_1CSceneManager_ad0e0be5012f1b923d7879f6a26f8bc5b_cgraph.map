@@ -1,0 +1,11 @@
+<map id="irr::scene::CSceneManager::~CSceneManager" name="irr::scene::CSceneManager::~CSceneManager">
+<area shape="rect" id="node1" title="destructor" alt="" coords="5,93,200,135"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1CSceneManager.html#acc2357e6d3ed7cd44fc073545bb5f8ff" title="clears the deletion list" alt="" coords="254,5,449,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="745,93,913,135"/>
+<area shape="rect" id="node4" href="$classirr_1_1scene_1_1CSceneManager.html#ace952e9515aa92779e7c0f90ec5a54f6" title="Removes all children of this scene node." alt="" coords="254,123,449,164"/>
+<area shape="rect" id="node9" href="$classirr_1_1video_1_1IVideoDriver.html#a2538b3163d6e072f5b3deb905cb2abb0" title="Remove all hardware buffers." alt="" coords="248,188,455,229"/>
+<area shape="rect" id="node5" href="$classirr_1_1scene_1_1ISceneNode.html#a348767bb5b9262d997067c50e079e5be" title="Removes all children of this scene node." alt="" coords="517,123,683,164"/>
+<area shape="rect" id="node6" href="$classirr_1_1scene_1_1CSceneManager.html#ab51eada7234e5e5b3a2cd504126d7817" title=" " alt="" coords="503,188,697,229"/>
+<area shape="rect" id="node8" href="$classirr_1_1video_1_1IVideoDriver.html#a8c9e31b41b7e6fd26cf65ce538ebab05" title="Sets a material." alt="" coords="515,253,685,295"/>
+<area shape="rect" id="node7" href="$classirr_1_1IReferenceCounted.html#a396f9cdbe311ada278626477b3c6f0f5" title="Grabs the object. Increments the reference counter by one." alt="" coords="745,188,913,229"/>
+</map>

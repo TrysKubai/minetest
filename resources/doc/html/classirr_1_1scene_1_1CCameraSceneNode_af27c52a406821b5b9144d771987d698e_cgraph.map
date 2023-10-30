@@ -1,0 +1,4 @@
+<map id="irr::scene::CCameraSceneNode::getViewMatrix" name="irr::scene::CCameraSceneNode::getViewMatrix">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,195,47"/>
+<area shape="rect" id="node2" href="$structirr_1_1scene_1_1SViewFrustum.html#acf8edd203e7479d2b444ed548075ffa6" title="get the given state&#39;s matrix based on frustum E_TRANSFORMATION_STATE" alt="" coords="243,5,425,47"/>
+</map>

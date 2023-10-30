@@ -1,0 +1,6 @@
+<map id="irr::gui::IGUIElement::setTabOrder" name="irr::gui::IGUIElement::setTabOrder">
+<area shape="rect" id="node1" title="Sets the priority of focus when using the tab key to navigate between a group of elements." alt="" coords="5,64,160,105"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1IGUIElement.html#aa1d5846a06c6f24140cbfbd831cc8a04" title="searches elements to find the closest next element to tab to" alt="" coords="208,5,363,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1IGUIElement.html#af1f535aacf6e19fda64511715100e069" title="Returns the number in the tab order sequence." alt="" coords="411,35,565,76"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1IGUIElement.html#ab6266a2fd3d8b0be385f9f3f3364e9ff" title="Returns the container element which holds all elements in this element&#39;s tab group." alt="" coords="208,123,363,164"/>
+</map>

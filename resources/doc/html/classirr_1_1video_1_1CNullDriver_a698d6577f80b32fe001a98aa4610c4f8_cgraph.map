@@ -1,0 +1,11 @@
+<map id="irr::video::CNullDriver::setRenderTarget" name="irr::video::CNullDriver::setRenderTarget">
+<area shape="rect" id="node1" title="Sets a new render target." alt="" coords="5,136,168,177"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1CNullDriver.html#a1349cff643cf0c322c8ef3de1240080a" title="Create render target." alt="" coords="229,5,391,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1CNullDriver.html#af111dd53b6db7ac93aaed747b99d540c" title="Creates a render target texture." alt="" coords="216,71,404,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1ITexture.html#aa2d4f5a6dc7dcae625845ab0bbac8ca4" title="Get dimension (=size) of the texture." alt="" coords="240,136,380,177"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1CNullDriver.html#aca34d02c7410eb733c8bc9801184e1d5" title="Set a render target." alt="" coords="229,201,391,243"/>
+<area shape="rect" id="node6" href="$classirr_1_1video_1_1IRenderTarget.html#a0f854649c159622244bd3c7f8834b287" title="Set multiple textures." alt="" coords="221,267,399,308"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1array.html#a7cd7985c7fb32e90205e1df663f0fffb" title="Gets a const pointer to the array." alt="" coords="463,201,619,243"/>
+<area shape="rect" id="node8" href="$classirr_1_1video_1_1IRenderTarget.html#ad73cc8d3fe37713fe27a84b8d80475f1" title="Set multiple textures." alt="" coords="452,267,631,308"/>
+<area shape="rect" id="node9" href="$classirr_1_1core_1_1array.html#af2a884d7e19d685b58617fed4ea4d4b9" title="Get number of occupied elements of the array." alt="" coords="468,333,615,359"/>
+</map>

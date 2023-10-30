@@ -1,0 +1,11 @@
+<map id="irr::gui::CGUISpriteBank::SDrawBatch" name="irr::gui::CGUISpriteBank::SDrawBatch">
+<area shape="rect" id="node1" title=" " alt="" coords="116,288,292,329"/>
+<area shape="rect" id="node2" title=" " alt="" coords="28,191,103,218"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1array.html" title=" " alt="" coords="127,184,281,225"/>
+<area shape="rect" id="node4" title=" " alt="" coords="87,95,257,121"/>
+<area shape="rect" id="node5" href="$classbool.html" title=" " alt="" coords="400,5,451,32"/>
+<area shape="rect" id="node6" href="$classirr_1_1core_1_1array.html" title="Self reallocating template array (like stl vector) with additional features." alt="" coords="303,95,455,121"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1array.html" title=" " alt="" coords="368,184,525,225"/>
+<area shape="rect" id="node7" title=" " alt="" coords="275,5,376,32"/>
+<area shape="rect" id="node9" title=" " alt="" coords="641,95,842,121"/>
+</map>

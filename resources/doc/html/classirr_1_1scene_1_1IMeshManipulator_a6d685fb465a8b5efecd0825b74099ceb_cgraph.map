@@ -1,0 +1,11 @@
+<map id="irr::scene::IMeshManipulator::apply" name="irr::scene::IMeshManipulator::apply">
+<area shape="rect" id="node1" title="Apply a manipulator on the Meshbuffer." alt="" coords="5,201,212,243"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1IMeshManipulator.html#a774eccf79c86497b49b4dea7ead1eeb2" title="Apply a manipulator based on the type of the functor." alt="" coords="260,201,467,243"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1aabbox3d.html#a49e3765fd2f40a115f8f28bd74d62ccf" title="Adds a point to the bounding box." alt="" coords="527,5,671,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1scene_1_1IMeshBuffer.html#a79ca051edc0ece69057fda7b4fe1e155" title="returns position of vertex i" alt="" coords="515,71,683,112"/>
+<area shape="rect" id="node5" href="$classirr_1_1scene_1_1IMeshBuffer.html#a77ab285c8c886af8ddeb0371db7bde96" title="Get amount of vertices in meshbuffer." alt="" coords="515,136,683,177"/>
+<area shape="rect" id="node6" href="$classirr_1_1scene_1_1IMeshBuffer.html#a4d7a84ae4416487736f0ed0f519bb4f0" title="Get type of vertex data which is stored in this meshbuffer." alt="" coords="515,201,683,243"/>
+<area shape="rect" id="node7" href="$classirr_1_1scene_1_1IMeshBuffer.html#a99891e516246b2cff13b362a435c8028" title="Get access to vertex data. The data is an array of vertices." alt="" coords="515,267,683,308"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1aabbox3d.html#afc718e96ed11aa71a30311d32bfc885a" title="Resets the bounding box to a one&#45;point box." alt="" coords="527,332,671,373"/>
+<area shape="rect" id="node9" href="$classirr_1_1scene_1_1IMeshBuffer.html#adbbfb7757dfbba7357193d2280893df6" title="Set axis aligned bounding box." alt="" coords="515,397,683,439"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="irr::os::Timer::getTime" name="irr::os::Timer::getTime">
+<area shape="rect" id="node1" title="returns the current time in milliseconds" alt="" coords="5,5,172,32"/>
+<area shape="rect" id="node2" href="$classirr_1_1os_1_1Timer.html#aad6c27db995b80c795038bb2f827dfc5" title="returns if the timer currently is stopped" alt="" coords="220,5,397,32"/>
+</map>

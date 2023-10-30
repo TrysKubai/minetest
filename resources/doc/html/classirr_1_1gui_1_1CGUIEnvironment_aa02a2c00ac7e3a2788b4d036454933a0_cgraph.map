@@ -1,0 +1,6 @@
+<map id="irr::gui::CGUIEnvironment::addButton" name="irr::gui::CGUIEnvironment::addButton">
+<area shape="rect" id="node1" title="adds an button. The returned pointer must not be dropped." alt="" coords="5,71,193,112"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="241,5,409,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1IGUIElement.html#a8f864c26d4b2ee3551c53d3ebf870656" title="Sets the new caption of this element." alt="" coords="248,71,403,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1IGUIElement.html#a672f29f88c8d8f1e8ed1ac6c9f23b890" title="Sets the new caption of this element." alt="" coords="248,136,403,177"/>
+</map>

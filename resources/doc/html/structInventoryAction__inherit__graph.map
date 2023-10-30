@@ -1,0 +1,6 @@
+<map id="InventoryAction" name="InventoryAction">
+<area shape="rect" id="node1" title=" " alt="" coords="115,5,240,32"/>
+<area shape="rect" id="node2" href="$structICraftAction.html" title=" " alt="" coords="5,80,104,107"/>
+<area shape="rect" id="node3" href="$structIDropAction.html" title=" " alt="" coords="128,80,227,107"/>
+<area shape="rect" id="node4" href="$structIMoveAction.html" title=" " alt="" coords="251,80,354,107"/>
+</map>

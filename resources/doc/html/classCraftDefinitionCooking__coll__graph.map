@@ -1,0 +1,11 @@
+<map id="CraftDefinitionCooking" name="CraftDefinitionCooking">
+<area shape="rect" id="node1" title=" " alt="" coords="252,228,421,255"/>
+<area shape="rect" id="node2" href="$classCraftDefinition.html" title=" " alt="" coords="75,109,191,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,13,121,39"/>
+<area shape="rect" id="node4" title=" " alt="" coords="145,13,259,39"/>
+<area shape="rect" id="node5" title=" " alt="" coords="215,109,266,136"/>
+<area shape="rect" id="node6" href="$classbool.html" title=" " alt="" coords="311,109,362,136"/>
+<area shape="rect" id="node7" title=" " alt="" coords="418,109,477,136"/>
+<area shape="rect" id="node8" href="$structCraftReplacements.html" title=" " alt="" coords="501,109,647,136"/>
+<area shape="rect" id="node9" title=" " alt="" coords="477,5,671,47"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="irr::video::IImageWriter" name="irr::video::IImageWriter">
+<area shape="rect" id="node1" title="Interface for writing software image data." alt="" coords="132,80,305,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1CImageWriterJPG.html" title=" " alt="" coords="5,155,205,181"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1CImageWriterPNG.html" title=" " alt="" coords="230,155,437,181"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="135,5,303,32"/>
+</map>

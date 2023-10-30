@@ -1,0 +1,5 @@
+<map id="irr::video::CNullDriver::OnResize" name="irr::video::CNullDriver::OnResize">
+<area shape="rect" id="node1" title="Only used by the engine internally." alt="" coords="5,23,168,65"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1rect.html#ad43b325eeb165c553a58f34efb2ee961" title="Get height of rectangle." alt="" coords="216,5,393,32"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1rect.html#ad5dcae186b85b938d42b59c91bfeb9a5" title="Get width of rectangle." alt="" coords="219,56,391,83"/>
+</map>

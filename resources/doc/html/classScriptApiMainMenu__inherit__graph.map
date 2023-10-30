@@ -1,0 +1,6 @@
+<map id="ScriptApiMainMenu" name="ScriptApiMainMenu">
+<area shape="rect" id="node1" title=" " alt="" coords="5,155,153,181"/>
+<area shape="rect" id="node4" href="$classMainMenuScripting.html" title=" " alt="" coords="6,229,153,256"/>
+<area shape="rect" id="node2" href="$classScriptApiBase.html" title=" " alt="" coords="23,80,135,107"/>
+<area shape="rect" id="node3" href="$classLuaHelper.html" title=" " alt="" coords="35,5,123,32"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="ScriptApiBase" name="ScriptApiBase">
+<area shape="rect" id="node1" title=" " alt="" coords="141,352,253,379"/>
+<area shape="rect" id="node3" href="$classAsyncWorkerThread.html" title=" " alt="" coords="517,36,668,63"/>
+<area shape="rect" id="node4" href="$classClientScripting.html" title=" " alt="" coords="534,112,651,139"/>
+<area shape="rect" id="node5" href="$classMainMenuScripting.html" title=" " alt="" coords="519,580,666,607"/>
+<area shape="rect" id="node6" href="$classScriptApiClient.html" title=" " alt="" coords="326,150,445,176"/>
+<area shape="rect" id="node7" href="$classScriptApiDetached.html" title=" " alt="" coords="314,454,457,480"/>
+<area shape="rect" id="node8" href="$classServerScripting.html" title=" " alt="" coords="532,327,653,354"/>
+<area shape="rect" id="node9" href="$classScriptApiEntity.html" title=" " alt="" coords="326,504,445,531"/>
+<area shape="rect" id="node10" href="$classScriptApiEnv.html" title=" " alt="" coords="333,251,437,278"/>
+<area shape="rect" id="node11" href="$classScriptApiItem.html" title=" " alt="" coords="330,656,441,683"/>
+<area shape="rect" id="node12" href="$classScriptApiNodemeta.html" title=" " alt="" coords="519,682,667,708"/>
+<area shape="rect" id="node13" href="$classScriptApiMainMenu.html" title=" " alt="" coords="311,555,459,582"/>
+<area shape="rect" id="node14" href="$classScriptApiModChannels.html" title=" " alt="" coords="301,200,469,227"/>
+<area shape="rect" id="node15" href="$classScriptApiPlayer.html" title=" " alt="" coords="325,302,446,328"/>
+<area shape="rect" id="node16" href="$classScriptApiSecurity.html" title=" " alt="" coords="319,48,452,75"/>
+<area shape="rect" id="node17" href="$classScriptApiServer.html" title=" " alt="" coords="324,352,447,379"/>
+<area shape="rect" id="node2" href="$classLuaHelper.html" title=" " alt="" coords="5,352,93,379"/>
+</map>

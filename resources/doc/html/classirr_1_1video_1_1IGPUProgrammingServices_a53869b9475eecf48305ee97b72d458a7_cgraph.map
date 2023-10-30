@@ -1,0 +1,4 @@
+<map id="irr::video::IGPUProgrammingServices::addHighLevelShaderMaterial" name="irr::video::IGPUProgrammingServices::addHighLevelShaderMaterial">
+<area shape="rect" id="node1" title="convenience function for use with many defaults, with geometry shader" alt="" coords="5,5,279,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IGPUProgrammingServices.html#a51d8b03d12a4a03ca8f03efd9f3da73b" title="Adds a new high&#45;level shading material renderer to the VideoDriver." alt="" coords="327,5,600,47"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="irr::gui::CGUISkin::drawIcon" name="irr::gui::CGUISkin::drawIcon">
+<area shape="rect" id="node1" title="draws an icon, usually from the skin&#39;s sprite bank" alt="" coords="5,51,139,92"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1IGUISpriteBank.html#aec335112ba4347aa50c5082e26fe2e9a" title="Draws a sprite in 2d with position and color." alt="" coords="187,5,357,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1IGUIElement.html#add00898b0ee96565f55b1b47efaceec6" title="Returns true if element is enabled." alt="" coords="195,95,349,136"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1IGUIElement.html#ab3eacf3540cb5b020f3c4a24c6a67473" title="Returns parent of this element." alt="" coords="405,61,560,103"/>
+<area shape="rect" id="node5" href="$classirr_1_1gui_1_1IGUIElement.html#aa85661a9ebba0f46d6e7c7e0da92f4cd" title="Returns true if this element was created as part of its parent control." alt="" coords="405,127,560,168"/>
+</map>

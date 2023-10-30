@@ -1,0 +1,7 @@
+<map id="TextureSource::getPalette" name="TextureSource::getPalette">
+<area shape="rect" id="node1" title=" " alt="" coords="5,79,193,106"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="511,5,679,47"/>
+<area shape="rect" id="node3" href="$classTextureSource.html#a55fc23e41ff95ead57f0522f1dfb6dfb" title=" " alt="" coords="241,54,463,81"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1IImage.html#a5cba4942759d65f6132b707e3b4c3ed4" title="Returns width and height of image data." alt="" coords="528,80,661,121"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1IImage.html#a0645adce59442e67261eca084565a9df" title="Returns a pixel." alt="" coords="285,156,419,197"/>
+</map>

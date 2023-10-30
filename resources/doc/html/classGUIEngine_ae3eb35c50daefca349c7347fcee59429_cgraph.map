@@ -1,0 +1,41 @@
+<map id="GUIEngine::GUIEngine" name="GUIEngine::GUIEngine">
+<area shape="rect" id="node1" title=" " alt="" coords="5,499,172,526"/>
+<area shape="rect" id="node2" href="$classFontEngine.html#a2f730dd25243d78870d2b55e31a591dc" title=" " alt="" coords="757,65,951,91"/>
+<area shape="rect" id="node4" href="$classGUIEngine.html#a9d7cbb867ff9cce08b28e8b37cf2d5cd" title=" " alt="" coords="220,525,451,551"/>
+<area shape="rect" id="node5" href="$classirr__ptr.html#a3b76ecadfd92afd990b84fdc53adef42" title=" " alt="" coords="284,575,387,602"/>
+<area shape="rect" id="node6" href="$classGUIEngine.html#a1c47934bf837b18ccfef55b026a7a4e8" title=" " alt="" coords="276,474,395,501"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1IGUIFont.html#aa7612db0c9dc2837b44a1a2fa5668797" title="Calculates the width and height of a given string of text." alt="" coords="1034,5,1162,47"/>
+<area shape="rect" id="node7" href="$classirr_1_1video_1_1IVideoDriver.html#ad8e8b44bcd5c9a9a844dd491ef409857" title="Applications must call this method before performing any rendering." alt="" coords="519,383,689,424"/>
+<area shape="rect" id="node8" href="$classGUIEngine.html#ab2646cb06a034c70041ccdee688a1712" title=" " alt="" coords="527,331,681,358"/>
+<area shape="rect" id="node11" href="$classGUIEngine.html#aed444f218912e9870fc70ab93a414721" title=" " alt="" coords="499,449,709,475"/>
+<area shape="rect" id="node13" href="$classGUIEngine.html#a6dadd11cf00d2c1bcc45aa01641f0f4c" title=" " alt="" coords="502,499,706,526"/>
+<area shape="rect" id="node17" href="$classirr_1_1video_1_1IVideoDriver.html#a29435c6a654675bdb276c89fd4a1356c" title="Gets the fog mode." alt="" coords="1013,645,1183,687"/>
+<area shape="rect" id="node22" href="$classirr_1_1video_1_1IVideoDriver.html#af8cbb090b42198244c1703eb17024bbc" title="Sets the fog mode." alt="" coords="1013,711,1183,752"/>
+<area shape="rect" id="node26" href="$classirr_1_1gui_1_1IGUIEnvironment.html#a650382255d11faec010746abad517464" title="Draws all gui elements by traversing the GUI environment starting at the root node." alt="" coords="513,707,695,748"/>
+<area shape="rect" id="node27" href="$classGUIEngine.html#a3b55fd06484866a3e52816095fced68a" title=" " alt="" coords="501,655,707,682"/>
+<area shape="rect" id="node31" href="$classGUIEngine.html#ab0179c60f2a459a14aca6a47f1ff36e2" title=" " alt="" coords="519,874,689,901"/>
+<area shape="rect" id="node32" href="$classGUIEngine.html#a8f49b3df89df003300a53aaeed174bd2" title=" " alt="" coords="515,773,693,799"/>
+<area shape="rect" id="node33" href="$classGUIEngine.html#a3320e6d52d4955862ddb36bd8b429be8" title=" " alt="" coords="513,823,695,850"/>
+<area shape="rect" id="node34" href="$classirr_1_1video_1_1IVideoDriver.html#a75f61a93c5fc9fdf161c044d27bc994e" title="Presents the rendered image to the screen." alt="" coords="519,135,689,176"/>
+<area shape="rect" id="node35" href="$classirr_1_1IrrlichtDevice.html#a960069dc52b4f1303d18945dcbad7f3a" title="Checks if the Irrlicht window has the input focus." alt="" coords="531,200,677,241"/>
+<area shape="rect" id="node36" href="$classGUIEngine.html#a406ce771bfd055744a85238c3616a018" title=" " alt="" coords="509,265,699,307"/>
+<area shape="rect" id="node9" href="$classirr_1_1scene_1_1ISceneManager.html#afc3733849319078d5d22d94f58c7d1f2" title="Adds a camera scene node to the scene graph and sets it as active camera." alt="" coords="759,305,949,347"/>
+<area shape="rect" id="node10" href="$classirr_1_1scene_1_1ICameraSceneNode.html#ab7e427dd639b6bb63f648d6d087da1ea" title="Sets the value of the far clipping plane (default: 2000.0f)" alt="" coords="762,240,946,281"/>
+<area shape="rect" id="node12" href="$classirr_1_1IrrlichtDevice.html#a89a3ecebc0e7c5ae08617b78a6e8a9f7" title="Pause execution and let other processes to run for a specified amount of time." alt="" coords="789,371,919,412"/>
+<area shape="rect" id="node14" href="$classirr_1_1scene_1_1ISceneManager.html#a04240262904667c821bd9de5e5fd9b02" title="Draws all the scene nodes." alt="" coords="759,488,949,529"/>
+<area shape="rect" id="node15" href="$classClouds.html#afc8c2370e781e4ea9895c091933b6c6a" title="Renders the node." alt="" coords="796,437,912,463"/>
+<area shape="rect" id="node16" href="$classirr_1_1video_1_1IVideoDriver.html#ab18ac3ba8b6dbaa4437c5eb3b1e2f4fb" title="Draws a vertex primitive list." alt="" coords="1005,332,1191,373"/>
+<area shape="rect" id="node18" href="$classirr_1_1scene_1_1ISceneManager.html#a2b8f844a1367d80648bc055a5639807b" title="Get current render pass." alt="" coords="999,397,1197,439"/>
+<area shape="rect" id="node19" href="$classirr_1_1scene_1_1ISceneManager.html#afde082160205a8faab44cd5b61e3745c" title="Get the video driver." alt="" coords="1003,463,1193,504"/>
+<area shape="rect" id="node20" href="$classirr_1_1video_1_1SColor.html#a8cf295c05c7406cc249843acbb31ec5f" title="Sets all four components of the color at once." alt="" coords="1019,529,1177,555"/>
+<area shape="rect" id="node21" href="$classirr_1_1video_1_1SMaterial.html#a460db947d8e2022c6be895b77a65bbda" title="Sets the Material flag to the given value." alt="" coords="1023,580,1173,621"/>
+<area shape="rect" id="node23" href="$classirr_1_1video_1_1IVideoDriver.html#a8c9e31b41b7e6fd26cf65ce538ebab05" title="Sets a material." alt="" coords="1013,136,1183,177"/>
+<area shape="rect" id="node24" href="$classirr_1_1video_1_1IVideoDriver.html#aaf6e88bedf7b91666a2bd34f46e092fc" title="Sets transformation matrices." alt="" coords="1013,201,1183,243"/>
+<area shape="rect" id="node25" href="$classirr_1_1video_1_1SColorf.html#ac2f8bda88252139531ce041819aabee6" title="Converts this color to a SColor without floats." alt="" coords="1031,267,1165,308"/>
+<area shape="rect" id="node28" href="$classirr_1_1video_1_1IVideoDriver.html#ac7f452fae0ef8abe01768a78ba7033b7" title="Draws a 2d rectangle." alt="" coords="769,656,939,697"/>
+<area shape="rect" id="node29" href="$classirr_1_1video_1_1ITexture.html#a570e1eec61d7c71be2d7c2d570c05d76" title="Get original size of the texture." alt="" coords="784,759,924,800"/>
+<area shape="rect" id="node30" href="$classirr_1_1video_1_1IVideoDriver.html#aa106dd9ff233497f9ea9a07dc6441c82" title="Get the size of the screen or render window." alt="" coords="769,824,939,865"/>
+<area shape="rect" id="node37" href="$classirr_1_1gui_1_1IGUIElement.html#af8fb8c63d48ec6ceeeedc8a83c02a9d0" title="Removes this element from its parent." alt="" coords="777,136,931,177"/>
+<area shape="rect" id="node38" href="$classirr_1_1gui_1_1IGUIElement.html#a3171cafaa9d2f3b67c886c60bdd61b32" title="Removes a child." alt="" coords="1021,71,1175,112"/>
+<area shape="rect" id="node39" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="1245,71,1413,112"/>
+</map>

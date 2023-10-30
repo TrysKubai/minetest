@@ -1,0 +1,8 @@
+<map id="irr::scene::CAnimatedMeshSceneNode::setFrameLoop" name="irr::scene::CAnimatedMeshSceneNode::setFrameLoop">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,203,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1IAnimatedMesh.html#a2ec99aba081e9f37802e8ea9cd65629b" title="Gets the frame count of the animated mesh." alt="" coords="261,5,453,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1CAnimatedMeshSceneNode.html#aa998f3490369c8d66205bab910b1bb37" title="sets the current frame. from now on the animation is played from this frame." alt="" coords="251,71,463,112"/>
+<area shape="rect" id="node4" href="$namespaceirr_1_1core.html#a6162f685b68f629e77336081d3316969" title="clamps a value between low and high" alt="" coords="511,78,631,105"/>
+<area shape="rect" id="node5" href="$namespaceirr_1_1core.html#afca1ce7ac54e0c31a9047947f4c7319b" title="returns maximum of two values. Own implementation to get rid of the STL (VS6 problems)" alt="" coords="679,53,795,79"/>
+<area shape="rect" id="node6" href="$namespaceirr_1_1core.html#a9d34bfdbbe9c136b01ae04974572bc11" title="returns minimum of two values. Own implementation to get rid of the STL (VS6 problems)" alt="" coords="681,103,793,130"/>
+</map>

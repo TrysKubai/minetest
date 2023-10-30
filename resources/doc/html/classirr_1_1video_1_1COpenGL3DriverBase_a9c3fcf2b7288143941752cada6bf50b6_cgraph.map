@@ -1,0 +1,6 @@
+<map id="irr::video::COpenGL3DriverBase::OnResize" name="irr::video::COpenGL3DriverBase::OnResize">
+<area shape="rect" id="node1" title="Only used internally by the engine." alt="" coords="5,23,201,65"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1CNullDriver.html#aad2c19bc69cad316c97a96409cc0b75e" title="Only used by the engine internally." alt="" coords="249,23,412,65"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1rect.html#ad43b325eeb165c553a58f34efb2ee961" title="Get height of rectangle." alt="" coords="460,5,637,32"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1rect.html#ad5dcae186b85b938d42b59c91bfeb9a5" title="Get width of rectangle." alt="" coords="463,56,635,83"/>
+</map>

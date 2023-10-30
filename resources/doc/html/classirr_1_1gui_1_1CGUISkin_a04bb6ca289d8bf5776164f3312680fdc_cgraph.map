@@ -1,0 +1,15 @@
+<map id="irr::gui::CGUISkin::draw3DWindowBackground" name="irr::gui::CGUISkin::draw3DWindowBackground">
+<area shape="rect" id="node1" title="draws a window background" alt="" coords="5,123,215,164"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IVideoDriver.html#ac7f452fae0ef8abe01768a78ba7033b7" title="Draws a 2d rectangle." alt="" coords="263,5,432,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1SColor.html#a8b0bcff9036b06e3483978a84a924b91" title="Returns the alpha component of the color." alt="" coords="480,64,611,105"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1CGUISkin.html#a0f12cb721c0b7d19004a209fe32cd04d" title="returns default color" alt="" coords="281,123,414,164"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1SColor.html#a20bfa471b5cf672db83355c181a3cae6" title="Interpolates the color with a f32 value to another color." alt="" coords="282,188,413,229"/>
+<area shape="rect" id="node13" href="$classirr_1_1gui_1_1CGUISkin.html#a124841d8dd783286d8cef294b5d6ee21" title="returns size for the given size type" alt="" coords="281,253,414,295"/>
+<area shape="rect" id="node6" href="$namespaceirr_1_1core.html#a6162f685b68f629e77336081d3316969" title="clamps a value between low and high" alt="" coords="485,130,605,157"/>
+<area shape="rect" id="node9" href="$classirr_1_1video_1_1SColor.html#afb60ac456b2efc2f2a4f04a643293d26" title="Returns the blue component of the color." alt="" coords="480,181,611,223"/>
+<area shape="rect" id="node10" href="$classirr_1_1video_1_1SColor.html#a198773366f2a5436c1ca4adc9037bb8d" title="Returns the green component of the color." alt="" coords="480,247,611,288"/>
+<area shape="rect" id="node11" href="$classirr_1_1video_1_1SColor.html#a70d11ec2247581c79ee11e0e1b511978" title="Returns the red component of the color." alt="" coords="480,312,611,353"/>
+<area shape="rect" id="node12" href="$classirr_1_1video_1_1SColor.html#ab001c0c2515ff5f8a0b324d1345485f4" title="Constructor of the Color. Does nothing." alt="" coords="480,377,611,419"/>
+<area shape="rect" id="node7" href="$namespaceirr_1_1core.html#afca1ce7ac54e0c31a9047947f4c7319b" title="returns maximum of two values. Own implementation to get rid of the STL (VS6 problems)" alt="" coords="659,105,775,131"/>
+<area shape="rect" id="node8" href="$namespaceirr_1_1core.html#a9d34bfdbbe9c136b01ae04974572bc11" title="returns minimum of two values. Own implementation to get rid of the STL (VS6 problems)" alt="" coords="661,155,773,182"/>
+</map>

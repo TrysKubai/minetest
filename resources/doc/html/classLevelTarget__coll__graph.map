@@ -1,0 +1,12 @@
+<map id="LevelTarget" name="LevelTarget">
+<area shape="rect" id="node1" title=" " alt="" coords="552,73,649,100"/>
+<area shape="rect" id="node2" href="$classLogTarget.html" title=" " alt="" coords="353,5,439,32"/>
+<area shape="rect" id="node3" href="$classbool.html" title=" " alt="" coords="67,65,118,92"/>
+<area shape="rect" id="node5" href="$classLogger.html" title=" " alt="" coords="363,167,429,193"/>
+<area shape="rect" id="node4" title=" " alt="" coords="356,217,436,244"/>
+<area shape="rect" id="node6" title=" " alt="" coords="61,124,125,151"/>
+<area shape="rect" id="node7" title=" " alt="" coords="13,175,173,217"/>
+<area shape="rect" id="node8" title=" " alt="" coords="5,241,180,268"/>
+<area shape="rect" id="node9" title=" " alt="" coords="33,292,152,319"/>
+<area shape="rect" id="node10" title=" " alt="" coords="30,343,155,369"/>
+</map>

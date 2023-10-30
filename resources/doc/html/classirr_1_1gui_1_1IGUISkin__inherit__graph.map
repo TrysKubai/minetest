@@ -1,0 +1,6 @@
+<map id="irr::gui::IGUISkin" name="irr::gui::IGUISkin">
+<area shape="rect" id="node1" title="A skin modifies the look of the GUI elements." alt="" coords="84,80,212,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1CGUISkin.html" title=" " alt="" coords="5,155,139,181"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1GUISkin.html" title=" " alt="" coords="163,155,287,181"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="64,5,232,32"/>
+</map>

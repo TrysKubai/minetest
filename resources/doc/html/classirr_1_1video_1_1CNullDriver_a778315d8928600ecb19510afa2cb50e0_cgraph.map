@@ -1,0 +1,6 @@
+<map id="irr::video::CNullDriver::addTextureCubemap" name="irr::video::CNullDriver::addTextureCubemap">
+<area shape="rect" id="node1" title="Creates a cubemap texture from loaded IImages." alt="" coords="5,64,169,105"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1CNullDriver.html#a4359dbed7d989ca02f3c89d1b4fab41f" title="Creates an empty texture of specified size." alt="" coords="231,5,394,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="456,35,624,76"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1array.html#a95afc36513d08abb51bd399755730877" title="Adds an element at back of array." alt="" coords="217,122,408,149"/>
+</map>

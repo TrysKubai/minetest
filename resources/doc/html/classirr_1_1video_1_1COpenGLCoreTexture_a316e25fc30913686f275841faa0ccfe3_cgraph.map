@@ -1,0 +1,4 @@
+<map id="irr::video::COpenGLCoreTexture::unlock" name="irr::video::COpenGLCoreTexture::unlock">
+<area shape="rect" id="node1" title="Unlock function. Must be called after a lock() to the texture." alt="" coords="5,5,232,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="280,5,448,47"/>
+</map>

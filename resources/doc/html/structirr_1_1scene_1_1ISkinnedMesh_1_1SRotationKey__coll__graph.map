@@ -1,0 +1,5 @@
+<map id="irr::scene::ISkinnedMesh::SRotationKey" name="irr::scene::ISkinnedMesh::SRotationKey">
+<area shape="rect" id="node1" title="Animation keyframe which describes a new rotation." alt="" coords="5,228,187,269"/>
+<area shape="rect" id="node2" title=" " alt="" coords="71,5,121,32"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1quaternion.html" title="Quaternion class for representing rotations." alt="" coords="143,139,294,165"/>
+</map>

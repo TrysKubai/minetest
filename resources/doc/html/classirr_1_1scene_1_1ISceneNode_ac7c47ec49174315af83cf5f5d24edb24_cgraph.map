@@ -1,0 +1,6 @@
+<map id="irr::scene::ISceneNode::getRelativeTransformation" name="irr::scene::ISceneNode::getRelativeTransformation">
+<area shape="rect" id="node1" title="Returns the relative transformation of the scene node." alt="" coords="5,71,208,112"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1CMatrix4.html#a8ee5ef8619d4b0f56d72ac84495ed644" title="Make a rotation matrix from Euler angles. The 4th row and column are unmodified." alt="" coords="256,5,415,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1CMatrix4.html#a47117d44419af87e70084c01ab852049" title="Set Scale." alt="" coords="266,71,405,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1CMatrix4.html#ac04a3b341cbfbb7986be682691655622" title="Set the translation of the current matrix. Will erase any previous values." alt="" coords="266,136,405,177"/>
+</map>

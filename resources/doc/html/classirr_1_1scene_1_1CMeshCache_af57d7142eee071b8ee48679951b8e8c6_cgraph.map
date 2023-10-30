@@ -1,0 +1,4 @@
+<map id="irr::scene::CMeshCache::addMesh" name="irr::scene::CMeshCache::addMesh">
+<area shape="rect" id="node1" title="Adds a mesh to the internal list of loaded meshes." alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html#a396f9cdbe311ada278626477b3c6f0f5" title="Grabs the object. Increments the reference counter by one." alt="" coords="228,5,396,47"/>
+</map>

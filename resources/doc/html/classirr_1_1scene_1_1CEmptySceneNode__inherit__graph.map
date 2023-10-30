@@ -1,0 +1,5 @@
+<map id="irr::scene::CEmptySceneNode" name="irr::scene::CEmptySceneNode">
+<area shape="rect" id="node1" title=" " alt="" coords="5,155,220,181"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1ISceneNode.html" title="Scene node interface." alt="" coords="29,80,196,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="29,5,197,32"/>
+</map>

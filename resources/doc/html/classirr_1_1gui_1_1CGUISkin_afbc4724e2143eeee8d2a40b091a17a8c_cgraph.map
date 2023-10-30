@@ -1,0 +1,16 @@
+<map id="irr::gui::CGUISkin::draw3DMenuPane" name="irr::gui::CGUISkin::draw3DMenuPane">
+<area shape="rect" id="node1" title="draws a standard 3d menu pane" alt="" coords="5,391,152,432"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IVideoDriver.html#ac7f452fae0ef8abe01768a78ba7033b7" title="Draws a 2d rectangle." alt="" coords="667,384,836,425"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1CGUISkin.html#a04e30f02725e15d15d50ec4a0832bd07" title="draws a standard 3d button pane" alt="" coords="200,391,412,432"/>
+<area shape="rect" id="node5" href="$classirr_1_1gui_1_1CGUISkin.html#a0f12cb721c0b7d19004a209fe32cd04d" title="returns default color" alt="" coords="685,475,818,516"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1CGUISkin.html#af937eab70e221499e0b45ca10ee0c68b" title="draws a sunken 3d pane" alt="" coords="460,416,619,457"/>
+<area shape="rect" id="node6" href="$classirr_1_1video_1_1SColor.html#a20bfa471b5cf672db83355c181a3cae6" title="Interpolates the color with a f32 value to another color." alt="" coords="474,201,605,243"/>
+<area shape="rect" id="node7" href="$namespaceirr_1_1core.html#a6162f685b68f629e77336081d3316969" title="clamps a value between low and high" alt="" coords="691,333,811,359"/>
+<area shape="rect" id="node10" href="$classirr_1_1video_1_1SColor.html#a8b0bcff9036b06e3483978a84a924b91" title="Returns the alpha component of the color." alt="" coords="686,5,817,47"/>
+<area shape="rect" id="node11" href="$classirr_1_1video_1_1SColor.html#afb60ac456b2efc2f2a4f04a643293d26" title="Returns the blue component of the color." alt="" coords="686,71,817,112"/>
+<area shape="rect" id="node12" href="$classirr_1_1video_1_1SColor.html#a198773366f2a5436c1ca4adc9037bb8d" title="Returns the green component of the color." alt="" coords="686,136,817,177"/>
+<area shape="rect" id="node13" href="$classirr_1_1video_1_1SColor.html#a70d11ec2247581c79ee11e0e1b511978" title="Returns the red component of the color." alt="" coords="686,201,817,243"/>
+<area shape="rect" id="node14" href="$classirr_1_1video_1_1SColor.html#ab001c0c2515ff5f8a0b324d1345485f4" title="Constructor of the Color. Does nothing." alt="" coords="686,267,817,308"/>
+<area shape="rect" id="node8" href="$namespaceirr_1_1core.html#afca1ce7ac54e0c31a9047947f4c7319b" title="returns maximum of two values. Own implementation to get rid of the STL (VS6 problems)" alt="" coords="884,307,1000,334"/>
+<area shape="rect" id="node9" href="$namespaceirr_1_1core.html#a9d34bfdbbe9c136b01ae04974572bc11" title="returns minimum of two values. Own implementation to get rid of the STL (VS6 problems)" alt="" coords="886,358,998,385"/>
+</map>

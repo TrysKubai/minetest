@@ -1,0 +1,52 @@
+<map id="GUIInventoryList" name="GUIInventoryList">
+<area shape="rect" id="node1" title=" " alt="" coords="2120,961,2251,988"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1IGUIElement.html" title="Base class of all GUI elements." alt="" coords="966,1348,1121,1375"/>
+<area shape="rect" id="node30" href="$classGUIModalMenu.html" title=" " alt="" coords="1384,1209,1507,1236"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="241,1580,409,1607"/>
+<area shape="rect" id="node10" href="$classirr_1_1gui_1_1IGUIEnvironment.html" title="GUI Environment. Used as factory and manager of all other GUI elements." alt="" coords="567,1551,749,1577"/>
+<area shape="rect" id="node27" href="$classirr_1_1gui_1_1IGUIFont.html" title="Font interface." alt="" coords="1381,1492,1509,1519"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,1479,72,1505"/>
+<area shape="rect" id="node5" href="$classirr_1_1IEventReceiver.html" title="Interface of an object which can receive events." alt="" coords="587,1127,729,1153"/>
+<area shape="rect" id="node6" title=" " alt="" coords="588,961,728,988"/>
+<area shape="rect" id="node7" title=" " alt="" coords="296,748,355,775"/>
+<area shape="rect" id="node11" title=" " alt="" coords="606,1348,710,1375"/>
+<area shape="rect" id="node19" href="$structInventoryLocation.html" title=" " alt="" coords="1376,188,1515,215"/>
+<area shape="rect" id="node29" href="$classGUIFormSpecMenu.html" title=" " alt="" coords="1799,961,1945,988"/>
+<area shape="rect" id="node38" href="$structItemStack.html" title=" " alt="" coords="1401,768,1489,795"/>
+<area shape="rect" id="node48" href="$classOptional.html" title=" " alt="" coords="957,728,1129,755"/>
+<area shape="rect" id="node49" href="$structTextDest.html" title=" " alt="" coords="822,57,901,84"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1dimension2d.html" title=" " alt="" coords="576,1178,740,1219"/>
+<area shape="rect" id="node9" href="$classirr_1_1core_1_1rect.html" title=" " alt="" coords="579,1247,737,1273"/>
+<area shape="rect" id="node12" href="$classirr_1_1core_1_1rect.html" title=" " alt="" coords="580,1297,736,1324"/>
+<area shape="rect" id="node13" href="$classbool.html" title=" " alt="" coords="633,623,683,649"/>
+<area shape="rect" id="node22" href="$structGUIInventoryList_1_1Options.html" title=" " alt="" coords="1777,221,1967,248"/>
+<area shape="rect" id="node14" title=" " alt="" coords="551,1449,765,1476"/>
+<area shape="rect" id="node15" title=" " alt="" coords="623,1500,693,1527"/>
+<area shape="rect" id="node16" title=" " alt="" coords="577,1652,739,1679"/>
+<area shape="rect" id="node17" title=" " alt="" coords="589,1076,727,1103"/>
+<area shape="rect" id="node18" title=" " alt="" coords="1807,2031,1937,2057"/>
+<area shape="rect" id="node20" title=" " alt="" coords="1017,209,1069,236"/>
+<area shape="rect" id="node21" href="$classirr_1_1core_1_1vector3d.html" title=" " alt="" coords="975,261,1112,302"/>
+<area shape="rect" id="node23" href="$classirr_1_1video_1_1SColor.html" title="Class representing a 32 bit ARGB color." alt="" coords="1380,289,1511,316"/>
+<area shape="rect" id="node24" href="$classirr_1_1core_1_1vector2d.html" title="2d vector template class with lots of operators and methods." alt="" coords="571,1792,745,1819"/>
+<area shape="rect" id="node31" href="$classirr_1_1core_1_1vector2d.html" title=" " alt="" coords="975,1562,1112,1603"/>
+<area shape="rect" id="node36" href="$classirr_1_1core_1_1vector2d.html" title=" " alt="" coords="1163,1675,1300,1717"/>
+<area shape="rect" id="node42" href="$classirr_1_1core_1_1vector2d.html" title=" " alt="" coords="1377,1847,1514,1889"/>
+<area shape="rect" id="node25" title=" " alt="" coords="306,1792,345,1819"/>
+<area shape="rect" id="node26" href="$classInventoryManager.html" title=" " alt="" coords="1375,487,1516,513"/>
+<area shape="rect" id="node28" title=" " alt="" coords="1021,1880,1066,1907"/>
+<area shape="rect" id="node32" href="$classIFormSource.html" title=" " alt="" coords="1394,819,1497,845"/>
+<area shape="rect" id="node33" title=" " alt="" coords="1366,870,1525,911"/>
+<area shape="rect" id="node34" href="$classISoundManager.html" title=" " alt="" coords="1384,987,1507,1013"/>
+<area shape="rect" id="node35" title=" " alt="" coords="1366,1129,1525,1185"/>
+<area shape="rect" id="node37" href="$classISimpleTextureSource.html" title=" " alt="" coords="1364,1260,1527,1287"/>
+<area shape="rect" id="node39" title=" " alt="" coords="1020,1025,1067,1052"/>
+<area shape="rect" id="node40" title=" " alt="" coords="1333,1311,1557,1367"/>
+<area shape="rect" id="node41" title=" " alt="" coords="1383,1391,1507,1417"/>
+<area shape="rect" id="node43" title=" " alt="" coords="1366,1683,1525,1709"/>
+<area shape="rect" id="node44" href="$classJoystickController.html" title=" " alt="" coords="1377,1733,1514,1760"/>
+<area shape="rect" id="node45" title=" " alt="" coords="1370,341,1521,382"/>
+<area shape="rect" id="node46" title=" " alt="" coords="1333,407,1557,463"/>
+<area shape="rect" id="node47" title=" " alt="" coords="1344,538,1547,579"/>
+<area shape="rect" id="node50" title=" " alt="" coords="1426,604,1465,631"/>
+</map>

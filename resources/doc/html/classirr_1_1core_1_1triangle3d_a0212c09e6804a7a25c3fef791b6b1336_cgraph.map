@@ -1,0 +1,5 @@
+<map id="irr::core::triangle3d::closestPointOnTriangle" name="irr::core::triangle3d::closestPointOnTriangle">
+<area shape="rect" id="node1" title="Get the closest point on a triangle to a point on the same plane." alt="" coords="5,39,184,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1line3d.html#a40fefd94d9fe0d206eb46e6db52826dc" title="Get the closest point on this line to a point." alt="" coords="239,5,367,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1vector3d.html#ab838ab8784f4e53453eb45223f624760" title="Get distance from another point." alt="" coords="232,71,373,112"/>
+</map>

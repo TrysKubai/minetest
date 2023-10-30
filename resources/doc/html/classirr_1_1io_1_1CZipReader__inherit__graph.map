@@ -1,0 +1,7 @@
+<map id="irr::io::CZipReader" name="irr::io::CZipReader">
+<area shape="rect" id="node1" title=" " alt="" coords="81,229,221,256"/>
+<area shape="rect" id="node2" href="$classirr_1_1io_1_1IFileArchive.html" title="The FileArchive manages archives and provides access to files inside them." alt="" coords="5,155,145,181"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="67,5,235,32"/>
+<area shape="rect" id="node5" href="$classirr_1_1io_1_1IFileList.html" title="Provides a list of files and folders." alt="" coords="157,80,271,107"/>
+<area shape="rect" id="node4" href="$classirr_1_1io_1_1CFileList.html" title="Implementation of a file list." alt="" coords="169,155,288,181"/>
+</map>

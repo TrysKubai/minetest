@@ -1,0 +1,6 @@
+<map id="irr::video::CNullDriver::getPrimitiveCountDrawn" name="irr::video::CNullDriver::getPrimitiveCountDrawn">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,196,112"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1CFPSCounter.html#ae8867914b376110222f2f99eb8a81696" title="returns primitive count" alt="" coords="244,5,416,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1CFPSCounter.html#a693ddf835af4978c9a1569f83154ffed" title="returns average primitive count of last period" alt="" coords="244,71,416,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1CFPSCounter.html#a8c42c081a17f740479a2d74f19eb71b9" title="returns accumulated primitive count since start" alt="" coords="244,136,416,177"/>
+</map>

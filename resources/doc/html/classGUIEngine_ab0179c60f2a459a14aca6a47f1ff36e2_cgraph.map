@@ -1,0 +1,5 @@
+<map id="GUIEngine::drawFooter" name="GUIEngine::drawFooter">
+<area shape="rect" id="node1" title=" " alt="" coords="5,46,176,73"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1ITexture.html#a570e1eec61d7c71be2d7c2d570c05d76" title="Get original size of the texture." alt="" coords="239,5,379,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1IVideoDriver.html#aa106dd9ff233497f9ea9a07dc6441c82" title="Get the size of the screen or render window." alt="" coords="224,71,393,112"/>
+</map>

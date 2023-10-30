@@ -1,0 +1,3 @@
+<map id="irr::scene::ISceneNode::isTrulyVisible" name="irr::scene::ISceneNode::isTrulyVisible">
+<area shape="rect" id="node1" title="Check whether the node is truly visible, taking into accounts its parents&#39; visibility." alt="" coords="5,29,172,71"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="irr::scene::IMeshBuffer" name="irr::scene::IMeshBuffer">
+<area shape="rect" id="node1" title="Struct for holding a mesh with a single material." alt="" coords="141,80,309,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1CMeshBuffer.html" title="Template implementation of the IMeshBuffer interface." alt="" coords="5,155,216,181"/>
+<area shape="rect" id="node4" href="$structirr_1_1scene_1_1SSkinMeshBuffer.html" title="A mesh buffer able to choose between S3DVertex2TCoords, S3DVertex and S3DVertexTangents at runtime." alt="" coords="240,155,440,181"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="141,5,309,32"/>
+</map>

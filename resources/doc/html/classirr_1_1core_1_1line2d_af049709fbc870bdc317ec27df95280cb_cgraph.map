@@ -1,0 +1,5 @@
+<map id="irr::core::line2d::getClosestPoint" name="irr::core::line2d::getClosestPoint">
+<area shape="rect" id="node1" title="Get the closest point on this line to a point." alt="" coords="5,39,133,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1vector2d.html#acf2fea122833c456c6dd66811acc8b91" title="Get the dot product of this vector with another." alt="" coords="181,5,319,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1vector2d.html#a84b5741d21aa24cfb71b14e350226ab9" title="Gets the length of the vector." alt="" coords="181,71,319,112"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="irr::scene::ISceneNode::setVisible" name="irr::scene::ISceneNode::setVisible">
+<area shape="rect" id="node1" title="Sets if the node should be visible or not." alt="" coords="5,5,172,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1ISceneNode.html#a9e8e4e8be0055e8182eb26b055abf339" title="Returns whether the node should be visible (if all of its parents are visible)." alt="" coords="220,5,387,47"/>
+</map>

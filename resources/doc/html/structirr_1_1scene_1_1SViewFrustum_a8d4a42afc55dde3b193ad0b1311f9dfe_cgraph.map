@@ -1,0 +1,4 @@
+<map id="irr::scene::SViewFrustum::clipLine" name="irr::scene::SViewFrustum::clipLine">
+<area shape="rect" id="node1" title="clips a line to the view frustum." alt="" coords="5,5,188,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1plane3d.html#a5fcd4852c2634172862324340558c634" title="Get percentage of line between two points where an intersection with this plane happens." alt="" coords="236,5,465,47"/>
+</map>

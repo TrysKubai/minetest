@@ -236,8 +236,7 @@ void Hud::drawItem(const ItemStack &item, const core::rect<s32>& rect,
 // NOTE: selectitem = 0 -> no selected; selectitem is 1-based
 // mainlist can be NULL, but draw the frame anyway.
 void Hud::drawItems(v2s32 upperleftpos, v2s32 screen_offset, s32 itemcount,
-		s32 inv_offset, InventoryList *mainlist, u16 selectitem, u16 direction,
-		bool is_hotbar)
+		s32 inv_offset, InventoryList *mainlist, u16 selectitem, u16 direction)
 {
 #ifdef HAVE_TOUCHSCREENGUI
 	if (g_touchscreengui && inv_offset == 0)
@@ -308,11 +307,6 @@ void Hud::drawItems(v2s32 upperleftpos, v2s32 screen_offset, s32 itemcount,
 		core::rect<s32> item_rect = imgrect + pos + steppos;
 
 		drawItem(mainlist->getItem(i), item_rect, (i + 1) == selectitem);
-
-#ifdef HAVE_TOUCHSCREENGUI
-		if (is_hotbar && g_touchscreengui)
-			g_touchscreengui->registerHotbarRect(i, item_rect);
-#endif
 	}
 }
 
@@ -442,7 +436,7 @@ void Hud::drawLuaElements(const v3s16 &camera_offset)
 				if (!inv)
 					warningstream << "HUD: Unknown inventory list. name=" << e->text << std::endl;
 				drawItems(pos, v2s32(e->offset.X, e->offset.Y), e->number, 0,
-					inv, e->item, e->dir, false);
+					inv, e->item, e->dir);
 				break; }
 			case HUD_ELEM_WAYPOINT: {
 				if (!calculateScreenPos(camera_offset, e, &pos))

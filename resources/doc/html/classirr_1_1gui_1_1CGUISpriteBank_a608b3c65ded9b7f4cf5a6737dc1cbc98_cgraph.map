@@ -1,0 +1,7 @@
+<map id="irr::gui::CGUISpriteBank::draw2DSprite" name="irr::gui::CGUISpriteBank::draw2DSprite">
+<area shape="rect" id="node1" title="Draws a sprite in 2d with position and color." alt="" coords="5,64,181,105"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IVideoDriver.html#accfd3ba8a8deca828bafbc4c45800797" title="Draws a 2d image without any special effects." alt="" coords="233,5,402,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1rect.html#aa5e0bf0e6474c1603c735a63843833fa" title="Get the dimensions of the rectangle." alt="" coords="237,71,398,98"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1CGUISpriteBank.html#ab7a795590e2d5ae3fa7716f66115e727" title="Gets the texture with the specified index." alt="" coords="229,123,405,164"/>
+<area shape="rect" id="node5" href="$classirr_1_1core_1_1array.html#af2a884d7e19d685b58617fed4ea4d4b9" title="Get number of occupied elements of the array." alt="" coords="453,130,600,157"/>
+</map>

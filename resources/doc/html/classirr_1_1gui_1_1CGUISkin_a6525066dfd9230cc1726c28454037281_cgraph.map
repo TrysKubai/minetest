@@ -1,0 +1,4 @@
+<map id="irr::gui::CGUISkin::draw2DRectangle" name="irr::gui::CGUISkin::draw2DRectangle">
+<area shape="rect" id="node1" title="draws a 2d rectangle." alt="" coords="5,5,151,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IVideoDriver.html#ac7f452fae0ef8abe01768a78ba7033b7" title="Draws a 2d rectangle." alt="" coords="199,5,368,47"/>
+</map>

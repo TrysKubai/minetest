@@ -1,0 +1,11 @@
+<map id="irr::video::COpenGL3DriverBase::SHWBufferLink_opengl" name="irr::video::COpenGL3DriverBase::SHWBufferLink_opengl">
+<area shape="rect" id="node1" title=" " alt="" coords="5,383,216,424"/>
+<area shape="rect" id="node2" href="$structirr_1_1video_1_1CNullDriver_1_1SHWBufferLink.html" title=" " alt="" coords="187,283,349,325"/>
+<area shape="rect" id="node3" title=" " alt="" coords="413,171,595,197"/>
+<area shape="rect" id="node4" title=" " alt="" coords="19,171,93,197"/>
+<area shape="rect" id="node5" href="$classirr_1_1scene_1_1IMeshBuffer.html" title="Struct for holding a mesh with a single material." alt="" coords="125,171,293,197"/>
+<area shape="rect" id="node6" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="125,95,293,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="127,5,177,32"/>
+<area shape="rect" id="node8" title=" " alt="" coords="235,5,301,32"/>
+<area shape="rect" id="node9" title=" " alt="" coords="318,171,389,197"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="irr::gui::CGUITTFont::createTTFont" name="irr::gui::CGUITTFont::createTTFont">
+<area shape="rect" id="node1" title=" " alt="" coords="5,137,155,179"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1CGUITTFont.html#a80c163b7dc92a0578cd66c6aba72da56" title="Constructor." alt="" coords="212,104,361,145"/>
+<area shape="rect" id="node7" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="203,169,371,211"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1IGUIEnvironment.html#a48f5e442f0a2074a531234ab83148fe2" title="Returns the current video driver." alt="" coords="419,5,601,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1IReferenceCounted.html#a396f9cdbe311ada278626477b3c6f0f5" title="Grabs the object. Increments the reference counter by one." alt="" coords="426,71,594,112"/>
+<area shape="rect" id="node5" href="$classirr_1_1IReferenceCounted.html#a704c5042d399fe8cd3bdd65a0559002a" title="Sets the debug name of the object." alt="" coords="426,136,594,177"/>
+<area shape="rect" id="node6" href="$classirr_1_1gui_1_1CGUITTFont.html#a6819f16f391e022f7b71765391f4232c" title="Define which characters should not be drawn by the font." alt="" coords="423,201,597,243"/>
+</map>

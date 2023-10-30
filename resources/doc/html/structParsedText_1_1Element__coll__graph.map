@@ -1,0 +1,26 @@
+<map id="ParsedText::Element" name="ParsedText::Element">
+<area shape="rect" id="node1" title=" " alt="" coords="855,340,1009,367"/>
+<area shape="rect" id="node2" title=" " alt="" coords="551,5,733,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="589,56,695,83"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1SColor.html" title="Class representing a 32 bit ARGB color." alt="" coords="577,107,707,133"/>
+<area shape="rect" id="node5" title=" " alt="" coords="305,97,380,124"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1dimension2d.html" title=" " alt="" coords="560,158,724,199"/>
+<area shape="rect" id="node6" title=" " alt="" coords="599,289,685,316"/>
+<area shape="rect" id="node7" title=" " alt="" coords="571,340,713,367"/>
+<area shape="rect" id="node9" href="$classirr_1_1core_1_1dimension2d.html" title="Specifies a 2 dimensional size." alt="" coords="241,175,444,201"/>
+<area shape="rect" id="node10" title=" " alt="" coords="19,205,58,232"/>
+<area shape="rect" id="node24" href="$classirr_1_1core_1_1vector3d.html" title="3d vector template class with lots of operators and methods." alt="" coords="255,235,430,261"/>
+<area shape="rect" id="node11" href="$classirr_1_1gui_1_1IGUIFont.html" title="Font interface." alt="" coords="578,391,706,417"/>
+<area shape="rect" id="node12" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="259,391,427,417"/>
+<area shape="rect" id="node13" title=" " alt="" coords="13,365,64,392"/>
+<area shape="rect" id="node14" title=" " alt="" coords="5,416,72,443"/>
+<area shape="rect" id="node15" title=" " alt="" coords="596,441,688,468"/>
+<area shape="rect" id="node16" title=" " alt="" coords="613,492,671,519"/>
+<area shape="rect" id="node17" href="$classbool.html" title=" " alt="" coords="617,543,667,569"/>
+<area shape="rect" id="node18" href="$classirr_1_1core_1_1string.html" title="Very simple string class with some useful features." alt="" coords="565,593,719,620"/>
+<area shape="rect" id="node19" title=" " alt="" coords="273,568,412,595"/>
+<area shape="rect" id="node20" title=" " alt="" coords="261,619,424,645"/>
+<area shape="rect" id="node21" title=" " alt="" coords="619,660,665,687"/>
+<area shape="rect" id="node22" href="$classirr_1_1core_1_1vector3d.html" title=" " alt="" coords="573,223,711,265"/>
+<area shape="rect" id="node23" title=" " alt="" coords="320,305,365,332"/>
+</map>

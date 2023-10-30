@@ -1,0 +1,9 @@
+<map id="irr::gui::CGUIEditBox::setMultiLine" name="irr::gui::CGUIEditBox::setMultiLine">
+<area shape="rect" id="node1" title="Enables or disables newlines." alt="" coords="5,103,160,144"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1CGUIEditBox.html#aae6da484ce7dd9986777179741bec535" title="Breaks the single text line." alt="" coords="208,103,363,144"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1CGUIEditBox.html#a324db4fb79f6c06b9da846e9390e18d8" title="Get the font which is used right now for drawing." alt="" coords="419,37,574,79"/>
+<area shape="rect" id="node6" href="$classirr_1_1gui_1_1IGUIFont.html#aa7612db0c9dc2837b44a1a2fa5668797" title="Calculates the width and height of a given string of text." alt="" coords="433,103,561,144"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1rect.html#ad5dcae186b85b938d42b59c91bfeb9a5" title="Get width of rectangle." alt="" coords="411,169,583,195"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1IGUISkin.html#ab1b2623d04688c4dfe106ca407171d6e" title="returns the default font" alt="" coords="658,5,786,47"/>
+<area shape="rect" id="node5" href="$classirr_1_1gui_1_1IGUIEnvironment.html#a54ce9072ea7b89cdaea65306e93ba90c" title="Returns pointer to the current gui skin." alt="" coords="631,71,813,112"/>
+</map>

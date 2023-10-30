@@ -1,0 +1,5 @@
+<map id="irr::ITimer" name="irr::ITimer">
+<area shape="rect" id="node1" title="Interface for getting and manipulating the virtual time." alt="" coords="46,80,133,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1CTimer.html" title="Device independent implementation of the timer." alt="" coords="44,155,135,181"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="5,5,173,32"/>
+</map>

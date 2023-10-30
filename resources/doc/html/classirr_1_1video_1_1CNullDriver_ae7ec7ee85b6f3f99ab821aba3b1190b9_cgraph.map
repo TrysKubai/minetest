@@ -1,0 +1,10 @@
+<map id="irr::video::CNullDriver::addShaderMaterialFromFiles" name="irr::video::CNullDriver::addShaderMaterialFromFiles">
+<area shape="rect" id="node1" title=" " alt="" coords="5,169,221,211"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1CNullDriver.html#ad0d16ad6176cc8dc6d05286213ae73b3" title=" " alt="" coords="269,71,485,112"/>
+<area shape="rect" id="node6" href="$classirr_1_1io_1_1IFileSystem.html#a3678bb77e12cc6ee2b3947f4c79f6c90" title="Opens a file for read access." alt="" coords="301,136,454,177"/>
+<area shape="rect" id="node7" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="293,201,461,243"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1string.html#aa8bd67d3b9e153e1a8e47ea921c95933" title="Returns length of the string&#39;s content." alt="" coords="302,267,453,294"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1CNullDriver.html#aed8f5db075097b87063562bc2fc711c8" title=" " alt="" coords="533,5,696,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1io_1_1IReadFile.html#a9c64fca7f1d665d7e458cd7d766c35a2" title="Get size of file." alt="" coords="553,71,677,112"/>
+<area shape="rect" id="node5" href="$classirr_1_1io_1_1IReadFile.html#a62b4c55c9ab76e08ada14d935fbaf2b4" title="Reads an amount of bytes from the file." alt="" coords="553,136,677,177"/>
+</map>

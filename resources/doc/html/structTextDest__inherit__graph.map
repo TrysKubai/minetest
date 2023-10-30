@@ -1,0 +1,7 @@
+<map id="TextDest" name="TextDest">
+<area shape="rect" id="node1" title=" " alt="" coords="326,5,405,32"/>
+<area shape="rect" id="node2" href="$structLocalFormspecHandler.html" title=" " alt="" coords="5,80,176,107"/>
+<area shape="rect" id="node3" href="$classTextDestGuiEngine.html" title=" " alt="" coords="201,80,346,107"/>
+<area shape="rect" id="node4" href="$structTextDestNodeMetadata.html" title=" " alt="" coords="370,80,545,107"/>
+<area shape="rect" id="node5" href="$structTextDestPlayerInventory.html" title=" " alt="" coords="569,80,751,107"/>
+</map>

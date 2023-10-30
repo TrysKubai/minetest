@@ -1,0 +1,6 @@
+<map id="irr::core::multibyteToWString" name="irr::core::multibyteToWString">
+<area shape="rect" id="node1" title="Convert multibyte string to wide&#45;character string." alt="" coords="5,71,213,98"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1string.html#a4a6d39561b095cbab46185dd20d11d85" title="Returns character string." alt="" coords="303,5,428,47"/>
+<area shape="rect" id="node3" href="$namespaceirr_1_1core.html#a59504a7fee9b03ec525075b7faee497b" title="Internally used by the other multibyteToWString functions." alt="" coords="261,71,469,98"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1string.html#aa8bd67d3b9e153e1a8e47ea921c95933" title="Returns length of the string&#39;s content." alt="" coords="290,122,441,149"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="GUIEditBox::getActiveFont" name="GUIEditBox::getActiveFont">
+<area shape="rect" id="node1" title="Get the font which is used right now for drawing." alt="" coords="5,46,200,73"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1IGUISkin.html#ab1b2623d04688c4dfe106ca407171d6e" title="returns the default font" alt="" coords="275,5,403,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1IGUIEnvironment.html#a54ce9072ea7b89cdaea65306e93ba90c" title="Returns pointer to the current gui skin." alt="" coords="248,71,431,112"/>
+</map>

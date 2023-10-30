@@ -1,0 +1,13 @@
+<map id="irr::video::COpenGL3Renderer2D::OnSetMaterial" name="irr::video::COpenGL3Renderer2D::OnSetMaterial">
+<area shape="rect" id="node1" title="Called by the IVideoDriver implementation the let the renderer set its needed render states." alt="" coords="5,123,228,165"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1COpenGL3DriverBase.html#a4c11370797f2106f635bf2a57bfc8a60" title="Can be called by an IMaterialRenderer to make its work easier." alt="" coords="295,90,499,131"/>
+<area shape="rect" id="node11" href="$classirr_1_1video_1_1COpenGL3MaterialRenderer.html#a6214d6f24808d1e1cadbaa2597e2588f" title="Sets a pixel shader constant." alt="" coords="276,155,519,197"/>
+<area shape="rect" id="node3" href="$namespaceirr_1_1core.html#a6162f685b68f629e77336081d3316969" title="clamps a value between low and high" alt="" coords="615,5,735,32"/>
+<area shape="rect" id="node6" href="$classirr_1_1video_1_1COpenGL3DriverBase.html#a70f1eb0e1bd5016fa9133665bc5491d0" title="Convert E_BLEND_FACTOR to OpenGL equivalent." alt="" coords="577,57,773,98"/>
+<area shape="rect" id="node7" href="$classirr_1_1video_1_1COpenGL3DriverBase.html#a7e89ab9101d1f2db60646dc65d640c50" title="Compare in SMaterial doesn&#39;t check texture parameters, so we should call this on each OnRender call." alt="" coords="567,122,784,163"/>
+<area shape="rect" id="node10" href="$namespaceirr_1_1video.html#a68f752ebff7a607d0660c95d983774e8" title="Unpack srcRGBFact, dstRGBFact, srcAlphaFact, dstAlphaFact, modulo and alphaSource factors." alt="" coords="575,187,776,229"/>
+<area shape="rect" id="node4" href="$namespaceirr_1_1core.html#afca1ce7ac54e0c31a9047947f4c7319b" title="returns maximum of two values. Own implementation to get rid of the STL (VS6 problems)" alt="" coords="875,5,991,32"/>
+<area shape="rect" id="node5" href="$namespaceirr_1_1core.html#a9d34bfdbbe9c136b01ae04974572bc11" title="returns minimum of two values. Own implementation to get rid of the STL (VS6 problems)" alt="" coords="877,60,989,87"/>
+<area shape="rect" id="node8" href="$classirr_1_1video_1_1COpenGL3DriverBase.html#a84486b0902b453151559d6241bf5dca0" title="Map Irrlicht wrap mode to OpenGL enum." alt="" coords="832,118,1033,159"/>
+<area shape="rect" id="node9" href="$classirr_1_1video_1_1ITexture.html#ad03a806b1a7887288b4c364735bff3f7" title="Check whether the texture has MipMaps." alt="" coords="863,183,1003,225"/>
+</map>

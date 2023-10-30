@@ -1,0 +1,5 @@
+<map id="DrawHUD::run" name="DrawHUD::run">
+<area shape="rect" id="node1" title=" " alt="" coords="5,46,120,73"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1IGUIEnvironment.html#a650382255d11faec010746abad517464" title="Draws all gui elements by traversing the GUI environment starting at the root node." alt="" coords="168,5,351,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1IrrlichtDevice.html#af7491b8c5ef4f71360f30fbad90ae35c" title="Provides access to the 2d user interface environment." alt="" coords="180,71,339,112"/>
+</map>

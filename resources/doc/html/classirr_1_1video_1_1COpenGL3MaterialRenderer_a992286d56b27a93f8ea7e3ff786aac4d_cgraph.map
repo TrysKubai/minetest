@@ -1,0 +1,4 @@
+<map id="irr::video::COpenGL3MaterialRenderer::OnRender" name="irr::video::COpenGL3MaterialRenderer::OnRender">
+<area shape="rect" id="node1" title="Called every time before a new bunch of geometry is being drawn using this material with for example ..." alt="" coords="5,5,216,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IShaderConstantSetCallBack.html#a91cf4eb8d20d278defaca4e3c9390396" title="Called by the engine when the vertex and/or pixel shader constants for an material renderer should be..." alt="" coords="264,5,476,47"/>
+</map>

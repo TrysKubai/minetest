@@ -1,0 +1,14 @@
+<map id="RenderShadowMapStep::run" name="RenderShadowMapStep::run">
+<area shape="rect" id="node1" title=" " alt="" coords="5,137,211,163"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1ISceneManager.html#a4f7075320f1a3bf2838f29c23f78635f" title="Gets the root scene node." alt="" coords="259,5,449,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1IrrlichtDevice.html#a891b503ff4d5041296d88f23f97d7b3d" title="Provides access to the scene manager." alt="" coords="281,71,427,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1ITimer.html#aa2c53890268d6886b3b5bbf2af5dba9c" title="Returns current virtual time in milliseconds." alt="" coords="280,137,428,163"/>
+<area shape="rect" id="node5" href="$classirr_1_1IrrlichtDevice.html#a96c30fb7f644e1d1dabff563bde26460" title="Provides access to the engine&#39;s timer." alt="" coords="289,188,419,229"/>
+<area shape="rect" id="node6" href="$classirr_1_1scene_1_1ISceneNode.html#afc1dcb5cb19116d0c7aa3d4ebdf04cc5" title="OnAnimate() is called just before rendering the whole scene." alt="" coords="271,253,437,295"/>
+<area shape="rect" id="node7" href="$classirr_1_1scene_1_1ISceneNode.html#aeb6e0dc034bb2101600ce87acbcf0f6e" title="Updates the absolute position based on the relative and the parents position." alt="" coords="497,253,681,295"/>
+<area shape="rect" id="node8" href="$classirr_1_1scene_1_1ISceneNode.html#af13dc546a7be796cc0868a2eec51e508" title="Get the absolute transformation of the node. Is recalculated every OnAnimate()&#45;call." alt="" coords="729,220,936,261"/>
+<area shape="rect" id="node9" href="$classirr_1_1scene_1_1ISceneNode.html#ac7c47ec49174315af83cf5f5d24edb24" title="Returns the relative transformation of the scene node." alt="" coords="731,285,934,327"/>
+<area shape="rect" id="node10" href="$classirr_1_1core_1_1CMatrix4.html#a8ee5ef8619d4b0f56d72ac84495ed644" title="Make a rotation matrix from Euler angles. The 4th row and column are unmodified." alt="" coords="984,220,1143,261"/>
+<area shape="rect" id="node11" href="$classirr_1_1core_1_1CMatrix4.html#a47117d44419af87e70084c01ab852049" title="Set Scale." alt="" coords="994,285,1133,327"/>
+<area shape="rect" id="node12" href="$classirr_1_1core_1_1CMatrix4.html#ac04a3b341cbfbb7986be682691655622" title="Set the translation of the current matrix. Will erase any previous values." alt="" coords="994,351,1133,392"/>
+</map>

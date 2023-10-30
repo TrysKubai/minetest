@@ -1,0 +1,6 @@
+<map id="ScreenTarget::activate" name="ScreenTarget::activate">
+<area shape="rect" id="node1" title=" " alt="" coords="5,64,172,91"/>
+<area shape="rect" id="node2" href="$classRenderTarget.html#a4e1e36294e2cf0836bc6be5644cb45b1" title=" " alt="" coords="220,5,389,32"/>
+<area shape="rect" id="node3" href="$classirr_1_1IrrlichtDevice.html#ada90707ba5c645d47e000e4e0f87c4c4" title="Provides access to the video driver for drawing 3d and 2d geometry." alt="" coords="239,57,370,98"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1IVideoDriver.html#a137b33417d715e48d7274e5ec547cb95" title="Sets a new render target." alt="" coords="220,122,389,163"/>
+</map>

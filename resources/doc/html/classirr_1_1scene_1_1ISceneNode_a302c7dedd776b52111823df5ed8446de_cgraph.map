@@ -1,0 +1,5 @@
+<map id="irr::scene::ISceneNode::setMaterialType" name="irr::scene::ISceneNode::setMaterialType">
+<area shape="rect" id="node1" title="Sets the material type of all materials in this scene node to a new material type." alt="" coords="5,39,172,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1ISceneNode.html#a1f44d8cf753b2e4c17c90d4fc2ed05b2" title="Returns the material based on the zero based index i." alt="" coords="220,5,387,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1ISceneNode.html#a8e75e9baede63e31e6aa6e42e6c8ddfe" title="Get amount of materials used by this scene node." alt="" coords="220,71,387,112"/>
+</map>

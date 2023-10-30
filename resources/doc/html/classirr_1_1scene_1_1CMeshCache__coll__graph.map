@@ -1,0 +1,12 @@
+<map id="irr::scene::CMeshCache" name="irr::scene::CMeshCache">
+<area shape="rect" id="node1" title=" " alt="" coords="975,103,1149,129"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1IMeshCache.html" title="The mesh cache stores already loaded meshes and provides an interface to them." alt="" coords="703,63,872,89"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="295,31,463,57"/>
+<area shape="rect" id="node4" title=" " alt="" coords="31,5,81,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="23,56,89,83"/>
+<area shape="rect" id="node6" href="$classirr_1_1core_1_1array.html" title=" " alt="" coords="703,120,871,176"/>
+<area shape="rect" id="node7" title=" " alt="" coords="276,82,483,123"/>
+<area shape="rect" id="node8" href="$classbool.html" title=" " alt="" coords="31,164,81,191"/>
+<area shape="rect" id="node9" href="$classirr_1_1core_1_1array.html" title="Self reallocating template array (like stl vector) with additional features." alt="" coords="303,211,455,237"/>
+<area shape="rect" id="node10" title=" " alt="" coords="5,229,107,256"/>
+</map>

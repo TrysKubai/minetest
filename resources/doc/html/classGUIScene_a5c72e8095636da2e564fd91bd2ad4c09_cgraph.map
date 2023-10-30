@@ -1,0 +1,6 @@
+<map id="GUIScene::setFrameLoop" name="GUIScene::setFrameLoop">
+<area shape="rect" id="node1" title=" " alt="" coords="5,78,191,105"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1IAnimatedMeshSceneNode.html#a8c4f524c00b520e870881ca7abfdce5a" title="Returns the current end frame number." alt="" coords="241,5,433,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1IAnimatedMeshSceneNode.html#a103022e7383241ea5f1ed76c2deacc69" title="Returns the current start frame number." alt="" coords="239,71,435,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1scene_1_1IAnimatedMeshSceneNode.html#a900400fe375ca13f48876b84900ffddf" title="Sets the frame numbers between the animation is looped." alt="" coords="239,136,434,177"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="irr::scene::CMeshBuffer::getIndexCount" name="irr::scene::CMeshBuffer::getIndexCount">
+<area shape="rect" id="node1" title="Get number of indices." alt="" coords="5,5,179,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1array.html#af2a884d7e19d685b58617fed4ea4d4b9" title="Get number of occupied elements of the array." alt="" coords="227,13,373,39"/>
+</map>

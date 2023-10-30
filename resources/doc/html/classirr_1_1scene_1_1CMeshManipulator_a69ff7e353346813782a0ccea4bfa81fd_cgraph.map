@@ -1,0 +1,17 @@
+<map id="irr::scene::CMeshManipulator::createMeshCopy" name="irr::scene::CMeshManipulator::createMeshCopy">
+<area shape="rect" id="node1" title="Clones a static IMesh into a modifiable SMesh." alt="" coords="5,397,217,439"/>
+<area shape="rect" id="node2" href="$structirr_1_1scene_1_1SMesh.html#a890e7506262b2ebaf45ff95c681452bd" title="adds a MeshBuffer" alt="" coords="290,5,431,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="277,71,445,112"/>
+<area shape="rect" id="node5" href="$classirr_1_1scene_1_1IMesh.html#ada6ecee9cbebed8bb67fd92872552ea0" title="Get an axis aligned bounding box of the mesh." alt="" coords="292,136,429,177"/>
+<area shape="rect" id="node6" href="$classirr_1_1scene_1_1IMeshBuffer.html#a96e08662e15b1205516b87ada3301551" title="Get amount of indices in this meshbuffer." alt="" coords="277,201,445,243"/>
+<area shape="rect" id="node7" href="$classirr_1_1scene_1_1IMeshBuffer.html#a76c0013378012af7aeb6cb8f4ea8f9a1" title="Get access to indices." alt="" coords="277,267,445,308"/>
+<area shape="rect" id="node8" href="$classirr_1_1scene_1_1IMeshBuffer.html#a26fd922f00fde56abbbbbe40b485238b" title="Get the material of this meshbuffer." alt="" coords="277,332,445,373"/>
+<area shape="rect" id="node9" href="$classirr_1_1scene_1_1IMesh.html#a2cd1a04b396235101f426befba0c5b82" title="Get pointer to a mesh buffer." alt="" coords="292,397,429,439"/>
+<area shape="rect" id="node10" href="$classirr_1_1scene_1_1IMesh.html#a2ebed0bdae2d6537c36b0b7ac831edb8" title="Get the amount of mesh buffers." alt="" coords="283,463,438,504"/>
+<area shape="rect" id="node11" href="$classirr_1_1scene_1_1IMeshBuffer.html#a77ab285c8c886af8ddeb0371db7bde96" title="Get amount of vertices in meshbuffer." alt="" coords="277,528,445,569"/>
+<area shape="rect" id="node12" href="$classirr_1_1scene_1_1IMeshBuffer.html#a4d7a84ae4416487736f0ed0f519bb4f0" title="Get type of vertex data which is stored in this meshbuffer." alt="" coords="277,593,445,635"/>
+<area shape="rect" id="node13" href="$classirr_1_1scene_1_1IMeshBuffer.html#a99891e516246b2cff13b362a435c8028" title="Get access to vertex data. The data is an array of vertices." alt="" coords="277,659,445,700"/>
+<area shape="rect" id="node14" href="$classirr_1_1core_1_1array.html#a95afc36513d08abb51bd399755730877" title="Adds an element at back of array." alt="" coords="265,725,456,751"/>
+<area shape="rect" id="node15" href="$classirr_1_1core_1_1array.html#aa591c18145f3368828122173318786c4" title="Reallocates the array, make it bigger or smaller." alt="" coords="267,775,454,802"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html#a396f9cdbe311ada278626477b3c6f0f5" title="Grabs the object. Increments the reference counter by one." alt="" coords="504,5,672,47"/>
+</map>

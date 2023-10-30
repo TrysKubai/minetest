@@ -1,0 +1,8 @@
+<map id="GUIEngine::updateTopLeftTextSize" name="GUIEngine::updateTopLeftTextSize">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,195,80"/>
+<area shape="rect" id="node2" href="$classFontEngine.html#a2f730dd25243d78870d2b55e31a591dc" title=" " alt="" coords="243,15,436,42"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1IGUIElement.html#af8fb8c63d48ec6ceeeedc8a83c02a9d0" title="Removes this element from its parent." alt="" coords="262,68,417,109"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1IGUIFont.html#aa7612db0c9dc2837b44a1a2fa5668797" title="Calculates the width and height of a given string of text." alt="" coords="497,5,625,47"/>
+<area shape="rect" id="node5" href="$classirr_1_1gui_1_1IGUIElement.html#a3171cafaa9d2f3b67c886c60bdd61b32" title="Removes a child." alt="" coords="484,71,639,112"/>
+<area shape="rect" id="node6" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="687,71,855,112"/>
+</map>

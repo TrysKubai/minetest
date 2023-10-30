@@ -1,0 +1,46 @@
+var structirr_1_1scene_1_1SViewFrustum =
+[
+    [ "E_TRANSFORMATION_STATE_FRUSTUM", "structirr_1_1scene_1_1SViewFrustum.html#a125c79e1c31a277f2d0bec20708b6250", [
+      [ "ETS_VIEW", "structirr_1_1scene_1_1SViewFrustum.html#a125c79e1c31a277f2d0bec20708b6250a364df612f38208fa43b5511a961bae22", null ],
+      [ "ETS_PROJECTION", "structirr_1_1scene_1_1SViewFrustum.html#a125c79e1c31a277f2d0bec20708b6250a1b5127b8d439b7c33a87910feecd2d24", null ],
+      [ "ETS_COUNT_FRUSTUM", "structirr_1_1scene_1_1SViewFrustum.html#a125c79e1c31a277f2d0bec20708b6250a03b3df2c1f92b78b30e863628dac5064", null ]
+    ] ],
+    [ "VFPLANES", "structirr_1_1scene_1_1SViewFrustum.html#ae3a96797aec028717f0589e82926b9f0", [
+      [ "VF_FAR_PLANE", "structirr_1_1scene_1_1SViewFrustum.html#ae3a96797aec028717f0589e82926b9f0a33c11636c0cf3a29df16551fb3222f89", null ],
+      [ "VF_NEAR_PLANE", "structirr_1_1scene_1_1SViewFrustum.html#ae3a96797aec028717f0589e82926b9f0ad4e37002c2f3f5c9aa7219ca74ffb48e", null ],
+      [ "VF_LEFT_PLANE", "structirr_1_1scene_1_1SViewFrustum.html#ae3a96797aec028717f0589e82926b9f0a4d611f15cd215819287e533b45715d5c", null ],
+      [ "VF_RIGHT_PLANE", "structirr_1_1scene_1_1SViewFrustum.html#ae3a96797aec028717f0589e82926b9f0acc02c8b170e35f1416f1511646b051aa", null ],
+      [ "VF_BOTTOM_PLANE", "structirr_1_1scene_1_1SViewFrustum.html#ae3a96797aec028717f0589e82926b9f0aa230be71193da774ddcb735ec7b10dd1", null ],
+      [ "VF_TOP_PLANE", "structirr_1_1scene_1_1SViewFrustum.html#ae3a96797aec028717f0589e82926b9f0adc6f550cf3890b19837cd8f0d7b1020a", null ],
+      [ "VF_PLANE_COUNT", "structirr_1_1scene_1_1SViewFrustum.html#ae3a96797aec028717f0589e82926b9f0a6c3c4cb8060a23a2365cf1df46fcefd7", null ]
+    ] ],
+    [ "SViewFrustum", "structirr_1_1scene_1_1SViewFrustum.html#a7052e88c612bd1239115929e94e6210d", null ],
+    [ "SViewFrustum", "structirr_1_1scene_1_1SViewFrustum.html#aa7cfed3ee9feee79efe02d26f3b14b0c", null ],
+    [ "SViewFrustum", "structirr_1_1scene_1_1SViewFrustum.html#a83b1f5645912cb69e50a7dadb0ead230", null ],
+    [ "clipLine", "structirr_1_1scene_1_1SViewFrustum.html#a8d4a42afc55dde3b193ad0b1311f9dfe", null ],
+    [ "getBoundingBox", "structirr_1_1scene_1_1SViewFrustum.html#a1b7fd2736250d34ff399bc17d66867c0", null ],
+    [ "getBoundingCenter", "structirr_1_1scene_1_1SViewFrustum.html#aa09b50bb3554387f3f1137b4414524fd", null ],
+    [ "getBoundingRadius", "structirr_1_1scene_1_1SViewFrustum.html#a26ead384135d445ba8ea5b0fa7ad6e99", null ],
+    [ "getFarLeftDown", "structirr_1_1scene_1_1SViewFrustum.html#a83216ce3be2990e7e4849bf985d89fd6", null ],
+    [ "getFarLeftUp", "structirr_1_1scene_1_1SViewFrustum.html#aa88c3024a6d2b5dc67e53014d2632df8", null ],
+    [ "getFarRightDown", "structirr_1_1scene_1_1SViewFrustum.html#ab1bf1b3cf323812ed4259268ce7ecf76", null ],
+    [ "getFarRightUp", "structirr_1_1scene_1_1SViewFrustum.html#a2cce344ced4939aebfe3c9d9396cb4ec", null ],
+    [ "getNearLeftDown", "structirr_1_1scene_1_1SViewFrustum.html#ae73eb80d9fe631b8795bb9f9afdf5eff", null ],
+    [ "getNearLeftUp", "structirr_1_1scene_1_1SViewFrustum.html#ae2fae0821834125e0d34bb2fab27c643", null ],
+    [ "getNearRightDown", "structirr_1_1scene_1_1SViewFrustum.html#a6143916b2000537b33834cfb9aa898fa", null ],
+    [ "getNearRightUp", "structirr_1_1scene_1_1SViewFrustum.html#a498ea58e0ce6c52e655aa9d7fe387b84", null ],
+    [ "getTransform", "structirr_1_1scene_1_1SViewFrustum.html#acf8edd203e7479d2b444ed548075ffa6", null ],
+    [ "getTransform", "structirr_1_1scene_1_1SViewFrustum.html#a9afbd4a90f330de3fde6b534da3920f8", null ],
+    [ "recalculateBoundingBox", "structirr_1_1scene_1_1SViewFrustum.html#a458eb19a23bcad50da0f9d3163e3621b", null ],
+    [ "recalculateBoundingSphere", "structirr_1_1scene_1_1SViewFrustum.html#a7fcadd64492b6d9b8041b1003a803d44", null ],
+    [ "setFarNearDistance", "structirr_1_1scene_1_1SViewFrustum.html#ac84727f2fc3cea551a61f5a20e64aca6", null ],
+    [ "setFrom", "structirr_1_1scene_1_1SViewFrustum.html#a2dc1dda709826a3bb026540f77cd8ac0", null ],
+    [ "transform", "structirr_1_1scene_1_1SViewFrustum.html#aeabadaf532f08ba3cb98b897ff0619f2", null ],
+    [ "boundingBox", "structirr_1_1scene_1_1SViewFrustum.html#ad4c8605ad3494093e3e5860e0332fe8a", null ],
+    [ "BoundingCenter", "structirr_1_1scene_1_1SViewFrustum.html#a3ab0ed5a5f034d74d1b4567dc112e273", null ],
+    [ "BoundingRadius", "structirr_1_1scene_1_1SViewFrustum.html#ad8bdabd787213a2451dedb6ab52c0d3f", null ],
+    [ "cameraPosition", "structirr_1_1scene_1_1SViewFrustum.html#a77726fa084f416d69f058a7b2f887545", null ],
+    [ "FarNearDistance", "structirr_1_1scene_1_1SViewFrustum.html#a183209c0a22736db571077e5d9c5c244", null ],
+    [ "Matrices", "structirr_1_1scene_1_1SViewFrustum.html#a25f334d74a1c6c943dadfa3b3bfb4336", null ],
+    [ "planes", "structirr_1_1scene_1_1SViewFrustum.html#afa59258f22c23b6f1dc4bcaff142dba2", null ]
+];

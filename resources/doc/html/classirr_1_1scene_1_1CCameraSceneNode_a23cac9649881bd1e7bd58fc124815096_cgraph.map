@@ -1,0 +1,5 @@
+<map id="irr::scene::CCameraSceneNode::setProjectionMatrix" name="irr::scene::CCameraSceneNode::setProjectionMatrix">
+<area shape="rect" id="node1" title="Sets the projection matrix of the camera." alt="" coords="5,39,196,80"/>
+<area shape="rect" id="node2" href="$structirr_1_1scene_1_1SViewFrustum.html#acf8edd203e7479d2b444ed548075ffa6" title="get the given state&#39;s matrix based on frustum E_TRANSFORMATION_STATE" alt="" coords="245,5,427,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1ICameraSceneNode.html#a5cfd588d836004923f01667543837d6c" title="Checks if a camera is orthogonal." alt="" coords="244,71,428,112"/>
+</map>

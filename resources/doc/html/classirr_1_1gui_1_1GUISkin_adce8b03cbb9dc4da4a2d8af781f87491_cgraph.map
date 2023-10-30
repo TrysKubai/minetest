@@ -1,0 +1,12 @@
+<map id="irr::gui::GUISkin::drawColored3DButtonPanePressed" name="irr::gui::GUISkin::drawColored3DButtonPanePressed">
+<area shape="rect" id="node1" title="draws a pressed 3d button pane" alt="" coords="5,181,252,222"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1SColor.html#a20bfa471b5cf672db83355c181a3cae6" title="Interpolates the color with a f32 value to another color." alt="" coords="300,181,431,222"/>
+<area shape="rect" id="node3" href="$namespaceirr_1_1core.html#a6162f685b68f629e77336081d3316969" title="clamps a value between low and high" alt="" coords="484,31,604,57"/>
+<area shape="rect" id="node6" href="$classirr_1_1video_1_1SColor.html#a8b0bcff9036b06e3483978a84a924b91" title="Returns the alpha component of the color." alt="" coords="479,82,609,123"/>
+<area shape="rect" id="node7" href="$classirr_1_1video_1_1SColor.html#afb60ac456b2efc2f2a4f04a643293d26" title="Returns the blue component of the color." alt="" coords="479,147,609,189"/>
+<area shape="rect" id="node8" href="$classirr_1_1video_1_1SColor.html#a198773366f2a5436c1ca4adc9037bb8d" title="Returns the green component of the color." alt="" coords="479,213,609,254"/>
+<area shape="rect" id="node9" href="$classirr_1_1video_1_1SColor.html#a70d11ec2247581c79ee11e0e1b511978" title="Returns the red component of the color." alt="" coords="479,278,609,319"/>
+<area shape="rect" id="node10" href="$classirr_1_1video_1_1SColor.html#ab001c0c2515ff5f8a0b324d1345485f4" title="Constructor of the Color. Does nothing." alt="" coords="479,343,609,385"/>
+<area shape="rect" id="node4" href="$namespaceirr_1_1core.html#afca1ce7ac54e0c31a9047947f4c7319b" title="returns maximum of two values. Own implementation to get rid of the STL (VS6 problems)" alt="" coords="657,5,773,32"/>
+<area shape="rect" id="node5" href="$namespaceirr_1_1core.html#a9d34bfdbbe9c136b01ae04974572bc11" title="returns minimum of two values. Own implementation to get rid of the STL (VS6 problems)" alt="" coords="659,56,771,83"/>
+</map>

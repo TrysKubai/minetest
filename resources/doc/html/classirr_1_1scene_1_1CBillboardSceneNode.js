@@ -1,0 +1,27 @@
+var classirr_1_1scene_1_1CBillboardSceneNode =
+[
+    [ "CBillboardSceneNode", "classirr_1_1scene_1_1CBillboardSceneNode.html#ab5cfd639e14bc3d6c5a6359bc40d29b8", null ],
+    [ "~CBillboardSceneNode", "classirr_1_1scene_1_1CBillboardSceneNode.html#a2221524cb7bf7d631efde534f880a5d4", null ],
+    [ "clone", "classirr_1_1scene_1_1CBillboardSceneNode.html#ae2e2d3a037263731763d57730ce82578", null ],
+    [ "getBoundingBox", "classirr_1_1scene_1_1CBillboardSceneNode.html#a0810b4f068db08f4adf3b596301cc430", null ],
+    [ "getColor", "classirr_1_1scene_1_1CBillboardSceneNode.html#ae489e7fd4d7fc62316604341c0349415", null ],
+    [ "getMaterial", "classirr_1_1scene_1_1CBillboardSceneNode.html#a58a39ae6ad46895026225e44e3aa7998", null ],
+    [ "getMaterialCount", "classirr_1_1scene_1_1CBillboardSceneNode.html#af45acc5d0ca0f130cb17f5f9d393d9f7", null ],
+    [ "getMeshBuffer", "classirr_1_1scene_1_1CBillboardSceneNode.html#a3ae0aca8f6adf2838ec2ad6109d5c600", null ],
+    [ "getMeshBufferCount", "classirr_1_1scene_1_1CBillboardSceneNode.html#a41385c2eeef18cc060a21052f09bca4d", null ],
+    [ "getSize", "classirr_1_1scene_1_1CBillboardSceneNode.html#a8251f8041426fb92357654deee6db4de", null ],
+    [ "getSize", "classirr_1_1scene_1_1CBillboardSceneNode.html#a717fc4cd3aec784743bd60a584a14216", null ],
+    [ "getTransformedBillboardBoundingBox", "classirr_1_1scene_1_1CBillboardSceneNode.html#a5867073794a199dbd4adb820e61fb91d", null ],
+    [ "getType", "classirr_1_1scene_1_1CBillboardSceneNode.html#a0bbe661c33d9d63242507c62aac9e4ce", null ],
+    [ "OnRegisterSceneNode", "classirr_1_1scene_1_1CBillboardSceneNode.html#aab2bf8fc0407b60840716f645f8cdd29", null ],
+    [ "render", "classirr_1_1scene_1_1CBillboardSceneNode.html#a226b10e0784951e0960320295eda0b95", null ],
+    [ "setColor", "classirr_1_1scene_1_1CBillboardSceneNode.html#a491222c031e1564d6e76e269e0e10f96", null ],
+    [ "setColor", "classirr_1_1scene_1_1CBillboardSceneNode.html#a1ca01fd0b7c1697a4762b435557cf959", null ],
+    [ "setSize", "classirr_1_1scene_1_1CBillboardSceneNode.html#af5d033a98a692f5c1629afdd440761db", null ],
+    [ "setSize", "classirr_1_1scene_1_1CBillboardSceneNode.html#a0c887cebf745b11ef8c2ef76dc7043d3", null ],
+    [ "updateMesh", "classirr_1_1scene_1_1CBillboardSceneNode.html#ad379574a7435ae2d2bae517af989542b", null ],
+    [ "BBoxSafe", "classirr_1_1scene_1_1CBillboardSceneNode.html#ab47ebcbf5135e617ce5f2d7787e1dda8", null ],
+    [ "Buffer", "classirr_1_1scene_1_1CBillboardSceneNode.html#ae8187ad39d9ca3f2af29e791809d8e2c", null ],
+    [ "Size", "classirr_1_1scene_1_1CBillboardSceneNode.html#a24e40598a4ac01af7e9a567bf95cd540", null ],
+    [ "TopEdgeWidth", "classirr_1_1scene_1_1CBillboardSceneNode.html#a27fea0ef9013ec80a931688f7badc05a", null ]
+];

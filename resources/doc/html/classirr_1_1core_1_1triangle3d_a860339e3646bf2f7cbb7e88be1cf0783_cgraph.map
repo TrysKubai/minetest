@@ -1,0 +1,6 @@
+<map id="irr::core::triangle3d::getIntersectionOfPlaneWithLine" name="irr::core::triangle3d::getIntersectionOfPlaneWithLine">
+<area shape="rect" id="node1" title="Calculates the intersection between a 3d line and the plane the triangle is on." alt="" coords="5,71,241,112"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1vector3d.html#ae220d3f24173601c5957961382588394" title="Get the dot product with another vector." alt="" coords="294,5,431,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1triangle3d.html#af894905e54d2c29bdb23f95f892604f1" title="Get the normal of the triangle." alt="" coords="289,71,436,112"/>
+<area shape="rect" id="node4" href="$namespaceirr_1_1core.html#afc24e6ba26469ec7ca7001ed272dc3b2" title="returns if a equals zero, taking rounding errors into account" alt="" coords="303,137,422,163"/>
+</map>

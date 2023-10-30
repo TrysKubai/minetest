@@ -1,0 +1,6 @@
+<map id="ClearDepthBufferTarget::activate" name="ClearDepthBufferTarget::activate">
+<area shape="rect" id="node1" title=" " alt="" coords="5,57,180,98"/>
+<area shape="rect" id="node2" href="$classRenderTarget.html#a4e1e36294e2cf0836bc6be5644cb45b1" title=" " alt="" coords="228,5,397,32"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1IVideoDriver.html#abe154185ea7c1f8332cd048829db9c46" title="Clear the color, depth and/or stencil buffers." alt="" coords="228,57,397,98"/>
+<area shape="rect" id="node4" href="$classirr_1_1IrrlichtDevice.html#ada90707ba5c645d47e000e4e0f87c4c4" title="Provides access to the video driver for drawing 3d and 2d geometry." alt="" coords="247,122,378,163"/>
+</map>

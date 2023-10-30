@@ -1,0 +1,5 @@
+<map id="irr::scene::CXMeshFileLoader" name="irr::scene::CXMeshFileLoader">
+<area shape="rect" id="node1" title="Meshloader capable of loading x meshes." alt="" coords="5,155,216,181"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1IMeshLoader.html" title="Class which is able to load an animated mesh from a file." alt="" coords="24,80,197,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="27,5,195,32"/>
+</map>

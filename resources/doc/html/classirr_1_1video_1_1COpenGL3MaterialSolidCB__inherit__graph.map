@@ -1,0 +1,6 @@
+<map id="irr::video::COpenGL3MaterialSolidCB" name="irr::video::COpenGL3MaterialSolidCB">
+<area shape="rect" id="node1" title=" " alt="" coords="5,259,216,300"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1COpenGL3MaterialBaseCB.html" title=" " alt="" coords="5,169,216,211"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1IShaderConstantSetCallBack.html" title="Interface making it possible to set constants for gpu programs every frame." alt="" coords="13,80,208,121"/>
+<area shape="rect" id="node4" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="27,5,195,32"/>
+</map>

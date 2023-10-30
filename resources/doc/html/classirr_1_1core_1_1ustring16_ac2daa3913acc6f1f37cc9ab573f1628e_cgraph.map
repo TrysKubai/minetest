@@ -1,0 +1,10 @@
+<map id="irr::core::ustring16::findLastChar" name="irr::core::ustring16::findLastChar">
+<area shape="rect" id="node1" title=" " alt="" coords="5,78,147,119"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1ustring16_1_1__ustring16__const__iterator.html#a91bdec2f90455a703b8a20677bb3e5c8" title="Is the iterator at the start of the string?" alt="" coords="195,5,389,61"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1ustring16.html#a4e84291ab0924dc6b4e007bfb6dad84e" title=" " alt="" coords="205,85,379,112"/>
+<area shape="rect" id="node6" href="$classirr_1_1core_1_1ustring16.html#aa8379341f14aaeef408d969620f87852" title=" " alt="" coords="221,142,363,183"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1ustring16_1_1__ustring16__const__iterator.html#a981163b41ee4bd0f594118d90ffffe1c" title="Moves the iterator to the end of the string." alt="" coords="437,65,632,121"/>
+<area shape="rect" id="node5" href="$classirr_1_1core_1_1ustring16.html#a6ccdb1699994dcf50ff8f3db0cfb2686" title=" " alt="" coords="680,81,821,122"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1ustring16_1_1__ustring16__const__iterator.html#ada60fedde4f9b8b92e318794b4d9140a" title="Is the iterator at the end of the string?" alt="" coords="437,145,632,201"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1ustring16.html#a13d082695b759bb889795470890ab5be" title=" " alt="" coords="680,153,821,194"/>
+</map>

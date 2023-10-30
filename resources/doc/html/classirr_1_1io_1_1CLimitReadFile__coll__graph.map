@@ -1,0 +1,13 @@
+<map id="irr::io::CLimitReadFile" name="irr::io::CLimitReadFile">
+<area shape="rect" id="node1" title=" " alt="" coords="896,85,1059,112"/>
+<area shape="rect" id="node2" href="$classirr_1_1io_1_1IReadFile.html" title="Interface providing read access to a file." alt="" coords="657,31,781,57"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="345,31,513,57"/>
+<area shape="rect" id="node4" title=" " alt="" coords="61,5,112,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="53,56,120,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="693,123,744,149"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1string.html" title=" " alt="" coords="655,174,783,215"/>
+<area shape="rect" id="node8" title=" " alt="" coords="337,129,520,156"/>
+<area shape="rect" id="node9" title=" " alt="" coords="5,196,168,223"/>
+<area shape="rect" id="node10" href="$classirr_1_1core_1_1string.html" title="Very simple string class with some useful features." alt="" coords="351,243,506,269"/>
+<area shape="rect" id="node11" title=" " alt="" coords="17,261,156,288"/>
+</map>

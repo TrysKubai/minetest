@@ -1,0 +1,13 @@
+<map id="GUIInventoryList::ItemSpec" name="GUIInventoryList::ItemSpec">
+<area shape="rect" id="node1" title=" " alt="" coords="183,465,383,492"/>
+<area shape="rect" id="node2" href="$structInventoryLocation.html" title=" " alt="" coords="120,369,259,395"/>
+<area shape="rect" id="node3" title=" " alt="" coords="250,250,302,277"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,250,64,277"/>
+<area shape="rect" id="node5" href="$classirr_1_1core_1_1vector3d.html" title=" " alt="" coords="89,243,226,284"/>
+<area shape="rect" id="node6" title=" " alt="" coords="233,124,279,151"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1vector3d.html" title="3d vector template class with lots of operators and methods." alt="" coords="34,124,209,151"/>
+<area shape="rect" id="node8" title=" " alt="" coords="207,5,246,32"/>
+<area shape="rect" id="node11" href="$classirr_1_1core_1_1vector2d.html" title="2d vector template class with lots of operators and methods." alt="" coords="265,183,439,210"/>
+<area shape="rect" id="node9" href="$classirr_1_1core_1_1vector2d.html" title=" " alt="" coords="283,361,421,403"/>
+<area shape="rect" id="node10" title=" " alt="" coords="440,250,485,277"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="irr::gui::IGUIElement::isPointInside" name="irr::gui::IGUIElement::isPointInside">
+<area shape="rect" id="node1" title="Returns true if a point is within this element." alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1rect.html#a34c84ad8ff423a4b657eedbcd112afb3" title="Returns if a 2d point is within this rectangle." alt="" coords="208,5,365,47"/>
+</map>

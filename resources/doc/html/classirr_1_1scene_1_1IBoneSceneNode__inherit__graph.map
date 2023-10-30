@@ -1,0 +1,6 @@
+<map id="irr::scene::IBoneSceneNode" name="irr::scene::IBoneSceneNode">
+<area shape="rect" id="node1" title="Interface for bones used for skeletal animation." alt="" coords="8,155,208,181"/>
+<area shape="rect" id="node4" href="$classirr_1_1scene_1_1CBoneSceneNode.html" title=" " alt="" coords="5,229,211,256"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1ISceneNode.html" title="Scene node interface." alt="" coords="25,80,191,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="24,5,192,32"/>
+</map>

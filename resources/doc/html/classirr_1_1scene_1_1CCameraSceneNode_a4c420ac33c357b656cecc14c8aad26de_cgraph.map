@@ -1,0 +1,7 @@
+<map id="irr::scene::CCameraSceneNode::setRotation" name="irr::scene::CCameraSceneNode::setRotation">
+<area shape="rect" id="node1" title="Sets the rotation of the node." alt="" coords="5,71,195,112"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1ISceneNode.html#a09a1c2ce3cf5448197a0c7b0bb16a516" title="Gets the absolute position of the node in world coordinates." alt="" coords="243,5,409,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1vector3d.html#a53d222e7aace72513210bddb2b25376f" title="Builds a direction vector from (this) rotation vector." alt="" coords="249,71,403,112"/>
+<area shape="rect" id="node5" href="$classirr_1_1scene_1_1ISceneNode.html#adb6ff54f52d3a9e1514cd487a550935c" title="Sets the rotation of the node relative to its parent." alt="" coords="243,136,409,177"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1CMatrix4.html#a574f83a4c1c6809f71ccb200020983f7" title="Gets the current translation." alt="" coords="457,5,596,47"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="GUIEngine::~GUIEngine" name="GUIEngine::~GUIEngine">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,183,98"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IVideoDriver.html#ac88319ec41daa23fef2ae935285afcc9" title="Removes a texture from the texture cache and deletes it." alt="" coords="231,5,400,47"/>
+<area shape="rect" id="node3" href="$classirr__ptr.html#a3b76ecadfd92afd990b84fdc53adef42" title=" " alt="" coords="264,71,367,98"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1IGUIElement.html#a8f864c26d4b2ee3551c53d3ebf870656" title="Sets the new caption of this element." alt="" coords="238,123,393,164"/>
+</map>

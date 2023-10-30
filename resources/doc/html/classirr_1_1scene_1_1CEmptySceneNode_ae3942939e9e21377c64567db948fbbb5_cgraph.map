@@ -1,0 +1,5 @@
+<map id="irr::scene::CEmptySceneNode::OnRegisterSceneNode" name="irr::scene::CEmptySceneNode::OnRegisterSceneNode">
+<area shape="rect" id="node1" title="This method is called just before the rendering process of the whole scene." alt="" coords="5,39,220,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1ISceneNode.html#ac9795bfcb88dcaf8cba6ea3296e5d8d0" title="This method is called just before the rendering process of the whole scene." alt="" coords="281,5,455,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1ISceneManager.html#aaf17bdde6d4e9ef61a76f3b43100ecb8" title="Registers a node for rendering it at a specific time." alt="" coords="268,71,468,112"/>
+</map>

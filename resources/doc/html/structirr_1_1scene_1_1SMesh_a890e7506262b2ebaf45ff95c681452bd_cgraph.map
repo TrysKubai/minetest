@@ -1,0 +1,4 @@
+<map id="irr::scene::SMesh::addMeshBuffer" name="irr::scene::SMesh::addMeshBuffer">
+<area shape="rect" id="node1" title="adds a MeshBuffer" alt="" coords="5,5,147,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html#a396f9cdbe311ada278626477b3c6f0f5" title="Grabs the object. Increments the reference counter by one." alt="" coords="195,5,363,47"/>
+</map>

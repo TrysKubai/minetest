@@ -1,0 +1,4 @@
+<map id="irr::gui::CGUIEnvironment::OnEvent" name="irr::gui::CGUIEnvironment::OnEvent">
+<area shape="rect" id="node1" title="called if an event happened." alt="" coords="5,5,193,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1IEventReceiver.html#a571f744ceffc3b4fe8a81f529163eb97" title="Called if an event happened." alt="" coords="241,5,384,47"/>
+</map>

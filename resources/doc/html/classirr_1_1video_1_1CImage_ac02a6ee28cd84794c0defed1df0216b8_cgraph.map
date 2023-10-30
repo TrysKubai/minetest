@@ -1,0 +1,9 @@
+<map id="irr::video::CImage::copyToWithAlpha" name="irr::video::CImage::copyToWithAlpha">
+<area shape="rect" id="node1" title="copies this surface into another, using the alpha mask, an cliprect and a color to add with" alt="" coords="5,133,148,175"/>
+<area shape="rect" id="node2" href="$namespaceirr.html#a7cf0b599e3afb1a657cf6a9757e9e163" title=" " alt="" coords="247,111,313,138"/>
+<area shape="rect" id="node7" href="$classirr_1_1video_1_1IImage.html#a2e54dd41abc9f56e81f72de5e8538aee" title="check if this is compressed color format" alt="" coords="196,163,364,204"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1IImage.html#a5cf67b7209a93d12a02b30d3994af414" title="Returns bytes per pixel." alt="" coords="412,5,552,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1IImage.html#a226cba5c336847caae221a19a0ba932d" title="Use this to get a pointer to the image data." alt="" coords="415,71,549,112"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1IImage.html#adc7e2f7b2f592e8dbac545a8932d2645" title="Returns pitch of image." alt="" coords="415,136,549,177"/>
+<area shape="rect" id="node6" href="$namespaceirr.html#af037e002b14219cdcb337a6868e5258e" title="2D Intersection test" alt="" coords="431,202,533,229"/>
+</map>

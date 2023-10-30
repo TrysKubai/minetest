@@ -1,0 +1,4 @@
+<map id="irr::gui::CGUIEnvironment::addFileOpenDialog" name="irr::gui::CGUIEnvironment::addFileOpenDialog">
+<area shape="rect" id="node1" title="Adds a file open dialog." alt="" coords="5,5,193,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="241,5,409,47"/>
+</map>

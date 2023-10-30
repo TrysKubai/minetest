@@ -1,0 +1,5 @@
+<map id="irr::video::CNullDriver::addTexture" name="irr::video::CNullDriver::addTexture">
+<area shape="rect" id="node1" title="Creates a texture from an IImage." alt="" coords="5,35,168,76"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1CNullDriver.html#a4359dbed7d989ca02f3c89d1b4fab41f" title="Creates an empty texture of specified size." alt="" coords="216,5,379,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="427,35,595,76"/>
+</map>

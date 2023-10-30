@@ -1,0 +1,11 @@
+<map id="irr::core::ustring16::findLast" name="irr::core::ustring16::findLast">
+<area shape="rect" id="node1" title=" " alt="" coords="5,78,147,119"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1ustring16_1_1__ustring16__const__iterator.html#a91bdec2f90455a703b8a20677bb3e5c8" title="Is the iterator at the start of the string?" alt="" coords="195,5,389,61"/>
+<area shape="rect" id="node3" href="$namespaceirr_1_1core.html#a6162f685b68f629e77336081d3316969" title="clamps a value between low and high" alt="" coords="232,85,352,112"/>
+<area shape="rect" id="node6" href="$classirr_1_1core_1_1ustring16.html#aa8379341f14aaeef408d969620f87852" title=" " alt="" coords="221,139,363,181"/>
+<area shape="rect" id="node4" href="$namespaceirr_1_1core.html#afca1ce7ac54e0c31a9047947f4c7319b" title="returns maximum of two values. Own implementation to get rid of the STL (VS6 problems)" alt="" coords="477,35,593,61"/>
+<area shape="rect" id="node5" href="$namespaceirr_1_1core.html#a9d34bfdbbe9c136b01ae04974572bc11" title="returns minimum of two values. Own implementation to get rid of the STL (VS6 problems)" alt="" coords="479,85,591,112"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1ustring16_1_1__ustring16__const__iterator.html#ada60fedde4f9b8b92e318794b4d9140a" title="Is the iterator at the end of the string?" alt="" coords="437,136,632,192"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1ustring16.html#a13d082695b759bb889795470890ab5be" title=" " alt="" coords="680,110,821,151"/>
+<area shape="rect" id="node9" href="$classirr_1_1core_1_1ustring16.html#a6ccdb1699994dcf50ff8f3db0cfb2686" title=" " alt="" coords="680,175,821,217"/>
+</map>

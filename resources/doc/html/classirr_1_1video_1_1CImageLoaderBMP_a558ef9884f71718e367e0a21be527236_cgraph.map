@@ -1,0 +1,12 @@
+<map id="irr::video::CImageLoaderBMP::loadImage" name="irr::video::CImageLoaderBMP::loadImage">
+<area shape="rect" id="node1" title="creates a surface from the file" alt="" coords="5,221,188,262"/>
+<area shape="rect" id="node2" href="$namespaceirr_1_1video.html#aff3361ad62abc0b64b2e025ac6616396" title="check sanity of image dimensions to prevent issues later, for use by CImageLoaders" alt="" coords="236,5,480,32"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1CColorConverter.html#a9ce1fd3fc97089f50a51f13edfc46185" title="converts R8G8B8 16 bit data to A1R5G5B5 data" alt="" coords="261,57,455,98"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1CColorConverter.html#a15ce8ced41c985f8a98d739e962926f3" title="converts a monochrome bitmap to A1R5G5B5" alt="" coords="261,122,455,163"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1CColorConverter.html#af31d361b66eb2ceabab969381a33f99e" title="copies R8G8B8 24bit data to 24bit data" alt="" coords="261,187,455,229"/>
+<area shape="rect" id="node6" href="$classirr_1_1video_1_1CColorConverter.html#a7e2729378d5af783571f5a7b5d70adf8" title="copies X8R8G8B8 32 bit data" alt="" coords="261,253,455,294"/>
+<area shape="rect" id="node7" href="$classirr_1_1video_1_1CColorConverter.html#aefa750a97769f98979320d1b1095b468" title="converts a 4 bit palettized image to A1R5G5B5" alt="" coords="261,318,455,359"/>
+<area shape="rect" id="node9" href="$classirr_1_1video_1_1CColorConverter.html#aedd5f6662bbd580c16bf6667587e3a92" title="converts a 8 bit palettized image to A1R5G5B5" alt="" coords="261,383,455,425"/>
+<area shape="rect" id="node10" href="$classirr_1_1video_1_1IImage.html#a226cba5c336847caae221a19a0ba932d" title="Use this to get a pointer to the image data." alt="" coords="291,449,425,490"/>
+<area shape="rect" id="node8" href="$namespaceirr_1_1video.html#a6824dfc9c71a7fd9d7a3e704b1267ddc" title="Converts a 32bit (X8R8G8B8) color to a 16bit A1R5G5B5 color." alt="" coords="528,351,715,393"/>
+</map>

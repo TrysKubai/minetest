@@ -1,0 +1,5 @@
+<map id="irr::gui::CGUIListBox::setSpriteBank" name="irr::gui::CGUIListBox::setSpriteBank">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,159,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="207,5,375,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html#a396f9cdbe311ada278626477b3c6f0f5" title="Grabs the object. Increments the reference counter by one." alt="" coords="207,71,375,112"/>
+</map>

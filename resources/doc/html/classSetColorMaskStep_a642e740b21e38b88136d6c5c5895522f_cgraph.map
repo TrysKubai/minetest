@@ -1,0 +1,6 @@
+<map id="SetColorMaskStep::run" name="SetColorMaskStep::run">
+<area shape="rect" id="node1" title=" " alt="" coords="5,78,176,105"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IVideoDriver.html#af119ebfd02f99f77a463007277abf14a" title="Get the global Material, which might override local materials." alt="" coords="243,5,412,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1IrrlichtDevice.html#ada90707ba5c645d47e000e4e0f87c4c4" title="Provides access to the video driver for drawing 3d and 2d geometry." alt="" coords="262,71,393,112"/>
+<area shape="rect" id="node4" href="$structirr_1_1video_1_1SOverrideMaterial.html#a0ffb6abc0b07a4fd0ab5de1ba9c5e2bc" title="disable overrides and reset all flags" alt="" coords="224,136,431,177"/>
+</map>

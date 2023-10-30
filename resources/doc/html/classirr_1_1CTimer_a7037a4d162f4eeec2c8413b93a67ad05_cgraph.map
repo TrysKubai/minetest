@@ -1,0 +1,8 @@
+<map id="irr::CTimer::setSpeed" name="irr::CTimer::setSpeed">
+<area shape="rect" id="node1" title="Sets the speed of the timer." alt="" coords="5,31,164,57"/>
+<area shape="rect" id="node2" href="$classirr_1_1os_1_1Timer.html#a99651492b15c71c904d70595df0cbdf2" title="sets the speed of the virtual timer" alt="" coords="212,31,385,57"/>
+<area shape="rect" id="node3" href="$classirr_1_1os_1_1Timer.html#a640377de088feab25b5b83f8d4ecc50d" title="returns the current time in milliseconds" alt="" coords="433,5,600,32"/>
+<area shape="rect" id="node5" href="$classirr_1_1os_1_1Timer.html#aca64b292f9ea26d331684cde33e521da" title="sets the current virtual (game) time" alt="" coords="433,56,600,83"/>
+<area shape="rect" id="node4" href="$classirr_1_1os_1_1Timer.html#aad6c27db995b80c795038bb2f827dfc5" title="returns if the timer currently is stopped" alt="" coords="657,5,835,32"/>
+<area shape="rect" id="node6" href="$classirr_1_1os_1_1Timer.html#aa0a73b26f4f18ac6fbc737caae2061cd" title="returns the current real time in milliseconds" alt="" coords="648,56,844,83"/>
+</map>

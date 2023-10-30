@@ -1,0 +1,5 @@
+<map id="MenuTextureSource::~MenuTextureSource" name="MenuTextureSource::~MenuTextureSource">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,167,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IVideoDriver.html#a4c3f976980dd8387db37feca8c8e2d73" title="Returns amount of textures currently loaded." alt="" coords="215,5,384,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1IVideoDriver.html#ac88319ec41daa23fef2ae935285afcc9" title="Removes a texture from the texture cache and deletes it." alt="" coords="215,71,384,112"/>
+</map>

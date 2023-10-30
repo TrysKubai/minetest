@@ -1,0 +1,8 @@
+<map id="irr::SJoystickInfo" name="irr::SJoystickInfo">
+<area shape="rect" id="node1" title="Information on a joystick, returned from irr::IrrlichtDevice::activateJoysticks()" alt="" coords="153,199,281,225"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,109,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="28,5,87,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="133,95,208,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="232,95,299,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="323,95,472,121"/>
+</map>

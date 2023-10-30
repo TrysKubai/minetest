@@ -1,0 +1,28 @@
+var structMapgenV5Params =
+[
+    [ "MapgenV5Params", "structMapgenV5Params.html#adaed9fd2545079a304c8d09cde993be8", null ],
+    [ "~MapgenV5Params", "structMapgenV5Params.html#adc5927d81839b1f1a61ed2e43612a5c5", null ],
+    [ "readParams", "structMapgenV5Params.html#a612b14162c9dcc55afafe399614ccc5a", null ],
+    [ "setDefaultSettings", "structMapgenV5Params.html#a123d003ae6ecf77691cf28565dd08ea2", null ],
+    [ "writeParams", "structMapgenV5Params.html#ad12d2b4e3eab718f6c006d541c988bac", null ],
+    [ "cave_width", "structMapgenV5Params.html#afd93950c548c4e6453c31363f2b5ac53", null ],
+    [ "cavern_limit", "structMapgenV5Params.html#ab86fb92111f921c5956b49ca7f822ede", null ],
+    [ "cavern_taper", "structMapgenV5Params.html#a97ab9d9952cdcb3093adef5638d3cd05", null ],
+    [ "cavern_threshold", "structMapgenV5Params.html#a963b4451133a1294cbe16d77e907cb68", null ],
+    [ "dungeon_ymax", "structMapgenV5Params.html#a44b984c8973f213d60206dbe9c9d0171", null ],
+    [ "dungeon_ymin", "structMapgenV5Params.html#a4aa039e4a396bf4fa56555ecd94fc9ce", null ],
+    [ "large_cave_depth", "structMapgenV5Params.html#a04a1fcb73fa01f0092565fad5cf0e2f6", null ],
+    [ "large_cave_flooded", "structMapgenV5Params.html#aa1e37e713927f9f742d1d7b98aa59987", null ],
+    [ "large_cave_num_max", "structMapgenV5Params.html#aece8cc6760a5f93484d6985f8ba6c261", null ],
+    [ "large_cave_num_min", "structMapgenV5Params.html#aa6a595e0d8c3190ceba3a7684f6f06f9", null ],
+    [ "np_cave1", "structMapgenV5Params.html#a6848d42efaf4162eba8519df7af3c961", null ],
+    [ "np_cave2", "structMapgenV5Params.html#aae83bdbef61e730439735b41a115b8ae", null ],
+    [ "np_cavern", "structMapgenV5Params.html#a49c3c9c0e7f111742cae7fdfb39d3452", null ],
+    [ "np_dungeons", "structMapgenV5Params.html#a256121c0f72d7dee4c6db76bb15d50d1", null ],
+    [ "np_factor", "structMapgenV5Params.html#a3a47d9ee3cdaa355983d3397533a07ab", null ],
+    [ "np_filler_depth", "structMapgenV5Params.html#ae097192fd14ffcfd5214ec10b71ce0ea", null ],
+    [ "np_ground", "structMapgenV5Params.html#a969e9431f7f2e2aba90d61cacefb8612", null ],
+    [ "np_height", "structMapgenV5Params.html#a62e91ae07d084f8f0dc32ff9179ea556", null ],
+    [ "small_cave_num_max", "structMapgenV5Params.html#adb8197effffd2267543aa1efc009288e", null ],
+    [ "small_cave_num_min", "structMapgenV5Params.html#a254a890c55290172cccd9b16e53a5d83", null ]
+];

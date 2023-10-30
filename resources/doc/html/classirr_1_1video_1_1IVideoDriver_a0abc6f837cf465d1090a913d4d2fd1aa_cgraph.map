@@ -1,0 +1,4 @@
+<map id="irr::video::IVideoDriver::clearZBuffer" name="irr::video::IVideoDriver::clearZBuffer">
+<area shape="rect" id="node1" title="Clears the ZBuffer." alt="" coords="5,5,175,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IVideoDriver.html#abe154185ea7c1f8332cd048829db9c46" title="Clear the color, depth and/or stencil buffers." alt="" coords="223,5,392,47"/>
+</map>

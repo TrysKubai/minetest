@@ -1,0 +1,5 @@
+<map id="irr::video::CNullDriver::draw2DImageBatch" name="irr::video::CNullDriver::draw2DImageBatch">
+<area shape="rect" id="node1" title="Draws a set of 2d images, using a color and the alpha channel of the texture." alt="" coords="5,5,168,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1CNullDriver.html#a1d23c1055bcee364d695b1a768acd0e0" title="draws an 2d image" alt="" coords="216,5,379,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1ITexture.html#a570e1eec61d7c71be2d7c2d570c05d76" title="Get original size of the texture." alt="" coords="427,5,567,47"/>
+</map>

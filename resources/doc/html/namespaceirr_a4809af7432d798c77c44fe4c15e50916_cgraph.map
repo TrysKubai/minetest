@@ -1,0 +1,4 @@
+<map id="irr::createDevice" name="irr::createDevice">
+<area shape="rect" id="node1" title="Creates an Irrlicht device. The Irrlicht device is the root object for using the engine." alt="" coords="5,5,136,32"/>
+<area shape="rect" id="node2" href="$namespaceirr.html#ae0a823eb5404bbf156965e7051798496" title="Creates an Irrlicht device with the option to specify advanced parameters." alt="" coords="184,5,331,32"/>
+</map>

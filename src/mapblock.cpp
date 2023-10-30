@@ -465,15 +465,14 @@ void MapBlock::deserialize(std::istream &in_compressed, u8 version, bool disk)
 	if(!ser_ver_supported(version))
 		throw VersionMismatchException("ERROR: MapBlock format not supported");
 
-	TRACESTREAM(<<"MapBlock::deSerialize "<<PP(getPos())<<std::endl);
+	TRACESTREAM(<<"MapBlock::deSerialize "<< getPos() <<std::endl);
 
 	if(version == 1)
 		deserializeV1(in_compressed, disk);
 	else
 		throw VersionMismatchException("ERROR: MapBlock format not supported");
 
-	TRACESTREAM(<<"MapBlock::deSerialize "<<PP(getPos())
-			<<": Done."<<std::endl);
+	TRACESTREAM(<<"MapBlock::deSerialize "<< getPos() <<": Done."<<std::endl);
 	
 }
 
@@ -524,8 +523,7 @@ void MapBlock::deserializeV1(std::istream &isCompressed, bool disk)
 
 	
 	//	NodeMetadata
-	TRACESTREAM(<<"MapBlock::deSerialize "<<PP(getPos())
-			<<": Node metadata"<<std::endl);
+	TRACESTREAM(<<"MapBlock::deSerialize "<< getPos() <<": Node metadata"<<std::endl);
 
 	m_node_metadata.deserialize(is, m_gamedef->idef());
 
@@ -539,8 +537,7 @@ void MapBlock::deserializeV1(std::istream &isCompressed, bool disk)
 		// Dynamically re-set ids based on node names
 		correctBlockNodeIds(&nimap, data, m_gamedef);
 
-		TRACESTREAM(<<"MapBlock::deSerialize "<<PP(getPos())
-					<<": Node timers"<<std::endl);
+		TRACESTREAM(<<"MapBlock::deSerialize "<< getPos() <<": Node timers"<<std::endl);
 			m_node_timers.deserialize(is);
 	}
 }

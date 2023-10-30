@@ -1,0 +1,11 @@
+<map id="irr::video::COpenGLCoreTexture::lock" name="irr::video::COpenGLCoreTexture::lock">
+<area shape="rect" id="node1" title="Lock function." alt="" coords="5,235,232,276"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html#a03856a09355b89d178090c4a5f738543" title="Drops the object. Decrements the reference counter by one." alt="" coords="280,5,448,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1dimension2d.html#a320dee7a21500fd4625ab7660a33248b" title="Get area." alt="" coords="282,71,446,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1IImage.html#a226cba5c336847caae221a19a0ba932d" title="Use this to get a pointer to the image data." alt="" coords="297,136,431,177"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1IImage.html#a5cba4942759d65f6132b707e3b4c3ed4" title="Returns width and height of image data." alt="" coords="297,201,431,243"/>
+<area shape="rect" id="node6" href="$classirr_1_1video_1_1IImage.html#a83275f864e066725faf57cecbf004872" title="Get the mipmap size for this image for a certain mipmap level." alt="" coords="295,267,433,308"/>
+<area shape="rect" id="node7" href="$classirr_1_1video_1_1IImage.html#adc7e2f7b2f592e8dbac545a8932d2645" title="Returns pitch of image." alt="" coords="297,332,431,373"/>
+<area shape="rect" id="node8" href="$classirr_1_1IReferenceCounted.html#a396f9cdbe311ada278626477b3c6f0f5" title="Grabs the object. Increments the reference counter by one." alt="" coords="280,397,448,439"/>
+<area shape="rect" id="node9" href="$classirr_1_1video_1_1IImage.html#a2e54dd41abc9f56e81f72de5e8538aee" title="check if this is compressed color format" alt="" coords="280,463,448,504"/>
+</map>

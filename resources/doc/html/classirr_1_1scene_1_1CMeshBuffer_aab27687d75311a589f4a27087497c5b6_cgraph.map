@@ -1,0 +1,5 @@
+<map id="irr::scene::CMeshBuffer::recalculateBoundingBox" name="irr::scene::CMeshBuffer::recalculateBoundingBox">
+<area shape="rect" id="node1" title="Recalculate the bounding box." alt="" coords="5,39,193,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1aabbox3d.html#a49e3765fd2f40a115f8f28bd74d62ccf" title="Adds a point to the bounding box." alt="" coords="241,5,385,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1aabbox3d.html#afc718e96ed11aa71a30311d32bfc885a" title="Resets the bounding box to a one&#45;point box." alt="" coords="241,71,385,112"/>
+</map>

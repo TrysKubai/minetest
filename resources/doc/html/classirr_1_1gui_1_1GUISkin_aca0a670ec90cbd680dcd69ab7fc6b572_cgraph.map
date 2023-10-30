@@ -1,0 +1,4 @@
+<map id="irr::gui::GUISkin::draw3DTabButton" name="irr::gui::GUISkin::draw3DTabButton">
+<area shape="rect" id="node1" title="draws a tab button" alt="" coords="5,5,143,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1GUISkin.html#a4eb388bc4e66a51829e67e7798195dfe" title="draws a tab button" alt="" coords="191,5,377,47"/>
+</map>

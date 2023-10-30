@@ -1,0 +1,12 @@
+<map id="QueuedMinimapUpdate" name="QueuedMinimapUpdate">
+<area shape="rect" id="node1" title=" " alt="" coords="70,453,246,480"/>
+<area shape="rect" id="node2" href="$structMinimapMapblock.html" title=" " alt="" coords="5,357,148,383"/>
+<area shape="rect" id="node3" href="$structMinimapPixel.html" title=" " alt="" coords="21,231,132,257"/>
+<area shape="rect" id="node4" title=" " alt="" coords="12,5,59,32"/>
+<area shape="rect" id="node5" href="$structMapNode.html" title=" " alt="" coords="99,111,183,137"/>
+<area shape="rect" id="node6" title=" " alt="" coords="123,5,161,32"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1vector3d.html" title=" " alt="" coords="172,349,309,391"/>
+<area shape="rect" id="node8" title=" " alt="" coords="165,231,210,257"/>
+<area shape="rect" id="node9" href="$classirr_1_1core_1_1vector3d.html" title="3d vector template class with lots of operators and methods." alt="" coords="235,231,409,257"/>
+<area shape="rect" id="node10" title=" " alt="" coords="303,111,341,137"/>
+</map>

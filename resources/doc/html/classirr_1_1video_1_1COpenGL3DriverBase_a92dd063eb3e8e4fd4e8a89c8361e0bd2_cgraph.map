@@ -1,0 +1,10 @@
+<map id="irr::video::COpenGL3DriverBase::createHardwareBuffer" name="irr::video::COpenGL3DriverBase::createHardwareBuffer">
+<area shape="rect" id="node1" title="Create hardware buffer from mesh." alt="" coords="5,156,211,197"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1COpenGL3DriverBase.html#a2a27db545210217956da0c21dda9012a" title="Delete hardware buffer (only some drivers can)" alt="" coords="276,5,481,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1scene_1_1IMeshBuffer.html#acc389d76856dfb06c3ba45a92315e6d8" title="Get the currently used ID for identification of changes." alt="" coords="549,97,717,139"/>
+<area shape="rect" id="node5" href="$classirr_1_1scene_1_1IMeshBuffer.html#aba48df31edf92a0117692c0be02298db" title="Get the currently used ID for identification of changes." alt="" coords="548,232,719,273"/>
+<area shape="rect" id="node6" href="$classirr_1_1scene_1_1IMeshBuffer.html#a2260f9efb3fad4ba9581e18fccaad5a7" title="get the current hardware mapping hint" alt="" coords="259,188,499,229"/>
+<area shape="rect" id="node7" href="$classirr_1_1scene_1_1IMeshBuffer.html#abbf42191b2fb4d2f7094a77fd76a530e" title="get the current hardware mapping hint" alt="" coords="280,254,477,310"/>
+<area shape="rect" id="node8" href="$classirr_1_1video_1_1COpenGL3DriverBase.html#adc988a0d78ee678b8ee093938bc6e5fd" title="updates hardware buffer if needed" alt="" coords="274,123,483,164"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1CNullDriver.html#a6e22b60b40214b6ed40ab95969874641" title="Delete hardware buffer." alt="" coords="547,5,720,47"/>
+</map>

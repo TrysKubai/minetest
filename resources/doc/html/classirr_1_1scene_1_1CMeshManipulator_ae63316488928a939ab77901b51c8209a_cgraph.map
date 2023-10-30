@@ -1,0 +1,8 @@
+<map id="irr::scene::CMeshManipulator::recalculateNormals" name="irr::scene::CMeshManipulator::recalculateNormals">
+<area shape="rect" id="node1" title="Recalculates all normals of the mesh." alt="" coords="5,136,217,177"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1IMesh.html#a2cd1a04b396235101f426befba0c5b82" title="Get pointer to a mesh buffer." alt="" coords="287,5,425,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1IMesh.html#a2ebed0bdae2d6537c36b0b7ac831edb8" title="Get the amount of mesh buffers." alt="" coords="279,71,433,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1scene_1_1IMesh.html#abe7a56f68c3755c58e3163d7a4d72cde" title="Returns the type of the meshes." alt="" coords="287,136,425,177"/>
+<area shape="rect" id="node5" href="$classirr_1_1scene_1_1ISkinnedMesh.html#a69904208a8a4f8c25986c9d81f7de742" title="Refreshes vertex data cached in joints such as positions and normals." alt="" coords="265,201,447,243"/>
+<area shape="rect" id="node6" href="$classirr_1_1scene_1_1ISkinnedMesh.html#a344ae88a23b438b54189a271280b2e7b" title="Moves the mesh into static position." alt="" coords="265,267,447,308"/>
+</map>

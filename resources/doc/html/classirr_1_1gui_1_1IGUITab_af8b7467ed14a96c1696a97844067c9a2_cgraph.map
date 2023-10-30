@@ -1,0 +1,4 @@
+<map id="irr::gui::IGUITab::getNumber" name="irr::gui::IGUITab::getNumber">
+<area shape="rect" id="node1" title="Returns zero based index of tab if in tabcontrol." alt="" coords="5,5,136,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1IGUIElement.html#aeb2f4dec42afc4b8c1182897d0dc1a70" title="Returns the type of the gui element." alt="" coords="184,5,339,47"/>
+</map>

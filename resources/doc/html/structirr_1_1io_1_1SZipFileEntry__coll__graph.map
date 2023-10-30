@@ -1,0 +1,8 @@
+<map id="irr::io::SZipFileEntry" name="irr::io::SZipFileEntry">
+<area shape="rect" id="node1" title="Contains extended info about zip files in the archive." alt="" coords="173,391,323,417"/>
+<area shape="rect" id="node2" href="$structirr_1_1io_1_1SZIPFileHeader.html" title=" " alt="" coords="97,301,260,328"/>
+<area shape="rect" id="node3" href="$structirr_1_1io_1_1SZIPFileDataDescriptor.html" title=" " alt="" coords="71,124,286,151"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,5,80,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="311,124,377,151"/>
+<area shape="rect" id="node6" title=" " alt="" coords="284,301,351,328"/>
+</map>

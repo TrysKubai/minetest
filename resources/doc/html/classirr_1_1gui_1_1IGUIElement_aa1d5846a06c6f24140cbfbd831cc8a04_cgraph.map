@@ -1,0 +1,4 @@
+<map id="irr::gui::IGUIElement::getNextElement" name="irr::gui::IGUIElement::getNextElement">
+<area shape="rect" id="node1" title="searches elements to find the closest next element to tab to" alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1IGUIElement.html#af1f535aacf6e19fda64511715100e069" title="Returns the number in the tab order sequence." alt="" coords="208,5,363,47"/>
+</map>

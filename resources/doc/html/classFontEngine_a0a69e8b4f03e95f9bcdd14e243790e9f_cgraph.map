@@ -1,0 +1,5 @@
+<map id="FontEngine::getTextHeight" name="FontEngine::getTextHeight">
+<area shape="rect" id="node1" title=" " alt="" coords="5,13,199,39"/>
+<area shape="rect" id="node2" href="$classFontEngine.html#a2f730dd25243d78870d2b55e31a591dc" title=" " alt="" coords="247,13,440,39"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1IGUIFont.html#aa7612db0c9dc2837b44a1a2fa5668797" title="Calculates the width and height of a given string of text." alt="" coords="488,5,616,47"/>
+</map>

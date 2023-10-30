@@ -1,0 +1,8 @@
+<map id="ILogOutput" name="ILogOutput">
+<area shape="rect" id="node1" title=" " alt="" coords="240,5,333,32"/>
+<area shape="rect" id="node2" href="$classICombinedLogOutput.html" title=" " alt="" coords="126,80,285,107"/>
+<area shape="rect" id="node6" href="$classTermLogOutput.html" title=" " alt="" coords="309,80,430,107"/>
+<area shape="rect" id="node3" href="$classFileLogOutput.html" title=" " alt="" coords="5,155,117,181"/>
+<area shape="rect" id="node4" href="$classLogOutputBuffer.html" title=" " alt="" coords="141,155,269,181"/>
+<area shape="rect" id="node5" href="$classStreamLogOutput.html" title=" " alt="" coords="293,155,429,181"/>
+</map>

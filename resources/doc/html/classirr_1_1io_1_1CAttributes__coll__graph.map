@@ -1,0 +1,13 @@
+<map id="irr::io::CAttributes" name="irr::io::CAttributes">
+<area shape="rect" id="node1" title="Implementation of the IAttributes interface." alt="" coords="967,72,1104,99"/>
+<area shape="rect" id="node2" href="$classirr_1_1io_1_1IAttributes.html" title="Provides a generic interface for attributes and their values and the possibility to serialize them." alt="" coords="699,21,831,48"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="295,31,463,57"/>
+<area shape="rect" id="node11" href="$classirr_1_1video_1_1IVideoDriver.html" title="Interface to driver which is able to perform 2d and 3d graphics functions." alt="" coords="680,72,849,99"/>
+<area shape="rect" id="node4" title=" " alt="" coords="31,5,81,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="23,56,89,83"/>
+<area shape="rect" id="node6" href="$classirr_1_1core_1_1array.html" title=" " alt="" coords="693,125,836,166"/>
+<area shape="rect" id="node7" title=" " alt="" coords="276,85,483,112"/>
+<area shape="rect" id="node8" href="$classbool.html" title=" " alt="" coords="31,152,81,179"/>
+<area shape="rect" id="node9" href="$classirr_1_1core_1_1array.html" title="Self reallocating template array (like stl vector) with additional features." alt="" coords="303,199,455,225"/>
+<area shape="rect" id="node10" title=" " alt="" coords="5,217,107,244"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="irr::scene::COBJMeshFileLoader" name="irr::scene::COBJMeshFileLoader">
+<area shape="rect" id="node1" title="Meshloader capable of loading obj meshes." alt="" coords="1029,73,1209,114"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1IMeshLoader.html" title="Class which is able to load an animated mesh from a file." alt="" coords="688,29,861,56"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="276,31,444,57"/>
+<area shape="rect" id="node11" href="$classirr_1_1scene_1_1ISceneManager.html" title="The Scene Manager manages scene nodes, mesh resources, cameras and all the other stuff." alt="" coords="679,80,870,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="31,5,81,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="23,56,89,83"/>
+<area shape="rect" id="node6" href="$classirr_1_1core_1_1array.html" title=" " alt="" coords="669,139,880,195"/>
+<area shape="rect" id="node7" title=" " alt="" coords="278,81,442,137"/>
+<area shape="rect" id="node8" href="$classbool.html" title=" " alt="" coords="31,177,81,204"/>
+<area shape="rect" id="node9" href="$classirr_1_1core_1_1array.html" title="Self reallocating template array (like stl vector) with additional features." alt="" coords="284,224,436,251"/>
+<area shape="rect" id="node10" title=" " alt="" coords="5,243,107,269"/>
+</map>

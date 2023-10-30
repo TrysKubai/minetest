@@ -1,0 +1,6 @@
+<map id="irr::scene::IAnimationEndCallBack" name="irr::scene::IAnimationEndCallBack">
+<area shape="rect" id="node1" title="Callback interface for catching events of ended animations." alt="" coords="5,171,191,212"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="14,95,182,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="15,5,66,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="123,5,190,32"/>
+</map>

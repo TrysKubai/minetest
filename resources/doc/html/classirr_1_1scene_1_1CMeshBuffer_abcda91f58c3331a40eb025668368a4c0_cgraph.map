@@ -1,0 +1,10 @@
+<map id="irr::scene::CMeshBuffer::append" name="irr::scene::CMeshBuffer::append">
+<area shape="rect" id="node1" title="Append the vertices and indices to the current buffer." alt="" coords="5,169,179,211"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1aabbox3d.html#a49e3765fd2f40a115f8f28bd74d62ccf" title="Adds a point to the bounding box." alt="" coords="250,5,394,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1CMeshBuffer.html#a5cce2774521f4ed980e60ee6a35d11b6" title="Get number of indices." alt="" coords="235,71,409,112"/>
+<area shape="rect" id="node5" href="$classirr_1_1scene_1_1CMeshBuffer.html#a4989302f72fe315c8301cf97997534b1" title="Get number of vertices." alt="" coords="235,136,409,177"/>
+<area shape="rect" id="node6" href="$classirr_1_1scene_1_1CMeshBuffer.html#a724d47736180428f66df91de7bf43cfb" title="Get pointer to vertices." alt="" coords="235,201,409,243"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1array.html#a95afc36513d08abb51bd399755730877" title="Adds an element at back of array." alt="" coords="227,267,417,294"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1array.html#aa591c18145f3368828122173318786c4" title="Reallocates the array, make it bigger or smaller." alt="" coords="229,318,415,345"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1array.html#af2a884d7e19d685b58617fed4ea4d4b9" title="Get number of occupied elements of the array." alt="" coords="465,78,612,105"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="irr::video::SMaterial::setTextureMatrix" name="irr::video::SMaterial::setTextureMatrix">
+<area shape="rect" id="node1" title="Sets the i&#45;th texture transformation matrix." alt="" coords="5,5,156,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1SMaterialLayer.html#a0f84f47351a17b2a6041688a425fda1a" title="Sets the texture transformation matrix to mat." alt="" coords="204,5,391,47"/>
+</map>

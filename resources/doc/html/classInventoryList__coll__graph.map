@@ -1,0 +1,9 @@
+<map id="InventoryList" name="InventoryList">
+<area shape="rect" id="node1" title=" " alt="" coords="250,109,357,136"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,44,32"/>
+<area shape="rect" id="node3" href="$classbool.html" title=" " alt="" coords="135,5,186,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="210,5,269,32"/>
+<area shape="rect" id="node5" href="$classIItemDefManager.html" title=" " alt="" coords="293,5,429,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="453,5,500,32"/>
+<area shape="rect" id="node7" title=" " alt="" coords="524,5,683,32"/>
+</map>

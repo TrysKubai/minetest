@@ -1,0 +1,5 @@
+<map id="irr::gui::IGUIElement::isEnabled" name="irr::gui::IGUIElement::isEnabled">
+<area shape="rect" id="node1" title="Returns true if element is enabled." alt="" coords="5,39,160,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1IGUIElement.html#ab3eacf3540cb5b020f3c4a24c6a67473" title="Returns parent of this element." alt="" coords="208,5,363,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1IGUIElement.html#aa85661a9ebba0f46d6e7c7e0da92f4cd" title="Returns true if this element was created as part of its parent control." alt="" coords="208,71,363,112"/>
+</map>

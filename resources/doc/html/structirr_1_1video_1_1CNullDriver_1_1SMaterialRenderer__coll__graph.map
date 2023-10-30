@@ -1,0 +1,9 @@
+<map id="irr::video::CNullDriver::SMaterialRenderer" name="irr::video::CNullDriver::SMaterialRenderer">
+<area shape="rect" id="node1" title=" " alt="" coords="115,273,277,315"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IMaterialRenderer.html" title="Interface for material rendering." alt="" coords="5,184,211,211"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="24,95,192,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="25,5,76,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="133,5,200,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="235,184,339,211"/>
+<area shape="rect" id="node7" title=" " alt="" coords="257,95,316,121"/>
+</map>

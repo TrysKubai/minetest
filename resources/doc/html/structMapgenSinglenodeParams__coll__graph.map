@@ -1,0 +1,11 @@
+<map id="MapgenSinglenodeParams" name="MapgenSinglenodeParams">
+<area shape="rect" id="node1" title=" " alt="" coords="365,319,560,345"/>
+<area shape="rect" id="node2" href="$structMapgenParams.html" title=" " alt="" coords="401,243,524,269"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,95,51,121"/>
+<area shape="rect" id="node4" href="$classbool.html" title=" " alt="" coords="167,95,217,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="353,95,457,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="482,95,529,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="553,95,599,121"/>
+<area shape="rect" id="node8" href="$structBiomeParams.html" title=" " alt="" coords="624,95,736,121"/>
+<area shape="rect" id="node9" title=" " alt="" coords="657,5,703,32"/>
+</map>

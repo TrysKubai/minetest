@@ -1,0 +1,17 @@
+<map id="irr::io::CZipReader::scanZipHeader" name="irr::io::CZipReader::scanZipHeader">
+<area shape="rect" id="node1" title="reads the next file header from a ZIP file, returns false if there are no more headers." alt="" coords="5,512,145,553"/>
+<area shape="rect" id="node2" href="$classirr_1_1io_1_1CFileList.html#a872a854e1f435c15e8a34e1475f300b2" title="Add as a file or folder to the list." alt="" coords="241,221,360,263"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1string.html#aac33c65627f2f317a126bdc2246fa9c8" title="gets the last char of a string or null" alt="" coords="485,384,610,425"/>
+<area shape="rect" id="node11" href="$classirr_1_1io_1_1IReadFile.html#aeee143ee38871c30f240c025b100941d" title="Get the current position in the file." alt="" coords="485,451,609,492"/>
+<area shape="rect" id="node12" href="$classirr_1_1io_1_1IReadFile.html#a9c64fca7f1d665d7e458cd7d766c35a2" title="Get size of file." alt="" coords="239,659,363,700"/>
+<area shape="rect" id="node13" href="$classirr_1_1io_1_1IReadFile.html#a62b4c55c9ab76e08ada14d935fbaf2b4" title="Reads an amount of bytes from the file." alt="" coords="485,519,609,560"/>
+<area shape="rect" id="node14" href="$classirr_1_1io_1_1CZipReader.html#aec813447cccb3704360b9330c8d3a771" title="scans for a local header, returns false if there is no more local file header." alt="" coords="193,541,408,583"/>
+<area shape="rect" id="node15" href="$classirr_1_1io_1_1IReadFile.html#ac1cd81f18832e8703838d7abd495bf34" title="Changes position in file." alt="" coords="485,589,609,631"/>
+<area shape="rect" id="node3" href="$namespaceirr_1_1core.html#a905c95bab4a7e8d5360a19b0726383a9" title="delete path from filename" alt="" coords="456,5,639,47"/>
+<area shape="rect" id="node5" href="$classirr_1_1core_1_1string.html#aa8bd67d3b9e153e1a8e47ea921c95933" title="Returns length of the string&#39;s content." alt="" coords="687,71,837,98"/>
+<area shape="rect" id="node6" href="$classirr_1_1io_1_1CFileList.html#a6f9e3b2d92c2924a331a24a209db7309" title="Returns true if the file is a directory." alt="" coords="488,123,607,164"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1string.html#a2a40bc694efae97aeb80f6a82bf601ef" title="Makes the string lower case." alt="" coords="485,188,610,229"/>
+<area shape="rect" id="node9" href="$classirr_1_1core_1_1string.html#a42d3f10e2d2f0a63c53077f52248cb84" title="Replaces all characters of a special type with another one." alt="" coords="485,253,610,295"/>
+<area shape="rect" id="node10" href="$classirr_1_1core_1_1string.html#a3540f845ff62da6bca57bfece964dea5" title="verify the existing string." alt="" coords="485,319,610,360"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1string.html#a4a6d39561b095cbab46185dd20d11d85" title="Returns character string." alt="" coords="699,5,825,47"/>
+</map>

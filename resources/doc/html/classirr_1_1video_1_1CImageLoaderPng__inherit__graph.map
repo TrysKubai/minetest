@@ -1,0 +1,5 @@
+<map id="irr::video::CImageLoaderPng" name="irr::video::CImageLoaderPng">
+<area shape="rect" id="node1" title="Surface Loader for PNG files." alt="" coords="5,155,212,181"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IImageLoader.html" title="Class which is able to create a image from a file." alt="" coords="20,80,197,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="25,5,193,32"/>
+</map>

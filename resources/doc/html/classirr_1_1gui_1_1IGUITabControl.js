@@ -1,0 +1,25 @@
+var classirr_1_1gui_1_1IGUITabControl =
+[
+    [ "IGUITabControl", "classirr_1_1gui_1_1IGUITabControl.html#a01e66ddc01de0a0185407e4bd839ed31", null ],
+    [ "addTab", "classirr_1_1gui_1_1IGUITabControl.html#a4b1a55fd79785abc4f5bcb05f8637a42", null ],
+    [ "addTab", "classirr_1_1gui_1_1IGUITabControl.html#a044450ed5d7f9a14adbc773442eb66f8", null ],
+    [ "clear", "classirr_1_1gui_1_1IGUITabControl.html#ac5a41030a1fa56978da2142e00fef3f1", null ],
+    [ "getActiveTab", "classirr_1_1gui_1_1IGUITabControl.html#adc55d313131e214646c9f654e1319792", null ],
+    [ "getTab", "classirr_1_1gui_1_1IGUITabControl.html#a1ce91106037c880aae15df77f42aeeda", null ],
+    [ "getTabAt", "classirr_1_1gui_1_1IGUITabControl.html#abe529c6da00af1e156357562eafec031", null ],
+    [ "getTabCount", "classirr_1_1gui_1_1IGUITabControl.html#a9c0571f79bb538936182542562d2c520", null ],
+    [ "getTabExtraWidth", "classirr_1_1gui_1_1IGUITabControl.html#afaeab7a998a34ab5e8398930276ab3bd", null ],
+    [ "getTabHeight", "classirr_1_1gui_1_1IGUITabControl.html#aff6b4e0bd1a4b641fd0e3c73a0500d72", null ],
+    [ "getTabIndex", "classirr_1_1gui_1_1IGUITabControl.html#a6619f9ebfb6bb240be98778a0cc42c0a", null ],
+    [ "getTabMaxWidth", "classirr_1_1gui_1_1IGUITabControl.html#a6f5c5210417d07c3f87ce2db91341f3c", null ],
+    [ "getTabVerticalAlignment", "classirr_1_1gui_1_1IGUITabControl.html#a3153a7dba26548eda6a8013e1e669c18", null ],
+    [ "insertTab", "classirr_1_1gui_1_1IGUITabControl.html#a7ee37817344a547a240b751e3386b85b", null ],
+    [ "insertTab", "classirr_1_1gui_1_1IGUITabControl.html#a9797337cf9918cd75931c28dc441be9e", null ],
+    [ "removeTab", "classirr_1_1gui_1_1IGUITabControl.html#a0d79c9d666527201b57e859e69b7523c", null ],
+    [ "setActiveTab", "classirr_1_1gui_1_1IGUITabControl.html#acea5fca2d2a883a450d4df823eea27d5", null ],
+    [ "setActiveTab", "classirr_1_1gui_1_1IGUITabControl.html#a2a2d810ff8a79c4226831b689a4d8b3a", null ],
+    [ "setTabExtraWidth", "classirr_1_1gui_1_1IGUITabControl.html#ab73b93ca48aabf376c4b10cf42db35d7", null ],
+    [ "setTabHeight", "classirr_1_1gui_1_1IGUITabControl.html#aaf32295663b656a48980ee113dd0251e", null ],
+    [ "setTabMaxWidth", "classirr_1_1gui_1_1IGUITabControl.html#a854b4d28fda5b9eb0ccc2f6a8c8e463c", null ],
+    [ "setTabVerticalAlignment", "classirr_1_1gui_1_1IGUITabControl.html#a5481d1c15605d00654c12581842ad311", null ]
+];

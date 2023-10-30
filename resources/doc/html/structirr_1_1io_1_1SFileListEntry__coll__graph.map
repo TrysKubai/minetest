@@ -1,0 +1,10 @@
+<map id="irr::io::SFileListEntry" name="irr::io::SFileListEntry">
+<area shape="rect" id="node1" title="An entry in a list of files, can be a folder or a file." alt="" coords="53,317,205,344"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,191,80,218"/>
+<area shape="rect" id="node3" href="$classbool.html" title=" " alt="" coords="104,191,155,218"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1string.html" title=" " alt="" coords="179,184,307,225"/>
+<area shape="rect" id="node5" title=" " alt="" coords="11,95,194,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="161,5,324,32"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1string.html" title="Very simple string class with some useful features." alt="" coords="303,95,457,121"/>
+<area shape="rect" id="node8" title=" " alt="" coords="348,5,487,32"/>
+</map>

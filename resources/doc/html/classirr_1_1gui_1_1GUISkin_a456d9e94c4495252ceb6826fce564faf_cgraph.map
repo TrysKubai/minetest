@@ -1,0 +1,4 @@
+<map id="irr::gui::GUISkin::setSpriteBank" name="irr::gui::GUISkin::setSpriteBank">
+<area shape="rect" id="node1" title="sets the sprite bank used for drawing icons" alt="" coords="5,5,137,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html#a396f9cdbe311ada278626477b3c6f0f5" title="Grabs the object. Increments the reference counter by one." alt="" coords="185,5,353,47"/>
+</map>

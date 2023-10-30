@@ -1,0 +1,5 @@
+<map id="MapNode" name="MapNode">
+<area shape="rect" id="node1" title=" " alt="" coords="29,109,113,136"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,52,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="95,5,133,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="irr::video::SColor::toOpenGLColor" name="irr::video::SColor::toOpenGLColor">
+<area shape="rect" id="node1" title="Converts color to OpenGL color format." alt="" coords="5,104,136,145"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1SColor.html#a8b0bcff9036b06e3483978a84a924b91" title="Returns the alpha component of the color." alt="" coords="184,5,315,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1SColor.html#afb60ac456b2efc2f2a4f04a643293d26" title="Returns the blue component of the color." alt="" coords="184,71,315,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1SColor.html#a198773366f2a5436c1ca4adc9037bb8d" title="Returns the green component of the color." alt="" coords="184,136,315,177"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1SColor.html#a70d11ec2247581c79ee11e0e1b511978" title="Returns the red component of the color." alt="" coords="184,201,315,243"/>
+</map>

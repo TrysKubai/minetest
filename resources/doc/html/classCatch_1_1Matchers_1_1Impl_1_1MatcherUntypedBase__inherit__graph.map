@@ -1,0 +1,26 @@
+<map id="Catch::Matchers::Impl::MatcherUntypedBase" name="Catch::Matchers::Impl::MatcherUntypedBase">
+<area shape="rect" id="node1" title=" " alt="" coords="5,577,176,619"/>
+<area shape="rect" id="node2" href="$structCatch_1_1Matchers_1_1Impl_1_1MatcherBase.html" title=" " alt="" coords="225,577,389,619"/>
+<area shape="rect" id="node19" href="$structCatch_1_1Matchers_1_1Impl_1_1MatcherBase.html" title=" " alt="" coords="683,5,873,47"/>
+<area shape="rect" id="node20" href="$structCatch_1_1Matchers_1_1Impl_1_1MatcherBase.html" title=" " alt="" coords="673,71,883,112"/>
+<area shape="rect" id="node21" href="$structCatch_1_1Matchers_1_1Impl_1_1MatcherBase.html" title=" " alt="" coords="679,137,877,193"/>
+<area shape="rect" id="node22" href="$structCatch_1_1Matchers_1_1Impl_1_1MatcherBase.html" title=" " alt="" coords="679,1105,877,1161"/>
+<area shape="rect" id="node23" href="$structCatch_1_1Matchers_1_1Impl_1_1MatcherBase.html" title=" " alt="" coords="691,1185,865,1227"/>
+<area shape="rect" id="node24" href="$structCatch_1_1Matchers_1_1Impl_1_1MatcherBase.html" title=" " alt="" coords="659,1251,897,1292"/>
+<area shape="rect" id="node3" href="$classCatch_1_1Matchers_1_1Exception_1_1ExceptionMessageMatcher.html" title=" " alt="" coords="675,217,881,273"/>
+<area shape="rect" id="node4" href="$structCatch_1_1Matchers_1_1Floating_1_1WithinAbsMatcher.html" title=" " alt="" coords="667,297,889,339"/>
+<area shape="rect" id="node5" href="$structCatch_1_1Matchers_1_1Floating_1_1WithinRelMatcher.html" title=" " alt="" coords="668,363,888,404"/>
+<area shape="rect" id="node6" href="$structCatch_1_1Matchers_1_1Floating_1_1WithinUlpsMatcher.html" title=" " alt="" coords="664,428,892,469"/>
+<area shape="rect" id="node7" href="$classCatch_1_1Matchers_1_1Generic_1_1PredicateMatcher.html" title=" " alt="" coords="685,493,871,535"/>
+<area shape="rect" id="node8" href="$structCatch_1_1Matchers_1_1StdString_1_1RegexMatcher.html" title=" " alt="" coords="669,559,887,600"/>
+<area shape="rect" id="node9" href="$structCatch_1_1Matchers_1_1StdString_1_1StringMatcherBase.html" title=" " alt="" coords="681,625,875,681"/>
+<area shape="rect" id="node14" href="$structCatch_1_1Matchers_1_1Vector_1_1ApproxMatcher.html" title=" " alt="" coords="680,705,876,761"/>
+<area shape="rect" id="node15" href="$structCatch_1_1Matchers_1_1Vector_1_1ContainsElementMatcher.html" title=" " alt="" coords="679,785,877,841"/>
+<area shape="rect" id="node16" href="$structCatch_1_1Matchers_1_1Vector_1_1ContainsMatcher.html" title=" " alt="" coords="676,865,880,921"/>
+<area shape="rect" id="node17" href="$structCatch_1_1Matchers_1_1Vector_1_1EqualsMatcher.html" title=" " alt="" coords="680,945,876,1001"/>
+<area shape="rect" id="node18" href="$structCatch_1_1Matchers_1_1Vector_1_1UnorderedEqualsMatcher.html" title=" " alt="" coords="659,1025,897,1081"/>
+<area shape="rect" id="node10" href="$structCatch_1_1Matchers_1_1StdString_1_1ContainsMatcher.html" title=" " alt="" coords="947,535,1141,576"/>
+<area shape="rect" id="node11" href="$structCatch_1_1Matchers_1_1StdString_1_1EndsWithMatcher.html" title=" " alt="" coords="947,600,1141,641"/>
+<area shape="rect" id="node12" href="$structCatch_1_1Matchers_1_1StdString_1_1EqualsMatcher.html" title=" " alt="" coords="947,665,1141,707"/>
+<area shape="rect" id="node13" href="$structCatch_1_1Matchers_1_1StdString_1_1StartsWithMatcher.html" title=" " alt="" coords="947,731,1141,772"/>
+</map>

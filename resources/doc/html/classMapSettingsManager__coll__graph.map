@@ -1,0 +1,20 @@
+<map id="MapSettingsManager" name="MapSettingsManager">
+<area shape="rect" id="node1" title=" " alt="" coords="993,339,1153,365"/>
+<area shape="rect" id="node2" href="$classSettingsHierarchy.html" title=" " alt="" coords="287,7,425,33"/>
+<area shape="rect" id="node4" href="$classSettings.html" title=" " alt="" coords="729,241,804,268"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,7,163,33"/>
+<area shape="rect" id="node5" title=" " alt="" coords="264,124,448,180"/>
+<area shape="rect" id="node6" title=" " alt="" coords="256,205,456,246"/>
+<area shape="rect" id="node7" title=" " alt="" coords="324,271,388,297"/>
+<area shape="rect" id="node8" title=" " alt="" coords="337,321,375,348"/>
+<area shape="rect" id="node9" title=" " alt="" coords="327,380,385,407"/>
+<area shape="rect" id="node10" title=" " alt="" coords="267,58,445,99"/>
+<area shape="rect" id="node11" href="$structMapgenParams.html" title=" " alt="" coords="705,545,828,572"/>
+<area shape="rect" id="node12" title=" " alt="" coords="333,647,379,673"/>
+<area shape="rect" id="node13" href="$classbool.html" title=" " alt="" coords="331,697,381,724"/>
+<area shape="rect" id="node14" title=" " alt="" coords="304,748,408,775"/>
+<area shape="rect" id="node15" title=" " alt="" coords="333,440,379,467"/>
+<area shape="rect" id="node16" title=" " alt="" coords="333,500,379,527"/>
+<area shape="rect" id="node17" href="$structBiomeParams.html" title=" " alt="" coords="300,551,412,577"/>
+<area shape="rect" id="node18" title=" " alt="" coords="61,551,107,577"/>
+</map>

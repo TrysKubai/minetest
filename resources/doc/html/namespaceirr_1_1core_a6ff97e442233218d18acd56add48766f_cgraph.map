@@ -1,0 +1,4 @@
+<map id="irr::core::strtol10" name="irr::core::strtol10">
+<area shape="rect" id="node1" title="Convert a simple string of base 10 digits into a signed 32 bit integer." alt="" coords="5,5,136,32"/>
+<area shape="rect" id="node2" href="$namespaceirr_1_1core.html#ae7f759b603f4caaa8471cb9bc2e23648" title="Convert a simple string of base 10 digits into an unsigned 32 bit integer." alt="" coords="184,5,323,32"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="irr::video::CNullDriver::makeColorKeyTexture" name="irr::video::CNullDriver::makeColorKeyTexture">
+<area shape="rect" id="node1" title="Creates an 1bit alpha channel of the texture based of an color key." alt="" coords="5,201,177,243"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1ITexture.html#a010326ee83cdc96429b245a515559bec" title="Get the color format of texture." alt="" coords="253,5,393,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1ITexture.html#a3b6a9d073db1fb5bbd5222286a1bb611" title="Get pitch of the main texture (in bytes)." alt="" coords="253,71,393,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1ITexture.html#aa2d4f5a6dc7dcae625845ab0bbac8ca4" title="Get dimension (=size) of the texture." alt="" coords="253,136,393,177"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1ITexture.html#a21d6777c26d707a3b377330c84bbc6ac" title="Lock function." alt="" coords="253,201,393,243"/>
+<area shape="rect" id="node6" href="$classirr_1_1video_1_1ITexture.html#a1880fb0b34e5661851e24f5db63b7adf" title="Regenerates the mip map levels of the texture." alt="" coords="225,267,420,308"/>
+<area shape="rect" id="node7" href="$classirr_1_1video_1_1SColor.html#aaa60619bb953ba3fd472b0193eda558e" title="Calculates a 16 bit A1R5G5B5 value of this color." alt="" coords="257,332,388,373"/>
+<area shape="rect" id="node9" href="$classirr_1_1video_1_1ITexture.html#a15b9a25aa18528ade37a492bd7b20a10" title="Unlock function. Must be called after a lock() to the texture." alt="" coords="253,397,393,439"/>
+<area shape="rect" id="node8" href="$namespaceirr_1_1video.html#a929c6758a0edc772cf69b2c674e4f5cd" title="Converts a 32bit (A8R8G8B8) color to a 16bit A1R5G5B5 color." alt="" coords="468,332,655,373"/>
+</map>

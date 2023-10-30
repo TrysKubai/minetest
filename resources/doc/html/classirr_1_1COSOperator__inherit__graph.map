@@ -1,0 +1,5 @@
+<map id="irr::COSOperator" name="irr::COSOperator">
+<area shape="rect" id="node1" title="The Operating system operator provides operation system specific methods and information." alt="" coords="25,155,153,181"/>
+<area shape="rect" id="node2" href="$classirr_1_1IOSOperator.html" title="The Operating system operator provides operation system specific methods and information." alt="" coords="28,80,151,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="5,5,173,32"/>
+</map>

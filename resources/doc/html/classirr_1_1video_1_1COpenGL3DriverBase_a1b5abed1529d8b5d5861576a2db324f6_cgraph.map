@@ -1,0 +1,11 @@
+<map id="irr::video::COpenGL3DriverBase::setRenderTargetEx" name="irr::video::COpenGL3DriverBase::setRenderTargetEx">
+<area shape="rect" id="node1" title="Set a render target." alt="" coords="5,201,201,243"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1COpenGL3DriverBase.html#a9b529e12eac739ed421e5a11533313be" title="Clear the color, depth and/or stencil buffers." alt="" coords="249,103,445,144"/>
+<area shape="rect" id="node7" href="$classirr_1_1video_1_1IRenderTarget.html#af1e039ede31a754d1bd2cec77adf3b1c" title="Get driver type of render target." alt="" coords="258,168,437,209"/>
+<area shape="rect" id="node8" href="$classirr_1_1video_1_1COpenGL3DriverBase.html#a11d0427d49d3cfadc776edd49bfe4d98" title="Returns type of video driver." alt="" coords="249,233,445,275"/>
+<area shape="rect" id="node9" href="$classirr_1_1video_1_1COpenGL3DriverBase.html#a27bc86c9e6cb7e132bd47d1026bacb27" title="Same as CacheHandler&#45;&gt;setViewport, but also sets ViewPort" alt="" coords="249,299,445,340"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1SColor.html#a8b0bcff9036b06e3483978a84a924b91" title="Returns the alpha component of the color." alt="" coords="493,5,624,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1SColor.html#afb60ac456b2efc2f2a4f04a643293d26" title="Returns the blue component of the color." alt="" coords="493,71,624,112"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1SColor.html#a198773366f2a5436c1ca4adc9037bb8d" title="Returns the green component of the color." alt="" coords="493,136,624,177"/>
+<area shape="rect" id="node6" href="$classirr_1_1video_1_1SColor.html#a70d11ec2247581c79ee11e0e1b511978" title="Returns the red component of the color." alt="" coords="493,201,624,243"/>
+</map>

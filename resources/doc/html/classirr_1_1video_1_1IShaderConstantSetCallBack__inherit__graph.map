@@ -1,0 +1,10 @@
+<map id="irr::video::IShaderConstantSetCallBack" name="irr::video::IShaderConstantSetCallBack">
+<area shape="rect" id="node1" title="Interface making it possible to set constants for gpu programs every frame." alt="" coords="221,121,416,163"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1COpenGL3MaterialBaseCB.html" title=" " alt="" coords="464,37,675,79"/>
+<area shape="rect" id="node6" href="$classShaderCallback.html" title=" " alt="" coords="508,103,631,130"/>
+<area shape="rect" id="node7" href="$classShadowDepthShaderCB.html" title=" " alt="" coords="482,154,657,181"/>
+<area shape="rect" id="node8" href="$classshadowScreenQuadCB.html" title=" " alt="" coords="485,205,653,231"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="5,129,173,155"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1COpenGL3MaterialOneTextureBlendCB.html" title=" " alt="" coords="723,5,933,47"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1COpenGL3MaterialSolidCB.html" title=" " alt="" coords="723,71,933,112"/>
+</map>

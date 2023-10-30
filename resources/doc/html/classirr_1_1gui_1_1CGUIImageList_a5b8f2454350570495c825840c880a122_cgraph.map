@@ -1,0 +1,4 @@
+<map id="irr::gui::CGUIImageList::draw" name="irr::gui::CGUIImageList::draw">
+<area shape="rect" id="node1" title="Draws an image and clips it to the specified rectangle if wanted." alt="" coords="5,5,175,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1IVideoDriver.html#accfd3ba8a8deca828bafbc4c45800797" title="Draws a 2d image without any special effects." alt="" coords="223,5,392,47"/>
+</map>

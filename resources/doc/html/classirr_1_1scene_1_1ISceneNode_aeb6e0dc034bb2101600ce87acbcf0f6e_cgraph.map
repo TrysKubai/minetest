@@ -1,0 +1,8 @@
+<map id="irr::scene::ISceneNode::updateAbsolutePosition" name="irr::scene::ISceneNode::updateAbsolutePosition">
+<area shape="rect" id="node1" title="Updates the absolute position based on the relative and the parents position." alt="" coords="5,39,189,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1scene_1_1ISceneNode.html#af13dc546a7be796cc0868a2eec51e508" title="Get the absolute transformation of the node. Is recalculated every OnAnimate()&#45;call." alt="" coords="237,5,444,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1scene_1_1ISceneNode.html#ac7c47ec49174315af83cf5f5d24edb24" title="Returns the relative transformation of the scene node." alt="" coords="239,71,442,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1CMatrix4.html#a8ee5ef8619d4b0f56d72ac84495ed644" title="Make a rotation matrix from Euler angles. The 4th row and column are unmodified." alt="" coords="492,5,651,47"/>
+<area shape="rect" id="node5" href="$classirr_1_1core_1_1CMatrix4.html#a47117d44419af87e70084c01ab852049" title="Set Scale." alt="" coords="502,71,641,112"/>
+<area shape="rect" id="node6" href="$classirr_1_1core_1_1CMatrix4.html#ac04a3b341cbfbb7986be682691655622" title="Set the translation of the current matrix. Will erase any previous values." alt="" coords="502,136,641,177"/>
+</map>

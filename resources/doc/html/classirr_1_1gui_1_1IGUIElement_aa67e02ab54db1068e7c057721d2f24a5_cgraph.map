@@ -1,0 +1,6 @@
+<map id="irr::gui::IGUIElement::setRelativePositionProportional" name="irr::gui::IGUIElement::setRelativePositionProportional">
+<area shape="rect" id="node1" title="Sets the relative rectangle of this element as a proportion of its parent&#39;s area." alt="" coords="5,64,240,105"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1IGUIElement.html#a6c5b94dd889533a306a03e25d0998bdf" title="Gets the absolute rectangle of this element." alt="" coords="300,5,460,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1rect.html#aa5e0bf0e6474c1603c735a63843833fa" title="Get the dimensions of the rectangle." alt="" coords="299,71,461,98"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1IGUIElement.html#ad58bbeba69a118873a5075d86b4c90f2" title="Updates the absolute position." alt="" coords="288,123,472,164"/>
+</map>

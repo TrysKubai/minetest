@@ -1,0 +1,4 @@
+<map id="irr::gui::IGUIElement::getName" name="irr::gui::IGUIElement::getName">
+<area shape="rect" id="node1" title="Returns the name of the element." alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1string.html#a4a6d39561b095cbab46185dd20d11d85" title="Returns character string." alt="" coords="208,5,333,47"/>
+</map>

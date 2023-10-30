@@ -1,0 +1,4 @@
+<map id="irr::core::triangle3d::isTotalInsideBox" name="irr::core::triangle3d::isTotalInsideBox">
+<area shape="rect" id="node1" title="Determines if the triangle is totally inside a bounding box." alt="" coords="5,5,152,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1aabbox3d.html#ae69d28e1e512f705a6cbf95c5829f6cd" title="Determines if a point is within this box." alt="" coords="200,5,344,47"/>
+</map>

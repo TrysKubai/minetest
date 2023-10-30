@@ -1,0 +1,4 @@
+<map id="irr::os::Timer::setTime" name="irr::os::Timer::setTime">
+<area shape="rect" id="node1" title="sets the current virtual (game) time" alt="" coords="5,5,172,32"/>
+<area shape="rect" id="node2" href="$classirr_1_1os_1_1Timer.html#aa0a73b26f4f18ac6fbc737caae2061cd" title="returns the current real time in milliseconds" alt="" coords="220,5,416,32"/>
+</map>

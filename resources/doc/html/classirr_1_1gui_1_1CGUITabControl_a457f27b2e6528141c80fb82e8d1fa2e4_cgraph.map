@@ -1,0 +1,7 @@
+<map id="irr::gui::CGUITabControl::insertTab" name="irr::gui::CGUITabControl::insertTab">
+<area shape="rect" id="node1" title="Insert an existing tab." alt="" coords="5,104,180,145"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1IGUIElement.html#ab3eacf3540cb5b020f3c4a24c6a67473" title="Returns parent of this element." alt="" coords="238,5,393,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1CGUITabControl.html#a6908cb94f6dcf47256930331f2545dbd" title="For given given tab find it&#39;s zero&#45;based index (or &#45;1 for not found)" alt="" coords="228,71,403,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1IReferenceCounted.html#a396f9cdbe311ada278626477b3c6f0f5" title="Grabs the object. Increments the reference counter by one." alt="" coords="231,136,399,177"/>
+<area shape="rect" id="node5" href="$classirr_1_1gui_1_1IGUIElement.html#aed537cb0b16c670b8f895179f0027bad" title="Sets the visible state of this element." alt="" coords="238,201,393,243"/>
+</map>

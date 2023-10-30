@@ -1,0 +1,11 @@
+<map id="irr::gui::CGUIEditBox::getTextDimension" name="irr::gui::CGUIEditBox::getTextDimension">
+<area shape="rect" id="node1" title=" " alt="" coords="5,161,160,203"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1CGUIEditBox.html#a50a7162479bd21c15f01229c375cff9a" title="sets the area of the given line" alt="" coords="208,161,363,203"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1CGUIEditBox.html#a324db4fb79f6c06b9da846e9390e18d8" title="Get the font which is used right now for drawing." alt="" coords="422,37,577,79"/>
+<area shape="rect" id="node6" href="$classirr_1_1gui_1_1IGUIFont.html#aa7612db0c9dc2837b44a1a2fa5668797" title="Calculates the width and height of a given string of text." alt="" coords="435,103,563,144"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1rect.html#ad43b325eeb165c553a58f34efb2ee961" title="Get height of rectangle." alt="" coords="411,169,588,195"/>
+<area shape="rect" id="node8" href="$classirr_1_1gui_1_1IGUIFont.html#a1f1a760be155fc0f6a632b457154a5d8" title="Returns the distance between letters." alt="" coords="428,220,571,261"/>
+<area shape="rect" id="node9" href="$classirr_1_1core_1_1rect.html#ad5dcae186b85b938d42b59c91bfeb9a5" title="Get width of rectangle." alt="" coords="413,286,585,313"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1IGUISkin.html#ab1b2623d04688c4dfe106ca407171d6e" title="returns the default font" alt="" coords="663,5,791,47"/>
+<area shape="rect" id="node5" href="$classirr_1_1gui_1_1IGUIEnvironment.html#a54ce9072ea7b89cdaea65306e93ba90c" title="Returns pointer to the current gui skin." alt="" coords="636,71,819,112"/>
+</map>

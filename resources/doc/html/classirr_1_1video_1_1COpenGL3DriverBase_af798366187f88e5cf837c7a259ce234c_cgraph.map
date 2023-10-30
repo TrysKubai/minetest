@@ -1,0 +1,29 @@
+<map id="irr::video::COpenGL3DriverBase::draw2DImageBatch" name="irr::video::COpenGL3DriverBase::draw2DImageBatch">
+<area shape="rect" id="node1" title="Draws a set of 2d images, using a color and the alpha channel of the texture." alt="" coords="5,283,201,324"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1array.html#a7cd7985c7fb32e90205e1df663f0fffb" title="Gets a const pointer to the array." alt="" coords="283,5,439,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1SColor.html#a8b0bcff9036b06e3483978a84a924b91" title="Returns the alpha component of the color." alt="" coords="295,71,426,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1CNullDriver.html#aec16005c683dd068fcdded37ab6cc8af" title="get render target size" alt="" coords="255,136,467,177"/>
+<area shape="rect" id="node5" href="$classirr_1_1core_1_1rect.html#ad43b325eeb165c553a58f34efb2ee961" title="Get height of rectangle." alt="" coords="272,202,449,229"/>
+<area shape="rect" id="node6" href="$classirr_1_1video_1_1ITexture.html#a570e1eec61d7c71be2d7c2d570c05d76" title="Get original size of the texture." alt="" coords="291,253,431,295"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1rect.html#ad5dcae186b85b938d42b59c91bfeb9a5" title="Get width of rectangle." alt="" coords="275,319,447,346"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1rect.html#ad2f5052c13cffb08f6ce8649296ec9df" title="Returns if the rect is valid to draw." alt="" coords="283,370,439,397"/>
+<area shape="rect" id="node9" href="$classirr_1_1core_1_1array.html#a95afc36513d08abb51bd399755730877" title="Adds an element at back of array." alt="" coords="265,421,456,447"/>
+<area shape="rect" id="node10" href="$classirr_1_1video_1_1COpenGL3DriverBase.html#a07069e180d24f9405a421cf5ab8bb573" title="sets the needed renderstates" alt="" coords="249,472,472,513"/>
+<area shape="rect" id="node27" href="$classirr_1_1core_1_1array.html#af2a884d7e19d685b58617fed4ea4d4b9" title="Get number of occupied elements of the array." alt="" coords="287,538,434,565"/>
+<area shape="rect" id="node11" href="$classirr_1_1video_1_1COpenGLCoreCacheHandler.html#acb2ab336aea53218ff42a93dba30d922" title="Compare material to current cache and update it when there are differences." alt="" coords="521,283,741,324"/>
+<area shape="rect" id="node12" href="$classirr_1_1video_1_1COpenGL3Renderer2D.html#a3f14874f5f9836db045b7527b029c122" title="Called every time before a new bunch of geometry is being drawn using this material with for example ..." alt="" coords="520,348,743,389"/>
+<area shape="rect" id="node13" href="$classirr_1_1video_1_1COpenGL3Renderer2D.html#a5e4bb799736ade2274e59043d99e3fae" title="Called by the IVideoDriver implementation the let the renderer set its needed render states." alt="" coords="520,413,743,455"/>
+<area shape="rect" id="node19" href="$classirr_1_1video_1_1COpenGL3DriverBase.html#a7e89ab9101d1f2db60646dc65d640c50" title="Compare in SMaterial doesn&#39;t check texture parameters, so we should call this on each OnRender call." alt="" coords="1081,472,1299,513"/>
+<area shape="rect" id="node24" href="$classirr_1_1video_1_1COpenGL3MaterialRenderer.html#adfd0081ade9e272d2c64a48a66bc4269" title="Called by the IVideoDriver to unset this material." alt="" coords="526,531,737,572"/>
+<area shape="rect" id="node25" href="$classirr_1_1video_1_1SMaterial.html#a44dc38e7d4a78434d12ffd02e88e3d60" title="Sets the i&#45;th texture." alt="" coords="556,596,707,637"/>
+<area shape="rect" id="node26" href="$classirr_1_1video_1_1COpenGL3DriverBase.html#aa45acf65f08396ab345541e17fb6bdd1" title="sets transformation" alt="" coords="533,661,729,703"/>
+<area shape="rect" id="node14" href="$classirr_1_1video_1_1COpenGL3DriverBase.html#a4c11370797f2106f635bf2a57bfc8a60" title="Can be called by an IMaterialRenderer to make its work easier." alt="" coords="810,348,1014,389"/>
+<area shape="rect" id="node23" href="$classirr_1_1video_1_1COpenGL3MaterialRenderer.html#a6214d6f24808d1e1cadbaa2597e2588f" title="Sets a pixel shader constant." alt="" coords="791,413,1033,455"/>
+<area shape="rect" id="node15" href="$namespaceirr_1_1core.html#a6162f685b68f629e77336081d3316969" title="clamps a value between low and high" alt="" coords="1130,290,1250,317"/>
+<area shape="rect" id="node18" href="$classirr_1_1video_1_1COpenGL3DriverBase.html#a70f1eb0e1bd5016fa9133665bc5491d0" title="Convert E_BLEND_FACTOR to OpenGL equivalent." alt="" coords="1092,341,1288,383"/>
+<area shape="rect" id="node22" href="$namespaceirr_1_1video.html#a68f752ebff7a607d0660c95d983774e8" title="Unpack srcRGBFact, dstRGBFact, srcAlphaFact, dstAlphaFact, modulo and alphaSource factors." alt="" coords="1089,407,1291,448"/>
+<area shape="rect" id="node16" href="$namespaceirr_1_1core.html#afca1ce7ac54e0c31a9047947f4c7319b" title="returns maximum of two values. Own implementation to get rid of the STL (VS6 problems)" alt="" coords="1389,290,1505,317"/>
+<area shape="rect" id="node17" href="$namespaceirr_1_1core.html#a9d34bfdbbe9c136b01ae04974572bc11" title="returns minimum of two values. Own implementation to get rid of the STL (VS6 problems)" alt="" coords="1391,363,1503,390"/>
+<area shape="rect" id="node20" href="$classirr_1_1video_1_1COpenGL3DriverBase.html#a84486b0902b453151559d6241bf5dca0" title="Map Irrlicht wrap mode to OpenGL enum." alt="" coords="1347,439,1548,480"/>
+<area shape="rect" id="node21" href="$classirr_1_1video_1_1ITexture.html#ad03a806b1a7887288b4c364735bff3f7" title="Check whether the texture has MipMaps." alt="" coords="1377,504,1517,545"/>
+</map>

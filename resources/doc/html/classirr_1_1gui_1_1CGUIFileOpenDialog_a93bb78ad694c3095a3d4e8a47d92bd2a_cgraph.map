@@ -1,0 +1,4 @@
+<map id="irr::gui::CGUIFileOpenDialog::sendCancelEvent" name="irr::gui::CGUIFileOpenDialog::sendCancelEvent">
+<area shape="rect" id="node1" title="sends the event that the file choose process has been canceld" alt="" coords="5,29,209,71"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1IGUIElement.html#a2fefbcb363bee238e06bbdbd9e8e9417" title="Called if an event happened." alt="" coords="257,29,412,71"/>
+</map>

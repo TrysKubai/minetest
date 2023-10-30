@@ -1,0 +1,10 @@
+<map id="irr::gui::CGUIListBox::ListItem" name="irr::gui::CGUIListBox::ListItem">
+<area shape="rect" id="node1" title=" " alt="" coords="127,303,280,344"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,199,145,225"/>
+<area shape="rect" id="node3" title=" " alt="" coords="46,95,105,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="170,199,237,225"/>
+<area shape="rect" id="node5" href="$structirr_1_1gui_1_1CGUIListBox_1_1ListItem_1_1ListItemOverrideColor.html" title=" " alt="" coords="261,184,461,240"/>
+<area shape="rect" id="node6" href="$classirr_1_1video_1_1SColor.html" title="Class representing a 32 bit ARGB color." alt="" coords="226,95,357,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="254,5,329,32"/>
+<area shape="rect" id="node8" href="$classbool.html" title=" " alt="" coords="381,95,431,121"/>
+</map>

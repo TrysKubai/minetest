@@ -1,0 +1,10 @@
+<map id="irr::scene::CCameraSceneNode::updateMatrices" name="irr::scene::CCameraSceneNode::updateMatrices">
+<area shape="rect" id="node1" title="Update." alt="" coords="5,159,195,200"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1CMatrix4.html#a78e15297c806006898df58498755ecd4" title="Builds a left&#45;handed look&#45;at matrix." alt="" coords="243,5,460,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1vector3d.html#ae220d3f24173601c5957961382588394" title="Get the dot product with another vector." alt="" coords="283,71,420,112"/>
+<area shape="rect" id="node4" href="$namespaceirr_1_1core.html#ac1fa0ed48254bc3d2797468f3ffff735" title="returns if a equals b, taking possible rounding errors into account" alt="" coords="290,137,413,163"/>
+<area shape="rect" id="node5" href="$classirr_1_1scene_1_1ISceneNode.html#a09a1c2ce3cf5448197a0c7b0bb16a516" title="Gets the absolute position of the node in world coordinates." alt="" coords="268,188,435,229"/>
+<area shape="rect" id="node7" href="$structirr_1_1scene_1_1SViewFrustum.html#acf8edd203e7479d2b444ed548075ffa6" title="get the given state&#39;s matrix based on frustum E_TRANSFORMATION_STATE" alt="" coords="260,253,443,295"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1vector3d.html#a84a1861464ef70e6965c146732103c09" title="Normalizes the vector." alt="" coords="283,319,420,360"/>
+<area shape="rect" id="node6" href="$classirr_1_1core_1_1CMatrix4.html#a574f83a4c1c6809f71ccb200020983f7" title="Gets the current translation." alt="" coords="508,188,647,229"/>
+</map>

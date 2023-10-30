@@ -1,0 +1,18 @@
+<map id="irr::gui::CGUITabControl::CGUITabControl" name="irr::gui::CGUITabControl::CGUITabControl">
+<area shape="rect" id="node1" title="destructor" alt="" coords="5,397,180,439"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1IGUIEnvironment.html#a666749b7352a677c74acb242199e54a0" title="Adds a button element." alt="" coords="231,5,413,47"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1IGUIEnvironment.html#a896fbfcbad5ccf187a835827b439da93" title="Returns the default built&#45;in font." alt="" coords="231,71,413,112"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1IGUISkin.html#ac48a8a0b6cdccacfa90a0fb23e4d9503" title="returns size for the given size type" alt="" coords="258,136,386,177"/>
+<area shape="rect" id="node5" href="$classirr_1_1gui_1_1IGUIEnvironment.html#a54ce9072ea7b89cdaea65306e93ba90c" title="Returns pointer to the current gui skin." alt="" coords="231,201,413,243"/>
+<area shape="rect" id="node6" href="$classirr_1_1gui_1_1IGUISkin.html#a24d886480acfd238f6965adfc8a2a7d6" title="returns the sprite bank" alt="" coords="258,267,386,308"/>
+<area shape="rect" id="node7" href="$classirr_1_1IReferenceCounted.html#a396f9cdbe311ada278626477b3c6f0f5" title="Grabs the object. Increments the reference counter by one." alt="" coords="238,332,406,373"/>
+<area shape="rect" id="node8" href="$classirr_1_1gui_1_1IGUIElement.html#a1eb3d7ec13ebbf8c73859810088f666b" title="The alignment defines how the borders of this element will be positioned when the parent element is r..." alt="" coords="245,397,399,439"/>
+<area shape="rect" id="node11" href="$classirr_1_1IReferenceCounted.html#a704c5042d399fe8cd3bdd65a0559002a" title="Sets the debug name of the object." alt="" coords="238,463,406,504"/>
+<area shape="rect" id="node12" href="$classirr_1_1gui_1_1IGUIButton.html#ab63c3536bd2eb92e9ebec8ea3a381ec1" title="Sets another skin independent font." alt="" coords="251,528,393,569"/>
+<area shape="rect" id="node13" href="$classirr_1_1gui_1_1IGUIButton.html#a0570cc64a1445866a0c8123c0209c83d" title="Sets the sprite bank used by the button." alt="" coords="251,593,393,635"/>
+<area shape="rect" id="node14" href="$classirr_1_1gui_1_1IGUIElement.html#a50eb859808b65ee24fbdd69e69118a8d" title="Sets whether this control was created as part of its parent." alt="" coords="245,659,399,700"/>
+<area shape="rect" id="node15" href="$classirr_1_1gui_1_1CGUITabControl.html#acf9b00e1e2aa48e0255f57faa42ba429" title="Set the alignment of the tabs." alt="" coords="228,724,416,765"/>
+<area shape="rect" id="node16" href="$classirr_1_1gui_1_1IGUIElement.html#aed537cb0b16c670b8f895179f0027bad" title="Sets the visible state of this element." alt="" coords="245,789,399,831"/>
+<area shape="rect" id="node9" href="$classirr_1_1gui_1_1IGUIElement.html#a6c5b94dd889533a306a03e25d0998bdf" title="Gets the absolute rectangle of this element." alt="" coords="465,368,625,409"/>
+<area shape="rect" id="node10" href="$classirr_1_1core_1_1rect.html#aa5e0bf0e6474c1603c735a63843833fa" title="Get the dimensions of the rectangle." alt="" coords="464,434,625,461"/>
+</map>

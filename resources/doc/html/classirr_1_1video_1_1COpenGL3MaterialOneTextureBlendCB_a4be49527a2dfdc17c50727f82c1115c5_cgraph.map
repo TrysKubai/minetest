@@ -1,0 +1,6 @@
+<map id="irr::video::COpenGL3MaterialOneTextureBlendCB::OnSetMaterial" name="irr::video::COpenGL3MaterialOneTextureBlendCB::OnSetMaterial">
+<area shape="rect" id="node1" title="Called to let the callBack know the used material (optional method)" alt="" coords="5,71,257,112"/>
+<area shape="rect" id="node2" href="$classirr_1_1video_1_1COpenGL3MaterialBaseCB.html#ad1280e75184c680e625ea8dbd4d52f31" title="Called to let the callBack know the used material (optional method)" alt="" coords="305,5,516,47"/>
+<area shape="rect" id="node3" href="$namespaceirr_1_1video.html#a5df0764d7c9e6742eecdba61f5d8a810" title="has blend factor alphablending" alt="" coords="325,71,497,112"/>
+<area shape="rect" id="node4" href="$namespaceirr_1_1video.html#a68f752ebff7a607d0660c95d983774e8" title="Unpack srcRGBFact, dstRGBFact, srcAlphaFact, dstAlphaFact, modulo and alphaSource factors." alt="" coords="310,136,511,177"/>
+</map>

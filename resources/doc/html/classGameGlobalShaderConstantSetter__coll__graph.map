@@ -1,0 +1,52 @@
+<map id="GameGlobalShaderConstantSetter" name="GameGlobalShaderConstantSetter">
+<area shape="rect" id="node1" title=" " alt="" coords="1189,540,1396,581"/>
+<area shape="rect" id="node2" href="$classIShaderConstantSetter.html" title=" " alt="" coords="783,75,951,102"/>
+<area shape="rect" id="node3" href="$classCachedPixelShaderSetting.html" title=" " alt="" coords="771,473,963,514"/>
+<area shape="rect" id="node4" href="$classCachedShaderSetting.html" title=" " alt="" coords="309,505,470,546"/>
+<area shape="rect" id="node12" href="$classCachedVertexShaderSetting.html" title=" " alt="" coords="765,613,968,654"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,1132,56,1159"/>
+<area shape="rect" id="node9" href="$classCachedShaderSetting.html" title=" " alt="" coords="309,440,470,481"/>
+<area shape="rect" id="node15" href="$classClient.html" title=" " alt="" coords="837,1698,897,1724"/>
+<area shape="rect" id="node20" href="$classIntervalLimiter.html" title=" " alt="" coords="330,1130,449,1156"/>
+<area shape="rect" id="node36" href="$classRenderingEngine.html" title=" " alt="" coords="323,2274,455,2300"/>
+<area shape="rect" id="node40" href="$classGameUI.html" title=" " alt="" coords="352,2711,427,2738"/>
+<area shape="rect" id="node47" href="$classSky.html" title=" " alt="" coords="367,804,412,831"/>
+<area shape="rect" id="node49" href="$classCachedStructShaderSetting.html" title=" " alt="" coords="290,688,489,729"/>
+<area shape="rect" id="node6" href="$classbool.html" title=" " alt="" coords="5,664,56,691"/>
+<area shape="rect" id="node25" href="$classNodeDefManager.html" title="This class is for getting the actual properties of nodes from their content ID." alt="" coords="321,1567,457,1594"/>
+<area shape="rect" id="node32" href="$classClientMediaDownloader.html" title=" " alt="" coords="300,636,479,663"/>
+<area shape="rect" id="node34" href="$classCamera.html" title=" " alt="" coords="1256,1162,1329,1188"/>
+<area shape="rect" id="node7" href="$classCachedPixelShaderSetting.html" title=" " alt="" coords="293,238,485,280"/>
+<area shape="rect" id="node11" href="$classCachedPixelShaderSetting.html" title=" " alt="" coords="771,152,963,193"/>
+<area shape="rect" id="node13" href="$classCachedPixelShaderSetting.html" title=" " alt="" coords="771,286,963,328"/>
+<area shape="rect" id="node14" href="$classCachedPixelShaderSetting.html" title=" " alt="" coords="771,352,963,393"/>
+<area shape="rect" id="node50" href="$classCachedPixelShaderSetting.html" title=" " alt="" coords="771,218,963,260"/>
+<area shape="rect" id="node8" href="$classCachedVertexShaderSetting.html" title=" " alt="" coords="765,540,968,581"/>
+<area shape="rect" id="node10" href="$classCachedVertexShaderSetting.html" title=" " alt="" coords="288,570,491,612"/>
+<area shape="rect" id="node24" href="$classClientEnvironment.html" title=" " alt="" coords="1221,1652,1364,1679"/>
+<area shape="rect" id="node16" href="$classcon_1_1PeerHandler.html" title=" " alt="" coords="323,2442,456,2468"/>
+<area shape="rect" id="node17" href="$classInventoryManager.html" title=" " alt="" coords="319,1836,460,1863"/>
+<area shape="rect" id="node18" href="$classIGameDef.html" title=" " alt="" coords="345,2492,433,2519"/>
+<area shape="rect" id="node19" href="$classISoundManager.html" title=" " alt="" coords="328,2660,451,2687"/>
+<area shape="rect" id="node21" title=" " alt="" coords="276,2839,503,2866"/>
+<area shape="rect" id="node22" title=" " alt="" coords="313,1180,465,1207"/>
+<area shape="rect" id="node23" title=" " alt="" coords="309,1232,469,1273"/>
+<area shape="rect" id="node26" title=" " alt="" coords="7,2543,54,2570"/>
+<area shape="rect" id="node38" href="$structMeshGrid.html" title="Describes a grid with given step, oirginating at (0,0,0)" alt="" coords="347,2543,431,2570"/>
+<area shape="rect" id="node27" href="$classPacketCounter.html" title=" " alt="" coords="332,1298,447,1324"/>
+<area shape="rect" id="node28" title=" " alt="" coords="308,1349,471,1390"/>
+<area shape="rect" id="node29" title=" " alt="" coords="300,1415,479,1442"/>
+<area shape="rect" id="node30" title=" " alt="" coords="330,1466,449,1492"/>
+<area shape="rect" id="node31" title=" " alt="" coords="306,2594,473,2636"/>
+<area shape="rect" id="node33" title=" " alt="" coords="310,1887,469,1914"/>
+<area shape="rect" id="node35" title=" " alt="" coords="845,947,888,974"/>
+<area shape="rect" id="node37" href="$classIWritableTextureSource.html" title=" " alt="" coords="303,1618,476,1644"/>
+<area shape="rect" id="node39" href="$classModStorageDatabase.html" title=" " alt="" coords="308,1668,471,1695"/>
+<area shape="rect" id="node41" title=" " alt="" coords="11,2859,50,2886"/>
+<area shape="rect" id="node42" title=" " alt="" coords="314,1720,465,1761"/>
+<area shape="rect" id="node43" title=" " alt="" coords="305,1786,473,1812"/>
+<area shape="rect" id="node44" title=" " alt="" coords="276,2324,503,2351"/>
+<area shape="rect" id="node45" href="$classIWritableItemDefManager.html" title=" " alt="" coords="294,1516,485,1543"/>
+<area shape="rect" id="node46" title=" " alt="" coords="310,2376,469,2417"/>
+<area shape="rect" id="node48" title=" " alt="" coords="801,804,932,831"/>
+</map>

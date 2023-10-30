@@ -1,0 +1,12 @@
+<map id="TextureUpdateArgs" name="TextureUpdateArgs">
+<area shape="rect" id="node1" title=" " alt="" coords="259,260,405,287"/>
+<area shape="rect" id="node2" href="$classITextureSource.html" title=" " alt="" coords="27,171,146,197"/>
+<area shape="rect" id="node3" href="$classISimpleTextureSource.html" title=" " alt="" coords="5,95,168,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="170,171,217,197"/>
+<area shape="rect" id="node5" href="$classirr_1_1gui_1_1IGUIEnvironment.html" title="GUI Environment. Used as factory and manager of all other GUI elements." alt="" coords="241,171,423,197"/>
+<area shape="rect" id="node6" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="248,95,416,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="248,5,299,32"/>
+<area shape="rect" id="node8" title=" " alt="" coords="356,5,423,32"/>
+<area shape="rect" id="node9" title=" " alt="" coords="447,171,494,197"/>
+<area shape="rect" id="node10" title=" " alt="" coords="538,171,609,197"/>
+</map>

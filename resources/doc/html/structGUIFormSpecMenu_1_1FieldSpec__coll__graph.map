@@ -1,0 +1,14 @@
+<map id="GUIFormSpecMenu::FieldSpec" name="GUIFormSpecMenu::FieldSpec">
+<area shape="rect" id="node1" title=" " alt="" coords="385,317,601,344"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,213,152,240"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1rect.html" title=" " alt="" coords="177,213,335,240"/>
+<area shape="rect" id="node4" title=" " alt="" coords="106,109,249,136"/>
+<area shape="rect" id="node5" href="$classirr_1_1core_1_1rect.html" title="Rectangle template." alt="" coords="273,109,415,136"/>
+<area shape="rect" id="node6" title=" " alt="" coords="280,5,408,32"/>
+<area shape="rect" id="node7" title=" " alt="" coords="359,213,398,240"/>
+<area shape="rect" id="node8" href="$classbool.html" title=" " alt="" coords="427,213,477,240"/>
+<area shape="rect" id="node9" title=" " alt="" coords="501,213,560,240"/>
+<area shape="rect" id="node10" title=" " alt="" coords="584,213,629,240"/>
+<area shape="rect" id="node11" title=" " alt="" coords="653,213,779,240"/>
+<area shape="rect" id="node12" title=" " alt="" coords="803,213,874,240"/>
+</map>

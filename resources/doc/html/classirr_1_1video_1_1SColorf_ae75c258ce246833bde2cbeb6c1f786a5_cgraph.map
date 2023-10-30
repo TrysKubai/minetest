@@ -1,0 +1,7 @@
+<map id="irr::video::SColorf::getInterpolated_quadratic" name="irr::video::SColorf::getInterpolated_quadratic">
+<area shape="rect" id="node1" title="Returns interpolated color. ( quadratic )" alt="" coords="5,53,204,94"/>
+<area shape="rect" id="node2" href="$namespaceirr_1_1core.html#a6162f685b68f629e77336081d3316969" title="clamps a value between low and high" alt="" coords="259,31,379,57"/>
+<area shape="rect" id="node5" href="$classirr_1_1video_1_1SColorf.html#a701ea1b449c2aae4a3dd44a13055ac3e" title="Default constructor for SColorf." alt="" coords="252,82,387,123"/>
+<area shape="rect" id="node3" href="$namespaceirr_1_1core.html#afca1ce7ac54e0c31a9047947f4c7319b" title="returns maximum of two values. Own implementation to get rid of the STL (VS6 problems)" alt="" coords="435,5,551,32"/>
+<area shape="rect" id="node4" href="$namespaceirr_1_1core.html#a9d34bfdbbe9c136b01ae04974572bc11" title="returns minimum of two values. Own implementation to get rid of the STL (VS6 problems)" alt="" coords="437,56,549,83"/>
+</map>

@@ -1,0 +1,28 @@
+var structCatch_1_1IConfig =
+[
+    [ "~IConfig", "structCatch_1_1IConfig.html#adadf7c57478e4b0c83bea5b38d2dbc87", null ],
+    [ "abortAfter", "structCatch_1_1IConfig.html#a363f3388a439d02217f37198eff96744", null ],
+    [ "allowThrows", "structCatch_1_1IConfig.html#aadb95f849359de1e6eb915aab063e542", null ],
+    [ "benchmarkConfidenceInterval", "structCatch_1_1IConfig.html#ae1ec73d460a2b58c7c9b022a430a34dd", null ],
+    [ "benchmarkNoAnalysis", "structCatch_1_1IConfig.html#aa9aa1eafdbe510e27bf319233969ee2c", null ],
+    [ "benchmarkResamples", "structCatch_1_1IConfig.html#a3b8e5581be01f4773593f8b85eb7db98", null ],
+    [ "benchmarkSamples", "structCatch_1_1IConfig.html#a583734a61796b495b80779a6540eb6cc", null ],
+    [ "benchmarkWarmupTime", "structCatch_1_1IConfig.html#a516879e39f2e46f69bb4ef1f1fe7023c", null ],
+    [ "getSectionsToRun", "structCatch_1_1IConfig.html#afc801995e115557f90e41f3d6e96908d", null ],
+    [ "getTestsOrTags", "structCatch_1_1IConfig.html#a1b8a299344a493eb98c12faae48421d7", null ],
+    [ "hasTestFilters", "structCatch_1_1IConfig.html#a49a475bbeb3180c06799d6d958914649", null ],
+    [ "includeSuccessfulResults", "structCatch_1_1IConfig.html#a2f1b0391019b9ce69921527a684eab23", null ],
+    [ "minDuration", "structCatch_1_1IConfig.html#a160c6f6e19ed6ae946f7a9e737099189", null ],
+    [ "name", "structCatch_1_1IConfig.html#aa2315800a05c19db71518b1edc39d43b", null ],
+    [ "rngSeed", "structCatch_1_1IConfig.html#ae049eb45979d841073fa65d1094c7f14", null ],
+    [ "runOrder", "structCatch_1_1IConfig.html#a0fc59c9aba1d4018538d5526daa5eb78", null ],
+    [ "shouldDebugBreak", "structCatch_1_1IConfig.html#a5b886c5aad9001e90f63a7cf0726af63", null ],
+    [ "showDurations", "structCatch_1_1IConfig.html#abaa97d281484278291f0d3db6d404aeb", null ],
+    [ "showInvisibles", "structCatch_1_1IConfig.html#aa288bf92ccd0aafd85409d8aefdf738c", null ],
+    [ "stream", "structCatch_1_1IConfig.html#aa4c3fe0825e7e6ebdcfa6abc7abf3617", null ],
+    [ "testSpec", "structCatch_1_1IConfig.html#a03a2fd8221d896d12bf3684ab2a03588", null ],
+    [ "useColour", "structCatch_1_1IConfig.html#a87ec19a6b486eb5b5015cf7738fee026", null ],
+    [ "verbosity", "structCatch_1_1IConfig.html#a55aff5924bdbb3f558775821b1eb4b3d", null ],
+    [ "warnAboutMissingAssertions", "structCatch_1_1IConfig.html#a75d970c495a28e46b8e9b04a1d32149f", null ],
+    [ "warnAboutNoTests", "structCatch_1_1IConfig.html#a30590623e3918825f2896c2262bf6fe3", null ]
+];

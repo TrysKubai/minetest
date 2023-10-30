@@ -1,0 +1,6 @@
+<map id="irr::gui::IGUIElement::getElementFromPoint" name="irr::gui::IGUIElement::getElementFromPoint">
+<area shape="rect" id="node1" title="Returns the topmost GUI element at the specific position." alt="" coords="5,39,176,80"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1IGUIElement.html#a1aaf30a10b77f192dda8c548c109de89" title="Returns true if a point is within this element." alt="" coords="224,5,379,47"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1IGUIElement.html#a9cb14270ab55bdfe45442542b35567a7" title="Returns true if element is visible." alt="" coords="224,71,379,112"/>
+<area shape="rect" id="node3" href="$classirr_1_1core_1_1rect.html#a34c84ad8ff423a4b657eedbcd112afb3" title="Returns if a 2d point is within this rectangle." alt="" coords="427,5,584,47"/>
+</map>

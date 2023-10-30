@@ -1,0 +1,4 @@
+<map id="irr::video::CNullDriver::addExternalImageWriter" name="irr::video::CNullDriver::addExternalImageWriter">
+<area shape="rect" id="node1" title="Adds an external image writer to the engine." alt="" coords="5,5,195,47"/>
+<area shape="rect" id="node2" href="$classirr_1_1IReferenceCounted.html#a396f9cdbe311ada278626477b3c6f0f5" title="Grabs the object. Increments the reference counter by one." alt="" coords="243,5,411,47"/>
+</map>

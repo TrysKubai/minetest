@@ -1,0 +1,16 @@
+<map id="TextureBufferOutput::activate" name="TextureBufferOutput::activate">
+<area shape="rect" id="node1" title=" " alt="" coords="5,290,159,331"/>
+<area shape="rect" id="node2" href="$classRenderTarget.html#a4e1e36294e2cf0836bc6be5644cb45b1" title=" " alt="" coords="217,5,387,32"/>
+<area shape="rect" id="node3" href="$classirr_1_1video_1_1IVideoDriver.html#ae19ef9ae9274a721fb1568bf84a69964" title="Create render target." alt="" coords="217,57,387,98"/>
+<area shape="rect" id="node4" href="$classirr_1_1video_1_1ITexture.html#aa2d4f5a6dc7dcae625845ab0bbac8ca4" title="Get dimension (=size) of the texture." alt="" coords="232,122,372,163"/>
+<area shape="rect" id="node5" href="$classTextureBuffer.html#a5e601963e5acd3dc66f59b2b5bc4d6ea" title=" " alt="" coords="209,188,395,215"/>
+<area shape="rect" id="node6" href="$classirr_1_1core_1_1array.html#af2a884d7e19d685b58617fed4ea4d4b9" title="Get number of occupied elements of the array." alt="" coords="461,239,608,265"/>
+<area shape="rect" id="node7" href="$classirr_1_1IrrlichtDevice.html#ada90707ba5c645d47e000e4e0f87c4c4" title="Provides access to the video driver for drawing 3d and 2d geometry." alt="" coords="237,290,367,331"/>
+<area shape="rect" id="node8" href="$classirr_1_1video_1_1IVideoDriver.html#a1a236e1233fc6fc2c5f36aaa830814fc" title="Event handler for resize events. Only used by the engine internally." alt="" coords="217,355,387,397"/>
+<area shape="rect" id="node9" href="$classirr_1_1core_1_1array.html#a95afc36513d08abb51bd399755730877" title="Adds an element at back of array." alt="" coords="207,421,397,448"/>
+<area shape="rect" id="node10" href="$classirr_1_1video_1_1IVideoDriver.html#a137b33417d715e48d7274e5ec547cb95" title="Sets a new render target." alt="" coords="217,473,387,514"/>
+<area shape="rect" id="node11" href="$classirr_1_1video_1_1IVideoDriver.html#af45b6cf3251f2905d7f99141991e0a8b" title="Set a render target." alt="" coords="217,538,387,579"/>
+<area shape="rect" id="node12" href="$classirr_1_1video_1_1IRenderTarget.html#a0f854649c159622244bd3c7f8834b287" title="Set multiple textures." alt="" coords="213,603,391,645"/>
+<area shape="rect" id="node13" href="$classirr_1_1core_1_1array.html#a7cd7985c7fb32e90205e1df663f0fffb" title="Gets a const pointer to the array." alt="" coords="457,570,613,611"/>
+<area shape="rect" id="node14" href="$classirr_1_1video_1_1IRenderTarget.html#ad73cc8d3fe37713fe27a84b8d80475f1" title="Set multiple textures." alt="" coords="445,635,624,677"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="irr::gui::CGUIFont::draw" name="irr::gui::CGUIFont::draw">
+<area shape="rect" id="node1" title="draws an text and clips it to the specified rectangle if wanted" alt="" coords="5,181,139,222"/>
+<area shape="rect" id="node2" href="$classirr_1_1core_1_1rect.html#a86645d45a8bed1a3539bba9865e93de4" title="Clips this rectangle with another one." alt="" coords="189,5,375,32"/>
+<area shape="rect" id="node3" href="$classirr_1_1gui_1_1IGUISpriteBank.html#adbfa01705a000248ea92149ad5e975d4" title="Draws a sprite batch in 2d using an array of positions and a color." alt="" coords="197,57,367,98"/>
+<area shape="rect" id="node4" href="$classirr_1_1gui_1_1CGUIFont.html#ab160930076ff530d0f3fef18dee48fb2" title="returns the dimension of a text" alt="" coords="215,122,349,163"/>
+<area shape="rect" id="node5" href="$classirr_1_1core_1_1rect.html#ad43b325eeb165c553a58f34efb2ee961" title="Get height of rectangle." alt="" coords="193,188,371,215"/>
+<area shape="rect" id="node6" href="$classirr_1_1core_1_1rect.html#ad5dcae186b85b938d42b59c91bfeb9a5" title="Get width of rectangle." alt="" coords="196,239,368,265"/>
+<area shape="rect" id="node7" href="$classirr_1_1core_1_1rect.html#ad2f5052c13cffb08f6ce8649296ec9df" title="Returns if the rect is valid to draw." alt="" coords="204,289,360,316"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1array.html#a95afc36513d08abb51bd399755730877" title="Adds an element at back of array." alt="" coords="187,340,377,367"/>
+</map>

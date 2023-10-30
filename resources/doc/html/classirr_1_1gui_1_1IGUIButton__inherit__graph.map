@@ -1,0 +1,10 @@
+<map id="irr::gui::IGUIButton" name="irr::gui::IGUIButton">
+<area shape="rect" id="node1" title="GUI Button interface." alt="" coords="154,155,297,181"/>
+<area shape="rect" id="node5" href="$classGUIButton.html" title=" " alt="" coords="110,229,199,256"/>
+<area shape="rect" id="node8" href="$classirr_1_1gui_1_1CGUIButton.html" title=" " alt="" coords="223,229,371,256"/>
+<area shape="rect" id="node2" href="$classirr_1_1gui_1_1IGUIElement.html" title="Base class of all GUI elements." alt="" coords="148,80,303,107"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="52,5,220,32"/>
+<area shape="rect" id="node4" href="$classirr_1_1IEventReceiver.html" title="Interface of an object which can receive events." alt="" coords="245,5,387,32"/>
+<area shape="rect" id="node6" href="$classGUIButtonImage.html" title=" " alt="" coords="5,304,136,331"/>
+<area shape="rect" id="node7" href="$classGUIButtonItemImage.html" title=" " alt="" coords="160,304,320,331"/>
+</map>

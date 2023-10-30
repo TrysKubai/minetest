@@ -1,0 +1,16 @@
+<map id="Database" name="Database">
+<area shape="rect" id="node1" title=" " alt="" coords="5,208,89,235"/>
+<area shape="rect" id="node2" href="$classDatabase__PostgreSQL.html" title=" " alt="" coords="137,107,303,133"/>
+<area shape="rect" id="node7" href="$classDatabase__SQLite3.html" title=" " alt="" coords="149,309,291,336"/>
+<area shape="rect" id="node12" href="$classMapDatabase.html" title=" " alt="" coords="164,183,276,209"/>
+<area shape="rect" id="node14" href="$classModStorageDatabase.html" title=" " alt="" coords="139,233,301,260"/>
+<area shape="rect" id="node3" href="$classAuthDatabasePostgreSQL.html" title=" " alt="" coords="375,56,563,83"/>
+<area shape="rect" id="node4" href="$classMapDatabasePostgreSQL.html" title=" " alt="" coords="375,107,562,133"/>
+<area shape="rect" id="node5" href="$classModStorageDatabasePostgreSQL.html" title=" " alt="" coords="351,157,587,184"/>
+<area shape="rect" id="node6" href="$classPlayerDatabasePostgreSQL.html" title=" " alt="" coords="369,5,568,32"/>
+<area shape="rect" id="node8" href="$classAuthDatabaseSQLite3.html" title=" " alt="" coords="387,411,551,437"/>
+<area shape="rect" id="node9" href="$classMapDatabaseSQLite3.html" title=" " alt="" coords="387,259,550,285"/>
+<area shape="rect" id="node10" href="$classModStorageDatabaseSQLite3.html" title=" " alt="" coords="363,309,575,336"/>
+<area shape="rect" id="node11" href="$classPlayerDatabaseSQLite3.html" title=" " alt="" coords="381,360,556,387"/>
+<area shape="rect" id="node13" href="$classDatabase__Dummy.html" title=" " alt="" coords="397,208,540,235"/>
+</map>

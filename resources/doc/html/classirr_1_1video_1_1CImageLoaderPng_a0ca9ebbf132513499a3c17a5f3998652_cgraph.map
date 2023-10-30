@@ -1,0 +1,7 @@
+<map id="irr::video::CImageLoaderPng::isALoadableFileExtension" name="irr::video::CImageLoaderPng::isALoadableFileExtension">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,225,80"/>
+<area shape="rect" id="node2" href="$namespaceirr_1_1core.html#a7a0c7be24d78c02b334c3ae5a18005a1" title="search if a filename has a proper extension" alt="" coords="273,46,464,73"/>
+<area shape="rect" id="node3" href="$namespaceirr_1_1core.html#ab214253f8925de2ed42a7d671d02cf7f" title="search if a filename has a proper extension" alt="" coords="512,46,691,73"/>
+<area shape="rect" id="node4" href="$classirr_1_1core_1_1string.html#a384fda94b2dd511721231d9585017109" title="Compares the strings ignoring case." alt="" coords="739,5,956,47"/>
+<area shape="rect" id="node5" href="$classirr_1_1core_1_1string.html#af9f62c87ac856a30080fad2fc32a3f45" title="finds last occurrence of character in string" alt="" coords="785,71,910,112"/>
+</map>

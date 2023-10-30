@@ -1,0 +1,14 @@
+<map id="irr::io::CReadFile" name="irr::io::CReadFile">
+<area shape="rect" id="node1" title=" " alt="" coords="896,107,1025,133"/>
+<area shape="rect" id="node2" href="$classirr_1_1io_1_1IReadFile.html" title="Interface providing read access to a file." alt="" coords="657,31,781,57"/>
+<area shape="rect" id="node3" href="$classirr_1_1IReferenceCounted.html" title="Base class of most objects of the Irrlicht Engine." alt="" coords="345,31,513,57"/>
+<area shape="rect" id="node4" title=" " alt="" coords="61,5,112,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="53,56,120,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="689,81,749,108"/>
+<area shape="rect" id="node7" title=" " alt="" coords="693,132,744,159"/>
+<area shape="rect" id="node8" href="$classirr_1_1core_1_1string.html" title=" " alt="" coords="655,183,783,225"/>
+<area shape="rect" id="node9" title=" " alt="" coords="337,139,520,165"/>
+<area shape="rect" id="node10" title=" " alt="" coords="5,205,168,232"/>
+<area shape="rect" id="node11" href="$classirr_1_1core_1_1string.html" title="Very simple string class with some useful features." alt="" coords="351,252,506,279"/>
+<area shape="rect" id="node12" title=" " alt="" coords="17,271,156,297"/>
+</map>
