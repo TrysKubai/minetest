@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-ARG DOCKER_IMAGE=alpine:3.16
-FROM $DOCKER_IMAGE AS dev
-=======
 # ARG DOCKER_IMAGE=alpine:3.16
 # FROM $DOCKER_IMAGE AS builder
->>>>>>> feat(irrlicht): Added irrlicht submodule to project
 
 # ENV MINETEST_GAME_VERSION master
 # ENV IRRLICHT_VERSION master
@@ -40,23 +35,6 @@ FROM $DOCKER_IMAGE AS dev
 # 	git clone --depth=1 https://github.com/minetest/irrlicht/ -b ${IRRLICHT_VERSION} && \
 # 		cp -r irrlicht/include /usr/include/irrlichtmt
 
-<<<<<<< HEAD
-FROM dev as builder
-
-COPY .git /usr/src/minetest/.git
-COPY CMakeLists.txt /usr/src/minetest/CMakeLists.txt
-COPY README.md /usr/src/minetest/README.md
-COPY minetest.conf.example /usr/src/minetest/minetest.conf.example
-COPY builtin /usr/src/minetest/builtin
-COPY cmake /usr/src/minetest/cmake
-COPY doc /usr/src/minetest/doc
-COPY fonts /usr/src/minetest/fonts
-COPY lib /usr/src/minetest/lib
-COPY misc /usr/src/minetest/misc
-COPY po /usr/src/minetest/po
-COPY src /usr/src/minetest/src
-COPY textures /usr/src/minetest/textures
-=======
 # COPY .git /usr/src/minetest/.git
 # COPY CMakeLists.txt /usr/src/minetest/CMakeLists.txt
 # COPY README.md /usr/src/minetest/README.md
@@ -70,7 +48,6 @@ COPY textures /usr/src/minetest/textures
 # COPY po /usr/src/minetest/po
 # COPY src /usr/src/minetest/src
 # COPY textures /usr/src/minetest/textures
->>>>>>> feat(irrlicht): Added irrlicht submodule to project
 
 # WORKDIR /usr/src/minetest
 # RUN git clone --depth=1 -b ${MINETEST_GAME_VERSION} https://github.com/minetest/minetest_game.git ./games/minetest_game && \

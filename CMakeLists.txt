@@ -43,11 +43,6 @@ set(VERSION_MAJOR 0)
 set(VERSION_MINOR 2)
 set(VERSION_PATCH 0)
 
-# TODO Remove
-# # Change to false for releases
-# set(DEVELOPMENT_BUILD TRUE)
-
-
 #
 #	Configuration Parameters
 #
