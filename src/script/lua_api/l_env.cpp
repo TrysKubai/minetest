@@ -44,6 +44,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include "translation.h"
 #ifndef SERVER
 #include "client/client.h"
+#include "l_env.h"
 #endif
 
 const EnumString ModApiEnvBase::es_ClearObjectsMode[] =
@@ -955,6 +956,74 @@ int ModApiEnvBase::findNodesInArea(lua_State *L, const NodeDefManager *ndef,
 	}
 }
 
+template <typename F>
+int ModApiEnvBase::findAllNodesInArea(
+		lua_State *L, const NodeDefManager *ndef, bool grouped, F &&iterate)
+{	
+	std::vector<v3s16> node_positions;
+	std::vector<content_t> node_param;
+
+	iterate(
+		[&](v3s16 p, MapNode n) -> bool 
+		{
+			content_t c = n.getContent();
+			node_positions.push_back(p);
+			node_param.push_back(c);
+			return true;
+		}
+	);
+
+	if(node_positions.size() < 1)
+	{
+		return 1;
+	}
+
+	if(grouped)
+	{
+		std::map<content_t, std::vector<v3s16>> node_group_list;
+
+		for(size_t i = 0; i < node_param.size(); i++)
+		{
+			node_group_list[node_param[i]].push_back(node_positions[i]);
+		}
+
+		lua_newtable(L); // Main table
+
+		for (const auto &node_group : node_group_list)
+		{
+			lua_pushstring(L, ndef->get(node_group.first).name.c_str());	// Group table index
+			lua_newtable(L);	// Group table
+
+			for(u32 i = 0; i < node_group.second.size(); i++) // Filling group table
+			{
+				push_v3s16(L, node_group.second[i]);
+				lua_rawseti(L, -2, i+1);
+			}
+
+			lua_rawset(L, -3);	// Main table[index] = group table 
+		}
+
+		return 1;
+	}
+	
+	lua_createtable(L, 0, node_positions.size());
+	
+	for(u32 i = 0; i < node_positions.size(); i++)
+	{
+		push_v3s16(L, node_positions[i]);
+		lua_rawseti(L, -2, i+1);
+	}
+
+	lua_createtable(L, 0, node_param.size());
+	for(u32 i = 0; i < node_positions.size(); i++)
+	{
+		lua_pushstring(L, ndef->get(node_param[i]).name.c_str());
+		lua_rawseti(L, -2, i+1);
+	}
+	
+	return 2;
+} 
+
 // find_nodes_in_area(minp, maxp, nodenames, [grouped])
 int ModApiEnv::l_find_nodes_in_area(lua_State *L)
 {
@@ -976,14 +1045,21 @@ int ModApiEnv::l_find_nodes_in_area(lua_State *L)
 
 	checkArea(minp, maxp);
 
-	std::vector<content_t> filter;
-	collectNodeIds(L, 3, ndef, filter);
-
+	bool filter_nodes = !lua_isnil(L, 3) && !lua_isnone(L, 3); 
 	bool grouped = lua_isboolean(L, 4) && readParam<bool>(L, 4);
 
 	auto iterate = [&] (auto &&callback) {
 		map.forEachNodeInArea(minp, maxp, callback);
 	};
+
+	if(!filter_nodes)
+	{
+		return findAllNodesInArea(L, ndef, grouped, iterate);
+	}
+
+	std::vector<content_t> filter;
+	collectNodeIds(L, 3, ndef, filter);
+
 	return findNodesInArea(L, ndef, filter, grouped, iterate);
 }
 

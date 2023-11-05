@@ -625,8 +625,7 @@ public:
 	 * Group names start with "group:".
 	 * @param name a node name or node group name
 	 * @param[out] result will be appended with matching IDs
-	 * @return true if `name` is a valid node name or a (not necessarily
-	 * valid) group name
+	 * @return true if `name` is a valid node or group name 
 	 */
 	bool getIds(const std::string &name, std::vector<content_t> &result) const;
 

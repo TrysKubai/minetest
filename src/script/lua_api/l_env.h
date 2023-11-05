@@ -44,6 +44,14 @@ protected:
 	static int findNodesInArea(lua_State *L,  const NodeDefManager *ndef,
 		const std::vector<content_t> &filter, bool grouped, F &&iterate);
 
+	template <typename F>
+	static int findAllNodesInArea(
+		lua_State *L,  
+		const NodeDefManager *ndef, 
+		bool grouped, 
+		F &&iterate
+	);
+
 	// F must be (v3s16 pos) -> MapNode
 	template <typename F>
 	static int findNodesInAreaUnderAir(lua_State *L, v3s16 minp, v3s16 maxp,

@@ -1188,7 +1188,7 @@ bool NodeDefManager::getIds(const std::string &name,
 	std::unordered_map<std::string, std::vector<content_t>>::const_iterator
 		i = m_group_to_items.find(group);
 	if (i == m_group_to_items.end())
-		return true;
+		return false;
 
 	const std::vector<content_t> &items = i->second;
 	result.insert(result.end(), items.begin(), items.end());
