@@ -1088,6 +1088,36 @@ int ModApiEnvBase::findNodesInAreaUnderAir(lua_State *L, v3s16 minp, v3s16 maxp,
 	return 1;
 }
 
+template <typename F>
+int ModApiEnvBase::findAllNodesInAreaUnderAir(
+	lua_State *L, 
+	v3s16 minp, 
+	v3s16 maxp, 
+	F &&getNode)
+{
+	lua_newtable(L);
+	u32 i = 0;
+	v3s16 p;
+	for (p.X = minp.X; p.X <= maxp.X; p.X++)
+	for (p.Z = minp.Z; p.Z <= maxp.Z; p.Z++) {
+		p.Y = minp.Y;
+		content_t c = getNode(p).getContent();
+		for (; p.Y <= maxp.Y; p.Y++) {
+			v3s16 psurf(p.X, p.Y + 1, p.Z);
+			content_t csurf = getNode(psurf).getContent();
+			if (c != CONTENT_AIR 
+				&& csurf == CONTENT_AIR 
+				&& csurf != CONTENT_IGNORE) 
+			{
+				push_v3s16(L, p);
+				lua_rawseti(L, -2, ++i);
+			}
+			c = csurf;
+		}
+	}
+	return 1;
+}
+
 // find_nodes_in_area_under_air(minp, maxp, nodenames) -> list of positions
 // nodenames: e.g. {"ignore", "group:tree"} or "default:dirt"
 int ModApiEnv::l_find_nodes_in_area_under_air(lua_State *L)
@@ -1114,13 +1144,23 @@ int ModApiEnv::l_find_nodes_in_area_under_air(lua_State *L)
 
 	checkArea(minp, maxp);
 
-	std::vector<content_t> filter;
-	collectNodeIds(L, 3, ndef, filter);
+	if (!lua_isnil(L, 3) && !lua_isnone(L, 3))
+	{
+		std::vector<content_t> filter;
+		collectNodeIds(L, 3, ndef, filter);
 
-	auto getNode = [&map] (v3s16 p) -> MapNode {
-		return map.getNode(p);
-	};
-	return findNodesInAreaUnderAir(L, minp, maxp, filter, getNode);
+		auto getNode = [&map] (v3s16 p) -> MapNode {
+			return map.getNode(p);
+		};
+		return findNodesInAreaUnderAir(L, minp, maxp, filter, getNode);
+	}
+	else
+	{
+		auto getNode = [&map] (v3s16 p) -> MapNode {
+			return map.getNode(p);
+		};
+		return findAllNodesInAreaUnderAir(L, minp, maxp, getNode);
+	}
 }
 
 // get_perlin(seeddiff, octaves, persistence, scale)

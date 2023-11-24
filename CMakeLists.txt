@@ -40,7 +40,7 @@ set(PROJECT_NAME_CAPITALIZED "Three Cubes Game")
 
 # You should not need to edit these manually, use util/bump_version.sh
 set(VERSION_MAJOR 0)
-set(VERSION_MINOR 2)
+set(VERSION_MINOR 3)
 set(VERSION_PATCH 0)
 
 #

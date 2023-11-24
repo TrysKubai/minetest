@@ -57,6 +57,15 @@ protected:
 	static int findNodesInAreaUnderAir(lua_State *L, v3s16 minp, v3s16 maxp,
 		const std::vector<content_t> &filter, F &&getNode);
 
+	// F must be (v3s16 pos) -> MapNode
+	template <typename F>
+	static int findAllNodesInAreaUnderAir(
+		lua_State *L, 
+		v3s16 minp, 
+		v3s16 maxp,
+		F &&getNode
+	);
+
 	static const EnumString es_ClearObjectsMode[];
 	static const EnumString es_BlockStatusType[];
 
