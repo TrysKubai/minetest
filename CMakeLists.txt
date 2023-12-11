@@ -273,16 +273,6 @@ cpack_add_component(Docs
 	DESCRIPTION "Documentation about Minetest and Minetest modding"
 )
 
-cpack_add_component(SUBGAME_MINETEST_GAME
-	DISPLAY_NAME "Minetest Game"
-	DESCRIPTION "The default game bundled in the Minetest engine. Mainly used as a modding base."
-	GROUP "Games"
-)
-
-cpack_add_component_group(Subgames
-	DESCRIPTION "Games for the Minetest engine."
-)
-
 if(WIN32)
 	# Include all dynamically linked runtime libraries such as MSVCRxxx.dll
 	include(InstallRequiredSystemLibraries)
