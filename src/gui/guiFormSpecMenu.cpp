@@ -2328,17 +2328,6 @@ void GUIFormSpecMenu::parseLine(parserData* data, const std::string &element)
 	e->setNotClipped(false);
 	e->drop();
 
-	// m_fields.push_back(spec);
-
-	// auto style = getDefaultStyleForElement("box", FormspecFieldType::f_Box);
-
-	// core::rect<s32> rect(start_pos, end_pos);
-
-	// GUIBox *e = new GUIBox(Environment, data->current_parent, spec.fid, rect,
-	// 	{0xFF, 0x0, 0x0, 0x0}, {0xFF, 0x0, 0x0, 0x0}, {0x1, 0x1, 0x1, 0x1});
-	// e->setNotClipped(true);
-	// e->drop();
-
 	m_fields.push_back(spec);
 
 }
