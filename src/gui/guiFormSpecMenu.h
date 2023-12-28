@@ -1,20 +1,25 @@
-/*
-Minetest
-Copyright (C) 2013 celeron55, Perttu Ahola <celeron55@gmail.com>
+/* 
+Three Cubes
+(C) 2023
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU Lesser General Public License as published by
-the Free Software Foundation; either version 2.1 of the License, or
-(at your option) any later version.
+This file is part of Three Cubes Runtime, which itself is a modification of 
+Minetest, a free and open-source game distributed under the 
+GNU Lesser General Public License (LGPL). This file has been added or modified
+from the original source in 2023.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Lesser General Public License for more details.
+Minetest is free software: you can redistribute it and/or modify it under the terms of the
+GNU Lesser General Public License as published by the Free Software Foundation, either
+version 2.1 of the License, or (at your option) any later version.
 
-You should have received a copy of the GNU Lesser General Public License along
-with this program; if not, write to the Free Software Foundation, Inc.,
-51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+Minetest is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU Lesser General Public License for more details.
+
+The source code is made available as per requirements of the LGPL license.
+You have a right to use it as you see fit whithin the rights granted by LGPL 2.1.
+
+For more info see https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+
 */
 
 #pragma once
@@ -55,6 +60,7 @@ enum FormspecFieldType {
 	f_ItemImage,
 	f_HyperText,
 	f_AnimatedImage,
+	f_Line,
 	f_Unknown
 };
 
@@ -469,6 +475,7 @@ private:
 	void parseItemImageButton(parserData* data, const std::string &element);
 	void parseTabHeader(parserData* data, const std::string &element);
 	void parseBox(parserData* data, const std::string &element);
+	void parseLine(parserData* data, const std::string &element);
 	void parseBackgroundColor(parserData* data, const std::string &element);
 	void parseListColors(parserData* data, const std::string &element);
 	void parseTooltip(parserData* data, const std::string &element);

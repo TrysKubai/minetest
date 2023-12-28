@@ -1,22 +1,26 @@
-/*
-Minetest
-Copyright (C) 2013 celeron55, Perttu Ahola <celeron55@gmail.com>
+/* 
+Three Cubes
+(C) 2023
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU Lesser General Public License as published by
-the Free Software Foundation; either version 2.1 of the License, or
-(at your option) any later version.
+This file is part of Three Cubes Runtime, which itself is a modification of 
+Minetest, a free and open-source game distributed under the 
+GNU Lesser General Public License (LGPL). This file has been added or modified
+from the original source in 2023.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Lesser General Public License for more details.
+Minetest is free software: you can redistribute it and/or modify it under the terms of the
+GNU Lesser General Public License as published by the Free Software Foundation, either
+version 2.1 of the License, or (at your option) any later version.
 
-You should have received a copy of the GNU Lesser General Public License along
-with this program; if not, write to the Free Software Foundation, Inc.,
-51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+Minetest is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU Lesser General Public License for more details.
+
+The source code is made available as per requirements of the LGPL license.
+You have a right to use it as you see fit whithin the rights granted by LGPL 2.1.
+
+For more info see https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+
 */
-
 
 #include <cstdlib>
 #include <cmath>
@@ -58,6 +62,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 #include "guiAnimatedImage.h"
 #include "guiBackgroundImage.h"
 #include "guiBox.h"
+#include "guiLine.h"
 #include "guiButton.h"
 #include "guiButtonImage.h"
 #include "guiButtonItemImage.h"
@@ -2249,6 +2254,95 @@ void GUIFormSpecMenu::parseBox(parserData* data, const std::string &element)
 	m_fields.push_back(spec);
 }
 
+void GUIFormSpecMenu::parseLine(parserData* data, const std::string &element)
+{
+	std::vector<std::string> parts;
+	if (!precheckElement("line", element, 3, 4, parts))
+		return;
+
+	std::vector<std::string> v_start_pos = split(parts[0], ',');
+	std::vector<std::string> v_end_pos = split(parts[1], ',');
+
+	if (v_start_pos.size() != 2) { 
+		errorstream<< "Invalid pos for element line specified: \"" 
+			<< parts[0] << "\"" << std::endl; 
+		return; 
+	}
+
+	if (v_end_pos.size() != 2) { 
+		errorstream<< "Invalid pos for element line specified: \"" 
+			<< parts[1] << "\"" << std::endl; 
+		return; 
+	}
+	
+	v2s32 start_pos;
+	v2s32 end_pos;
+
+	if (data->real_coordinates) {
+		start_pos = getRealCoordinateBasePos(v_start_pos);
+		end_pos = getRealCoordinateBasePos(v_end_pos);
+	} else {
+		start_pos = getElementBasePos(&v_start_pos);
+		end_pos = getElementBasePos(&v_end_pos);
+	}
+
+	f32 thickness = 1.0;
+	
+	if(parts.size() == 4 ) {
+		thickness = stof(parts[3]) * ((imgsize.X + imgsize.Y) / 2);
+	}
+
+	FieldSpec spec(
+		"",
+		L"",
+		L"",
+		258 + m_fields.size(),
+		-2
+	);
+
+	spec.ftype = f_Line;
+	// auto style = getDefaultStyleForElement("box", spec.fname);
+
+	video::SColor color;
+
+	if (!parseColorString(parts[2], color, true, 0xFF)) {
+		color = video::SColor(0xFF, 0x0, 0x0, 0x0);
+	}
+
+	core::rect<s32> rect(
+		std::min(start_pos.X, end_pos.X), std::min(start_pos.Y, end_pos.Y),
+		std::max(start_pos.X, end_pos.X), std::max(start_pos.Y, end_pos.Y)	
+	);
+
+	GUILine *e = new GUILine(
+		Environment, 
+		data->current_parent,
+		spec.fid,
+		rect,
+		start_pos,
+		end_pos,
+		thickness,
+		color
+	);
+
+	e->setNotClipped(false);
+	e->drop();
+
+	// m_fields.push_back(spec);
+
+	// auto style = getDefaultStyleForElement("box", FormspecFieldType::f_Box);
+
+	// core::rect<s32> rect(start_pos, end_pos);
+
+	// GUIBox *e = new GUIBox(Environment, data->current_parent, spec.fid, rect,
+	// 	{0xFF, 0x0, 0x0, 0x0}, {0xFF, 0x0, 0x0, 0x0}, {0x1, 0x1, 0x1, 0x1});
+	// e->setNotClipped(true);
+	// e->drop();
+
+	m_fields.push_back(spec);
+
+}
+
 void GUIFormSpecMenu::parseBackgroundColor(parserData* data, const std::string &element)
 {
 	std::vector<std::string> parts;
@@ -2953,6 +3047,11 @@ void GUIFormSpecMenu::parseElement(parserData* data, const std::string &element)
 
 	if (type == "vertlabel") {
 		parseVertLabel(data,description);
+		return;
+	}
+
+	if (type == "line") {
+		parseLine(data, description);
 		return;
 	}
 

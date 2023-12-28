@@ -112,6 +112,6 @@ void GUIBox::draw()
 	for (size_t i = 0; i <= 3; i++)
 		driver->draw2DRectangle(m_bordercolors[i], border_rects[i],
 				&AbsoluteClippingRect);
-
+	
 	IGUIElement::draw();
 }
