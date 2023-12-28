@@ -3,9 +3,9 @@ version: 1
 AppDir:
   path: AppDir
   app_info:
-    id: net.minetest.minetest
-    name: Minetest
-    icon: minetest
+    id: gg.threecubes.runtime
+    name: Three Cubes Runtime
+    icon: t3c
     version: !ENV ${VERSION}
     exec: usr/bin/minetest
     exec_args: $@
@@ -54,6 +54,6 @@ script: |
 
     # Is a backup icon location in case
     mkdir -p AppDir/usr/share/minetest/misc
-    cp AppDir/usr/share/icons/hicolor/128x128/apps/minetest.png AppDir/usr/share/minetest/misc/minetest-xorg-icon-128.png
+    cp AppDir/usr/share/icons/hicolor/128x128/apps/minetest.png AppDir/usr/share/minetest/misc/t3c-xorg-icon-128.png
     # Validation issues
     sed -i '/PrefersNonDefaultGPU/d' AppDir/usr/share/applications/net.minetest.minetest.desktop

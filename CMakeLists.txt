@@ -229,7 +229,7 @@ if(UNIX AND NOT APPLE)
 	install(FILES "${RESOURCES_DIR}/misc/net.minetest.minetest.desktop" DESTINATION "${INSTALL_DIR}/unix/applications")
 	install(FILES "${RESOURCES_DIR}/misc/net.minetest.minetest.appdata.xml" DESTINATION "${INSTALL_DIR}/unix/metainfo")
 	install(FILES "${RESOURCES_DIR}/misc/minetest.svg" DESTINATION "${INSTALL_DIR}/unix/icons/hicolor/scalable/apps")
-	install(FILES "${RESOURCES_DIR}/misc/minetest-xorg-icon-128.png"
+	install(FILES "${RESOURCES_DIR}/misc/t3c-xorg-icon-128.png"
 		DESTINATION "${ICONDIR}/hicolor/128x128/apps"
 		RENAME "minetest.png")
 endif()
@@ -294,7 +294,7 @@ if(WIN32)
 		set(CPACK_CREATE_DESKTOP_LINKS ${PROJECT_NAME})
 		set(CPACK_PACKAGING_INSTALL_PREFIX "/${PROJECT_NAME_CAPITALIZED}")
 
-		set(CPACK_WIX_PRODUCT_ICON "${RESOURCES_DIR}/misc/minetest-icon.ico")
+		set(CPACK_WIX_PRODUCT_ICON "${RESOURCES_DIR}/misc/t3c-icon.ico")
 		# Supported languages can be found at
 		# http://wixtoolset.org/documentation/manual/v3/wixui/wixui_localization.html
 		#set(CPACK_WIX_CULTURES "ar-SA,bg-BG,ca-ES,hr-HR,cs-CZ,da-DK,nl-NL,en-US,et-EE,fi-FI,fr-FR,de-DE")
