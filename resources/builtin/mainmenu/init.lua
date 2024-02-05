@@ -52,10 +52,10 @@ dofile(menupath .. DIR_DELIM .. "dlg_version_info.lua")
 dofile(menupath .. DIR_DELIM .. "dlg_reinstall_mtg.lua")
 
 local tabs = {
-	content  = dofile(menupath .. DIR_DELIM .. "tab_content.lua"),
-	about = dofile(menupath .. DIR_DELIM .. "tab_about.lua"),
+	-- content  = dofile(menupath .. DIR_DELIM .. "tab_content.lua"),
+	-- about = dofile(menupath .. DIR_DELIM .. "tab_about.lua"),
 	local_game = dofile(menupath .. DIR_DELIM .. "tab_local.lua"),
-	play_online = dofile(menupath .. DIR_DELIM .. "tab_online.lua")
+	-- play_online = dofile(menupath .. DIR_DELIM .. "tab_online.lua")
 }
 
 --------------------------------------------------------------------------------
@@ -95,9 +95,9 @@ local function init_globals()
 
 	tv_main:set_autosave_tab(true)
 	tv_main:add(tabs.local_game)
-	tv_main:add(tabs.play_online)
-	tv_main:add(tabs.content)
-	tv_main:add(tabs.about)
+	-- tv_main:add(tabs.play_online)
+	-- tv_main:add(tabs.content)
+	-- tv_main:add(tabs.about)
 
 	tv_main:set_global_event_handler(main_event_handler)
 	tv_main:set_fixed_size(false)
@@ -124,8 +124,8 @@ local function init_globals()
 	tv_main:show()
 	ui.update()
 
-	check_reinstall_mtg()
-	check_new_version()
+	-- check_reinstall_mtg()
+	-- check_new_version()
 end
 
 init_globals()
